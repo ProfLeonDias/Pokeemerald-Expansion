@@ -43,26 +43,26 @@
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
-#define FLAG_UNUSED_0x020    0x20 // Unused Flag
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
-#define FLAG_UNUSED_0x027    0x27 // Unused Flag
-#define FLAG_UNUSED_0x028    0x28 // Unused Flag
-#define FLAG_UNUSED_0x029    0x29 // Unused Flag
-#define FLAG_UNUSED_0x02A    0x2A // Unused Flag
-#define FLAG_UNUSED_0x02B    0x2B // Unused Flag
-#define FLAG_UNUSED_0x02C    0x2C // Unused Flag
-#define FLAG_UNUSED_0x02D    0x2D // Unused Flag
-#define FLAG_UNUSED_0x02E    0x2E // Unused Flag
-#define FLAG_UNUSED_0x02F    0x2F // Unused Flag
-#define FLAG_UNUSED_0x030    0x30 // Unused Flag
-#define FLAG_UNUSED_0x031    0x31 // Unused Flag
-#define FLAG_UNUSED_0x032    0x32 // Unused Flag
-#define FLAG_UNUSED_0x033    0x33 // Unused Flag
+#define FLAG_INVERSE_BATTLE    		0x20 // Triggers an Inverse Battle
+#define FLAG_DOUBLE_WILD_BATTLE    	0x21 // Triggers a double wild battle
+#define FLAG_SMART_WILD_AI	    	0x22 // Wild Battles use Trainer AI
+#define FLAG_DISABLE_BAG    		0x23 // Disables Bag
+#define FLAG_DISABLE_CATCHING		0x24 // Disables Catching
+#define FLAG_DISABLE_RUNNING    	0x25 // Disables Running
+#define FLAG_AI_VS_AI_BATTLE		0x26 // Like the Battle Palace
+#define FLAG_DYNAMAX_BATTLE	    	0x27 // Triggers a Dynamax Raid
+#define FLAG_TERA_ORB_CHARGED    	0x28 // Charges Tera Orb
+#define FLAG_TERA_ORB_NO_COST    	0x29 // Using Tera Orb doesnt use up its energy
+#define FLAG_SLEEP_CLAUSE    		0x2A // Tournament Sleep Clause in effect by AI
+#define FLAG_NO_WHITEOUT    		0x2B // Dont return to the Pokemon Center if you lose
+#define FLAG_SKY_BATTLE		    	0x2C // Trigger a Sky Battle
+#define FLAG_FORCE_SHINY		0x2D // Force Pokemon Shiny
+#define FLAG_FORCE_UNSHINY    		0x2E // Force Unshiny
+#define FLAG_EXP_SHARE		    	0x2F // Enable EXP Share Toggle
+#define FLAG_VS_SEEKER    		0x30 // Enable VS Seeker
+#define FLAG_FOLLOWER_HEAL	    	0x31 // Partners heal after battle
+#define FLAG_FOLLOWER_BATTLES  		0x32 // Partners join battles
+#define FLAG_FOLLOW_PKMN_DISABLE    	0x33 // Disables following Pokemon
 #define FLAG_UNUSED_0x034    0x34 // Unused Flag
 #define FLAG_UNUSED_0x035    0x35 // Unused Flag
 #define FLAG_UNUSED_0x036    0x36 // Unused Flag

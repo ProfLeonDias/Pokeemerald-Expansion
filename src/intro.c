@@ -1041,14 +1041,15 @@ static void VBlankCB_Intro(void)
 
 void MainCB2_Intro(void)
 {
-    RunTasks();
+    SetMainCallback2(CB2_InitTitleScreen);
+    /*RunTasks();
     AnimateSprites();
     BuildOamBuffer();
     UpdatePaletteFade();
     if (gMain.newKeys != 0 && !gPaletteFade.active)
         SetMainCallback2(MainCB2_EndIntro);
     else if (gIntroFrameCounter != -1)
-        gIntroFrameCounter++;
+        gIntroFrameCounter++;*/
 }
 
 static void MainCB2_EndIntro(void)
@@ -1127,7 +1128,7 @@ static u8 SetUpCopyrightScreen(void)
         CreateTask(Task_HandleExpansionIntro, 0);
 #else
         CreateTask(Task_Scene1_Load, 0);
-        SetMainCallback2(MainCB2_Intro);
+        SetMainCallback2(CB2_InitTitleScreen);
 #endif
         if (gMultibootProgramStruct.gcmb_field_2 != 0)
         {
