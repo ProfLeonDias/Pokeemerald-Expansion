@@ -15,7 +15,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_GAMEBOY_KID",
+      "graphics_id": "OBJ_EVENT_GFX_21_GAMEBOY_BOY",
       "x": 8,
       "y": 6,
       "elevation": 3,
@@ -28,7 +28,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GAMEBOY_KID",
+      "graphics_id": "OBJ_EVENT_GFX_21_GAMEBOY_BOY",
       "x": 9,
       "y": 6,
       "elevation": 3,
@@ -41,7 +41,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
+      "graphics_id": "OBJ_EVENT_GFX_78_RICH_BOY",
       "x": 3,
       "y": 8,
       "elevation": 3,
@@ -80,7 +80,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+      "graphics_id": "OBJ_EVENT_GFX_59_GENTLEMAN",
       "x": 5,
       "y": 3,
       "elevation": 3,
@@ -93,7 +93,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SCOTT",
+      "graphics_id": "OBJ_EVENT_GFX_106_LYON",
       "x": 0,
       "y": 10,
       "elevation": 0,

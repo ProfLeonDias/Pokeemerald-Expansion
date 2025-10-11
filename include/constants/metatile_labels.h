@@ -779,6 +779,31 @@
 #define METATILE_Underwater_FloorShadow  0x228
 #define METATILE_Underwater_RockWall     0x21E
 
+// gTileset_Wish
+#define METATILE_Wish_BerrySoil            0x031
+#define METATILE_Wish_Bush                 0x021
+#define METATILE_Wish_CaveEntrance         0x07C
+#define METATILE_Wish_Flower               0x004
+#define METATILE_Wish_Grass1               0x001
+#define METATILE_Wish_Grass2               0x002
+#define METATILE_Wish_Grass3               0x009
+#define METATILE_Wish_Grass4               0x00A
+#define METATILE_Wish_Grass5               0x003
+#define METATILE_Wish_Grass6               0x00B
+#define METATILE_Wish_Grass7               0x00C
+#define METATILE_Wish_LongGrass1           0x010
+#define METATILE_Wish_LongGrass2           0x018
+#define METATILE_Wish_LongGrass3           0x020
+#define METATILE_Wish_RockwallGrassBase    0x081
+#define METATILE_Wish_RockwallRockBase     0x084
+#define METATILE_Wish_Sign1                0x011
+#define METATILE_Wish_Sign2                0x019
+#define METATILE_Wish_TallGrass            0x008
+#define METATILE_Wish_TallGrassSkinnyTree  0x03E
+#define METATILE_Wish_TallGrassTreeLeft    0x00E
+#define METATILE_Wish_TallGrassTreeRight   0x00F
+#define METATILE_Wish_Warp                 0x00D
+
 // Other
 #define METATILE_RSMossdeepGym_RedArrow_Down   0x205
 #define METATILE_RSMossdeepGym_RedArrow_Left   0x20C

@@ -132,7 +132,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MANIAC",
+      "graphics_id": "OBJ_EVENT_GFX_84_SUPER_NERD",
       "x": 10,
       "y": 2,
       "elevation": 3,
@@ -145,7 +145,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+      "graphics_id": "OBJ_EVENT_GFX_72_POKEFAN_M",
       "x": 17,
       "y": 7,
       "elevation": 3,
@@ -158,7 +158,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
+      "graphics_id": "OBJ_EVENT_GFX_02_LITTLE_GIRL",
       "x": 18,
       "y": 8,
       "elevation": 3,

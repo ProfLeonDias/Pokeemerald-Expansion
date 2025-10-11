@@ -31,7 +31,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
       "x": 17,
       "y": 90,
       "elevation": 3,
@@ -57,7 +57,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
+      "graphics_id": "OBJ_EVENT_GFX_57_EXPERT_F",
       "x": 14,
       "y": 69,
       "elevation": 3,
@@ -83,7 +83,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+      "graphics_id": "OBJ_EVENT_GFX_56_EXPERT_M",
       "x": 10,
       "y": 11,
       "elevation": 3,
@@ -174,7 +174,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
+      "graphics_id": "OBJ_EVENT_GFX_76_PSYCHIC_M",
       "x": 3,
       "y": 39,
       "elevation": 3,
@@ -200,7 +200,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MANIAC",
+      "graphics_id": "OBJ_EVENT_GFX_84_SUPER_NERD",
       "x": 34,
       "y": 40,
       "elevation": 3,
@@ -213,7 +213,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
+      "graphics_id": "OBJ_EVENT_GFX_58_FISHERMAN",
       "x": 10,
       "y": 19,
       "elevation": 3,
@@ -411,7 +411,7 @@
       "flag": "FLAG_HIDE_ROUTE_110_RIVAL_ON_BIKE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
+      "graphics_id": "OBJ_EVENT_GFX_99_YOUNGSTER",
       "x": 33,
       "y": 69,
       "elevation": 3,
@@ -424,7 +424,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
+      "graphics_id": "OBJ_EVENT_GFX_73_POKEFAN_F",
       "x": 10,
       "y": 76,
       "elevation": 3,
@@ -437,7 +437,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+      "graphics_id": "OBJ_EVENT_GFX_72_POKEFAN_M",
       "x": 7,
       "y": 76,
       "elevation": 3,
@@ -463,7 +463,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
       "x": 36,
       "y": 40,
       "elevation": 3,
@@ -490,7 +490,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE110_BIRCH",
-      "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
+      "graphics_id": "OBJ_EVENT_GFX_103_PROF_ASPEN",
       "x": 9,
       "y": 79,
       "elevation": 3,

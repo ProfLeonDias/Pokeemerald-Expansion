@@ -45,7 +45,7 @@
       "flag": "FLAG_HIDE_ROUTE_112_TEAM_MAGMA"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_HIKER",
+      "graphics_id": "OBJ_EVENT_GFX_62_HIKER",
       "x": 24,
       "y": 34,
       "elevation": 3,
@@ -58,7 +58,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
       "x": 29,
       "y": 49,
       "elevation": 3,
@@ -71,7 +71,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+      "graphics_id": "OBJ_EVENT_GFX_48_PICNICKER",
       "x": 22,
       "y": 46,
       "elevation": 3,
@@ -84,7 +84,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_HIKER",
+      "graphics_id": "OBJ_EVENT_GFX_62_HIKER",
       "x": 15,
       "y": 40,
       "elevation": 3,
@@ -163,7 +163,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_HIKER",
+      "graphics_id": "OBJ_EVENT_GFX_62_HIKER",
       "x": 8,
       "y": 50,
       "elevation": 3,
@@ -189,7 +189,7 @@
       "flag": "FLAG_ITEM_ROUTE_112_NUGGET"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
       "x": 31,
       "y": 7,
       "elevation": 3,

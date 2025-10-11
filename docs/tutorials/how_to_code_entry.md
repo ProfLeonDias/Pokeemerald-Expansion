@@ -233,10 +233,10 @@ And that's it! Feel free to expand this in whatever way you wish, the pattern ca
 Absolutely! In `naming_screen.c`, look for the `NamingScreen_CreateCodeIcon` function. It's very short. There's one relevant line that needs to be changed:
 
 ```
-spriteId = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_MYSTERY_GIFT_MAN, SpriteCallbackDummy, 56, 37, 0);
+spriteId = CreateObjectGraphicsSprite(OBJ_EVENT_GFX_32_MYSTERY_GIFT, SpriteCallbackDummy, 56, 37, 0);
 ```
 
-Just swap out `OBJ_EVENT_GFX_MYSTERY_GIFT_MAN` for whatever event object sprite you'd like to use instead. You may need to adjust the position (the 56 and 37 in this example) depending on your sprite.
+Just swap out `OBJ_EVENT_GFX_32_MYSTERY_GIFT` for whatever event object sprite you'd like to use instead. You may need to adjust the position (the 56 and 37 in this example) depending on your sprite.
 
 ## What about a mystery gift setup?
 

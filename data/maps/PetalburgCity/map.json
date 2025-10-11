@@ -40,7 +40,7 @@
     },
     {
       "local_id": "LOCALID_PETALBURG_WALLY",
-      "graphics_id": "OBJ_EVENT_GFX_WALLY",
+      "graphics_id": "OBJ_EVENT_GFX_104_ALEX",
       "x": 15,
       "y": 10,
       "elevation": 3,
@@ -67,7 +67,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+      "graphics_id": "OBJ_EVENT_GFX_59_GENTLEMAN",
       "x": 20,
       "y": 10,
       "elevation": 3,
@@ -81,7 +81,7 @@
     },
     {
       "local_id": "LOCALID_PETALBURG_WALLYS_DAD",
-      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
+      "graphics_id": "OBJ_EVENT_GFX_72_POKEFAN_M",
       "x": 15,
       "y": 10,
       "elevation": 3,
@@ -135,7 +135,7 @@
     },
     {
       "local_id": "LOCALID_PETALBURG_SCOTT",
-      "graphics_id": "OBJ_EVENT_GFX_SCOTT",
+      "graphics_id": "OBJ_EVENT_GFX_106_LYON",
       "x": 13,
       "y": 12,
       "elevation": 3,

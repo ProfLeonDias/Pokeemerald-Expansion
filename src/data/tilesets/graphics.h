@@ -1634,3 +1634,40 @@ const u16 gTilesetPalettes_UnionRoom[][16] =
 };
 
 const u32 gTilesetTiles_UnionRoom[] = INCBIN_U32("data/tilesets/secondary/union_room/tiles.4bpp.fastSmol");
+
+const u16 gTilesetPalettes_Wish[][16] =
+{
+    INCBIN_U16("data/tilesets/primary/wish/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/primary/wish/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Wish[] = INCBIN_U32("data/tilesets/primary/wish/tiles.4bpp.lz");
+const u16 gTilesetPalettes_Sapphire_Village[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/sapphire_village/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Sapphire_Village[] = INCBIN_U32("data/tilesets/secondary/sapphire_village/tiles.4bpp.lz");

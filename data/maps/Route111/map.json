@@ -46,7 +46,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE111_VICTORIA",
-      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
+      "graphics_id": "OBJ_EVENT_GFX_73_POKEFAN_F",
       "x": 13,
       "y": 113,
       "elevation": 0,
@@ -74,7 +74,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE111_VICKY",
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
+      "graphics_id": "OBJ_EVENT_GFX_57_EXPERT_F",
       "x": 13,
       "y": 113,
       "elevation": 0,
@@ -87,7 +87,7 @@
       "flag": "FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+      "graphics_id": "OBJ_EVENT_GFX_48_PICNICKER",
       "x": 28,
       "y": 51,
       "elevation": 3,
@@ -126,7 +126,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+      "graphics_id": "OBJ_EVENT_GFX_05_MALE_3",
       "x": 8,
       "y": 91,
       "elevation": 3,
@@ -139,7 +139,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
       "x": 29,
       "y": 37,
       "elevation": 3,
@@ -152,7 +152,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_HIKER",
+      "graphics_id": "OBJ_EVENT_GFX_62_HIKER",
       "x": 27,
       "y": 69,
       "elevation": 3,
@@ -165,7 +165,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
       "x": 21,
       "y": 47,
       "elevation": 3,
@@ -178,7 +178,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+      "graphics_id": "OBJ_EVENT_GFX_48_PICNICKER",
       "x": 32,
       "y": 66,
       "elevation": 3,
@@ -392,7 +392,7 @@
       "flag": "FLAG_TEMP_13"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+      "graphics_id": "OBJ_EVENT_GFX_48_PICNICKER",
       "x": 10,
       "y": 82,
       "elevation": 3,
@@ -405,7 +405,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
       "x": 11,
       "y": 71,
       "elevation": 3,
@@ -418,7 +418,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+      "graphics_id": "OBJ_EVENT_GFX_43_BLACK_BELT",
       "x": 32,
       "y": 29,
       "elevation": 3,
@@ -444,7 +444,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_3",
+      "graphics_id": "OBJ_EVENT_GFX_05_MALE_3",
       "x": 9,
       "y": 27,
       "elevation": 3,
@@ -483,7 +483,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
       "x": 26,
       "y": 132,
       "elevation": 3,
@@ -509,7 +509,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+      "graphics_id": "OBJ_EVENT_GFX_48_PICNICKER",
       "x": 19,
       "y": 121,
       "elevation": 3,
@@ -522,7 +522,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
       "x": 16,
       "y": 119,
       "elevation": 3,
@@ -535,7 +535,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_HIKER",
+      "graphics_id": "OBJ_EVENT_GFX_62_HIKER",
       "x": 29,
       "y": 77,
       "elevation": 3,
@@ -548,7 +548,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+      "graphics_id": "OBJ_EVENT_GFX_48_PICNICKER",
       "x": 22,
       "y": 77,
       "elevation": 3,
@@ -561,7 +561,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
       "x": 37,
       "y": 77,
       "elevation": 3,
@@ -587,7 +587,7 @@
       "flag": "FLAG_ITEM_ROUTE_111_ELIXIR"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_HIKER",
+      "graphics_id": "OBJ_EVENT_GFX_62_HIKER",
       "x": 14,
       "y": 56,
       "elevation": 3,
@@ -628,7 +628,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE111_ROCK_SMASH_MAN",
-      "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
+      "graphics_id": "OBJ_EVENT_GFX_06_MALE_4",
       "x": 19,
       "y": 101,
       "elevation": 3,

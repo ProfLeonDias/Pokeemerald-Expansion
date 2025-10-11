@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_PYRAMID_TOP_ATTENDANT",
-      "graphics_id": "OBJ_EVENT_GFX_HIKER",
+      "graphics_id": "OBJ_EVENT_GFX_62_HIKER",
       "x": 17,
       "y": 11,
       "elevation": 6,

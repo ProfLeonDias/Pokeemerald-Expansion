@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_SS_TIDAL_EXIT_SAILOR",
-      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+      "graphics_id": "OBJ_EVENT_GFX_81_SAILOR",
       "x": 1,
       "y": 11,
       "elevation": 3,
@@ -29,7 +29,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+      "graphics_id": "OBJ_EVENT_GFX_81_SAILOR",
       "x": 16,
       "y": 7,
       "elevation": 3,
@@ -42,7 +42,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+      "graphics_id": "OBJ_EVENT_GFX_56_EXPERT_M",
       "x": 9,
       "y": 2,
       "elevation": 3,
@@ -69,7 +69,7 @@
     },
     {
       "local_id": "LOCALID_SS_TIDAL_SCOTT",
-      "graphics_id": "OBJ_EVENT_GFX_SCOTT",
+      "graphics_id": "OBJ_EVENT_GFX_106_LYON",
       "x": 9,
       "y": 10,
       "elevation": 3,

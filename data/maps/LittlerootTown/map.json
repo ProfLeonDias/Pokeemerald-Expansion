@@ -5,7 +5,7 @@
   "music": "MUS_RG_PALLET",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
-  "weather": "WEATHER_SUNNY",
+  "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_TOWN",
   "allow_cycling": true,
   "allow_escaping": false,
@@ -15,14 +15,14 @@
   "connections": [
     {
       "map": "MAP_ROUTE101",
-      "offset": 0,
-      "direction": "up"
+      "offset": 2,
+      "direction": "down"
     }
   ],
   "object_events": [
     {
       "local_id": "LOCALID_LITTLEROOT_TWIN",
-      "graphics_id": "OBJ_EVENT_GFX_TWIN",
+      "graphics_id": "OBJ_EVENT_GFX_96_TWINS",
       "x": -3,
       "y": 5,
       "elevation": 3,
@@ -35,7 +35,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
+      "graphics_id": "OBJ_EVENT_GFX_06_MALE_4",
       "x": -3,
       "y": 8,
       "elevation": 3,
@@ -62,7 +62,7 @@
     },
     {
       "local_id": "LOCALID_LITTLEROOT_MOM",
-      "graphics_id": "OBJ_EVENT_GFX_MOM",
+      "graphics_id": "OBJ_EVENT_GFX_102_MOM",
       "x": -3,
       "y": 4,
       "elevation": 3,
@@ -116,7 +116,7 @@
     },
     {
       "local_id": "LOCALID_LITTLEROOT_BIRCH",
-      "graphics_id": "OBJ_EVENT_GFX_PROF_BIRCH",
+      "graphics_id": "OBJ_EVENT_GFX_103_PROF_ASPEN",
       "x": -5,
       "y": 8,
       "elevation": 3,

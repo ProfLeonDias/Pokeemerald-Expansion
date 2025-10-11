@@ -751,7 +751,7 @@ static u16 FontFunc_Normal(struct TextPrinter *textPrinter)
 
     if (subStruct->hasFontIdBeenSet == FALSE)
     {
-        subStruct->fontId = FONT_NORMAL;
+        subStruct->fontId = FONT_SHORT;
         subStruct->hasFontIdBeenSet = TRUE;
     }
     return RenderText(textPrinter);

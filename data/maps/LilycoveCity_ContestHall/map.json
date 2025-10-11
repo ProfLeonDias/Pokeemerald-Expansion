@@ -41,7 +41,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
+      "graphics_id": "OBJ_EVENT_GFX_13_FEMALE_1",
       "x": 40,
       "y": 8,
       "elevation": 3,
@@ -83,7 +83,7 @@
     },
     {
       "local_id": "LOCALID_SMART_CONTESTANT_1",
-      "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+      "graphics_id": "OBJ_EVENT_GFX_43_BLACK_BELT",
       "x": 10,
       "y": 25,
       "elevation": 3,
@@ -97,7 +97,7 @@
     },
     {
       "local_id": "LOCALID_SMART_CONTESTANT_2",
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+      "graphics_id": "OBJ_EVENT_GFX_56_EXPERT_M",
       "x": 12,
       "y": 25,
       "elevation": 3,
@@ -111,7 +111,7 @@
     },
     {
       "local_id": "LOCALID_SMART_CONTESTANT_3",
-      "graphics_id": "OBJ_EVENT_GFX_MANIAC",
+      "graphics_id": "OBJ_EVENT_GFX_84_SUPER_NERD",
       "x": 14,
       "y": 25,
       "elevation": 3,
@@ -125,7 +125,7 @@
     },
     {
       "local_id": "LOCALID_SMART_CONTESTANT_4",
-      "graphics_id": "OBJ_EVENT_GFX_LINK_RECEPTIONIST",
+      "graphics_id": "OBJ_EVENT_GFX_31_WIFI_LADY",
       "x": 16,
       "y": 25,
       "elevation": 3,
@@ -138,7 +138,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
+      "graphics_id": "OBJ_EVENT_GFX_57_EXPERT_F",
       "x": 8,
       "y": 24,
       "elevation": 3,
@@ -222,7 +222,7 @@
     },
     {
       "local_id": "LOCALID_BEAUTY_CONTESTANT_2",
-      "graphics_id": "OBJ_EVENT_GFX_TWIN",
+      "graphics_id": "OBJ_EVENT_GFX_96_TWINS",
       "x": 24,
       "y": 13,
       "elevation": 3,
@@ -236,7 +236,7 @@
     },
     {
       "local_id": "LOCALID_BEAUTY_CONTESTANT_3",
-      "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_M",
+      "graphics_id": "OBJ_EVENT_GFX_76_PSYCHIC_M",
       "x": 26,
       "y": 13,
       "elevation": 3,
@@ -250,7 +250,7 @@
     },
     {
       "local_id": "LOCALID_BEAUTY_CONTESTANT_4",
-      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
+      "graphics_id": "OBJ_EVENT_GFX_73_POKEFAN_F",
       "x": 28,
       "y": 13,
       "elevation": 3,
@@ -278,7 +278,7 @@
     },
     {
       "local_id": "LOCALID_BEAUTY_AUDIENCE_3",
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
+      "graphics_id": "OBJ_EVENT_GFX_18_FEMALE_6",
       "x": 30,
       "y": 11,
       "elevation": 3,
@@ -306,7 +306,7 @@
     },
     {
       "local_id": "LOCALID_SMART_AUDIENCE_3",
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
       "x": 13,
       "y": 20,
       "elevation": 3,
@@ -390,7 +390,7 @@
     },
     {
       "local_id": "LOCALID_CUTE_CONTESTANT_4",
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
+      "graphics_id": "OBJ_EVENT_GFX_57_EXPERT_F",
       "x": 40,
       "y": 25,
       "elevation": 3,
@@ -432,7 +432,7 @@
     },
     {
       "local_id": "LOCALID_CUTE_AUDIENCE_2",
-      "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL",
+      "graphics_id": "OBJ_EVENT_GFX_02_LITTLE_GIRL",
       "x": 42,
       "y": 24,
       "elevation": 3,
@@ -445,7 +445,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+      "graphics_id": "OBJ_EVENT_GFX_81_SAILOR",
       "x": 23,
       "y": 26,
       "elevation": 3,

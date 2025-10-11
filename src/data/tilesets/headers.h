@@ -830,3 +830,26 @@ const struct Tileset gTileset_UnionRoom =
     .metatileAttributes = gMetatileAttributes_UnionRoom,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Wish =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Wish,
+    .palettes = gTilesetPalettes_Wish,
+    .metatiles = gMetatiles_Wish,
+    .metatileAttributes = gMetatileAttributes_Wish,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Sapphire_Village =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Sapphire_Village,
+    .palettes = gTilesetPalettes_Sapphire_Village,
+    .metatiles = gMetatiles_Sapphire_Village,
+    .metatileAttributes = gMetatileAttributes_Sapphire_Village,
+    .callback = NULL,
+};
+

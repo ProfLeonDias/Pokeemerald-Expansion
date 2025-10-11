@@ -31,7 +31,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
+      "graphics_id": "OBJ_EVENT_GFX_81_SAILOR",
       "x": 38,
       "y": 12,
       "elevation": 5,
@@ -44,7 +44,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+      "graphics_id": "OBJ_EVENT_GFX_56_EXPERT_M",
       "x": 50,
       "y": 34,
       "elevation": 5,
@@ -57,7 +57,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
+      "graphics_id": "OBJ_EVENT_GFX_73_POKEFAN_F",
       "x": 32,
       "y": 12,
       "elevation": 5,
@@ -122,7 +122,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_1",
+      "graphics_id": "OBJ_EVENT_GFX_18_FEMALE_6",
       "x": 56,
       "y": 21,
       "elevation": 7,
@@ -218,7 +218,7 @@
       "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+      "graphics_id": "OBJ_EVENT_GFX_43_BLACK_BELT",
       "x": 19,
       "y": 25,
       "elevation": 3,
@@ -232,7 +232,7 @@
     },
     {
       "local_id": "LOCALID_MOSSDEEP_SCOTT",
-      "graphics_id": "OBJ_EVENT_GFX_SCOTT",
+      "graphics_id": "OBJ_EVENT_GFX_106_LYON",
       "x": 61,
       "y": 29,
       "elevation": 5,
@@ -245,7 +245,7 @@
       "flag": "FLAG_HIDE_MOSSDEEP_CITY_SCOTT"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+      "graphics_id": "OBJ_EVENT_GFX_43_BLACK_BELT",
       "x": 31,
       "y": 29,
       "elevation": 3,

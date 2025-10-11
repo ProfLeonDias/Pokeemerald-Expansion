@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_PLAYERS_HOUSE_1F_MOM",
-      "graphics_id": "OBJ_EVENT_GFX_MOM",
+      "graphics_id": "OBJ_EVENT_GFX_102_MOM",
       "x": 8,
       "y": 6,
       "elevation": 3,

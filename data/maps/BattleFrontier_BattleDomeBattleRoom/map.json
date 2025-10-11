@@ -30,7 +30,7 @@
     },
     {
       "local_id": "LOCALID_DOME_AUDIENCE_TWIN",
-      "graphics_id": "OBJ_EVENT_GFX_TWIN",
+      "graphics_id": "OBJ_EVENT_GFX_96_TWINS",
       "x": 7,
       "y": 2,
       "elevation": 0,
@@ -96,7 +96,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+      "graphics_id": "OBJ_EVENT_GFX_56_EXPERT_M",
       "x": 16,
       "y": 1,
       "elevation": 0,
@@ -109,7 +109,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
       "x": 8,
       "y": 1,
       "elevation": 0,
@@ -123,7 +123,7 @@
     },
     {
       "local_id": "LOCALID_DOME_REFEREE",
-      "graphics_id": "OBJ_EVENT_GFX_MAN_2",
+      "graphics_id": "OBJ_EVENT_GFX_03_MALE_1",
       "x": 0,
       "y": 4,
       "elevation": 0,
@@ -136,7 +136,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_FAT_MAN",
+      "graphics_id": "OBJ_EVENT_GFX_06_MALE_4",
       "x": 12,
       "y": 1,
       "elevation": 0,

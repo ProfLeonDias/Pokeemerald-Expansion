@@ -19,11 +19,6 @@
       "direction": "up"
     },
     {
-      "map": "MAP_ROUTE101",
-      "offset": 0,
-      "direction": "down"
-    },
-    {
       "map": "MAP_ROUTE102",
       "offset": 0,
       "direction": "left"
@@ -31,7 +26,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
+      "graphics_id": "OBJ_EVENT_GFX_13_FEMALE_1",
       "x": 16,
       "y": 11,
       "elevation": 3,
@@ -59,7 +54,7 @@
     },
     {
       "local_id": "LOCALID_FOOTPRINTS_MAN",
-      "graphics_id": "OBJ_EVENT_GFX_MANIAC",
+      "graphics_id": "OBJ_EVENT_GFX_84_SUPER_NERD",
       "x": 8,
       "y": 9,
       "elevation": 3,

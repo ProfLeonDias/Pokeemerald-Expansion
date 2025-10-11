@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_VERDANTURF_TENT_ATTENDANT",
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
+      "graphics_id": "OBJ_EVENT_GFX_56_EXPERT_M",
       "x": 6,
       "y": 5,
       "elevation": 3,
@@ -68,7 +68,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SCOTT",
+      "graphics_id": "OBJ_EVENT_GFX_106_LYON",
       "x": 12,
       "y": 6,
       "elevation": 3,
@@ -81,7 +81,7 @@
       "flag": "FLAG_HIDE_VERDANTURF_TOWN_SCOTT"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY",
+      "graphics_id": "OBJ_EVENT_GFX_01_LITTLE_BOY",
       "x": 2,
       "y": 8,
       "elevation": 3,

@@ -30,10 +30,10 @@ const u32 gBattleEnvironmentTiles_Cave[] = INCBIN_U32("graphics/battle_environme
 const u16 gBattleEnvironmentPalette_Cave[] = INCBIN_U16("graphics/battle_environment/cave/palette.gbapal");
 const u32 gBattleEnvironmentTilemap_Cave[] = INCBIN_U32("graphics/battle_environment/cave/map.bin.smolTM");
 
-const u16 gBattleEnvironmentPalette_Plain[] = INCBIN_U16("graphics/battle_environment/plain/palette.gbapal");
+const u32 gBattleEnvironmentPalette_Plain[] = INCBIN_U32("graphics/battle_environment/plain/palette.gbapal");
 
 const u32 gBattleEnvironmentTiles_Building[] = INCBIN_U32("graphics/battle_environment/building/tiles.4bpp.smol");
-const u16 gBattleEnvironmentPalette_Frontier[] = INCBIN_U16("graphics/battle_environment/stadium/battle_frontier.gbapal"); // this is also used for link battles
+const u32 gBattleEnvironmentPalette_Frontier[] = INCBIN_U32("graphics/battle_environment/stadium/battle_frontier.gbapal"); // this is also used for link battles
 const u32 gBattleEnvironmentTilemap_Building[] = INCBIN_U32("graphics/battle_environment/building/map.bin.smolTM");
 
 #define ENVIRONMENT_BACKGROUND(background)                      \
@@ -164,8 +164,8 @@ const struct BattleEnvironment gBattleEnvironmentInfo[BATTLE_ENVIRONMENT_COUNT] 
         .camouflageType = B_CAMOUFLAGE_TYPES >= GEN_4 ? TYPE_GROUND : TYPE_NORMAL,
         .background =
         {
-            .tileset = gBattleEnvironmentTiles_Building,
-            .tilemap = gBattleEnvironmentTilemap_Building,
+            .tileset = gBattleEnvironmentTiles_Plain,
+            .tilemap = gBattleEnvironmentTilemap_Plain,
             .entryTileset = gBattleEnvironmentAnimTiles_Building,
             .entryTilemap = gBattleEnvironmentAnimTilemap_Building,
             .palette = gBattleEnvironmentPalette_Plain,
@@ -204,7 +204,7 @@ const struct BattleEnvironment gBattleEnvironmentInfo[BATTLE_ENVIRONMENT_COUNT] 
             .tilemap = gBattleEnvironmentTilemap_Building,
             .entryTileset = gBattleEnvironmentAnimTiles_Building,
             .entryTilemap = gBattleEnvironmentAnimTilemap_Building,
-            .palette = gBattleEnvironmentPalette_BuildingLeader,
+            .palette = gBattleEnvironmentPalette_StadiumLeader,
         },
     },
 
@@ -216,7 +216,7 @@ const struct BattleEnvironment gBattleEnvironmentInfo[BATTLE_ENVIRONMENT_COUNT] 
             .tilemap = gBattleEnvironmentTilemap_Stadium,
             .entryTileset = gBattleEnvironmentAnimTiles_Building,
             .entryTilemap = gBattleEnvironmentAnimTilemap_Building,
-            .palette = gBattleEnvironmentPalette_StadiumMagma,
+            .palette = gBattleEnvironmentPalette_BuildingMagma,
         },
     },
 
@@ -228,7 +228,7 @@ const struct BattleEnvironment gBattleEnvironmentInfo[BATTLE_ENVIRONMENT_COUNT] 
             .tilemap = gBattleEnvironmentTilemap_Stadium,
             .entryTileset = gBattleEnvironmentAnimTiles_Building,
             .entryTilemap = gBattleEnvironmentAnimTilemap_Building,
-            .palette = gBattleEnvironmentPalette_StadiumAqua,
+            .palette = gBattleEnvironmentPalette_BuildingAqua,
         },
     },
 
