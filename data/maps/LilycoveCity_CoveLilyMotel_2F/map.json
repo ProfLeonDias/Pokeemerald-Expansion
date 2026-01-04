@@ -15,7 +15,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_05_MALE_3",
+      "graphics_id": "OBJ_EVENT_GFX_040_MALE_8",
       "x": 4,
       "y": 6,
       "elevation": 3,
@@ -28,7 +28,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_83_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_139_SCIENTIST",
       "x": 1,
       "y": 4,
       "elevation": 3,
@@ -41,7 +41,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_06_MALE_4",
+      "graphics_id": "OBJ_EVENT_GFX_041_MALE_9",
       "x": 7,
       "y": 7,
       "elevation": 3,
@@ -54,7 +54,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_4",
+      "graphics_id": "OBJ_EVENT_GFX_037_MALE_5",
       "x": 10,
       "y": 3,
       "elevation": 3,
@@ -67,7 +67,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_21_GAMEBOY_BOY",
+      "graphics_id": "OBJ_EVENT_GFX_067_GAMEBOY_BOY",
       "x": 7,
       "y": 3,
       "elevation": 3,
@@ -80,7 +80,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "graphics_id": "OBJ_EVENT_GFX_050_FEMALE_3",
       "x": 4,
       "y": 4,
       "elevation": 3,
@@ -93,7 +93,7 @@
       "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_106_LYON",
+      "graphics_id": "OBJ_EVENT_GFX_006_LYON",
       "x": 1,
       "y": 7,
       "elevation": 3,

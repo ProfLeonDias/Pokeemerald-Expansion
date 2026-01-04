@@ -15,7 +15,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
+      "graphics_id": "OBJ_EVENT_GFX_055_FEMALE_8",
       "x": 7,
       "y": 7,
       "elevation": 3,
@@ -28,7 +28,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_013_BLACK_STAR_FINN",
       "x": 18,
       "y": 5,
       "elevation": 3,
@@ -41,7 +41,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_013_BLACK_STAR_FINN",
       "x": 12,
       "y": 2,
       "elevation": 3,
@@ -54,7 +54,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_013_BLACK_STAR_FINN",
       "x": 2,
       "y": 8,
       "elevation": 3,
@@ -67,7 +67,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
+      "graphics_id": "OBJ_EVENT_GFX_012_BLACK_STAR_FIA",
       "x": 3,
       "y": 4,
       "elevation": 3,
@@ -80,7 +80,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_013_BLACK_STAR_FINN",
       "x": 14,
       "y": 4,
       "elevation": 3,
@@ -93,7 +93,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
+      "graphics_id": "OBJ_EVENT_GFX_055_FEMALE_8",
       "x": 12,
       "y": 7,
       "elevation": 3,
@@ -106,7 +106,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_013_BLACK_STAR_FINN",
       "x": 8,
       "y": 3,
       "elevation": 3,
@@ -119,7 +119,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_053_FEMALE_6",
       "x": 4,
       "y": 2,
       "elevation": 3,
@@ -132,7 +132,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_84_SUPER_NERD",
+      "graphics_id": "OBJ_EVENT_GFX_140_SUPER_NERD",
       "x": 10,
       "y": 2,
       "elevation": 3,
@@ -145,7 +145,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_72_POKEFAN_M",
+      "graphics_id": "OBJ_EVENT_GFX_127_POKEFAN_M",
       "x": 17,
       "y": 7,
       "elevation": 3,
@@ -158,7 +158,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_02_LITTLE_GIRL",
+      "graphics_id": "OBJ_EVENT_GFX_032_LITTLE_GIRL",
       "x": 18,
       "y": 8,
       "elevation": 3,
@@ -172,7 +172,7 @@
     },
     {
       "local_id": "LOCALID_OCEANIC_MUSEUM_FAMILIAR_GRUNT",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_013_BLACK_STAR_FINN",
       "x": 9,
       "y": 4,
       "elevation": 3,
@@ -185,7 +185,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_FAMILIAR_AQUA_GRUNT"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_REPORTER_M",
+      "graphics_id": "OBJ_EVENT_GFX_071_REPORTER_M",
       "x": 7,
       "y": 4,
       "elevation": 3,

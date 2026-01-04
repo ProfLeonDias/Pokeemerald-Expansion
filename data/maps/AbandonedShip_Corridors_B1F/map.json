@@ -15,7 +15,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_92_TUBER_MALE",
+      "graphics_id": "OBJ_EVENT_GFX_151_TUBER_M",
       "x": 2,
       "y": 8,
       "elevation": 3,
@@ -28,7 +28,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_81_SAILOR",
+      "graphics_id": "OBJ_EVENT_GFX_136_SAILOR",
       "x": 9,
       "y": 6,
       "elevation": 3,

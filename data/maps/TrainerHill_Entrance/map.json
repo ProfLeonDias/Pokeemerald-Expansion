@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_TRAINER_HILL_ATTENDANT",
-      "graphics_id": "OBJ_EVENT_GFX_TEALA",
+      "graphics_id": "OBJ_EVENT_GFX_080_TEALA",
       "x": 11,
       "y": 6,
       "elevation": 3,
@@ -30,7 +30,7 @@
     },
     {
       "local_id": "LOCALID_TRAINER_HILL_NURSE",
-      "graphics_id": "OBJ_EVENT_GFX_NURSE",
+      "graphics_id": "OBJ_EVENT_GFX_079_NURSE",
       "x": 4,
       "y": 9,
       "elevation": 3,
@@ -43,7 +43,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MART_EMPLOYEE",
+      "graphics_id": "OBJ_EVENT_GFX_069_MART_EMPLOYEE",
       "x": 14,
       "y": 9,
       "elevation": 3,
@@ -57,7 +57,7 @@
     },
     {
       "local_id": "LOCALID_TRAINER_HILL_GIRL",
-      "graphics_id": "OBJ_EVENT_GFX_13_FEMALE_1",
+      "graphics_id": "OBJ_EVENT_GFX_059_FEMALE_12",
       "x": 5,
       "y": 14,
       "elevation": 3,
@@ -71,7 +71,7 @@
     },
     {
       "local_id": "LOCALID_TRAINER_HILL_MAN",
-      "graphics_id": "OBJ_EVENT_GFX_05_MALE_3",
+      "graphics_id": "OBJ_EVENT_GFX_040_MALE_8",
       "x": 14,
       "y": 15,
       "elevation": 3,

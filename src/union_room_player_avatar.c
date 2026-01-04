@@ -26,24 +26,24 @@ static void SetUnionRoomObjectFacingDirection(s32, s32, u8);
 // Graphics ids should correspond with the classes in gUnionRoomFacilityClasses
 static const u16 sUnionRoomObjGfxIds[GENDER_COUNT][NUM_UNION_ROOM_CLASSES] = {
     [MALE] = {
-        OBJ_EVENT_GFX_05_MALE_3,
-        OBJ_EVENT_GFX_43_BLACK_BELT,
-        OBJ_EVENT_GFX_47_CAMPER,
-        OBJ_EVENT_GFX_99_YOUNGSTER,
-        OBJ_EVENT_GFX_76_PSYCHIC_M,
-        OBJ_EVENT_GFX_44_BUG_CATCHER,
-        OBJ_EVENT_GFX_MAN_4,
-        OBJ_EVENT_GFX_11_MALE_9
+        OBJ_EVENT_GFX_040_MALE_8,
+        OBJ_EVENT_GFX_097_BLACK_BELT,
+        OBJ_EVENT_GFX_101_CAMPER,
+        OBJ_EVENT_GFX_158_YOUNGSTER,
+        OBJ_EVENT_GFX_131_PSYCHIC_M,
+        OBJ_EVENT_GFX_098_BUG_CATCHER,
+        OBJ_EVENT_GFX_037_MALE_5,
+        OBJ_EVENT_GFX_046_MALE_14
     },
     [FEMALE] = {
-        OBJ_EVENT_GFX_WOMAN_5,
-        OBJ_EVENT_GFX_HEX_MANIAC,
-        OBJ_EVENT_GFX_48_PICNICKER,
-        OBJ_EVENT_GFX_LASS,
-        OBJ_EVENT_GFX_LASS,
-        OBJ_EVENT_GFX_13_FEMALE_1,
-        OBJ_EVENT_GFX_WOMAN_2,
-        OBJ_EVENT_GFX_BEAUTY
+        OBJ_EVENT_GFX_053_FEMALE_6,
+        OBJ_EVENT_GFX_054_FEMALE_7,
+        OBJ_EVENT_GFX_102_PICNICKER,
+        OBJ_EVENT_GFX_141_SR_GIRL,
+        OBJ_EVENT_GFX_141_SR_GIRL,
+        OBJ_EVENT_GFX_059_FEMALE_12,
+        OBJ_EVENT_GFX_050_FEMALE_3,
+        OBJ_EVENT_GFX_055_FEMALE_8
     }
 };
 
@@ -395,7 +395,7 @@ void CreateUnionRoomPlayerSprites(u8 *spriteIds, s32 leaderId)
     for (memberId = 0; memberId < MAX_RFU_PLAYERS; memberId++)
     {
         s32 id = UR_PLAYER_SPRITE_ID(leaderId, memberId);
-        spriteIds[id] = CreateVirtualObject(OBJ_EVENT_GFX_MAN_4,
+        spriteIds[id] = CreateVirtualObject(OBJ_EVENT_GFX_037_MALE_5,
                                            id - UR_SPRITE_START_ID,
                                            sUnionRoomPlayerCoords[leaderId][0] + sUnionRoomGroupOffsets[memberId][0],
                                            sUnionRoomPlayerCoords[leaderId][1] + sUnionRoomGroupOffsets[memberId][1],

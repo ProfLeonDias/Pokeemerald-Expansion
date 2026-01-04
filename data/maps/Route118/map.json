@@ -70,7 +70,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
+      "graphics_id": "OBJ_EVENT_GFX_046_MALE_14",
       "x": 64,
       "y": 10,
       "elevation": 3,
@@ -84,7 +84,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE118_GABBY_1",
-      "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
+      "graphics_id": "OBJ_EVENT_GFX_072_REPORTER_F",
       "x": 33,
       "y": 8,
       "elevation": 3,
@@ -98,7 +98,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE118_TY_1",
-      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
+      "graphics_id": "OBJ_EVENT_GFX_070_CAMERAMAN",
       "x": 34,
       "y": 8,
       "elevation": 3,
@@ -111,7 +111,7 @@
       "flag": "FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
+      "graphics_id": "OBJ_EVENT_GFX_049_FEMALE_2",
       "x": 12,
       "y": 10,
       "elevation": 3,
@@ -125,7 +125,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE118_GABBY_2",
-      "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
+      "graphics_id": "OBJ_EVENT_GFX_072_REPORTER_F",
       "x": 33,
       "y": 8,
       "elevation": 3,
@@ -139,7 +139,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE118_TY_2",
-      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
+      "graphics_id": "OBJ_EVENT_GFX_070_CAMERAMAN",
       "x": 34,
       "y": 8,
       "elevation": 3,
@@ -153,7 +153,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE118_GABBY_3",
-      "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
+      "graphics_id": "OBJ_EVENT_GFX_072_REPORTER_F",
       "x": 33,
       "y": 8,
       "elevation": 3,
@@ -167,7 +167,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE118_TY_3",
-      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
+      "graphics_id": "OBJ_EVENT_GFX_070_CAMERAMAN",
       "x": 34,
       "y": 8,
       "elevation": 3,
@@ -180,7 +180,7 @@
       "flag": "FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE",
       "x": 38,
       "y": 8,
       "elevation": 3,
@@ -193,7 +193,7 @@
       "flag": "FLAG_TEMP_11"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_58_FISHERMAN",
+      "graphics_id": "OBJ_EVENT_GFX_112_FISHERMAN",
       "x": 28,
       "y": 8,
       "elevation": 3,
@@ -206,7 +206,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "graphics_id": "OBJ_EVENT_GFX_050_FEMALE_3",
       "x": 7,
       "y": 12,
       "elevation": 3,
@@ -219,7 +219,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_58_FISHERMAN",
+      "graphics_id": "OBJ_EVENT_GFX_112_FISHERMAN",
       "x": 14,
       "y": 14,
       "elevation": 3,
@@ -232,7 +232,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
+      "graphics_id": "OBJ_EVENT_GFX_046_MALE_14",
       "x": 56,
       "y": 7,
       "elevation": 3,
@@ -245,7 +245,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_58_FISHERMAN",
+      "graphics_id": "OBJ_EVENT_GFX_112_FISHERMAN",
       "x": 39,
       "y": 15,
       "elevation": 3,
@@ -258,7 +258,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
+      "graphics_id": "OBJ_EVENT_GFX_046_MALE_14",
       "x": 17,
       "y": 11,
       "elevation": 3,
@@ -272,7 +272,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE118_STEVEN",
-      "graphics_id": "OBJ_EVENT_GFX_119_STEVEN",
+      "graphics_id": "OBJ_EVENT_GFX_169_STEVEN",
       "x": 44,
       "y": 7,
       "elevation": 3,
@@ -285,7 +285,7 @@
       "flag": "FLAG_HIDE_ROUTE_118_STEVEN"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 69,
       "y": 7,
       "elevation": 3,
@@ -298,7 +298,7 @@
       "flag": "FLAG_ITEM_ROUTE_118_HYPER_POTION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_99_YOUNGSTER",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER",
       "x": 7,
       "y": 7,
       "elevation": 3,

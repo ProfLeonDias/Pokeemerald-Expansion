@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_PETALBURG_NURSE",
-      "graphics_id": "OBJ_EVENT_GFX_NURSE",
+      "graphics_id": "OBJ_EVENT_GFX_079_NURSE",
       "x": 7,
       "y": 2,
       "elevation": 3,
@@ -29,7 +29,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_4",
+      "graphics_id": "OBJ_EVENT_GFX_037_MALE_5",
       "x": 11,
       "y": 2,
       "elevation": 3,
@@ -42,7 +42,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_06_MALE_4",
+      "graphics_id": "OBJ_EVENT_GFX_041_MALE_9",
       "x": 2,
       "y": 3,
       "elevation": 3,
@@ -55,7 +55,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_99_YOUNGSTER",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER",
       "x": 9,
       "y": 6,
       "elevation": 3,
@@ -68,7 +68,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_053_FEMALE_6",
       "x": 5,
       "y": 4,
       "elevation": 3,

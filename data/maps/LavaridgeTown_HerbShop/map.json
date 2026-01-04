@@ -15,7 +15,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "graphics_id": "OBJ_EVENT_GFX_050_FEMALE_3",
       "x": 3,
       "y": 2,
       "elevation": 3,
@@ -28,7 +28,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_08_MALE_6",
+      "graphics_id": "OBJ_EVENT_GFX_043_MALE_11",
       "x": 7,
       "y": 5,
       "elevation": 3,
@@ -41,7 +41,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_56_EXPERT_M",
+      "graphics_id": "OBJ_EVENT_GFX_110_EXPERT_M",
       "x": 9,
       "y": 3,
       "elevation": 3,

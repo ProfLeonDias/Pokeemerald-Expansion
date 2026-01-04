@@ -26735,3 +26735,36 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.smol");
     const u16 gMonPalette_Egg[] = INCBIN_U16("graphics/pokemon/egg/normal.gbapal");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
+
+    const u32 gObjectEventPic_BunearyStarter[] = INCBIN_COMP("graphics/pokemon/buneary_starter/overworld.4bpp");
+
+    const u32 gMonFrontPic_BunearyStarter[] = INCBIN_U32("graphics/pokemon/buneary_starter/anim_front.4bpp.lz");
+    const u32 gMonBackPic_BunearyStarter[] = INCBIN_U32("graphics/pokemon/buneary_starter/back.4bpp.lz");
+    const u16 gMonPalette_BunearyStarter[] = INCBIN_U16("graphics/pokemon/buneary_starter/normal.gbapal");
+    const u16 gMonShinyPalette_BunearyStarter[] = INCBIN_U16("graphics/pokemon/buneary_starter/shiny.gbapal");
+    const u8 gMonIcon_BunearyStarter[] = INCBIN_U8("graphics/pokemon/buneary_starter/icon.4bpp");
+    const u8 gMonFootprint_BunearyStarter[] = INCBIN_U8("graphics/pokemon/buneary_starter/footprint.1bpp");
+    const u16 gOverworldPalette_BunearyStarter[] = INCBIN_U16("graphics/pokemon/buneary_starter/overworld.gbapal");
+    const u16 gShinyOverworldPalette_BunearyStarter[] = INCBIN_U16("graphics/pokemon/buneary_starter/shiny.gbapal");
+
+    const u32 gObjectEventPic_LopunnyStarter[] = INCBIN_COMP("graphics/pokemon/lopunny_starter/overworld.4bpp");
+    const u32 gMonFrontPic_LopunnyStarter[] = INCBIN_U32("graphics/pokemon/lopunny_starter/anim_front.4bpp.lz");
+    const u32 gMonBackPic_LopunnyStarter[] = INCBIN_U32("graphics/pokemon/lopunny_starter/back.4bpp.lz");
+    const u16 gMonPalette_LopunnyStarter[] = INCBIN_U16("graphics/pokemon/lopunny_starter/normal.gbapal");
+    const u16 gMonShinyPalette_LopunnyStarter[] = INCBIN_U16("graphics/pokemon/lopunny_starter/shiny.gbapal");
+    const u8 gMonIcon_LopunnyStarter[] = INCBIN_U8("graphics/pokemon/lopunny_starter/icon.4bpp");
+    const u8 gMonFootprint_LopunnyStarter[] = INCBIN_U8("graphics/pokemon/lopunny_starter/footprint.1bpp");
+    const u16 gOverworldPalette_LopunnyStarter[] = INCBIN_U16("graphics/pokemon/lopunny_starter/overworld.gbapal");
+    const u16 gShinyOverworldPalette_LopunnyStarter[] = INCBIN_U16("graphics/pokemon/lopunny_starter/shiny.gbapal");
+
+    const u32 gMonFrontPic_LopunnyStarterMega[] = INCBIN_U32("graphics/pokemon/lopunny_starter/mega/front.4bpp.lz");
+    const u32 gMonBackPic_LopunnyStarterMega[] = INCBIN_U32("graphics/pokemon/lopunny_starter/mega/back.4bpp.lz");
+    const u16 gMonPalette_LopunnyStarterMega[] = INCBIN_U16("graphics/pokemon/lopunny_starter/mega/normal.gbapal");
+    const u16 gMonShinyPalette_LopunnyStarterMega[] = INCBIN_U16("graphics/pokemon/lopunny_starter/mega/shiny.gbapal");
+    const u8 gMonIcon_LopunnyStarterMega[] = INCBIN_U8("graphics/pokemon/lopunny_starter/mega/icon.4bpp");
+
+    const u32 gMonFrontPic_JirachiMega[] = INCBIN_U32("graphics/pokemon/jirachi/mega/front.4bpp.lz");
+    const u32 gMonBackPic_JirachiMega[] = INCBIN_U32("graphics/pokemon/jirachi/mega/back.4bpp.lz");
+    const u16 gMonPalette_JirachiMega[] = INCBIN_U16("graphics/pokemon/jirachi/mega/normal.gbapal");
+    const u16 gMonShinyPalette_JirachiMega[] = INCBIN_U16("graphics/pokemon/jirachi/mega/shiny.gbapal");
+    const u8 gMonIcon_JirachiMega[] = INCBIN_U8("graphics/pokemon/jirachi/mega/icon.4bpp");

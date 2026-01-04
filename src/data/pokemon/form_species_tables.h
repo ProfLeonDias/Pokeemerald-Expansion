@@ -2195,3 +2195,35 @@ static const u16 sTerapagosFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_TERAPAGOS
+
+static const u16 sLopunnyStarterFormSpeciesIdTable[] = {
+    SPECIES_LOPUNNY_STARTER,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_LOPUNNY_STARTER_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sLucarioStarterFormSpeciesIdTable[] = {
+    SPECIES_LUCARIO_STARTER,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_LUCARIO_STARTER_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sGalladeStarterFormSpeciesIdTable[] = {
+    SPECIES_GALLADE_STARTER,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_GALLADE_STARTER_MEGA,
+#endif
+    FORM_SPECIES_END,
+};
+
+static const u16 sJirachiFormSpeciesIdTable[] = {
+    SPECIES_JIRACHI,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_JIRACHI_MEGA,
+#endif 
+    FORM_SPECIES_END,
+};

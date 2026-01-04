@@ -31,7 +31,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_3",
+      "graphics_id": "OBJ_EVENT_GFX_051_FEMALE_4",
       "x": 29,
       "y": 14,
       "elevation": 3,
@@ -148,7 +148,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "graphics_id": "OBJ_EVENT_GFX_141_SR_GIRL",
       "x": 39,
       "y": 9,
       "elevation": 3,
@@ -161,7 +161,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "graphics_id": "OBJ_EVENT_GFX_141_SR_GIRL",
       "x": 40,
       "y": 9,
       "elevation": 3,
@@ -175,7 +175,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE121_GRUNT_1",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_013_BLACK_STAR_FINN",
       "x": 30,
       "y": 8,
       "elevation": 3,
@@ -189,7 +189,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE121_GRUNT_2",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_013_BLACK_STAR_FINN",
       "x": 30,
       "y": 7,
       "elevation": 3,
@@ -203,7 +203,7 @@
     },
     {
       "local_id": "LOCALID_ROUTE121_GRUNT_3",
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "graphics_id": "OBJ_EVENT_GFX_013_BLACK_STAR_FINN",
       "x": 31,
       "y": 7,
       "elevation": 3,
@@ -216,7 +216,7 @@
       "flag": "FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE",
       "x": 32,
       "y": 5,
       "elevation": 3,
@@ -229,7 +229,7 @@
       "flag": "FLAG_TEMP_11"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE",
       "x": 65,
       "y": 4,
       "elevation": 3,
@@ -242,7 +242,7 @@
       "flag": "FLAG_TEMP_12"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_73_POKEFAN_F",
+      "graphics_id": "OBJ_EVENT_GFX_128_POKEFAN_F",
       "x": 63,
       "y": 5,
       "elevation": 3,
@@ -255,7 +255,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_59_GENTLEMAN",
+      "graphics_id": "OBJ_EVENT_GFX_113_GENTLEMAN",
       "x": 55,
       "y": 8,
       "elevation": 3,
@@ -268,7 +268,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_HEX_MANIAC",
+      "graphics_id": "OBJ_EVENT_GFX_054_FEMALE_7",
       "x": 11,
       "y": 11,
       "elevation": 3,
@@ -281,7 +281,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
+      "graphics_id": "OBJ_EVENT_GFX_055_FEMALE_8",
       "x": 22,
       "y": 5,
       "elevation": 3,
@@ -294,7 +294,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 55,
       "y": 10,
       "elevation": 3,
@@ -307,7 +307,7 @@
       "flag": "FLAG_ITEM_ROUTE_121_CARBOS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE",
       "x": 26,
       "y": 12,
       "elevation": 3,
@@ -320,7 +320,7 @@
       "flag": "FLAG_TEMP_13"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_84_SUPER_NERD",
+      "graphics_id": "OBJ_EVENT_GFX_140_SUPER_NERD",
       "x": 11,
       "y": 6,
       "elevation": 3,
@@ -333,7 +333,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_4",
+      "graphics_id": "OBJ_EVENT_GFX_037_MALE_5",
       "x": 59,
       "y": 8,
       "elevation": 3,
@@ -346,7 +346,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "graphics_id": "OBJ_EVENT_GFX_050_FEMALE_3",
       "x": 59,
       "y": 13,
       "elevation": 3,
@@ -359,7 +359,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_05_MALE_3",
+      "graphics_id": "OBJ_EVENT_GFX_040_MALE_8",
       "x": 65,
       "y": 9,
       "elevation": 3,
@@ -372,7 +372,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_053_FEMALE_6",
       "x": 72,
       "y": 9,
       "elevation": 3,
@@ -385,7 +385,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 60,
       "y": 10,
       "elevation": 3,
@@ -398,7 +398,7 @@
       "flag": "FLAG_ITEM_ROUTE_121_REVIVE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 38,
       "y": 13,
       "elevation": 3,

@@ -76,7 +76,7 @@ gBirchDexRatingText_LessThan140::
 
 gBirchDexRatingText_LessThan150::
 	.string "I had no idea that there were so\n"
-	.string "many Pokémon species in the Hoenn\l"
+	.string "many Pokémon species in the Nexar\l"
 	.string "region.$"
 
 gBirchDexRatingText_LessThan160::
@@ -87,7 +87,7 @@ gBirchDexRatingText_LessThan160::
 
 gBirchDexRatingText_LessThan170::
 	.string "One can get a very good idea about\n"
-	.string "the Pokémon of the Hoenn region\l"
+	.string "the Pokémon of the Nexar region\l"
 	.string "by looking through your Pokédex.$"
 
 gBirchDexRatingText_LessThan180::

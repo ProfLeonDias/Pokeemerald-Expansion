@@ -363,7 +363,7 @@ Modifies all item ball scripts defined using to original Game Freak method to th
 #### [data/maps/Route102/map.json](../data/maps/Route102/map.json)
 ```diff
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 50,
       "y": 5,
       "elevation": 3,

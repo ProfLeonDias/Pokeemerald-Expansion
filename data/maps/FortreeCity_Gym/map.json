@@ -15,7 +15,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_WINONA",
+      "graphics_id": "OBJ_EVENT_GFX_021_LEADER_ADELINE",
       "x": 15,
       "y": 2,
       "elevation": 3,
@@ -28,7 +28,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
+      "graphics_id": "OBJ_EVENT_GFX_046_MALE_14",
       "x": 4,
       "y": 14,
       "elevation": 3,
@@ -41,7 +41,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_101_CAMPER",
       "x": 10,
       "y": 10,
       "elevation": 3,
@@ -54,7 +54,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_48_PICNICKER",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER",
       "x": 5,
       "y": 17,
       "elevation": 3,
@@ -67,7 +67,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
+      "graphics_id": "OBJ_EVENT_GFX_046_MALE_14",
       "x": 9,
       "y": 8,
       "elevation": 3,
@@ -80,7 +80,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_03_MALE_1",
+      "graphics_id": "OBJ_EVENT_GFX_038_MALE_6",
       "x": 15,
       "y": 21,
       "elevation": 3,
@@ -93,7 +93,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
+      "graphics_id": "OBJ_EVENT_GFX_046_MALE_14",
       "x": 4,
       "y": 23,
       "elevation": 3,
@@ -106,7 +106,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
+      "graphics_id": "OBJ_EVENT_GFX_046_MALE_14",
       "x": 1,
       "y": 10,
       "elevation": 3,

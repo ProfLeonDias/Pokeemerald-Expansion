@@ -1315,5 +1315,34 @@ static const struct FormChange sTerapagosFormChangeTable[] = {
 };
 #endif //P_FAMILY_TERAPAGOS
 
+static const struct FormChange sLopunnyStarterFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_LOPUNNY_STARTER_MEGA, ITEM_LOPUNNITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+
+static const struct FormChange sLucarioStarterFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_LUCARIO_STARTER_MEGA, ITEM_LUCARIONITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+
+static const struct FormChange sGalladeStarterFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_GALLADE_STARTER_MEGA, ITEM_GALLADITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+
+static const struct FormChange sJirachiFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_MOVE,    SPECIES_JIRACHI_MEGA, MOVE_DOOM_DESIRE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+
+
 #undef WHEN_LEARNED
 #undef WHEN_FORGOTTEN

@@ -186,7 +186,7 @@
     },
     {
       "local_id": "LOCALID_PLAYERS_HOUSE_2F_MOM",
-      "graphics_id": "OBJ_EVENT_GFX_102_MOM",
+      "graphics_id": "OBJ_EVENT_GFX_001_MOM",
       "x": 7,
       "y": 1,
       "elevation": 3,
@@ -199,7 +199,7 @@
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 3,
       "y": 4,
       "elevation": 0,
@@ -212,7 +212,7 @@
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SWABLU_DOLL",
+      "graphics_id": "OBJ_EVENT_GFX_DOLL_SWABLU",
       "x": 5,
       "y": 5,
       "elevation": 3,

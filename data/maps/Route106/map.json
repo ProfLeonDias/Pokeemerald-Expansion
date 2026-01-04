@@ -26,7 +26,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_85_SWIMMER_M",
+      "graphics_id": "OBJ_EVENT_GFX_142_SWIMMER_M",
       "x": 18,
       "y": 5,
       "elevation": 1,
@@ -39,7 +39,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_86_SWIMMER_F",
+      "graphics_id": "OBJ_EVENT_GFX_143_SWIMMER_F",
       "x": 29,
       "y": 10,
       "elevation": 1,
@@ -52,7 +52,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_58_FISHERMAN",
+      "graphics_id": "OBJ_EVENT_GFX_112_FISHERMAN",
       "x": 51,
       "y": 14,
       "elevation": 3,
@@ -65,7 +65,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_58_FISHERMAN",
+      "graphics_id": "OBJ_EVENT_GFX_112_FISHERMAN",
       "x": 65,
       "y": 14,
       "elevation": 3,
@@ -78,7 +78,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 29,
       "y": 14,
       "elevation": 3,

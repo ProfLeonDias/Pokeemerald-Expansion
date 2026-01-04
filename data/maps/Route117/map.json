@@ -26,7 +26,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_18_FEMALE_6",
+      "graphics_id": "OBJ_EVENT_GFX_064_FEMALE_17",
       "x": 13,
       "y": 13,
       "elevation": 3,
@@ -39,7 +39,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_01_LITTLE_BOY",
+      "graphics_id": "OBJ_EVENT_GFX_031_LITTLE_BOY",
       "x": 25,
       "y": 5,
       "elevation": 3,
@@ -53,7 +53,7 @@
     },
     {
       "local_id": "LOCALID_DAYCARE_MAN",
-      "graphics_id": "OBJ_EVENT_GFX_08_MALE_6",
+      "graphics_id": "OBJ_EVENT_GFX_043_MALE_11",
       "x": 47,
       "y": 4,
       "elevation": 3,
@@ -66,7 +66,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ZIGZAGOON_2",
+      "graphics_id": "OBJ_EVENT_GFX_PKMN_ZIGZAGOON_2",
       "x": 33,
       "y": 3,
       "elevation": 3,
@@ -79,7 +79,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_KECLEON",
+      "graphics_id": "OBJ_EVENT_GFX_PKMN_KECLEON",
       "x": 39,
       "y": 4,
       "elevation": 3,
@@ -92,7 +92,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AZUMARILL",
+      "graphics_id": "OBJ_EVENT_GFX_PKMN_AZUMARILL",
       "x": 42,
       "y": 2,
       "elevation": 3,
@@ -105,7 +105,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_PIKACHU",
+      "graphics_id": "OBJ_EVENT_GFX_PKMN_PIKACHU",
       "x": 51,
       "y": 1,
       "elevation": 3,
@@ -118,7 +118,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_90_TRIATHLETE_RUN_M",
+      "graphics_id": "OBJ_EVENT_GFX_149_TRIATHLETE_RUN_M",
       "x": 38,
       "y": 16,
       "elevation": 3,
@@ -131,7 +131,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "graphics_id": "OBJ_EVENT_GFX_050_FEMALE_3",
       "x": 8,
       "y": 10,
       "elevation": 3,
@@ -144,7 +144,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_4",
+      "graphics_id": "OBJ_EVENT_GFX_037_MALE_5",
       "x": 33,
       "y": 11,
       "elevation": 3,
@@ -196,7 +196,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 16,
       "y": 18,
       "elevation": 3,
@@ -209,7 +209,7 @@
       "flag": "FLAG_ITEM_ROUTE_117_GREAT_BALL"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE",
       "x": 15,
       "y": 2,
       "elevation": 3,
@@ -222,7 +222,7 @@
       "flag": "FLAG_TEMP_11"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 9,
       "y": 1,
       "elevation": 3,
@@ -235,7 +235,7 @@
       "flag": "FLAG_ITEM_ROUTE_117_REVIVE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_91_TRIATHLETE_RUN_F",
+      "graphics_id": "OBJ_EVENT_GFX_150_TRIATHLETE_RUN_F",
       "x": 26,
       "y": 13,
       "elevation": 3,
@@ -248,7 +248,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_84_SUPER_NERD",
+      "graphics_id": "OBJ_EVENT_GFX_140_SUPER_NERD",
       "x": 17,
       "y": 12,
       "elevation": 3,
@@ -261,7 +261,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "graphics_id": "OBJ_EVENT_GFX_141_SR_GIRL",
       "x": 43,
       "y": 6,
       "elevation": 3,
@@ -274,7 +274,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "graphics_id": "OBJ_EVENT_GFX_141_SR_GIRL",
       "x": 42,
       "y": 6,
       "elevation": 3,
@@ -287,7 +287,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
+      "graphics_id": "OBJ_EVENT_GFX_049_FEMALE_2",
       "x": 48,
       "y": 10,
       "elevation": 3,
@@ -300,7 +300,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "graphics_id": "OBJ_EVENT_GFX_141_SR_GIRL",
       "x": 15,
       "y": 4,
       "elevation": 3,
@@ -313,7 +313,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_13_FEMALE_1",
+      "graphics_id": "OBJ_EVENT_GFX_059_FEMALE_12",
       "x": 21,
       "y": 4,
       "elevation": 3,
@@ -326,7 +326,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_91_TRIATHLETE_RUN_F",
+      "graphics_id": "OBJ_EVENT_GFX_150_TRIATHLETE_RUN_F",
       "x": 16,
       "y": 4,
       "elevation": 3,

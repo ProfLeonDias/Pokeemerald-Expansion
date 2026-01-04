@@ -2,7 +2,7 @@
 #define GUARD_CONSTANTS_TMS_HMS_H
 
 #define FOREACH_TM(F) \
-    F(FOCUS_PUNCH) \
+    F(POWER_UP_PUNCH) \
     F(DRAGON_CLAW) \
     F(WATER_PULSE) \
     F(CALM_MIND) \
@@ -10,7 +10,7 @@
     F(TOXIC) \
     F(HAIL) \
     F(BULK_UP) \
-    F(BULLET_SEED) \
+    F(VENOSHOCK) \
     F(HIDDEN_POWER) \
     F(SUNNY_DAY) \
     F(TAUNT) \
@@ -21,7 +21,7 @@
     F(PROTECT) \
     F(RAIN_DANCE) \
     F(GIGA_DRAIN) \
-    F(SAFEGUARD) \
+    F(PLAY_ROUGH) \
     F(FRUSTRATION) \
     F(SOLAR_BEAM) \
     F(IRON_TAIL) \
@@ -42,23 +42,73 @@
     F(FIRE_BLAST) \
     F(ROCK_TOMB) \
     F(AERIAL_ACE) \
-    F(TORMENT) \
+    F(FLAME_CHARGE) \
     F(FACADE) \
     F(SECRET_POWER) \
     F(REST) \
     F(ATTRACT) \
     F(THIEF) \
     F(STEEL_WING) \
-    F(SKILL_SWAP) \
-    F(SNATCH) \
-    F(OVERHEAT)
+    F(VOLT_SWITCH) \
+    F(CURSE) \
+    F(BREAKING_SWIPE) \
+    F(ROOST) \
+    F(FOCUS_BLAST) \
+    F(ENERGY_BALL) \
+    F(FALSE_SWIPE) \
+    F(SCALD) \
+    F(U_TURN) \
+    F(CHARGE_BEAM) \
+    F(DRAGON_PULSE) \
+    F(ZEN_HEADBUTT) \
+    F(MUD_SHOT) \
+    F(WILL_O_WISP) \
+    F(ACROBATICS) \
+    F(POWER_GEM) \
+    F(EXPLOSION) \
+    F(SHADOW_CLAW) \
+    F(PAYBACK) \
+    F(FLIP_TURN) \
+    F(GIGA_IMPACT) \
+    F(SEED_BOMB) \
+    F(FLASH) \
+    F(STONE_EDGE) \
+    F(AVALANCHE) \
+    F(THUNDER_WAVE) \
+    F(GYRO_BALL) \
+    F(SWORDS_DANCE) \
+    F(STRUGGLE_BUG) \
+    F(HEX) \
+    F(BULLDOZE) \
+    F(DARK_PULSE) \
+    F(ROCK_SLIDE) \
+    F(X_SCISSOR) \
+    F(DRAGON_TAIL) \
+    F(NASTY_PLOT) \
+    F(POISON_JAB) \
+    F(DEFOG) \
+    F(PHANTOM_FORCE) \
+    F(DRAINING_KISS) \
+    F(PLUCK) \
+    F(RAZOR_SHELL) \
+    F(SUBSTITUTE) \
+    F(FLASH_CANNON) \
+    F(AIR_SLASH) \
+    F(WILD_CHARGE) \
+    F(EARTH_POWER) \
+    F(SNARL) \
+    F(BUG_BUZZ) \
+    F(IRON_HEAD) \
+    F(LIQUIDATION) \
+    F(DAZZLING_GLEAM) \
+    F(SCALE_SHOT) \
 
 #define FOREACH_HM(F) \
     F(CUT) \
     F(FLY) \
     F(SURF) \
     F(STRENGTH) \
-    F(FLASH) \
+    F(ROCK_CLIMB) \
     F(ROCK_SMASH) \
     F(WATERFALL) \
     F(DIVE)

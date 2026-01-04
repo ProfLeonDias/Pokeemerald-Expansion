@@ -26,7 +26,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_01_LITTLE_BOY",
+      "graphics_id": "OBJ_EVENT_GFX_031_LITTLE_BOY",
       "x": 18,
       "y": 11,
       "elevation": 3,
@@ -39,7 +39,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_99_YOUNGSTER",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER",
       "x": 33,
       "y": 14,
       "elevation": 3,
@@ -52,7 +52,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_44_BUG_CATCHER",
+      "graphics_id": "OBJ_EVENT_GFX_098_BUG_CATCHER",
       "x": 25,
       "y": 15,
       "elevation": 3,
@@ -65,7 +65,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "graphics_id": "OBJ_EVENT_GFX_141_SR_GIRL",
       "x": 8,
       "y": 7,
       "elevation": 3,
@@ -78,7 +78,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BOY_1",
+      "graphics_id": "OBJ_EVENT_GFX_033_MALE_1",
       "x": 37,
       "y": 4,
       "elevation": 3,
@@ -91,7 +91,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 11,
       "y": 15,
       "elevation": 3,
@@ -130,7 +130,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_99_YOUNGSTER",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER",
       "x": 19,
       "y": 4,
       "elevation": 3,

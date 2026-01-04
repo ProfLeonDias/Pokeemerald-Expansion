@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_PIKE_LOBBY_ATTENDANT",
-      "graphics_id": "OBJ_EVENT_GFX_31_WIFI_LADY",
+      "graphics_id": "OBJ_EVENT_GFX_083_WIFI_LADY",
       "x": 5,
       "y": 5,
       "elevation": 3,
@@ -29,7 +29,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_62_HIKER",
+      "graphics_id": "OBJ_EVENT_GFX_116_HIKER",
       "x": 10,
       "y": 9,
       "elevation": 3,
@@ -42,7 +42,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_96_TWINS",
+      "graphics_id": "OBJ_EVENT_GFX_155_TWINS",
       "x": 0,
       "y": 5,
       "elevation": 3,
@@ -55,7 +55,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
+      "graphics_id": "OBJ_EVENT_GFX_055_FEMALE_8",
       "x": 8,
       "y": 9,
       "elevation": 3,

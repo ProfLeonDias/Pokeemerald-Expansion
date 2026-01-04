@@ -15,7 +15,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_84_SUPER_NERD",
+      "graphics_id": "OBJ_EVENT_GFX_140_SUPER_NERD",
       "x": 0,
       "y": 3,
       "elevation": 3,
@@ -28,7 +28,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SCHOOL_KID_M",
+      "graphics_id": "OBJ_EVENT_GFX_137_SCHOOL_KID_M",
       "x": 5,
       "y": 4,
       "elevation": 3,

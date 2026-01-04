@@ -15,7 +15,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_02_LITTLE_GIRL",
+      "graphics_id": "OBJ_EVENT_GFX_032_LITTLE_GIRL",
       "x": 12,
       "y": 4,
       "elevation": 4,
@@ -28,7 +28,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_59_GENTLEMAN",
+      "graphics_id": "OBJ_EVENT_GFX_113_GENTLEMAN",
       "x": 0,
       "y": 4,
       "elevation": 3,
@@ -41,7 +41,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_43_BLACK_BELT",
+      "graphics_id": "OBJ_EVENT_GFX_097_BLACK_BELT",
       "x": 6,
       "y": 5,
       "elevation": 0,
@@ -54,7 +54,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_01_LITTLE_BOY",
+      "graphics_id": "OBJ_EVENT_GFX_031_LITTLE_BOY",
       "x": 11,
       "y": 7,
       "elevation": 0,

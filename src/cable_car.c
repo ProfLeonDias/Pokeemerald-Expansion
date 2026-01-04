@@ -796,10 +796,10 @@ static void CreateCableCarSprites(void)
     };
     u16 rval = Random();
     u16 hikerGraphicsIds[4] = {
-        OBJ_EVENT_GFX_62_HIKER,
-        OBJ_EVENT_GFX_47_CAMPER,
-        OBJ_EVENT_GFX_48_PICNICKER,
-        OBJ_EVENT_GFX_ZIGZAGOON_1
+        OBJ_EVENT_GFX_116_HIKER,
+        OBJ_EVENT_GFX_101_CAMPER,
+        OBJ_EVENT_GFX_102_PICNICKER,
+        OBJ_EVENT_GFX_PKMN_ZIGZAGOON_1
     };
     s16 hikerCoords[2][2] = {
         {   0,  80 }, // Going up

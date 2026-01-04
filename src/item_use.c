@@ -774,7 +774,7 @@ void ItemUseOutOfBattle_SootSack(u8 taskId)
 	StringExpandPlaceholders(gStringVar4, gText_AshQty);
 	if (!gTasks[taskId].tUsingRegisteredKeyItem)
 	{
-		DisplayItemMessage(taskId, 1, gStringVar4, BagMenu_InitListsMenu);
+		DisplayItemMessage(taskId, 1, gStringVar4, CloseItemMessage);
 	}
 	else
 	{
@@ -845,7 +845,7 @@ static bool8 TryToWaterSudowoodo(void)
     GetXYCoordsOneStepInFrontOfPlayer(&x, &y);
     elevation = PlayerGetElevation();
     objId = GetObjectEventIdByPosition(x, y, elevation);
-    if (objId == OBJECT_EVENTS_COUNT || gObjectEvents[objId].graphicsId != OBJ_EVENT_GFX_SUDOWOODO)
+    if (objId == OBJECT_EVENTS_COUNT || gObjectEvents[objId].graphicsId != OBJ_EVENT_GFX_PKMN_SUDOWOODO)
         return FALSE;
     else
         return TRUE;

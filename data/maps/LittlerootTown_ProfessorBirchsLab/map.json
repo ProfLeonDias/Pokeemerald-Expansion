@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_BIRCHS_LAB_AIDE",
-      "graphics_id": "OBJ_EVENT_GFX_83_SCIENTIST",
+      "graphics_id": "OBJ_EVENT_GFX_139_SCIENTIST",
       "x": 9,
       "y": 8,
       "elevation": 3,
@@ -30,7 +30,7 @@
     },
     {
       "local_id": "LOCALID_BIRCHS_LAB_BIRCH",
-      "graphics_id": "OBJ_EVENT_GFX_103_PROF_ASPEN",
+      "graphics_id": "OBJ_EVENT_GFX_002_PROF_ASPEN",
       "x": 6,
       "y": 4,
       "elevation": 3,
@@ -58,7 +58,7 @@
     },
     {
       "local_id": "LOCALID_BIRCHS_LAB_CYNDAQUIL_BALL",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 6,
       "y": 8,
       "elevation": 3,
@@ -72,7 +72,7 @@
     },
     {
       "local_id": "LOCALID_BIRCHS_LAB_TOTODILE_BALL",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 6,
       "y": 8,
       "elevation": 3,
@@ -86,7 +86,7 @@
     },
     {
       "local_id": "LOCALID_BIRCHS_LAB_CHIKORITA_BALL",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 6,
       "y": 8,
       "elevation": 3,

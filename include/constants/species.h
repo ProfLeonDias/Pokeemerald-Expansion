@@ -1638,7 +1638,21 @@
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 
-#define SPECIES_EGG                                     (SPECIES_MIMIKYU_BUSTED_TOTEM + 1)
+#define SPECIES_BUNEARY_STARTER                         1524
+#define SPECIES_LOPUNNY_STARTER                         1525
+#define SPECIES_LOPUNNY_STARTER_MEGA                    1526
+#define SPECIES_RIOLU_STARTER                           1527
+#define SPECIES_LUCARIO_STARTER                         1528
+#define SPECIES_LUCARIO_STARTER_MEGA                    1529
+#define SPECIES_RALTS_STARTER                           1530
+#define SPECIES_KIRLIA_STARTER                          1531
+#define SPECIES_GALLADE_STARTER                         1532
+#define SPECIES_GALLADE_STARTER_MEGA                    1533
+#define SPECIES_PHANTUMP_STARTER                        1534
+#define SPECIES_TREVENANT_STARTER                       1535
+#define SPECIES_JIRACHI_MEGA                            1536
+
+#define SPECIES_EGG                                     (SPECIES_JIRACHI_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_MIRAGE_ROOT_FOSSIL",
-      "graphics_id": "OBJ_EVENT_GFX_FOSSIL",
+      "graphics_id": "OBJ_EVENT_GFX_188_FOSSIL",
       "x": 5,
       "y": 4,
       "elevation": 4,
@@ -30,7 +30,7 @@
     },
     {
       "local_id": "LOCALID_MIRAGE_CLAW_FOSSIL",
-      "graphics_id": "OBJ_EVENT_GFX_FOSSIL",
+      "graphics_id": "OBJ_EVENT_GFX_188_FOSSIL",
       "x": 7,
       "y": 4,
       "elevation": 0,
@@ -43,7 +43,7 @@
       "flag": "FLAG_HIDE_MIRAGE_TOWER_CLAW_FOSSIL"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "graphics_id": "OBJ_EVENT_GFX_177_BREAKABLE_ROCK",
       "x": 6,
       "y": 7,
       "elevation": 3,

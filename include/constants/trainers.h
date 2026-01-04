@@ -108,7 +108,35 @@
 #define TRAINER_PIC_LEAF                  90
 #define TRAINER_PIC_RS_BRENDAN            91
 #define TRAINER_PIC_RS_MAY                92
-#define TRAINER_PIC_COUNT                 93
+#define TRAINER_PIC_ACE_COUPLE            93
+#define TRAINER_PIC_ACE_TRAINER_M         94
+#define TRAINER_PIC_ACE_TRAINER_F         95
+#define TRAINER_PIC_BIKER                 96
+#define TRAINER_PIC_BURGLAR               97
+#define TRAINER_PIC_CHANNELER             98
+#define TRAINER_PIC_CRUSH_KIN             99
+#define TRAINER_PIC_CUE_BALL              100
+#define TRAINER_PIC_ENGINEER              101
+#define TRAINER_PIC_GAMBLER               102
+#define TRAINER_PIC_JUGGLER               103
+#define TRAINER_PIC_PAINTER               104
+#define TRAINER_PIC_ROCKER                105
+#define TRAINER_PIC_SCIENTIST             106
+#define TRAINER_PIC_SUPER_NERD            107
+#define TRAINER_PIC_TAMER                 108
+#define TRAINER_PIC_ARTIST                109
+#define TRAINER_PIC_ALEX                  110
+#define TRAINER_PIC_RED_USUM              111
+#define TRAINER_PIC_BLUE_USUM             112
+#define TRAINER_PIC_LANCE                 113
+#define TRAINER_PIC_STEVEN_ORAS           114
+#define TRAINER_PIC_CYNTHIA               115
+#define TRAINER_PIC_COLRESS               116
+#define TRAINER_PIC_IRIS                  117
+#define TRAINER_PIC_DIANTHA               118
+#define TRAINER_PIC_LEON                  119
+#define TRAINER_PIC_NEMONA                120
+#define TRAINER_PIC_COUNT                 121
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
@@ -119,6 +147,11 @@
 #define TRAINER_BACK_PIC_RUBY_SAPPHIRE_MAY      5
 #define TRAINER_BACK_PIC_WALLY                  6
 #define TRAINER_BACK_PIC_STEVEN                 7
+#define TRAINER_BACK_PIC_ALEX                   8
+#define TRAINER_BACK_PIC_LYON                   9
+#define TRAINER_BACK_PIC_KATELYN                10
+#define TRAINER_BACK_PIC_ZAPH                   11
+#define TRAINER_BACK_PIC_FIA                    12
 
 #define FACILITY_CLASS_HIKER                 0x0
 #define FACILITY_CLASS_AQUA_GRUNT_M          0x1

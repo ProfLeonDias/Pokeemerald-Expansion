@@ -56,22 +56,22 @@
 #define FLAG_SLEEP_CLAUSE    		0x2A // Tournament Sleep Clause in effect by AI
 #define FLAG_NO_WHITEOUT    		0x2B // Dont return to the Pokemon Center if you lose
 #define FLAG_SKY_BATTLE		    	0x2C // Trigger a Sky Battle
-#define FLAG_FORCE_SHINY		0x2D // Force Pokemon Shiny
+#define FLAG_FORCE_SHINY		    0x2D // Force Pokemon Shiny
 #define FLAG_FORCE_UNSHINY    		0x2E // Force Unshiny
 #define FLAG_EXP_SHARE		    	0x2F // Enable EXP Share Toggle
-#define FLAG_VS_SEEKER    		0x30 // Enable VS Seeker
+#define FLAG_VS_SEEKER    		    0x30 // Enable VS Seeker
 #define FLAG_FOLLOWER_HEAL	    	0x31 // Partners heal after battle
 #define FLAG_FOLLOWER_BATTLES  		0x32 // Partners join battles
-#define FLAG_FOLLOW_PKMN_DISABLE    	0x33 // Disables following Pokemon
-#define FLAG_UNUSED_0x034    0x34 // Unused Flag
-#define FLAG_UNUSED_0x035    0x35 // Unused Flag
-#define FLAG_UNUSED_0x036    0x36 // Unused Flag
-#define FLAG_UNUSED_0x037    0x37 // Unused Flag
-#define FLAG_UNUSED_0x038    0x38 // Unused Flag
-#define FLAG_UNUSED_0x039    0x39 // Unused Flag
-#define FLAG_UNUSED_0x03A    0x3A // Unused Flag
-#define FLAG_UNUSED_0x03B    0x3B // Unused Flag
-#define FLAG_UNUSED_0x03C    0x3C // Unused Flag
+#define FLAG_FOLLOW_PKMN_DISABLE    0x33 // Disables following Pokemon
+#define FLAG_PAUSE_TIME             0x34 // Pauses RTC
+#define FLAG_NO_ENCOUNTER           0x35 // Disables Wild Encounters
+#define FLAG_NO_TRAINER_SEE         0x36 // Trainers cant seek the Player
+#define FLAG_NO_COLISSION           0x37 // Enables Walk Through Walls
+#define FLAG_POKE_RIDER             0x38 // Poke-Rider Fly from the town map
+#define FLAG_MOVE_UNION_ROOM_CHECK  0x39 // Pokecenters load faster
+#define FLAG_DN_FLAG_SEARCHING      0x3A // Dexnav mon search
+#define FLAG_DN_FLAG_DEXNAV_GET     0x3B // Dexnav activation
+#define FLAG_DN_FLAG_DETECTOR_MODE  0x3C // Dexnac Detect Hidden Mons
 #define FLAG_UNUSED_0x03D    0x3D // Unused Flag
 #define FLAG_UNUSED_0x03E    0x3E // Unused Flag
 #define FLAG_UNUSED_0x03F    0x3F // Unused Flag

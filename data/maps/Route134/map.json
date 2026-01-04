@@ -26,7 +26,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_85_SWIMMER_M",
+      "graphics_id": "OBJ_EVENT_GFX_142_SWIMMER_M",
       "x": 49,
       "y": 9,
       "elevation": 1,
@@ -39,7 +39,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_86_SWIMMER_F",
+      "graphics_id": "OBJ_EVENT_GFX_143_SWIMMER_F",
       "x": 58,
       "y": 7,
       "elevation": 1,
@@ -52,7 +52,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_05_MALE_3",
+      "graphics_id": "OBJ_EVENT_GFX_040_MALE_8",
       "x": 41,
       "y": 23,
       "elevation": 3,
@@ -65,7 +65,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
+      "graphics_id": "OBJ_EVENT_GFX_046_MALE_14",
       "x": 24,
       "y": 23,
       "elevation": 3,
@@ -78,7 +78,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_43_BLACK_BELT",
+      "graphics_id": "OBJ_EVENT_GFX_097_BLACK_BELT",
       "x": 49,
       "y": 16,
       "elevation": 3,
@@ -91,7 +91,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_053_FEMALE_6",
       "x": 43,
       "y": 23,
       "elevation": 1,
@@ -104,7 +104,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_81_SAILOR",
+      "graphics_id": "OBJ_EVENT_GFX_136_SAILOR",
       "x": 24,
       "y": 30,
       "elevation": 3,
@@ -117,7 +117,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_13_FEMALE_1",
+      "graphics_id": "OBJ_EVENT_GFX_059_FEMALE_12",
       "x": 50,
       "y": 16,
       "elevation": 3,
@@ -130,7 +130,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_81_SAILOR",
+      "graphics_id": "OBJ_EVENT_GFX_136_SAILOR",
       "x": 63,
       "y": 14,
       "elevation": 3,
@@ -143,7 +143,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 50,
       "y": 17,
       "elevation": 3,
@@ -156,7 +156,7 @@
       "flag": "FLAG_ITEM_ROUTE_134_CARBOS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 22,
       "y": 27,
       "elevation": 3,

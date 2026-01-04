@@ -16,7 +16,7 @@
   "object_events": [
     {
       "local_id": "LOCALID_ARENA_ATTENDANT",
-      "graphics_id": "OBJ_EVENT_GFX_43_BLACK_BELT",
+      "graphics_id": "OBJ_EVENT_GFX_097_BLACK_BELT",
       "x": 7,
       "y": 7,
       "elevation": 0,
@@ -29,7 +29,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_053_FEMALE_6",
       "x": 2,
       "y": 10,
       "elevation": 3,
@@ -42,7 +42,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_11_MALE_9",
+      "graphics_id": "OBJ_EVENT_GFX_046_MALE_14",
       "x": 14,
       "y": 11,
       "elevation": 3,
@@ -55,7 +55,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_47_CAMPER",
+      "graphics_id": "OBJ_EVENT_GFX_101_CAMPER",
       "x": 14,
       "y": 12,
       "elevation": 3,
@@ -68,7 +68,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_99_YOUNGSTER",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER",
       "x": 14,
       "y": 10,
       "elevation": 3,

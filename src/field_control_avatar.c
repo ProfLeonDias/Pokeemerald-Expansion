@@ -96,7 +96,7 @@ void FieldClearPlayerInput(struct FieldInput *input)
     input->heldDirection2 = FALSE;
     input->tookStep = FALSE;
     input->pressedBButton = FALSE;
-    input->pressedRButton = FALSE;
+    input->pressedLButton = FALSE;
     input->input_field_1_1 = FALSE;
     input->input_field_1_2 = FALSE;
     input->input_field_1_3 = FALSE;
@@ -122,8 +122,8 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
                 input->pressedAButton = TRUE;
             if (newKeys & B_BUTTON)
                 input->pressedBButton = TRUE;
-            if (newKeys & R_BUTTON)
-                input->pressedRButton = TRUE;
+            if (newKeys & L_BUTTON)
+                input->pressedLButton = TRUE;
             if (newKeys & R_BUTTON && !FlagGet(DN_FLAG_SEARCHING))
                 input->pressedRButton = TRUE;
         }
@@ -244,7 +244,7 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
     if (input->pressedSelectButton && UseRegisteredKeyItemOnField() == TRUE)
         return TRUE;
     
-    if (input->pressedRButton && EnableAutoRun())
+    if (input->pressedLButton && EnableAutoRun())
         return TRUE;
 
     if (input->pressedRButton && TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_MACH_BIKE | PLAYER_AVATAR_FLAG_ACRO_BIKE))
@@ -1228,12 +1228,12 @@ static bool8 EnableAutoRun(void)
     if (gSaveBlock2Ptr->autoRun)
     {
         gSaveBlock2Ptr->autoRun = FALSE;
-        ScriptContext1_SetupScript(EventScript_DisableAutoRun);
+        ScriptContext_SetupScript(EventScript_DisableAutoRun);
     }
     else
     {
         gSaveBlock2Ptr->autoRun = TRUE;
-        ScriptContext1_SetupScript(EventScript_EnableAutoRun);
+        ScriptContext_SetupScript(EventScript_EnableAutoRun);
     }
     
     return TRUE;

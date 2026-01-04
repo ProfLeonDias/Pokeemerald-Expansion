@@ -26,7 +26,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "graphics_id": "OBJ_EVENT_GFX_050_FEMALE_3",
       "x": 18,
       "y": 68,
       "elevation": 3,
@@ -39,7 +39,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_56_EXPERT_M",
+      "graphics_id": "OBJ_EVENT_GFX_110_EXPERT_M",
       "x": 5,
       "y": 15,
       "elevation": 3,
@@ -52,7 +52,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_43_BLACK_BELT",
+      "graphics_id": "OBJ_EVENT_GFX_097_BLACK_BELT",
       "x": 27,
       "y": 53,
       "elevation": 3,
@@ -104,7 +104,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_13_FEMALE_1",
+      "graphics_id": "OBJ_EVENT_GFX_059_FEMALE_12",
       "x": 15,
       "y": 50,
       "elevation": 3,
@@ -117,7 +117,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_43_BLACK_BELT",
+      "graphics_id": "OBJ_EVENT_GFX_097_BLACK_BELT",
       "x": 19,
       "y": 15,
       "elevation": 3,
@@ -130,7 +130,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_84_SUPER_NERD",
+      "graphics_id": "OBJ_EVENT_GFX_140_SUPER_NERD",
       "x": 24,
       "y": 62,
       "elevation": 3,
@@ -143,7 +143,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 20,
       "y": 60,
       "elevation": 3,
@@ -156,7 +156,7 @@
       "flag": "FLAG_ITEM_ROUTE_115_SUPER_POTION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 18,
       "y": 7,
       "elevation": 3,
@@ -164,12 +164,12 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_TM_FOCUS_PUNCH",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM_POWER_UP_PUNCH",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ROUTE_115_TM_FOCUS_PUNCH"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 23,
       "y": 29,
       "elevation": 3,
@@ -208,7 +208,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
+      "graphics_id": "OBJ_EVENT_GFX_177_BREAKABLE_ROCK",
       "x": 29,
       "y": 50,
       "elevation": 3,
@@ -221,7 +221,7 @@
       "flag": "FLAG_TEMP_11"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 31,
       "y": 56,
       "elevation": 3,
@@ -234,7 +234,7 @@
       "flag": "FLAG_ITEM_ROUTE_115_GREAT_BALL"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_91_TRIATHLETE_RUN_F",
+      "graphics_id": "OBJ_EVENT_GFX_150_TRIATHLETE_RUN_F",
       "x": 10,
       "y": 15,
       "elevation": 3,
@@ -247,7 +247,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",
+      "graphics_id": "OBJ_EVENT_GFX_121_NINJA_BOY",
       "x": 11,
       "y": 12,
       "elevation": 3,
@@ -260,7 +260,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_13_FEMALE_1",
+      "graphics_id": "OBJ_EVENT_GFX_059_FEMALE_12",
       "x": 15,
       "y": 7,
       "elevation": 3,
@@ -273,7 +273,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "graphics_id": "OBJ_EVENT_GFX_141_SR_GIRL",
       "x": 10,
       "y": 7,
       "elevation": 3,
@@ -286,7 +286,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "graphics_id": "OBJ_EVENT_GFX_141_SR_GIRL",
       "x": 28,
       "y": 62,
       "elevation": 3,
@@ -299,7 +299,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 26,
       "y": 67,
       "elevation": 3,
@@ -312,7 +312,7 @@
       "flag": "FLAG_ITEM_ROUTE_115_PP_UP"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 12,
       "y": 14,
       "elevation": 3,
