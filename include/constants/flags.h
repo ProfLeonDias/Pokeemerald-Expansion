@@ -72,7 +72,7 @@
 #define FLAG_DN_FLAG_SEARCHING      0x3A // Dexnav mon search
 #define FLAG_DN_FLAG_DEXNAV_GET     0x3B // Dexnav activation
 #define FLAG_DN_FLAG_DETECTOR_MODE  0x3C // Dexnac Detect Hidden Mons
-#define FLAG_UNUSED_0x03D    0x3D // Unused Flag
+#define FLAG_ORAS_DOWSING_MCHN      0x3D // Enables ORAS Dowsing Machine functionality
 #define FLAG_UNUSED_0x03E    0x3E // Unused Flag
 #define FLAG_UNUSED_0x03F    0x3F // Unused Flag
 #define FLAG_UNUSED_0x040    0x40 // Unused Flag

@@ -658,7 +658,7 @@ gTVTrainerFanClubSpecialText00::
 	.string "Trainer Fan Club\n"
 	.string "{STR_VAR_1} Special!\p"
 	.string "This is a special presentation for\n"
-	.string "the fans of {STR_VAR_1} all over Hoenn!\p"
+	.string "the fans of {STR_VAR_1} all over Nexar!\p"
 	.string "Today, we ask the question, “What do\n"
 	.string "people think of {STR_VAR_1}?”\p"
 	.string "We posed the question to {STR_VAR_2}\n"
@@ -1293,7 +1293,7 @@ TrendWatcher_Text_Outro::
 	.string "Old man: {STR_VAR_1} {STR_VAR_2}!$"
 
 gTVHoennTreasureInvestigatorsText00::
-	.string "Hoenn Treasure Investigators!\p"
+	.string "Nexar Treasure Investigators!\p"
 	.string "Hi, gang!\n"
 	.string "Score any secret items lately?\p"
 	.string "As always, we'll examine eyewitness\n"
@@ -1608,7 +1608,7 @@ gTVPokemonLotteryWinnerFlashReportText00::
 	.string "This has been a live broadcast from\n"
 	.string "the Lilycove Department Store,\l"
 	.string "offering you the greatest selection\l"
-	.string "in all Hoenn!$"
+	.string "in all of Nexar!$"
 
 gTVThePokemonBattleSeminarText00::
 	.string "THE Pokémon Battle Seminar!\p"
@@ -2005,7 +2005,7 @@ gTVPokemonNewsBattleFrontierText18::
 	.string "That's the news on Pokémon News!$"
 
 gTVWhatsNo1InHoennTodayText00::
-	.string "What's No. 1 In Hoenn Today?\n"
+	.string "What's No. 1 In Nexar Today?\n"
 	.string "Yes, it's that time again!\p"
 	.string "Hello, viewers! Are you giving your\n"
 	.string "best at whatever you do?\p"
