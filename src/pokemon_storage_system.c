@@ -570,7 +570,7 @@ static void Task_WithdrawMon(u8);
 static void Task_ShiftMon(u8);
 static void Task_ShowPartyPokemon(u8);
 static void Task_ShowItemInfo(u8);
-static void Task_FromBag(u8);
+static void Task_GiveItemFromBag(u8);
 static void Task_ItemToBag(u8);
 static void Task_TakeItemForMoving(u8);
 static void Task_ShowMarkMenu(u8);
