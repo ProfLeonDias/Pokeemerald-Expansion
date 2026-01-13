@@ -13598,7 +13598,7 @@ const struct Item gItemsInfo[] =
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_SootSack,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .iconPic = gItemIcon_SootSack,
         .iconPalette = gItemIconPalette_SootSack,
     },

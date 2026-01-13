@@ -463,4 +463,3 @@ void CB2_FlashNotDetectedScreen(void)
     ShowBg(0);
     gMain.state++;
 }
-
