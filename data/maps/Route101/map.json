@@ -14,21 +14,21 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_LITTLEROOT_TOWN",
-      "offset": 0,
-      "direction": "down"
-    },
-    {
       "map": "MAP_OLDALE_TOWN",
       "offset": 0,
       "direction": "up"
+    },
+    {
+      "map": "MAP_LITTLEROOT_TOWN",
+      "offset": 0,
+      "direction": "down"
     }
   ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER",
-      "x": 2,
-      "y": 13,
+      "x": 16,
+      "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -42,7 +42,7 @@
       "local_id": "LOCALID_ROUTE101_BIRCH",
       "graphics_id": "OBJ_EVENT_GFX_002_PROF_ASPEN",
       "x": 9,
-      "y": 12,
+      "y": 13,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_JOG_IN_PLACE_RIGHT",
       "movement_range_x": 0,
@@ -69,7 +69,7 @@
       "local_id": "LOCALID_ROUTE101_ZIGZAGOON",
       "graphics_id": "OBJ_EVENT_GFX_PKMN_ZIGZAGOON_1",
       "x": 10,
-      "y": 12,
+      "y": 13,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_JOG_IN_PLACE_LEFT",
       "movement_range_x": 0,
@@ -94,8 +94,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_034_MALE_2",
-      "x": 16,
-      "y": 8,
+      "x": 2,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 1,

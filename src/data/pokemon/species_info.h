@@ -54,6 +54,7 @@
     .size = (_size == SIZE_32x32 ? 512 : 2048),                                                                                         \
     .width = (_size == SIZE_32x32 ? 32 : 64),                                                                                           \
     .height = (_size == SIZE_32x32 ? 32 : 64),                                                                                          \
+    .paletteSlot = PALSLOT_NPC_1,                                                                                                       \
     .shadowSize = shadow,                                                                                                               \
     .inanimate = FALSE,                                                                                                                 \
     .compressed = COMP,                                                                                                                 \
@@ -133,6 +134,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
             .size = 512,
             .width = 32,
             .height = 32,
+            .paletteSlot = PALSLOT_NPC_1,
             .shadowSize = SHADOW_SIZE_M,
             .inanimate = FALSE,
             .compressed = COMP,
