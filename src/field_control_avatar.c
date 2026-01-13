@@ -77,9 +77,9 @@ static void UpdateFriendshipStepCounter(void);
 static void UpdateFollowerStepCounter(void);
 #if OW_POISON_DAMAGE < GEN_5
 static bool8 UpdatePoisonStepCounter(void);
+#endif //OW_POISON_DAMAGE
 static bool8 EnableAutoRun(void);
 
-#endif // OW_POISON_DAMAGE
 static bool32 TrySetUpWalkIntoSignpostScript(struct MapPosition * position, u32 metatileBehavior, u32 playerDirection);
 static void SetMsgSignPostAndVarFacing(u32 playerDirection);
 static void SetUpWalkIntoSignScript(const u8 *script, u32 playerDirection);
@@ -136,8 +136,6 @@ void FieldGetPlayerInput(struct FieldInput *input, u16 newKeys, u16 heldKeys)
         if (newKeys & R_BUTTON)
             input->pressedRButton = TRUE;
     }
-
-
 
     if (forcedMove == FALSE)
     {
