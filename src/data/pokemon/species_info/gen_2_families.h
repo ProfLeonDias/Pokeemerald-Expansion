@@ -4607,7 +4607,7 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .expYield = 145,
     #elif P_UPDATED_EXP_YIELDS >= GEN_4
         .expYield = 125,
-    #else
+    #else  
         .expYield = 75,
     #endif
         .evYield_HP = 1,
