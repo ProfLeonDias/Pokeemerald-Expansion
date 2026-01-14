@@ -880,7 +880,7 @@ static void PrintApprenticeMessage(void)
     }
 
     StringExpandPlaceholders(gStringVar4, string);
-    AddTextPrinterDiffStyle(TRUE);
+    AddTextPrinterForMessage(TRUE);
     CreateTask(Task_WaitForPrintingMessage, 1);
 }
 

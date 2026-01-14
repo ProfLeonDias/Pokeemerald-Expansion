@@ -1687,9 +1687,7 @@
 	.2byte \box
 	.endm
 
-	@ Sets the color of the text in standard message boxes. color is any NPC_TEXT_COLOR_* constant.
-	@ The color will be reset to NPC_TEXT_COLOR_DEFAULT whenever ProcessPlayerFieldInput is called.
-	@ This has been adapted to allow all 16 possible text colors.
+	@ Used only in FireRed/LeafGreen, does nothing in Emerald.
 	.macro textcolor color:req
 	.byte SCR_OP_TEXTCOLOR
 	.byte \color
