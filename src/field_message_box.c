@@ -131,13 +131,13 @@ static void ExpandStringAndStartDrawFieldMessage(const u8 *str, bool32 allowSkip
 {
     TrySpawnNamebox(NAME_BOX_BASE_TILE_NUM);
     StringExpandPlaceholders(gStringVar4, str);
-    AddTextPrinterDiffStyle(allowSkippingDelayWithButtonPress);
+    AddTextPrinterForMessage(allowSkippingDelayWithButtonPress);
     CreateTask_DrawFieldMessage();
 }
 
 static void StartDrawFieldMessage(void)
 {
-    AddTextPrinterDiffStyle(TRUE);
+    AddTextPrinterForMessage(TRUE);
     CreateTask_DrawFieldMessage();
 }
 
