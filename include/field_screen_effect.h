@@ -47,5 +47,7 @@ bool32 IsDirectionalStairWarpMetatileBehavior(u16 metatileBehavior, u8 playerDir
 void SetPlayerVisibility(bool8 visible);
 void Task_WarpAndLoadMap(u8 taskId);
 void Task_DoDoorWarp(u8 taskId);
+void FillPalBufferBlack(void);
+bool32 WaitForWeatherFadeIn(void);
 
 #endif // GUARD_FIELD_SCREEN_EFFECT_H
