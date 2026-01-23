@@ -1,3 +1,0 @@
-Ionia_Power_Plant_Cave_MapScripts::
-	.byte 0
-
