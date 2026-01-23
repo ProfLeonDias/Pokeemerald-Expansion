@@ -1,0 +1,20 @@
+{
+  "id": "MAP_LUMINA_ISLAND",
+  "name": "Lumina_Island",
+  "layout": "LAYOUT_LUMINA_ISLAND",
+  "music": "MUS_LILYCOVE",
+  "region_map_section": "MAPSEC_LUMINA_ISLAND",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_CITY",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}
