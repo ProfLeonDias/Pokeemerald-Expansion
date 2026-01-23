@@ -6,6 +6,7 @@ Std_ObtainItem::
 	additem ITEMID, AMOUNT
 	copyvar VAR_0x8007, VAR_RESULT
 	call EventScript_ObtainItemMessage
+	textcolor NPC_TEXT_COLOR_PREVIOUS
 	return
 
 EventScript_ObtainItemMessage::
@@ -17,6 +18,7 @@ EventScript_ObtainItemMessage::
 	return
 
 EventScript_BufferPocketNameAndTryFanfare::
+	textcolor NPC_TEXT_COLOR_NEUTRAL
 	switch VAR_RESULT
 	case POCKET_ITEMS,      EventScript_BufferItemsPocket
 	case POCKET_KEY_ITEMS,  EventScript_BufferKeyItemsPocket
@@ -83,10 +85,12 @@ Std_ObtainDecoration::
 	adddecoration ITEMID
 	copyvar VAR_0x8007, VAR_RESULT
 	call EventScript_ObtainDecorationMessage
+	textcolor NPC_TEXT_COLOR_PREVIOUS
 	return
 
 EventScript_ObtainDecorationMessage::
 	bufferdecorationname STR_VAR_2, ITEMID
+	textcolor NPC_TEXT_COLOR_NEUTRAL
 	call_if_eq VAR_0x8007, TRUE, EventScript_ObtainedDecor
 	call_if_eq VAR_0x8007, FALSE, EventScript_NoRoomForDecor
 	return
