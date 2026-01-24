@@ -173,7 +173,14 @@ bool32 Overworld_RecvKeysFromLinkIsRunning(void);
 bool32 Overworld_SendKeysToLinkIsRunning(void);
 bool32 IsSendingKeysOverCable(void);
 void ClearLinkPlayerObjectEvents(void);
+u8 GetLastUsedWarpMapSectionId(void);
 bool16 SetTimeOfDay(u16 hours);
+
+enum {
+    REGION_NEXAR,
+    REGION_UNKNOWN,
+    REGION_UNUSED
+};
 
 // Item Description Headers
 enum ItemObtainFlags
@@ -182,6 +189,5 @@ enum ItemObtainFlags
     FLAG_SET_ITEM_OBTAINED,
 };
 bool8 GetSetItemObtained(u16 item, enum ItemObtainFlags caseId);
-u8 GetLastUsedWarpMapSectionId(void);
 
 #endif // GUARD_OVERWORLD_H

@@ -105,7 +105,7 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] =
     [MPS_PETALBURG_WOODS] = 
     {
         .mapsec = MAPSEC_PETALBURG_WOODS,
-        .type = MPS_TYPE_FOREST,
+        .type = MPS_TYPE_CAVE,
         #if FLAG_BASED_MAP_PREVIEW_TIME
         .flagId = FLAG_VISITED_PETALBURG_WOODS, //flag needs to be added to constants/flags.h
         #endif
@@ -513,7 +513,7 @@ void MapPreview_StartForestTransition(u8 mapsec)
     SetGpuRegBits(REG_OFFSET_WININ, WININ_WIN0_CLR | WININ_WIN1_CLR);
     SetGpuRegBits(REG_OFFSET_WINOUT, WINOUT_WIN01_CLR);
     gTasks[taskId].data[11] = MapPreview_CreateMapNameWindow(mapsec);
-    ScriptContext2_Enable();
+    LockPlayerFieldControls();
 }
 
 static u16 MapPreview_CreateMapNameWindow(u8 mapsec)

@@ -3,9 +3,9 @@
 
 #include "main.h"
 
-// Each 4 KiB flash sector contains 3968 bytes of actual data followed by 116 bytes of SaveBlock3 and then 12 bytes of footer.
-#define SECTOR_DATA_SIZE 3968
-#define SAVE_BLOCK_3_CHUNK_SIZE 116
+// Each 4 KiB flash sector contains 3960 bytes of actual data followed by 124 bytes of SaveBlock3 and then 12 bytes of footer.
+#define SECTOR_DATA_SIZE 3960
+#define SAVE_BLOCK_3_CHUNK_SIZE 124
 #define SECTOR_FOOTER_SIZE 12
 #define SECTOR_SIZE (SECTOR_DATA_SIZE + SAVE_BLOCK_3_CHUNK_SIZE + SECTOR_FOOTER_SIZE)
 
