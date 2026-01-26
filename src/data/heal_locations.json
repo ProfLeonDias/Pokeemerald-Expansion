@@ -186,6 +186,102 @@
       "y": 52,
       "respawn_map": "MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F",
       "respawn_npc": "LOCALID_FRONTIER_NURSE"
+    },
+    {
+      "id": "HEAL_LOCATION_ACROMIA_CITY",
+      "map": "MAP_ACROMIA_CITY",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_AEGIS_TOWN",
+      "map": "MAP_AEGIS_TOWN",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_ARCHAE_CITY",
+      "map": "MAP_ARCHAE_CITY",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_BLIZZARIA_TOWN",
+      "map": "MAP_BLIZZARIA_TOWN",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_CLADIRON_CITY",
+      "map": "MAP_CLADIRON_CITY",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_CRESTSPIRE_CITY",
+      "map": "MAP_CRESTSPIRE_CITY",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_IONIA_CITY",
+      "map": "MAP_IONIA_CITY",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_JASPER_VILLAGE",
+      "map": "MAP_JASPER_VILLAGE",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_LUMINA_ISLAND",
+      "map": "MAP_LUMINA_ISLAND",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_MAGMOOR_CITY",
+      "map": "MAP_MAGMOOR_CITY",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_MAIAMAI_CITY",
+      "map": "MAP_MAIAMAI_CITY",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_MIREWOOD_CITY",
+      "map": "MAP_MIREWOOD_CITY",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_PETALBURG_CITY_2",
+      "map": "MAP_PETALBURG_CITY",
+      "x": 15,
+      "y": 15
+    },
+    {
+      "id": "HEAL_LOCATION_SAPPHIRE_VILLAGE",
+      "map": "MAP_SAPPHIRE_VILLAGE",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_STORMALONG_CITY",
+      "map": "MAP_STORMALONG_CITY",
+      "x": 10,
+      "y": 10
+    },
+    {
+      "id": "HEAL_LOCATION_WISHSTAR_VILLAGE",
+      "map": "MAP_WISHSTAR_VILLAGE",
+      "x": 10,
+      "y": 10
     }
   ]
 }

@@ -1167,3 +1167,165 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/dexnav.inc"
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
+
+	.include "data/maps/StormalongCity/scripts.inc"
+
+	.include "data/maps/ArchaeCity/scripts.inc"
+
+	.include "data/maps/AegisTown/scripts.inc"
+
+	.include "data/maps/MagmoorCity/scripts.inc"
+
+	.include "data/maps/AcromiaCity/scripts.inc"
+
+	.include "data/maps/SapphireVillage/scripts.inc"
+
+	.include "data/maps/MirewoodCity/scripts.inc"
+
+	.include "data/maps/WishstarVillage/scripts.inc"
+
+	.include "data/maps/JasperVillage/scripts.inc"
+
+	.include "data/maps/IoniaCity/scripts.inc"
+
+	.include "data/maps/BattleZone/scripts.inc"
+
+	.include "data/maps/CladironCity/scripts.inc"
+
+	.include "data/maps/MaiamaiCity/scripts.inc"
+
+	.include "data/maps/LuminaIsland/scripts.inc"
+
+	.include "data/maps/CrestspireCity/scripts.inc"
+
+	.include "data/maps/BlizzariaTown/scripts.inc"
+
+	.include "data/maps/ArchaeMinesB1F/scripts.inc"
+
+	.include "data/maps/Route4/scripts.inc"
+
+	.include "data/maps/MtNorfairB2F/scripts.inc"
+
+	.include "data/maps/IoniaPowerPlantCave/scripts.inc"
+
+	.include "data/maps/IoniaPowerPlant/scripts.inc"
+
+	.include "data/maps/ArchaeMinesB2F/scripts.inc"
+
+	.include "data/maps/Route25/scripts.inc"
+
+	.include "data/maps/MtNorfairB4F/scripts.inc"
+
+	.include "data/maps/Route26/scripts.inc"
+
+	.include "data/maps/MtNorfair2F/scripts.inc"
+
+	.include "data/maps/UnderwaterRt14/scripts.inc"
+
+	.include "data/maps/Route7/scripts.inc"
+
+	.include "data/maps/Route29/scripts.inc"
+
+	.include "data/maps/Route21/scripts.inc"
+
+	.include "data/maps/MtNorfairB1F/scripts.inc"
+
+	.include "data/maps/ArchaeMines1F/scripts.inc"
+
+	.include "data/maps/Route23/scripts.inc"
+
+	.include "data/maps/AegisRuins/scripts.inc"
+
+	.include "data/maps/Route1North/scripts.inc"
+
+	.include "data/maps/MtNorfairB3F/scripts.inc"
+
+	.include "data/maps/UnderwaterRt25/scripts.inc"
+
+	.include "data/maps/Route30/scripts.inc"
+
+	.include "data/maps/Route4Cave/scripts.inc"
+
+	.include "data/maps/AegisRuinsMainChambers/scripts.inc"
+
+	.include "data/maps/Route27/scripts.inc"
+
+	.include "data/maps/UnderwaterRt29/scripts.inc"
+
+	.include "data/maps/James_Woods/scripts.inc"
+
+	.include "data/maps/Route18/scripts.inc"
+
+	.include "data/maps/Route13/scripts.inc"
+
+	.include "data/maps/MtNorfairB5F/scripts.inc"
+
+	.include "data/maps/UnderwaterRt26/scripts.inc"
+
+	.include "data/maps/AegisRuinsMainChambers_4/scripts.inc"
+
+	.include "data/maps/Route6North/scripts.inc"
+
+	.include "data/maps/Route28/scripts.inc"
+
+	.include "data/maps/Route16/scripts.inc"
+
+	.include "data/maps/Route17/scripts.inc"
+
+	.include "data/maps/UnderwaterRt27/scripts.inc"
+
+	.include "data/maps/Route5/scripts.inc"
+
+	.include "data/maps/AegisRuinsMainChambers_5/scripts.inc"
+
+	.include "data/maps/MtNorfair4F/scripts.inc"
+
+	.include "data/maps/UnderwaterRt12/scripts.inc"
+
+	.include "data/maps/Route1South/scripts.inc"
+
+	.include "data/maps/Route3/scripts.inc"
+
+	.include "data/maps/Route20/scripts.inc"
+
+	.include "data/maps/Route24North/scripts.inc"
+
+	.include "data/maps/Route_2/scripts.inc"
+
+	.include "data/maps/Route11/scripts.inc"
+
+	.include "data/maps/AegisRuinsMainChambers_3/scripts.inc"
+
+	.include "data/maps/Route14/scripts.inc"
+
+	.include "data/maps/Route12/scripts.inc"
+
+	.include "data/maps/Route6/scripts.inc"
+
+	.include "data/maps/Route9/scripts.inc"
+
+	.include "data/maps/MtNorfairPeak/scripts.inc"
+
+	.include "data/maps/Route22/scripts.inc"
+
+	.include "data/maps/Route8/scripts.inc"
+
+	.include "data/maps/MtNorfairMain/scripts.inc"
+
+	.include "data/maps/UnderwaterRt28/scripts.inc"
+
+	.include "data/maps/Route15/scripts.inc"
+
+	.include "data/maps/AegisRuinsMainChambers_2/scripts.inc"
+
+	.include "data/maps/ArchaeMinesB3F/scripts.inc"
+
+	.include "data/maps/Route10/scripts.inc"
+
+	.include "data/maps/Route24South/scripts.inc"
+
+	.include "data/maps/JamesWoods/scripts.inc"
+
+	.include "data/maps/Route19/scripts.inc"
+
+	.include "data/maps/MtNorfair3F/scripts.inc"
