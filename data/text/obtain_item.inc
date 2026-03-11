@@ -35,3 +35,23 @@ gText_ObtainedTheItems::
 
 gText_PlayerFoundItems::
 	.string "{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} found {STR_VAR_1} {STR_VAR_2}!$"
+
+gText_PutCoinsAwayInCoinCase::
+	.string "{PLAYER} put the Coins away in\n"
+	.string "the Coin Case.$"
+
+gText_FoundXCoins::
+	.string "{PLAYER} found\n"
+	.string "{STR_VAR_1} {STR_VAR_2}!$"
+
+gText_FoundXItems::
+	.string "{PLAYER} found\n"
+	.string "{STR_VAR_1} {STR_VAR_2}(s)!$"
+
+gText_CoinCaseIsFull::
+	.string "Too bad!\n"
+	.string "The Coin Case is full…$"
+
+gText_NothingToPutThemIn::
+	.string "Too bad!\n"
+	.string "There's nothing to put them in…$"
