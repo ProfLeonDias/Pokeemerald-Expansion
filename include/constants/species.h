@@ -1664,20 +1664,44 @@
 #define SPECIES_ZYGARDE_MEGA                            1547
 #define SPECIES_DRAMPA_MEGA                             1548
 #define SPECIES_FALINKS_MEGA                            1549
+#define SPECIES_HEATRAN_MEGA                            1550
+#define SPECIES_DARKRAI_MEGA                            1551
+#define SPECIES_ZERAORA_MEGA                            1552
+#define SPECIES_RAICHU_MEGA_X                           1553
+#define SPECIES_RAICHU_MEGA_Y                           1554
+#define SPECIES_CHIMECHO_MEGA                           1555
+#define SPECIES_ABSOL_MEGA_Z                            1556
+#define SPECIES_STARAPTOR_MEGA                          1557
+#define SPECIES_GARCHOMP_MEGA_Z                         1558
+#define SPECIES_LUCARIO_MEGA_Z                          1559
+#define SPECIES_GOLURK_MEGA                             1560
+#define SPECIES_MEOWSTIC_M_MEGA                         1561
+#define SPECIES_MEOWSTIC_F_MEGA                         1562
+#define SPECIES_CRABOMINABLE_MEGA                       1563
+#define SPECIES_GOLISOPOD_MEGA                          1564
+#define SPECIES_MAGEARNA_MEGA                           1565
+#define SPECIES_MAGEARNA_ORIGINAL_MEGA                  1566
+#define SPECIES_SCOVILLAIN_MEGA                         1567
+#define SPECIES_BAXCALIBUR_MEGA                         1568
+#define SPECIES_TATSUGIRI_CURLY_MEGA                    1569
+#define SPECIES_TATSUGIRI_DROOPY_MEGA                   1570
+#define SPECIES_TATSUGIRI_STRETCHY_MEGA                 1571
+#define SPECIES_GLIMMORA_MEGA                           1572
 
-#define SPECIES_BUNEARY_STARTER                         1550
-#define SPECIES_LOPUNNY_STARTER                         1551
-#define SPECIES_LOPUNNY_STARTER_MEGA                    1552
-#define SPECIES_RIOLU_STARTER                           1553
-#define SPECIES_LUCARIO_STARTER                         1554
-#define SPECIES_LUCARIO_STARTER_MEGA                    1555
-#define SPECIES_RALTS_STARTER                           1556
-#define SPECIES_KIRLIA_STARTER                          1557
-#define SPECIES_GALLADE_STARTER                         1558
-#define SPECIES_GALLADE_STARTER_MEGA                    1559
-#define SPECIES_PHANTUMP_STARTER                        1560
-#define SPECIES_TREVENANT_STARTER                       1561
-#define SPECIES_JIRACHI_MEGA                            1562
+#define SPECIES_BUNEARY_STARTER                         1573
+#define SPECIES_LOPUNNY_STARTER                         1574
+#define SPECIES_LOPUNNY_STARTER_MEGA                    1575
+#define SPECIES_RIOLU_STARTER                           1576
+#define SPECIES_LUCARIO_STARTER                         1577
+#define SPECIES_LUCARIO_STARTER_MEGA                    1578
+#define SPECIES_RALTS_STARTER                           1579
+#define SPECIES_KIRLIA_STARTER                          1580
+#define SPECIES_GALLADE_STARTER                         1581
+#define SPECIES_GALLADE_STARTER_MEGA                    1582
+#define SPECIES_PHANTUMP_STARTER                        1583
+#define SPECIES_TREVENANT_STARTER                       1584
+#define SPECIES_JIRACHI_MEGA                            1585
+
 
 #define SPECIES_EGG                                     (SPECIES_JIRACHI_MEGA + 1)
 
