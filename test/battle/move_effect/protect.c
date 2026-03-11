@@ -552,7 +552,7 @@ DOUBLE_BATTLE_TEST("Protect: Wide Guard can not fail on consecutive turns (Gen6+
     PARAMETRIZE { config = GEN_6; passes = 2; }
     PASSES_RANDOMLY(passes, 2);
     GIVEN {
-        WITH_CONFIG(CONFIG_WIDE_GUARD, config);
+        WITH_CONFIG(B_WIDE_GUARD, config);
         ASSUME(GetMoveTarget(MOVE_HYPER_VOICE) == TARGET_BOTH);
         PLAYER(SPECIES_WOBBUFFET);
         PLAYER(SPECIES_WOBBUFFET);

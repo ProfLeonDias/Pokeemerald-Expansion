@@ -888,15 +888,16 @@ static u32 ItemRestorePp(enum BattlerId battler, enum Item itemId)
         if (changedPP > maxPP)
             changedPP = maxPP;
 
-            PREPARE_MOVE_BUFFER(gBattleTextBuff1, move);
-            BattleScriptCall(BattleScript_BerryPPHeal);
-            gBattleScripting.battler = battler;
-            BtlController_EmitSetMonData(battler, B_COMM_TO_CONTROLLER, i + REQUEST_PPMOVE1_BATTLE, 0, 1, &changedPP);
-            MarkBattlerForControllerExec(battler);
-            if (MOVE_IS_PERMANENT(battler, i))
-                gBattleMons[battler].pp[i] = changedPP;
-            effect = ITEM_PP_CHANGE;
-        }
+        PREPARE_MOVE_BUFFER(gBattleTextBuff1, move);
+
+        BattleScriptCall(BattleScript_BerryPPHeal);
+
+        gBattleScripting.battler = battler;
+        BtlController_EmitSetMonData(battler, B_COMM_TO_CONTROLLER, restoreMove + REQUEST_PPMOVE1_BATTLE, 0, 1, &changedPP);
+        MarkBattlerForControllerExec(battler);
+        if (MOVE_IS_PERMANENT(battler, restoreMove))
+            gBattleMons[battler].pp[restoreMove] = changedPP;
+        effect = ITEM_PP_CHANGE;
     }
     return effect;
 }

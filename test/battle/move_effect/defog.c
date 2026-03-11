@@ -656,7 +656,7 @@ DOUBLE_BATTLE_TEST("Defog removes everything it can")
     PARAMETRIZE { config = GEN_5; }
     PARAMETRIZE { config = GEN_6; }
     GIVEN {
-        WITH_CONFIG(CONFIG_DEFOG_EFFECT_CLEARING, config);
+        WITH_CONFIG(B_DEFOG_EFFECT_CLEARING, config);
         ASSUME(GetMoveEffect(MOVE_HAIL) == EFFECT_WEATHER);
         ASSUME(GetMoveWeatherType(MOVE_HAIL) == BATTLE_WEATHER_HAIL);
         ASSUME(GetSpeciesType(SPECIES_GLALIE, 0) == TYPE_ICE);
