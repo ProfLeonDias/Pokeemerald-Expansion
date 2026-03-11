@@ -41,7 +41,7 @@ FortreeCity_Gym_EventScript_InitRotatingGates::
 # 21 "data/maps/FortreeCity_Gym/scripts.pory"
 FortreeCity_Gym_EventScript_Winona::
 # 22 "data/maps/FortreeCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_WINONA_1, FortreeCity_Gym_Text_WinonaIntro, FortreeCity_Gym_Text_WinonaDefeat, FortreeCity_Gym_EventScript_WinonaDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_270, FortreeCity_Gym_Text_WinonaIntro, FortreeCity_Gym_Text_WinonaDefeat, FortreeCity_Gym_EventScript_WinonaDefeated, NO_MUSIC
 # 23 "data/maps/FortreeCity_Gym/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 24 "data/maps/FortreeCity_Gym/scripts.pory"
@@ -135,7 +135,7 @@ FortreeCity_Gym_EventScript_GiveAerialAce::
 # 68 "data/maps/FortreeCity_Gym/scripts.pory"
 FortreeCity_Gym_EventScript_WinonaRematch::
 # 69 "data/maps/FortreeCity_Gym/scripts.pory"
-	trainerbattle_rematch_double TRAINER_WINONA_1, FortreeCity_Gym_Text_WinonaPreRematch, FortreeCity_Gym_Text_WinonaRematchDefeat, FortreeCity_Gym_Text_WinonaRematchNeedTwoMons
+	trainerbattle_rematch_double TRAINER_270, FortreeCity_Gym_Text_WinonaPreRematch, FortreeCity_Gym_Text_WinonaRematchDefeat, FortreeCity_Gym_Text_WinonaRematchNeedTwoMons
 # 70 "data/maps/FortreeCity_Gym/scripts.pory"
 	msgbox FortreeCity_Gym_Text_WinonaPostRematch, MSGBOX_AUTOCLOSE
 # 71 "data/maps/FortreeCity_Gym/scripts.pory"
@@ -145,7 +145,7 @@ FortreeCity_Gym_EventScript_WinonaRematch::
 # 73 "data/maps/FortreeCity_Gym/scripts.pory"
 FortreeCity_Gym_EventScript_Jared::
 # 74 "data/maps/FortreeCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_JARED, FortreeCity_Gym_Text_JaredIntro, FortreeCity_Gym_Text_JaredDefeat
+	trainerbattle_single TRAINER_401, FortreeCity_Gym_Text_JaredIntro, FortreeCity_Gym_Text_JaredDefeat
 # 75 "data/maps/FortreeCity_Gym/scripts.pory"
 	msgbox FortreeCity_Gym_Text_JaredPostBattle, MSGBOX_AUTOCLOSE
 # 76 "data/maps/FortreeCity_Gym/scripts.pory"
@@ -155,7 +155,7 @@ FortreeCity_Gym_EventScript_Jared::
 # 78 "data/maps/FortreeCity_Gym/scripts.pory"
 FortreeCity_Gym_EventScript_Edwardo::
 # 79 "data/maps/FortreeCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_EDWARDO, FortreeCity_Gym_Text_EdwardoIntro, FortreeCity_Gym_Text_EdwardoDefeat
+	trainerbattle_single TRAINER_404, FortreeCity_Gym_Text_EdwardoIntro, FortreeCity_Gym_Text_EdwardoDefeat
 # 80 "data/maps/FortreeCity_Gym/scripts.pory"
 	msgbox FortreeCity_Gym_Text_EdwardoPostBattle, MSGBOX_AUTOCLOSE
 # 81 "data/maps/FortreeCity_Gym/scripts.pory"
@@ -165,7 +165,7 @@ FortreeCity_Gym_EventScript_Edwardo::
 # 83 "data/maps/FortreeCity_Gym/scripts.pory"
 FortreeCity_Gym_EventScript_Flint::
 # 84 "data/maps/FortreeCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_FLINT, FortreeCity_Gym_Text_FlintIntro, FortreeCity_Gym_Text_FlintDefeat
+	trainerbattle_single TRAINER_654, FortreeCity_Gym_Text_FlintIntro, FortreeCity_Gym_Text_FlintDefeat
 # 85 "data/maps/FortreeCity_Gym/scripts.pory"
 	msgbox FortreeCity_Gym_Text_FlintPostBattle, MSGBOX_AUTOCLOSE
 # 86 "data/maps/FortreeCity_Gym/scripts.pory"
@@ -175,7 +175,7 @@ FortreeCity_Gym_EventScript_Flint::
 # 88 "data/maps/FortreeCity_Gym/scripts.pory"
 FortreeCity_Gym_EventScript_Ashley::
 # 89 "data/maps/FortreeCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_ASHLEY, FortreeCity_Gym_Text_AshleyIntro, FortreeCity_Gym_Text_AshleyDefeat
+	trainerbattle_single TRAINER_655, FortreeCity_Gym_Text_AshleyIntro, FortreeCity_Gym_Text_AshleyDefeat
 # 90 "data/maps/FortreeCity_Gym/scripts.pory"
 	msgbox FortreeCity_Gym_Text_AshleyPostBattle, MSGBOX_AUTOCLOSE
 # 91 "data/maps/FortreeCity_Gym/scripts.pory"
@@ -185,7 +185,7 @@ FortreeCity_Gym_EventScript_Ashley::
 # 93 "data/maps/FortreeCity_Gym/scripts.pory"
 FortreeCity_Gym_EventScript_Humberto::
 # 94 "data/maps/FortreeCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_HUMBERTO, FortreeCity_Gym_Text_HumbertoIntro, FortreeCity_Gym_Text_HumbertoDefeat
+	trainerbattle_single TRAINER_402, FortreeCity_Gym_Text_HumbertoIntro, FortreeCity_Gym_Text_HumbertoDefeat
 # 95 "data/maps/FortreeCity_Gym/scripts.pory"
 	msgbox FortreeCity_Gym_Text_HumbertoPostBattle, MSGBOX_AUTOCLOSE
 # 96 "data/maps/FortreeCity_Gym/scripts.pory"
@@ -195,7 +195,7 @@ FortreeCity_Gym_EventScript_Humberto::
 # 98 "data/maps/FortreeCity_Gym/scripts.pory"
 FortreeCity_Gym_EventScript_Darius::
 # 99 "data/maps/FortreeCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_DARIUS, FortreeCity_Gym_Text_DariusIntro, FortreeCity_Gym_Text_DariusDefeat
+	trainerbattle_single TRAINER_803, FortreeCity_Gym_Text_DariusIntro, FortreeCity_Gym_Text_DariusDefeat
 # 100 "data/maps/FortreeCity_Gym/scripts.pory"
 	msgbox FortreeCity_Gym_Text_DariusPostBattle, MSGBOX_AUTOCLOSE
 # 101 "data/maps/FortreeCity_Gym/scripts.pory"

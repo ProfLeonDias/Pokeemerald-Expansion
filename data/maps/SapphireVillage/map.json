@@ -12,9 +12,232 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
-  "object_events": [],
-  "warp_events": [],
-  "coord_events": [],
-  "bg_events": []
+  "connections": [
+    {
+      "map": "MAP_ROUTE24SOUTH",
+      "offset": 0,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE1NORTH",
+      "offset": 0,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_093_BEAUTY",
+      "x": 9,
+      "y": 23,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_EventScript_Woman",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER",
+      "x": 18,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 2,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_EventScript_Girl",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_041_MALE_9",
+      "x": 26,
+      "y": 12,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 2,
+      "movement_range_y": 2,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_EventScript_FatMan",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_043_MALE_11",
+      "x": 15,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_EventScript_OldMan",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_EGYPT",
+      "graphics_id": "OBJ_EVENT_GFX_MAY_NORMAL",
+      "x": 28,
+      "y": 29,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_SAPPHIRE_VILLAGE_PEOPLE"
+    },
+    {
+      "local_id": "LOCALID_ASPEN",
+      "graphics_id": "OBJ_EVENT_GFX_002_PROF_ASPEN",
+      "x": 29,
+      "y": 29,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_SAPPHIRE_VILLAGE_PEOPLE"
+    },
+    {
+      "local_id": "LOCALID_ANTHONY",
+      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "x": 27,
+      "y": 29,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_SAPPHIRE_VILLAGE_PEOPLE"
+    }
+  ],
+  "warp_events": [
+    {
+      "warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_A",
+      "x": 24,
+      "y": 19,
+      "elevation": 3,
+      "dest_map": "MAP_SAPPHIRE_VILLAGE_PLAYER_HOUSE1F",
+      "dest_warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_B"
+    },
+    {
+      "warp_id": "WARP_SAPPHIRE_HOUSE_1A",
+      "x": 20,
+      "y": 11,
+      "elevation": 3,
+      "dest_map": "MAP_SAPPHIRE_VILLAGE_HOUSE1",
+      "dest_warp_id": "WARP_SAPPHIRE_HOUSE_1B"
+    },
+    {
+      "warp_id": "WARP_SAPPHIRE_HOUSE_2A",
+      "x": 24,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_SAPPHIRE_VILLAGE_HOUSE2",
+      "dest_warp_id": "WARP_SAPPHIRE_HOUSE_2B"
+    },
+    {
+      "warp_id": "WARP_SAPPHIRE_ASPEN_HOUSE_A",
+      "x": 8,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_SAPPHIRE_VILLAGE_ASPEN_HOUSE",
+      "dest_warp_id": "WARP_SAPPHIRE_ASPEN_HOUSE_B"
+    },
+    {
+      "warp_id": "WARP_SAPPHIRE_ASPEN_LAB_A",
+      "x": 7,
+      "y": 11,
+      "elevation": 3,
+      "dest_map": "MAP_SAPPHIRE_VILLAGE_LAB",
+      "dest_warp_id": "WARP_SAPPHIRE_ASPEN_LAB_B"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 26,
+      "elevation": 3,
+      "var": "VAR_SAPPHIRE_VILLAGE_STATE",
+      "var_value": "0",
+      "script": "SapphireVillage_EventScript_EventScriptA"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 26,
+      "elevation": 3,
+      "var": "VAR_SAPPHIRE_VILLAGE_STATE",
+      "var_value": "0",
+      "script": "SapphireVillage_EventScript_EventScriptB"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 22,
+      "y": 19,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_Mailbox2"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 19,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_TownSign"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 21,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_Mailbox3"
+    },
+    {
+      "type": "sign",
+      "x": 23,
+      "y": 11,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_Mailbox1"
+    },
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 11,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_LabSign"
+    },
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 20,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_HoneyTree"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 20,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_HoneyTree"
+    }
+  ]
 }

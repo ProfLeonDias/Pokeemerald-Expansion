@@ -31,7 +31,7 @@ Route110_TrickHousePuzzle8_EventScript_FoundScroll::
 # 16 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_EventScript_Vincent::
 # 17 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	trainerbattle_single TRAINER_VINCENT, Route110_TrickHousePuzzle8_Text_VincentIntro, Route110_TrickHousePuzzle8_Text_VincentDefeat
+	trainerbattle_single TRAINER_76, Route110_TrickHousePuzzle8_Text_VincentIntro, Route110_TrickHousePuzzle8_Text_VincentDefeat
 # 18 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	msgbox Route110_TrickHousePuzzle8_Text_VincentPostBattle, MSGBOX_AUTOCLOSE
 # 19 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
@@ -41,7 +41,7 @@ Route110_TrickHousePuzzle8_EventScript_Vincent::
 # 21 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_EventScript_Keira::
 # 22 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	trainerbattle_single TRAINER_KEIRA, Route110_TrickHousePuzzle8_Text_KeiraIntro, Route110_TrickHousePuzzle8_Text_KeiraDefeat
+	trainerbattle_single TRAINER_93, Route110_TrickHousePuzzle8_Text_KeiraIntro, Route110_TrickHousePuzzle8_Text_KeiraDefeat
 # 23 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	msgbox Route110_TrickHousePuzzle8_Text_KeiraPostBattle, MSGBOX_AUTOCLOSE
 # 24 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
@@ -51,7 +51,7 @@ Route110_TrickHousePuzzle8_EventScript_Keira::
 # 26 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 Route110_TrickHousePuzzle8_EventScript_Leroy::
 # 27 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
-	trainerbattle_single TRAINER_LEROY, Route110_TrickHousePuzzle8_Text_LeroyIntro, Route110_TrickHousePuzzle8_Text_LeroyDefeat
+	trainerbattle_single TRAINER_77, Route110_TrickHousePuzzle8_Text_LeroyIntro, Route110_TrickHousePuzzle8_Text_LeroyDefeat
 # 28 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"
 	msgbox Route110_TrickHousePuzzle8_Text_LeroyPostBattle, MSGBOX_AUTOCLOSE
 # 29 "data/maps/Route110_TrickHousePuzzle8/scripts.pory"

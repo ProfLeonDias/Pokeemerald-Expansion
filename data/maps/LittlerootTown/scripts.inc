@@ -13,7 +13,7 @@ LittlerootTown_MapScripts::
 # 7 "data/maps/LittlerootTown/scripts.pory"
 
 # 8 "data/maps/LittlerootTown/scripts.pory"
-	@ State descriptions for VAR_LITTLEROOT_TOWN_STATE
+	@ State descriptions for VAR_SAPPHIRE_VILLAGE_STATE
 # 9 "data/maps/LittlerootTown/scripts.pory"
 	@ 1: Met Rival
 # 10 "data/maps/LittlerootTown/scripts.pory"
@@ -43,9 +43,9 @@ LittlerootTown_MapScripts::
 # 22 "data/maps/LittlerootTown/scripts.pory"
 
 # 23 "data/maps/LittlerootTown/scripts.pory"
-	@ State descriptions for VAR_LITTLEROOT_HOUSES_STATE_MAY
+	@ State descriptions for VAR_ASPEN_EVENTS
 # 24 "data/maps/LittlerootTown/scripts.pory"
-	@                    and VAR_LITTLEROOT_HOUSES_STATE_BRENDAN
+	@                    and VAR_POKEMART_MACK_EVENT
 # 25 "data/maps/LittlerootTown/scripts.pory"
 	@ 1: On Truck (and is corresponding gender)
 # 26 "data/maps/LittlerootTown/scripts.pory"
@@ -59,7 +59,7 @@ LittlerootTown_MapScripts::
 # 30 "data/maps/LittlerootTown/scripts.pory"
 
 # 31 "data/maps/LittlerootTown/scripts.pory"
-	@ State descriptions for VAR_LITTLEROOT_RIVAL_STATE
+	@ State descriptions for VAR_INITIAL_EVENTS
 # 32 "data/maps/LittlerootTown/scripts.pory"
 	@ 1: Never occurs
 # 33 "data/maps/LittlerootTown/scripts.pory"
@@ -83,15 +83,15 @@ LittlerootTown_OnTransition:
 # 42 "data/maps/LittlerootTown/scripts.pory"
 	call_if_unset FLAG_RESCUED_BIRCH, LittlerootTown_EventScript_SetTwinPos
 # 43 "data/maps/LittlerootTown/scripts.pory"
-	call_if_eq VAR_LITTLEROOT_TOWN_STATE, 3, LittlerootTown_EventScript_SetMomStandingInFrontOfDoorPos
+	call_if_eq VAR_SAPPHIRE_VILLAGE_STATE, 3, LittlerootTown_EventScript_SetMomStandingInFrontOfDoorPos
 # 44 "data/maps/LittlerootTown/scripts.pory"
-	call_if_eq VAR_LITTLEROOT_HOUSES_STATE_MAY, 4, LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent
+	call_if_eq VAR_ASPEN_EVENTS, 4, LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent
 # 45 "data/maps/LittlerootTown/scripts.pory"
-	call_if_eq VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 4, LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent
+	call_if_eq VAR_POKEMART_MACK_EVENT, 4, LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent
 # 46 "data/maps/LittlerootTown/scripts.pory"
 	call_if_eq VAR_OLDALE_RIVAL_STATE, 1, LittlerootTown_EventScript_MoveRivalFromOldale
 # 47 "data/maps/LittlerootTown/scripts.pory"
-	call_if_eq VAR_LITTLEROOT_RIVAL_STATE, 3, LittlerootTown_EventScript_SetRivalLeftForRoute103
+	call_if_eq VAR_INITIAL_EVENTS, 3, LittlerootTown_EventScript_SetRivalLeftForRoute103
 # 48 "data/maps/LittlerootTown/scripts.pory"
 	call_if_eq VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_EventScript_HideMapNamePopup
 # 49 "data/maps/LittlerootTown/scripts.pory"
@@ -137,9 +137,9 @@ LittlerootTown_EventScript_MoveRivalFromOldale::
 # 69 "data/maps/LittlerootTown/scripts.pory"
 LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent::
 # 70 "data/maps/LittlerootTown/scripts.pory"
-	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 5
+	setvar VAR_ASPEN_EVENTS, 5
 # 71 "data/maps/LittlerootTown/scripts.pory"
-	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 5
+	setvar VAR_POKEMART_MACK_EVENT, 5
 # 72 "data/maps/LittlerootTown/scripts.pory"
 	return
 # 73 "data/maps/LittlerootTown/scripts.pory"
@@ -155,7 +155,7 @@ LittlerootTown_EventScript_MoveMomToMaysDoor::
 # 78 "data/maps/LittlerootTown/scripts.pory"
 LittlerootTown_EventScript_SetTwinPos::
 # 79 "data/maps/LittlerootTown/scripts.pory"
-	goto_if_eq VAR_LITTLEROOT_TOWN_STATE, 0, LittlerootTown_EventScript_SetTwinGuardingRoutePos
+	goto_if_eq VAR_SAPPHIRE_VILLAGE_STATE, 0, LittlerootTown_EventScript_SetTwinGuardingRoutePos
 # 80 "data/maps/LittlerootTown/scripts.pory"
 	setobjectxyperm LOCALID_LITTLEROOT_TWIN, 10, 1
 # 81 "data/maps/LittlerootTown/scripts.pory"
@@ -513,7 +513,7 @@ LittlerootTown_EventScript_Twin::
 # 257 "data/maps/LittlerootTown/scripts.pory"
 	goto_if_set FLAG_RESCUED_BIRCH, LittlerootTown_EventScript_YouSavedBirch
 # 258 "data/maps/LittlerootTown/scripts.pory"
-	goto_if_ne VAR_LITTLEROOT_TOWN_STATE, 0, LittlerootTown_EventScript_GoSaveBirch
+	goto_if_ne VAR_SAPPHIRE_VILLAGE_STATE, 0, LittlerootTown_EventScript_GoSaveBirch
 # 259 "data/maps/LittlerootTown/scripts.pory"
 	msgbox LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut, MSGBOX_DEFAULT
 # 260 "data/maps/LittlerootTown/scripts.pory"
@@ -535,7 +535,7 @@ LittlerootTown_EventScript_GoSaveBirch::
 # 268 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 269 "data/maps/LittlerootTown/scripts.pory"
-	setvar VAR_LITTLEROOT_TOWN_STATE, 2
+	setvar VAR_SAPPHIRE_VILLAGE_STATE, 2
 # 270 "data/maps/LittlerootTown/scripts.pory"
 	release
 # 271 "data/maps/LittlerootTown/scripts.pory"
@@ -771,7 +771,7 @@ LittlerootTown_EventScript_GoSaveBirchTrigger::
 # 386 "data/maps/LittlerootTown/scripts.pory"
 	waitmovement 0
 # 387 "data/maps/LittlerootTown/scripts.pory"
-	setvar VAR_LITTLEROOT_TOWN_STATE, 2
+	setvar VAR_SAPPHIRE_VILLAGE_STATE, 2
 # 388 "data/maps/LittlerootTown/scripts.pory"
 	releaseall
 # 389 "data/maps/LittlerootTown/scripts.pory"
@@ -1781,7 +1781,7 @@ LittlerootTown_EventScript_SetReceivedRunningShoes::
 # 891 "data/maps/LittlerootTown/scripts.pory"
 	setflag FLAG_SYS_B_DASH
 # 892 "data/maps/LittlerootTown/scripts.pory"
-	setvar VAR_LITTLEROOT_TOWN_STATE, 4
+	setvar VAR_SAPPHIRE_VILLAGE_STATE, 4
 # 893 "data/maps/LittlerootTown/scripts.pory"
 	release
 # 894 "data/maps/LittlerootTown/scripts.pory"

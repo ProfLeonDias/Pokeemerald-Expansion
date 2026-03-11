@@ -579,7 +579,7 @@ Route110_TrickHousePuzzle3_EventScript_FoundScroll::
 # 290 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 Route110_TrickHousePuzzle3_EventScript_Justin::
 # 291 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	trainerbattle_single TRAINER_JUSTIN, Route110_TrickHousePuzzle3_Text_JustinIntro, Route110_TrickHousePuzzle3_Text_JustinDefeat
+	trainerbattle_single TRAINER_215, Route110_TrickHousePuzzle3_Text_JustinIntro, Route110_TrickHousePuzzle3_Text_JustinDefeat
 # 292 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 	msgbox Route110_TrickHousePuzzle3_Text_JustinPostBattle, MSGBOX_AUTOCLOSE
 # 293 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
@@ -589,7 +589,7 @@ Route110_TrickHousePuzzle3_EventScript_Justin::
 # 295 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 Route110_TrickHousePuzzle3_EventScript_Martha::
 # 296 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	trainerbattle_single TRAINER_MARTHA, Route110_TrickHousePuzzle3_Text_MarthaIntro, Route110_TrickHousePuzzle3_Text_MarthaDefeat
+	trainerbattle_single TRAINER_473, Route110_TrickHousePuzzle3_Text_MarthaIntro, Route110_TrickHousePuzzle3_Text_MarthaDefeat
 # 297 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 	msgbox Route110_TrickHousePuzzle3_Text_MarthaPostBattle, MSGBOX_AUTOCLOSE
 # 298 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
@@ -599,7 +599,7 @@ Route110_TrickHousePuzzle3_EventScript_Martha::
 # 300 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 Route110_TrickHousePuzzle3_EventScript_Alan::
 # 301 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
-	trainerbattle_single TRAINER_ALAN, Route110_TrickHousePuzzle3_Text_AlanIntro, Route110_TrickHousePuzzle3_Text_AlanDefeat
+	trainerbattle_single TRAINER_630, Route110_TrickHousePuzzle3_Text_AlanIntro, Route110_TrickHousePuzzle3_Text_AlanDefeat
 # 302 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"
 	msgbox Route110_TrickHousePuzzle3_Text_AlanPostBattle, MSGBOX_AUTOCLOSE
 # 303 "data/maps/Route110_TrickHousePuzzle3/scripts.pory"

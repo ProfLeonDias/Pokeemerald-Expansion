@@ -14,7 +14,16 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
   "object_events": [],
-  "warp_events": [],
+  "warp_events": [
+    {
+      "warp_id": "WARP_POWER_PLANT_CAVE_B",
+      "x": 10,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_IONIA_POWER_PLANT",
+      "dest_warp_id": "WARP_POWER_PLANT_CAVE_A"
+    }
+  ],
   "coord_events": [],
   "bg_events": []
 }

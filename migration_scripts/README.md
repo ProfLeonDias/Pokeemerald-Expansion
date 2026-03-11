@@ -155,7 +155,7 @@ Converts trainer data (for `convert_trainer_parties.py`) and partner data (for `
 
 #### [src/data/trainers.party](..src/data/trainers.party)
 ```diff
-+=== TRAINER_SAWYER_1 ===
++=== TRAINER_01 ===
 +Name: SAWYER
 +Class: Hiker
 +Pic: Hiker
@@ -375,7 +375,7 @@ Modifies all item ball scripts defined using to original Game Freak method to th
 -      "script": "Route102_EventScript_ItemPotion",
 +      "trainer_sight_or_berry_tree_id": "ITEM_POTION",
 +      "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_102_POTION"
+      "flag": "FLAG_ITEM_ROUTE_24S_POTION"
     },
 ```
 

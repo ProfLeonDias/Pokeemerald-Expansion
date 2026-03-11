@@ -41,7 +41,7 @@ MtPyre_2F_EventScript_PokefanM::
 # 21 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_EventScript_Mark::
 # 22 "data/maps/MtPyre_2F/scripts.pory"
-	trainerbattle_single TRAINER_MARK, MtPyre_2F_Text_MarkIntro, MtPyre_2F_Text_MarkDefeat
+	trainerbattle_single TRAINER_145, MtPyre_2F_Text_MarkIntro, MtPyre_2F_Text_MarkDefeat
 # 23 "data/maps/MtPyre_2F/scripts.pory"
 	msgbox MtPyre_2F_Text_MarkPostBattle, MSGBOX_AUTOCLOSE
 # 24 "data/maps/MtPyre_2F/scripts.pory"
@@ -51,7 +51,7 @@ MtPyre_2F_EventScript_Mark::
 # 26 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_EventScript_Luke::
 # 27 "data/maps/MtPyre_2F/scripts.pory"
-	trainerbattle_double TRAINER_DEZ_AND_LUKE, MtPyre_2F_Text_LukeIntro, MtPyre_2F_Text_LukeDefeat, MtPyre_2F_Text_LukeNotEnoughMons
+	trainerbattle_double TRAINER_640, MtPyre_2F_Text_LukeIntro, MtPyre_2F_Text_LukeDefeat, MtPyre_2F_Text_LukeNotEnoughMons
 # 28 "data/maps/MtPyre_2F/scripts.pory"
 	msgbox MtPyre_2F_Text_LukePostBattle, MSGBOX_AUTOCLOSE
 # 29 "data/maps/MtPyre_2F/scripts.pory"
@@ -61,7 +61,7 @@ MtPyre_2F_EventScript_Luke::
 # 31 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_EventScript_Dez::
 # 32 "data/maps/MtPyre_2F/scripts.pory"
-	trainerbattle_double TRAINER_DEZ_AND_LUKE, MtPyre_2F_Text_DezIntro, MtPyre_2F_Text_DezDefeat, MtPyre_2F_Text_DezNotEnoughMons
+	trainerbattle_double TRAINER_640, MtPyre_2F_Text_DezIntro, MtPyre_2F_Text_DezDefeat, MtPyre_2F_Text_DezNotEnoughMons
 # 33 "data/maps/MtPyre_2F/scripts.pory"
 	msgbox MtPyre_2F_Text_DezPostBattle, MSGBOX_AUTOCLOSE
 # 34 "data/maps/MtPyre_2F/scripts.pory"
@@ -71,7 +71,7 @@ MtPyre_2F_EventScript_Dez::
 # 36 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_EventScript_Leah::
 # 37 "data/maps/MtPyre_2F/scripts.pory"
-	trainerbattle_single TRAINER_LEAH, MtPyre_2F_Text_LeahIntro, MtPyre_2F_Text_LeahDefeat
+	trainerbattle_single TRAINER_35, MtPyre_2F_Text_LeahIntro, MtPyre_2F_Text_LeahDefeat
 # 38 "data/maps/MtPyre_2F/scripts.pory"
 	msgbox MtPyre_2F_Text_LeahPostBattle, MSGBOX_AUTOCLOSE
 # 39 "data/maps/MtPyre_2F/scripts.pory"
@@ -81,7 +81,7 @@ MtPyre_2F_EventScript_Leah::
 # 41 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_EventScript_Zander::
 # 42 "data/maps/MtPyre_2F/scripts.pory"
-	trainerbattle_single TRAINER_ZANDER, MtPyre_2F_Text_ZanderIntro, MtPyre_2F_Text_ZanderDefeat
+	trainerbattle_single TRAINER_31, MtPyre_2F_Text_ZanderIntro, MtPyre_2F_Text_ZanderDefeat
 # 43 "data/maps/MtPyre_2F/scripts.pory"
 	msgbox MtPyre_2F_Text_ZanderPostBattle, MSGBOX_AUTOCLOSE
 # 44 "data/maps/MtPyre_2F/scripts.pory"

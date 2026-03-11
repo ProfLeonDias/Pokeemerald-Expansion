@@ -13,7 +13,7 @@ MtPyre_5F_MapScripts::
 # 7 "data/maps/MtPyre_5F/scripts.pory"
 MtPyre_4F_EventScript_Tasha::
 # 8 "data/maps/MtPyre_5F/scripts.pory"
-	trainerbattle_single TRAINER_TASHA, MtPyre_4F_Text_TashaIntro, MtPyre_4F_Text_TashaDefeat
+	trainerbattle_single TRAINER_109, MtPyre_4F_Text_TashaIntro, MtPyre_4F_Text_TashaDefeat
 # 9 "data/maps/MtPyre_5F/scripts.pory"
 	msgbox MtPyre_4F_Text_TashaPostBattle, MSGBOX_AUTOCLOSE
 # 10 "data/maps/MtPyre_5F/scripts.pory"

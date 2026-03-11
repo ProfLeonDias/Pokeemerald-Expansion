@@ -17,7 +17,7 @@ AbandonedShip_Rooms_1F_EventScript_Gentleman::
 # 9 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 AbandonedShip_Rooms_1F_EventScript_Demetrius::
 # 10 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	trainerbattle_single TRAINER_DEMETRIUS, AbandonedShip_Rooms_1F_Text_DemetriusIntro, AbandonedShip_Rooms_1F_Text_DemetriusDefeat
+	trainerbattle_single TRAINER_375, AbandonedShip_Rooms_1F_Text_DemetriusIntro, AbandonedShip_Rooms_1F_Text_DemetriusDefeat
 # 11 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 	msgbox AbandonedShip_Rooms_1F_Text_DemetriusPostBattle, MSGBOX_AUTOCLOSE
 # 12 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
@@ -27,7 +27,7 @@ AbandonedShip_Rooms_1F_EventScript_Demetrius::
 # 14 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 AbandonedShip_Rooms_1F_EventScript_Thalia::
 # 15 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	trainerbattle_single TRAINER_THALIA_1, AbandonedShip_Rooms_1F_Text_ThaliaIntro, AbandonedShip_Rooms_1F_Text_ThaliaDefeat, AbandonedShip_Rooms_1F_EventScript_RegisterThalia
+	trainerbattle_single TRAINER_144, AbandonedShip_Rooms_1F_Text_ThaliaIntro, AbandonedShip_Rooms_1F_Text_ThaliaDefeat, AbandonedShip_Rooms_1F_EventScript_RegisterThalia
 # 16 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 17 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
@@ -49,7 +49,7 @@ AbandonedShip_Rooms_1F_EventScript_RegisterThalia::
 # 25 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 	msgbox AbandonedShip_Rooms_1F_Text_ThaliaRegister, MSGBOX_DEFAULT
 # 26 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	register_matchcall TRAINER_THALIA_1
+	register_matchcall TRAINER_144
 # 27 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 	release
 # 28 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
@@ -59,7 +59,7 @@ AbandonedShip_Rooms_1F_EventScript_RegisterThalia::
 # 30 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 AbandonedShip_Rooms_1F_EventScript_ThaliaRematch::
 # 31 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
-	trainerbattle_rematch TRAINER_THALIA_1, AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro, AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat
+	trainerbattle_rematch TRAINER_144, AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro, AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat
 # 32 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"
 	msgbox AbandonedShip_Rooms_1F_Text_ThaliaPostRematch, MSGBOX_AUTOCLOSE
 # 33 "data/maps/AbandonedShip_Rooms_1F/scripts.pory"

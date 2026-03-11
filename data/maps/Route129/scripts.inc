@@ -55,7 +55,7 @@ Route129_OnFrame:
 # 28 "data/maps/Route129/scripts.pory"
 Route129_EventScript_Chase::
 # 29 "data/maps/Route129/scripts.pory"
-	trainerbattle_single TRAINER_CHASE, Route129_Text_ChaseIntro, Route129_Text_ChaseDefeat
+	trainerbattle_single TRAINER_378, Route129_Text_ChaseIntro, Route129_Text_ChaseDefeat
 # 30 "data/maps/Route129/scripts.pory"
 	msgbox Route129_Text_ChasePostBattle, MSGBOX_AUTOCLOSE
 # 31 "data/maps/Route129/scripts.pory"
@@ -65,7 +65,7 @@ Route129_EventScript_Chase::
 # 33 "data/maps/Route129/scripts.pory"
 Route129_EventScript_Allison::
 # 34 "data/maps/Route129/scripts.pory"
-	trainerbattle_single TRAINER_ALLISON, Route129_Text_AllisonIntro, Route129_Text_AllisonDefeat
+	trainerbattle_single TRAINER_387, Route129_Text_AllisonIntro, Route129_Text_AllisonDefeat
 # 35 "data/maps/Route129/scripts.pory"
 	msgbox Route129_Text_AllisonPostBattle, MSGBOX_AUTOCLOSE
 # 36 "data/maps/Route129/scripts.pory"
@@ -75,7 +75,7 @@ Route129_EventScript_Allison::
 # 38 "data/maps/Route129/scripts.pory"
 Route129_EventScript_Reed::
 # 39 "data/maps/Route129/scripts.pory"
-	trainerbattle_single TRAINER_REED, Route129_Text_ReedIntro, Route129_Text_ReedDefeat
+	trainerbattle_single TRAINER_675, Route129_Text_ReedIntro, Route129_Text_ReedDefeat
 # 40 "data/maps/Route129/scripts.pory"
 	msgbox Route129_Text_ReedPostBattle, MSGBOX_AUTOCLOSE
 # 41 "data/maps/Route129/scripts.pory"
@@ -85,7 +85,7 @@ Route129_EventScript_Reed::
 # 43 "data/maps/Route129/scripts.pory"
 Route129_EventScript_Tisha::
 # 44 "data/maps/Route129/scripts.pory"
-	trainerbattle_single TRAINER_TISHA, Route129_Text_TishaIntro, Route129_Text_TishaDefeat
+	trainerbattle_single TRAINER_676, Route129_Text_TishaIntro, Route129_Text_TishaDefeat
 # 45 "data/maps/Route129/scripts.pory"
 	msgbox Route129_Text_TishaPostBattle, MSGBOX_AUTOCLOSE
 # 46 "data/maps/Route129/scripts.pory"
@@ -95,7 +95,7 @@ Route129_EventScript_Tisha::
 # 48 "data/maps/Route129/scripts.pory"
 Route129_EventScript_Clarence::
 # 49 "data/maps/Route129/scripts.pory"
-	trainerbattle_single TRAINER_CLARENCE, Route129_Text_ClarenceIntro, Route129_Text_ClarenceDefeat
+	trainerbattle_single TRAINER_580, Route129_Text_ClarenceIntro, Route129_Text_ClarenceDefeat
 # 50 "data/maps/Route129/scripts.pory"
 	msgbox Route129_Text_ClarencePostBattle, MSGBOX_AUTOCLOSE
 # 51 "data/maps/Route129/scripts.pory"

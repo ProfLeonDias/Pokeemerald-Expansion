@@ -467,13 +467,13 @@ Route101_EventScript_BirchsBag::
 # 234 "data/maps/Route101/scripts.pory"
 	special HealPlayerParty
 # 235 "data/maps/Route101/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
+	setflag FLAG_HIDE_SAPPHIRE_VILLAGE_PEOPLE
 # 236 "data/maps/Route101/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
+	clearflag FLAG_HIDE_PROF_ASPEN
 # 237 "data/maps/Route101/scripts.pory"
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+	setflag FLAG_HIDE_ARNIE
 # 238 "data/maps/Route101/scripts.pory"
-	setvar VAR_BIRCH_LAB_STATE, 2
+	setvar VAR_ASPEN_LAB_EVENT, 2
 # 239 "data/maps/Route101/scripts.pory"
 	setvar VAR_ROUTE101_STATE, 3
 # 240 "data/maps/Route101/scripts.pory"
@@ -497,7 +497,7 @@ Route101_EventScript_BirchsBag::
 # 249 "data/maps/Route101/scripts.pory"
 Route101_EventScript_HideMayInBedroom::
 # 250 "data/maps/Route101/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	setflag FLAG_PROF_ASPEN_IMPROVEMENT
 # 251 "data/maps/Route101/scripts.pory"
 	return
 # 252 "data/maps/Route101/scripts.pory"

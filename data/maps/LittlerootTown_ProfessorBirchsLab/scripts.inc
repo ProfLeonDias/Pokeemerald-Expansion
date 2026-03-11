@@ -29,7 +29,7 @@ LittlerootTown_ProfessorBirchsLab_MapScripts::
 # 15 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 
 # 16 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	@ State descriptions for VAR_BIRCH_LAB_STATE
+	@ State descriptions for VAR_ASPEN_LAB_EVENT
 # 17 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	@ 1: Never occurs
 # 18 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
@@ -103,7 +103,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_SetAfterJohtoStarterLayout::
 # 52 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 LittlerootTown_ProfessorBirchsLab_OnWarp:
 # 53 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	map_script_2 VAR_BIRCH_LAB_STATE, 2, LittlerootTown_ProfessorBirchsLab_EventScript_SetPlayerPosForReceiveStarter
+	map_script_2 VAR_ASPEN_LAB_EVENT, 2, LittlerootTown_ProfessorBirchsLab_EventScript_SetPlayerPosForReceiveStarter
 # 54 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForDexUpgrade
 # 55 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
@@ -197,9 +197,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForJohtoStarters::
 # 99 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 LittlerootTown_ProfessorBirchsLab_OnFrame:
 # 100 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	map_script_2 VAR_BIRCH_LAB_STATE, 2, LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent
+	map_script_2 VAR_ASPEN_LAB_EVENT, 2, LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent
 # 101 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	map_script_2 VAR_BIRCH_LAB_STATE, 4, LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedexEvent
+	map_script_2 VAR_ASPEN_LAB_EVENT, 4, LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedexEvent
 # 102 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	map_script_2 VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 1, LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex
 # 103 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
@@ -267,7 +267,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_AgreeToSeeRival::
 # 134 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	clearflag FLAG_HIDE_ROUTE_101_BOY
 # 135 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	setvar VAR_BIRCH_LAB_STATE, 3
+	setvar VAR_ASPEN_LAB_EVENT, 3
 # 136 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	releaseall
 # 137 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
@@ -543,7 +543,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_Aide::
 # 272 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	faceplayer
 # 273 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	goto_if_ge VAR_BIRCH_LAB_STATE, 3, LittlerootTown_ProfessorBirchsLab_EventScript_AideReceivedStarter
+	goto_if_ge VAR_ASPEN_LAB_EVENT, 3, LittlerootTown_ProfessorBirchsLab_EventScript_AideReceivedStarter
 # 274 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	goto_if_set FLAG_BIRCH_AIDE_MET, LittlerootTown_ProfessorBirchsLab_EventScript_AideAlreadyMet
 # 275 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
@@ -973,7 +973,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_TryRatePokedexOrRegister::
 # 487 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	goto_if_ge VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6, ProfBirch_EventScript_RatePokedexOrRegister
 # 488 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	goto_if_eq VAR_BIRCH_LAB_STATE, 5, LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait
+	goto_if_eq VAR_ASPEN_LAB_EVENT, 5, LittlerootTown_ProfessorBirchsLab_EventScript_PokemonAwait
 # 489 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome, MSGBOX_DEFAULT
 # 490 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
@@ -1035,15 +1035,15 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex::
 # 518 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	call_if_eq VAR_RESULT, FEMALE, LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls
 # 519 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	setvar VAR_BIRCH_LAB_STATE, 5
+	setvar VAR_ASPEN_LAB_EVENT, 5
 # 520 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	setflag FLAG_ADVENTURE_STARTED
 # 521 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	setvar VAR_OLDALE_TOWN_STATE, 1
+	setvar VAR_JASPER_TOWN_STATE, 1
 # 522 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	setvar VAR_LITTLEROOT_RIVAL_STATE, 4
+	setvar VAR_INITIAL_EVENTS, 4
 # 523 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
-	setvar VAR_LITTLEROOT_TOWN_STATE, 3
+	setvar VAR_SAPPHIRE_VILLAGE_STATE, 3
 # 524 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"
 	releaseall
 # 525 "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.pory"

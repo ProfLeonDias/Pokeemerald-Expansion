@@ -1,1 +1,92 @@
 mapscripts Route_2_MapScripts {}
+
+script Route2_EventScript_Sign {
+    msgbox("Route 2- Jasper Pond\pIonia City to the west.\nJasper Town to the east.")
+    release
+}
+
+
+script Route2_EventScript_BugCatcher {
+    trainerbattle_single(TRAINER_13, BugCatcherIntro, BugCatcherDefeated)
+    msgbox(BugCatcherPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script Route2_EventScript_Lass {
+    trainerbattle_single(TRAINER_10, Rt2LassIntro, Rt2LassDefeated)
+    msgbox(Rt2LassPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script Route2_EventScript_Camper {
+    trainerbattle_single(TRAINER_11, Rt2CamperIntro, Rt2CamperDefeated)
+    msgbox(Rt2CamperPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script Route2_EventScript_Picnicker {
+    trainerbattle_single(TRAINER_12, Rt2PicnickerIntro, Rt2PicnickerDefeated)
+    msgbox(Rt2PicnickerPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script Route2_EventScript_Youngster {
+    trainerbattle_single(TRAINER_14, Rt2YoungsterIntro, Rt2YoungsterDefeated)
+    msgbox(Rt2YoungsterPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+text Rt2YoungsterIntro {
+    "I love shorts!\nThey're comfy and easy to wear!"
+}
+
+text Rt2YoungsterDefeated {
+    "Aw rats!"
+}
+
+text Rt2YoungsterPostBattle {
+    "Sometimes I feel cold in these shorts…"
+}
+
+text Rt2PicnickerIntro {
+    "I'm looking for some treasure!"
+}
+
+text Rt2PicnickerDefeated {
+    "They're all mine!"
+}
+
+text Rt2PicnickerPostBattle {
+    "My Dowsing Machine helps me find all\nsorts of hidden items!"
+}
+
+text BugCatcherIntro {
+    "I love bugs! They are so cool!"
+}
+
+text BugCatcherDefeated {
+    "Squished…"
+}
+
+text BugCatcherPostBattle {
+    "Do you like bugs too?"
+}
+
+text Rt2LassIntro {
+    "And just who are you exactly?"
+}
+
+text Rt2LassDefeated {
+    "Someone that's tough…"
+}
+
+text Rt2LassPostBattle {
+    "I guess you are a nice person…"
+}
+
+text Rt2CamperIntro {
+    "Do you want to go camping with me?"
+}
+
+text Rt2CamperDefeated {
+    "Aw, you're no fun!"
+}
+
+text Rt2CamperPostBattle {
+    "Do you hear that sound? That's the great\noutdoors calling out to us!"
+}

@@ -1,1 +1,146 @@
-mapscripts Route1North_MapScripts {}
+mapscripts Route1North_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: Route1N_MapScriptArnie
+}
+
+script Rout1N_MapScriptArnie{
+    if(flag(FLAG_BADGE01_GET) == TRUE){
+        removeobject(LOCALID_ARNIE)
+    }
+    else{}
+}
+
+script Route1N_EventScript_OldMan {
+    lock
+    faceplayer
+    if(flag(FLAG_BADGE01_GET) == TRUE){
+        msgbox("Old Man Arnold: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pMy grandson was inspired by you to\ntake on the Nexar League Challenge.\p…Which leaves me with most of the\nwork around here nowadays.")
+        release
+    }
+    else{
+    msgbox("Old Man Arnold: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pIf you're heading down to the woods, you\nshould be careful.\pSome hooligans are up to no good!\nDon't say I didn't warn you!")
+    release
+    }
+}
+
+script Route1N_EventScript_Sign1 {
+    msgbox("Palmer's Family Farm\nWe have Berries for sale!")
+    release
+}
+
+script Route1N_EventScript_Sign2 {
+    msgbox("Route 1 - Sapphire Path\pJames Woods to the south.\nSapphire Village to the north.")
+    release
+}
+
+script Route1N_EventScript_Arnie{
+    lock
+    faceplayer
+    compare(VAR_ASPEN_LAB_EVENT, 3)
+    if (var(VAR_RESULT) == TRUE){
+        msgbox("We got a lot of training to do for next\ntime. I'll make Meemaw proud!")
+        release
+    }
+    else{
+        msgbox("Arnie: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pI'm trying to catch a Pokémon so I can\nleave the farm. Wish me luck!")
+        release
+    }
+}
+
+script Route1N_EventScript_ArnieEventA{
+    lockall
+    playse(21)
+    applymovement(LOCALID_ARNIE, Rt1mov1)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Rt1mov2)
+    waitmovement(0)
+    delay(15)
+    msgbox("{COLOR BLUE}Arnie: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nI just caught my first Pokémon!\pI heard you chased off some goons\nin the woods not too long ago.\pYou must be plenty strong, so how's\nabout a battle?")
+    closemessage
+    trainerbattle_no_intro(TRAINER_200, ArnieDefeated)
+    delay(30)
+    msgbox("{COLOR BLUE}Wow! You really are strong!\nYou know, I saw Alex pass by.\pHe went into the woods, and he\nwas mighty happy at that.\lHe must've got a new Pokémon too!")
+    closemessage
+    setvar(VAR_ASPEN_LAB_EVENT, 3)
+    releaseall
+}
+
+script Route1N_EventScript_ArnieEventB{
+    lockall
+    playse(21)
+    applymovement(LOCALID_ARNIE, Rt1mov3)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Rt1mov2)
+    waitmovement(0)
+    delay(15)
+    msgbox("{COLOR BLUE}Arnie: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nI just caught my first Pokémon!\pI heard you chased off some goons\nin the woods not too long ago.\pYou must be plenty strong, so how's\nabout a battle?")
+    closemessage
+    trainerbattle_no_intro(TRAINER_200, ArnieDefeated)
+    delay(30)
+    msgbox("{COLOR BLUE}Wow! You really are strong!\nYou know, I saw Alex pass by.\pHe went into the woods, and he\nwas mighty happy at that.\lHe must've got a new Pokémon too!")
+    closemessage
+    setvar(VAR_ASPEN_LAB_EVENT, 3)
+    releaseall
+}
+
+script Route1N_EventScript_ArnieEventC{
+    lockall
+    playse(21)
+    applymovement(LOCALID_ARNIE, Rt1mov4)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Rt1mov2)
+    waitmovement(0)
+    delay(15)
+    msgbox("{COLOR BLUE}Arnie: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nI just caught my first Pokémon!\pI heard you chased off some goons\nin the woods not too long ago.\pYou must be plenty strong, so how's\nabout a battle?")
+    closemessage
+    trainerbattle_no_intro(TRAINER_200, ArnieDefeated)
+    delay(30)
+    msgbox("{COLOR BLUE}Wow! You really are strong!\nYou know, I saw Alex pass by.\pHe went into the woods, and he\nwas mighty happy at that.\lHe must've got a new Pokémon too!")
+    closemessage
+    setvar(VAR_ASPEN_LAB_EVENT, 3)
+    releaseall
+}
+
+script Route1N_EventScript_ArnieEventD{
+    lockall
+    playse(21)
+    applymovement(LOCALID_ARNIE, Rt1mov5)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Rt1mov2)
+    waitmovement(0)
+    delay(15)
+    msgbox("{COLOR BLUE}Arnie: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nI just caught my first Pokémon!\pI heard you chased off some goons\nin the woods not too long ago.\pYou must be plenty strong, so how's\nabout a battle?")
+    closemessage
+    trainerbattle_no_intro(TRAINER_200, ArnieDefeated)
+    delay(30)
+    msgbox("{COLOR BLUE}Wow! You really are strong!\nYou know, I saw Alex pass by.\pHe went into the woods, and he\nwas mighty happy at that.\lHe must've got a new Pokémon too!")
+    closemessage
+    setvar(VAR_ASPEN_LAB_EVENT, 3)
+    releaseall
+}
+
+text ArnieDefeated{
+    "So strong!"
+}
+
+movement Rt1mov1{
+    emote_exclamation_mark
+}
+
+movement Rt1mov2{
+    face_left
+}
+
+movement Rt1mov3{
+    emote_exclamation_mark
+    walk_right
+}
+
+movement Rt1mov4{
+    emote_exclamation_mark
+    walk_right *2
+}
+
+movement Rt1mov5{
+    emote_exclamation_mark
+    walk_right *3
+}

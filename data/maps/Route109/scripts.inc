@@ -755,7 +755,7 @@ Route109_EventScript_TrainerTipsSign::
 # 378 "data/maps/Route109/scripts.pory"
 Route109_EventScript_David::
 # 379 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_DAVID, Route109_Text_DavidIntro, Route109_Text_DavidDefeated
+	trainerbattle_single TRAINER_158, Route109_Text_DavidIntro, Route109_Text_DavidDefeated
 # 380 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_DavidPostBattle, MSGBOX_AUTOCLOSE
 # 381 "data/maps/Route109/scripts.pory"
@@ -765,7 +765,7 @@ Route109_EventScript_David::
 # 383 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Alice::
 # 384 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_ALICE, Route109_Text_AliceIntro, Route109_Text_AliceDefeated
+	trainerbattle_single TRAINER_448, Route109_Text_AliceIntro, Route109_Text_AliceDefeated
 # 385 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_AlicePostBattle, MSGBOX_AUTOCLOSE
 # 386 "data/maps/Route109/scripts.pory"
@@ -775,7 +775,7 @@ Route109_EventScript_Alice::
 # 388 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Huey::
 # 389 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_HUEY, Route109_Text_HueyIntro, Route109_Text_HueyDefeated
+	trainerbattle_single TRAINER_490, Route109_Text_HueyIntro, Route109_Text_HueyDefeated
 # 390 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_HueyPostBattle, MSGBOX_AUTOCLOSE
 # 391 "data/maps/Route109/scripts.pory"
@@ -785,7 +785,7 @@ Route109_EventScript_Huey::
 # 393 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Edmond::
 # 394 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_EDMOND, Route109_Text_EdmondIntro, Route109_Text_EdmondDefeated
+	trainerbattle_single TRAINER_491, Route109_Text_EdmondIntro, Route109_Text_EdmondDefeated
 # 395 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_EdmondPostBattle, MSGBOX_AUTOCLOSE
 # 396 "data/maps/Route109/scripts.pory"
@@ -795,7 +795,7 @@ Route109_EventScript_Edmond::
 # 398 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Ricky::
 # 399 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_RICKY_1, Route109_Text_RickyIntro, Route109_Text_RickyDefeated, Route109_EventScript_RickyRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_64, Route109_Text_RickyIntro, Route109_Text_RickyDefeated, Route109_EventScript_RickyRegisterMatchCallAfterBattle
 # 400 "data/maps/Route109/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 401 "data/maps/Route109/scripts.pory"
@@ -817,7 +817,7 @@ Route109_EventScript_RickyRegisterMatchCallAfterBattle::
 # 409 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_RickyRegister, MSGBOX_DEFAULT
 # 410 "data/maps/Route109/scripts.pory"
-	register_matchcall TRAINER_RICKY_1
+	register_matchcall TRAINER_64
 # 411 "data/maps/Route109/scripts.pory"
 	release
 # 412 "data/maps/Route109/scripts.pory"
@@ -827,7 +827,7 @@ Route109_EventScript_RickyRegisterMatchCallAfterBattle::
 # 414 "data/maps/Route109/scripts.pory"
 Route109_EventScript_RickyRematch::
 # 415 "data/maps/Route109/scripts.pory"
-	trainerbattle_rematch TRAINER_RICKY_1, Route109_Text_RickyRematchIntro, Route109_Text_RickyRematchDefeated
+	trainerbattle_rematch TRAINER_64, Route109_Text_RickyRematchIntro, Route109_Text_RickyRematchDefeated
 # 416 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_RickyRematchPostBattle, MSGBOX_AUTOCLOSE
 # 417 "data/maps/Route109/scripts.pory"
@@ -837,7 +837,7 @@ Route109_EventScript_RickyRematch::
 # 419 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Lola::
 # 420 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_LOLA_1, Route109_Text_LolaIntro, Route109_Text_LolaDefeated, Route109_EventScript_LolaRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_57, Route109_Text_LolaIntro, Route109_Text_LolaDefeated, Route109_EventScript_LolaRegisterMatchCallAfterBattle
 # 421 "data/maps/Route109/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 422 "data/maps/Route109/scripts.pory"
@@ -859,7 +859,7 @@ Route109_EventScript_LolaRegisterMatchCallAfterBattle::
 # 430 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_LolaRegister, MSGBOX_DEFAULT
 # 431 "data/maps/Route109/scripts.pory"
-	register_matchcall TRAINER_LOLA_1
+	register_matchcall TRAINER_57
 # 432 "data/maps/Route109/scripts.pory"
 	release
 # 433 "data/maps/Route109/scripts.pory"
@@ -869,7 +869,7 @@ Route109_EventScript_LolaRegisterMatchCallAfterBattle::
 # 435 "data/maps/Route109/scripts.pory"
 Route109_EventScript_LolaRematch::
 # 436 "data/maps/Route109/scripts.pory"
-	trainerbattle_rematch TRAINER_LOLA_1, Route109_Text_LolaRematchIntro, Route109_Text_LolaRematchDefeated
+	trainerbattle_rematch TRAINER_57, Route109_Text_LolaRematchIntro, Route109_Text_LolaRematchDefeated
 # 437 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_LolaRematchPostBattle, MSGBOX_AUTOCLOSE
 # 438 "data/maps/Route109/scripts.pory"
@@ -879,7 +879,7 @@ Route109_EventScript_LolaRematch::
 # 440 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Austina::
 # 441 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_AUSTINA, Route109_Text_AustinaIntro, Route109_Text_AustinaDefeated
+	trainerbattle_single TRAINER_58, Route109_Text_AustinaIntro, Route109_Text_AustinaDefeated
 # 442 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_AustinaPostBattle, MSGBOX_AUTOCLOSE
 # 443 "data/maps/Route109/scripts.pory"
@@ -889,7 +889,7 @@ Route109_EventScript_Austina::
 # 445 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Gwen::
 # 446 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_GWEN, Route109_Text_GwenIntro, Route109_Text_GwenDefeated
+	trainerbattle_single TRAINER_59, Route109_Text_GwenIntro, Route109_Text_GwenDefeated
 # 447 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_GwenPostBattle, MSGBOX_AUTOCLOSE
 # 448 "data/maps/Route109/scripts.pory"
@@ -899,7 +899,7 @@ Route109_EventScript_Gwen::
 # 450 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Carter::
 # 451 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_CARTER, Route109_Text_CarterIntro, Route109_Text_CarterDefeated
+	trainerbattle_single TRAINER_345, Route109_Text_CarterIntro, Route109_Text_CarterDefeated
 # 452 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_CarterPostBattle, MSGBOX_AUTOCLOSE
 # 453 "data/maps/Route109/scripts.pory"
@@ -909,7 +909,7 @@ Route109_EventScript_Carter::
 # 455 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Paul::
 # 456 "data/maps/Route109/scripts.pory"
-	trainerbattle_double TRAINER_MEL_AND_PAUL, Route109_Text_PaulIntro, Route109_Text_PaulDefeated, Route109_Text_PaulNotEnoughPokemon
+	trainerbattle_double TRAINER_680, Route109_Text_PaulIntro, Route109_Text_PaulDefeated, Route109_Text_PaulNotEnoughPokemon
 # 457 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_PaulPostBattle, MSGBOX_AUTOCLOSE
 # 458 "data/maps/Route109/scripts.pory"
@@ -919,7 +919,7 @@ Route109_EventScript_Paul::
 # 460 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Mel::
 # 461 "data/maps/Route109/scripts.pory"
-	trainerbattle_double TRAINER_MEL_AND_PAUL, Route109_Text_MelIntro, Route109_Text_MelDefeated, Route109_Text_MelNotEnoughPokemon
+	trainerbattle_double TRAINER_680, Route109_Text_MelIntro, Route109_Text_MelDefeated, Route109_Text_MelNotEnoughPokemon
 # 462 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_MelPostBattle, MSGBOX_AUTOCLOSE
 # 463 "data/maps/Route109/scripts.pory"
@@ -929,7 +929,7 @@ Route109_EventScript_Mel::
 # 465 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Chandler::
 # 466 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_CHANDLER, Route109_Text_ChandlerIntro, Route109_Text_ChandlerDefeated
+	trainerbattle_single TRAINER_698, Route109_Text_ChandlerIntro, Route109_Text_ChandlerDefeated
 # 467 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_ChandlerPostBattle, MSGBOX_AUTOCLOSE
 # 468 "data/maps/Route109/scripts.pory"
@@ -939,7 +939,7 @@ Route109_EventScript_Chandler::
 # 470 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Hailey::
 # 471 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_HAILEY, Route109_Text_HaileyIntro, Route109_Text_HaileyDefeated
+	trainerbattle_single TRAINER_697, Route109_Text_HaileyIntro, Route109_Text_HaileyDefeated
 # 472 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_HaileyPostBattle, MSGBOX_AUTOCLOSE
 # 473 "data/maps/Route109/scripts.pory"
@@ -949,7 +949,7 @@ Route109_EventScript_Hailey::
 # 475 "data/maps/Route109/scripts.pory"
 Route109_EventScript_Elijah::
 # 476 "data/maps/Route109/scripts.pory"
-	trainerbattle_single TRAINER_ELIJAH, Route109_Text_ElijahIntro, Route109_Text_ElijahDefeated
+	trainerbattle_single TRAINER_742, Route109_Text_ElijahIntro, Route109_Text_ElijahDefeated
 # 477 "data/maps/Route109/scripts.pory"
 	msgbox Route109_Text_ElijahPostBattle, MSGBOX_AUTOCLOSE
 # 478 "data/maps/Route109/scripts.pory"

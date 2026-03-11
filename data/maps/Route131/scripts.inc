@@ -37,7 +37,7 @@ Route131_EventScript_CheckSetAbnormalWeather::
 # 19 "data/maps/Route131/scripts.pory"
 Route131_EventScript_Richard::
 # 20 "data/maps/Route131/scripts.pory"
-	trainerbattle_single TRAINER_RICHARD, Route131_Text_RichardIntro, Route131_Text_RichardDefeat
+	trainerbattle_single TRAINER_166, Route131_Text_RichardIntro, Route131_Text_RichardDefeat
 # 21 "data/maps/Route131/scripts.pory"
 	msgbox Route131_Text_RichardPostBattle, MSGBOX_AUTOCLOSE
 # 22 "data/maps/Route131/scripts.pory"
@@ -47,7 +47,7 @@ Route131_EventScript_Richard::
 # 24 "data/maps/Route131/scripts.pory"
 Route131_EventScript_Herman::
 # 25 "data/maps/Route131/scripts.pory"
-	trainerbattle_single TRAINER_HERMAN, Route131_Text_HermanIntro, Route131_Text_HermanDefeat
+	trainerbattle_single TRAINER_167, Route131_Text_HermanIntro, Route131_Text_HermanDefeat
 # 26 "data/maps/Route131/scripts.pory"
 	msgbox Route131_Text_HermanPostBattle, MSGBOX_AUTOCLOSE
 # 27 "data/maps/Route131/scripts.pory"
@@ -57,7 +57,7 @@ Route131_EventScript_Herman::
 # 29 "data/maps/Route131/scripts.pory"
 Route131_EventScript_Susie::
 # 30 "data/maps/Route131/scripts.pory"
-	trainerbattle_single TRAINER_SUSIE, Route131_Text_SusieIntro, Route131_Text_SusieDefeat
+	trainerbattle_single TRAINER_456, Route131_Text_SusieIntro, Route131_Text_SusieDefeat
 # 31 "data/maps/Route131/scripts.pory"
 	msgbox Route131_Text_SusiePostBattle, MSGBOX_AUTOCLOSE
 # 32 "data/maps/Route131/scripts.pory"
@@ -67,7 +67,7 @@ Route131_EventScript_Susie::
 # 34 "data/maps/Route131/scripts.pory"
 Route131_EventScript_Kara::
 # 35 "data/maps/Route131/scripts.pory"
-	trainerbattle_single TRAINER_KARA, Route131_Text_KaraIntro, Route131_Text_KaraDefeat
+	trainerbattle_single TRAINER_457, Route131_Text_KaraIntro, Route131_Text_KaraDefeat
 # 36 "data/maps/Route131/scripts.pory"
 	msgbox Route131_Text_KaraPostBattle, MSGBOX_AUTOCLOSE
 # 37 "data/maps/Route131/scripts.pory"
@@ -77,7 +77,7 @@ Route131_EventScript_Kara::
 # 39 "data/maps/Route131/scripts.pory"
 Route131_EventScript_Reli::
 # 40 "data/maps/Route131/scripts.pory"
-	trainerbattle_double TRAINER_RELI_AND_IAN, Route131_Text_ReliIntro, Route131_Text_ReliDefeat, Route131_Text_ReliNotEnoughMons
+	trainerbattle_double TRAINER_686, Route131_Text_ReliIntro, Route131_Text_ReliDefeat, Route131_Text_ReliNotEnoughMons
 # 41 "data/maps/Route131/scripts.pory"
 	msgbox Route131_Text_ReliPostBattle, MSGBOX_AUTOCLOSE
 # 42 "data/maps/Route131/scripts.pory"
@@ -87,7 +87,7 @@ Route131_EventScript_Reli::
 # 44 "data/maps/Route131/scripts.pory"
 Route131_EventScript_Ian::
 # 45 "data/maps/Route131/scripts.pory"
-	trainerbattle_double TRAINER_RELI_AND_IAN, Route131_Text_IanIntro, Route131_Text_IanDefeat, Route131_Text_IanNotEnoughMons
+	trainerbattle_double TRAINER_686, Route131_Text_IanIntro, Route131_Text_IanDefeat, Route131_Text_IanNotEnoughMons
 # 46 "data/maps/Route131/scripts.pory"
 	msgbox Route131_Text_IanPostBattle, MSGBOX_AUTOCLOSE
 # 47 "data/maps/Route131/scripts.pory"
@@ -97,7 +97,7 @@ Route131_EventScript_Ian::
 # 49 "data/maps/Route131/scripts.pory"
 Route131_EventScript_Talia::
 # 50 "data/maps/Route131/scripts.pory"
-	trainerbattle_single TRAINER_TALIA, Route131_Text_TaliaIntro, Route131_Text_TaliaDefeat
+	trainerbattle_single TRAINER_385, Route131_Text_TaliaIntro, Route131_Text_TaliaDefeat
 # 51 "data/maps/Route131/scripts.pory"
 	msgbox Route131_Text_TaliaPostBattle, MSGBOX_AUTOCLOSE
 # 52 "data/maps/Route131/scripts.pory"
@@ -107,7 +107,7 @@ Route131_EventScript_Talia::
 # 54 "data/maps/Route131/scripts.pory"
 Route131_EventScript_Kevin::
 # 55 "data/maps/Route131/scripts.pory"
-	trainerbattle_single TRAINER_KEVIN, Route131_Text_KevinIntro, Route131_Text_KevinDefeat
+	trainerbattle_single TRAINER_171, Route131_Text_KevinIntro, Route131_Text_KevinDefeat
 # 56 "data/maps/Route131/scripts.pory"
 	msgbox Route131_Text_KevinPostBattle, MSGBOX_AUTOCLOSE
 # 57 "data/maps/Route131/scripts.pory"

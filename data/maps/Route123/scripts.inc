@@ -91,7 +91,7 @@ Route123_EventScript_BerryMastersHouseSign::
 # 46 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Wendy::
 # 47 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_WENDY, Route123_Text_WendyIntro, Route123_Text_WendyDefeat
+	trainerbattle_single TRAINER_92, Route123_Text_WendyIntro, Route123_Text_WendyDefeat
 # 48 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_WendyPostBattle, MSGBOX_AUTOCLOSE
 # 49 "data/maps/Route123/scripts.pory"
@@ -101,7 +101,7 @@ Route123_EventScript_Wendy::
 # 51 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Braxton::
 # 52 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_BRAXTON, Route123_Text_BraxtonIntro, Route123_Text_BraxtonDefeat
+	trainerbattle_single TRAINER_75, Route123_Text_BraxtonIntro, Route123_Text_BraxtonDefeat
 # 53 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_BraxtonPostBattle, MSGBOX_AUTOCLOSE
 # 54 "data/maps/Route123/scripts.pory"
@@ -111,7 +111,7 @@ Route123_EventScript_Braxton::
 # 56 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Violet::
 # 57 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_VIOLET, Route123_Text_VioletIntro, Route123_Text_VioletDefeat
+	trainerbattle_single TRAINER_39, Route123_Text_VioletIntro, Route123_Text_VioletDefeat
 # 58 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_VioletPostBattle, MSGBOX_AUTOCLOSE
 # 59 "data/maps/Route123/scripts.pory"
@@ -121,7 +121,7 @@ Route123_EventScript_Violet::
 # 61 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Cameron::
 # 62 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_CAMERON_1, Route123_Text_CameronIntro, Route123_Text_CameronDefeat, Route123_EventScript_RegisterCameron
+	trainerbattle_single TRAINER_238, Route123_Text_CameronIntro, Route123_Text_CameronDefeat, Route123_EventScript_RegisterCameron
 # 63 "data/maps/Route123/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 64 "data/maps/Route123/scripts.pory"
@@ -143,7 +143,7 @@ Route123_EventScript_RegisterCameron::
 # 72 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_CameronRegister, MSGBOX_DEFAULT
 # 73 "data/maps/Route123/scripts.pory"
-	register_matchcall TRAINER_CAMERON_1
+	register_matchcall TRAINER_238
 # 74 "data/maps/Route123/scripts.pory"
 	release
 # 75 "data/maps/Route123/scripts.pory"
@@ -153,7 +153,7 @@ Route123_EventScript_RegisterCameron::
 # 77 "data/maps/Route123/scripts.pory"
 Route123_EventScript_RematchCameron::
 # 78 "data/maps/Route123/scripts.pory"
-	trainerbattle_rematch TRAINER_CAMERON_1, Route123_Text_CameronRematchIntro, Route123_Text_CameronRematchDefeat
+	trainerbattle_rematch TRAINER_238, Route123_Text_CameronRematchIntro, Route123_Text_CameronRematchDefeat
 # 79 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_CameronPostRematch, MSGBOX_AUTOCLOSE
 # 80 "data/maps/Route123/scripts.pory"
@@ -163,7 +163,7 @@ Route123_EventScript_RematchCameron::
 # 82 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Jacki::
 # 83 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_JACKI_1, Route123_Text_JackiIntro, Route123_Text_JackiDefeat, Route123_EventScript_RegisterJacki
+	trainerbattle_single TRAINER_249, Route123_Text_JackiIntro, Route123_Text_JackiDefeat, Route123_EventScript_RegisterJacki
 # 84 "data/maps/Route123/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 85 "data/maps/Route123/scripts.pory"
@@ -185,7 +185,7 @@ Route123_EventScript_RegisterJacki::
 # 93 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_JackiRegister, MSGBOX_DEFAULT
 # 94 "data/maps/Route123/scripts.pory"
-	register_matchcall TRAINER_JACKI_1
+	register_matchcall TRAINER_249
 # 95 "data/maps/Route123/scripts.pory"
 	release
 # 96 "data/maps/Route123/scripts.pory"
@@ -195,7 +195,7 @@ Route123_EventScript_RegisterJacki::
 # 98 "data/maps/Route123/scripts.pory"
 Route123_EventScript_RematchJacki::
 # 99 "data/maps/Route123/scripts.pory"
-	trainerbattle_rematch TRAINER_JACKI_1, Route123_Text_JackiRematchIntro, Route123_Text_JackiRematchDefeat
+	trainerbattle_rematch TRAINER_249, Route123_Text_JackiRematchIntro, Route123_Text_JackiRematchDefeat
 # 100 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_JackiPostRematch, MSGBOX_AUTOCLOSE
 # 101 "data/maps/Route123/scripts.pory"
@@ -205,7 +205,7 @@ Route123_EventScript_RematchJacki::
 # 103 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Miu::
 # 104 "data/maps/Route123/scripts.pory"
-	trainerbattle_double TRAINER_MIU_AND_YUKI, Route123_Text_MiuIntro, Route123_Text_MiuDefeat, Route123_Text_MiuNotEnoughMons
+	trainerbattle_double TRAINER_484, Route123_Text_MiuIntro, Route123_Text_MiuDefeat, Route123_Text_MiuNotEnoughMons
 # 105 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_MiuPostBattle, MSGBOX_AUTOCLOSE
 # 106 "data/maps/Route123/scripts.pory"
@@ -215,7 +215,7 @@ Route123_EventScript_Miu::
 # 108 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Yuki::
 # 109 "data/maps/Route123/scripts.pory"
-	trainerbattle_double TRAINER_MIU_AND_YUKI, Route123_Text_YukiIntro, Route123_Text_YukiDefeat, Route123_Text_YukiNotEnoughMons
+	trainerbattle_double TRAINER_484, Route123_Text_YukiIntro, Route123_Text_YukiDefeat, Route123_Text_YukiNotEnoughMons
 # 110 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_YukiPostBattle, MSGBOX_AUTOCLOSE
 # 111 "data/maps/Route123/scripts.pory"
@@ -225,7 +225,7 @@ Route123_EventScript_Yuki::
 # 113 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Kindra::
 # 114 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_KINDRA, Route123_Text_KindraIntro, Route123_Text_KindraDefeat
+	trainerbattle_single TRAINER_106, Route123_Text_KindraIntro, Route123_Text_KindraDefeat
 # 115 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_KindraPostBattle, MSGBOX_AUTOCLOSE
 # 116 "data/maps/Route123/scripts.pory"
@@ -235,7 +235,7 @@ Route123_EventScript_Kindra::
 # 118 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Frederick::
 # 119 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_FREDRICK, Route123_Text_FrederickIntro, Route123_Text_FrederickDefeat
+	trainerbattle_single TRAINER_29, Route123_Text_FrederickIntro, Route123_Text_FrederickDefeat
 # 120 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_FrederickPostBattle, MSGBOX_AUTOCLOSE
 # 121 "data/maps/Route123/scripts.pory"
@@ -245,7 +245,7 @@ Route123_EventScript_Frederick::
 # 123 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Alberto::
 # 124 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_ALBERTO, Route123_Text_AlbertoIntro, Route123_Text_AlbertoDefeat
+	trainerbattle_single TRAINER_12, Route123_Text_AlbertoIntro, Route123_Text_AlbertoDefeat
 # 125 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_AlbertoPostBattle, MSGBOX_AUTOCLOSE
 # 126 "data/maps/Route123/scripts.pory"
@@ -255,7 +255,7 @@ Route123_EventScript_Alberto::
 # 128 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Ed::
 # 129 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_ED, Route123_Text_EdIntro, Route123_Text_EdDefeat
+	trainerbattle_single TRAINER_13, Route123_Text_EdIntro, Route123_Text_EdDefeat
 # 130 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_EdPostBattle, MSGBOX_AUTOCLOSE
 # 131 "data/maps/Route123/scripts.pory"
@@ -265,7 +265,7 @@ Route123_EventScript_Ed::
 # 133 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Kayley::
 # 134 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_KAYLEY, Route123_Text_KayleyIntro, Route123_Text_KayleyDefeat
+	trainerbattle_single TRAINER_505, Route123_Text_KayleyIntro, Route123_Text_KayleyDefeat
 # 135 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_KayleyPostBattle, MSGBOX_AUTOCLOSE
 # 136 "data/maps/Route123/scripts.pory"
@@ -275,7 +275,7 @@ Route123_EventScript_Kayley::
 # 138 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Jonas::
 # 139 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_JONAS, Route123_Text_JonasIntro, Route123_Text_JonasDefeat
+	trainerbattle_single TRAINER_504, Route123_Text_JonasIntro, Route123_Text_JonasDefeat
 # 140 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_JonasPostBattle, MSGBOX_AUTOCLOSE
 # 141 "data/maps/Route123/scripts.pory"
@@ -285,7 +285,7 @@ Route123_EventScript_Jonas::
 # 143 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Jazmyn::
 # 144 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_JAZMYN, Route123_Text_JazmynIntro, Route123_Text_JazmynDefeat
+	trainerbattle_single TRAINER_503, Route123_Text_JazmynIntro, Route123_Text_JazmynDefeat
 # 145 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_JazmynPostBattle, MSGBOX_AUTOCLOSE
 # 146 "data/maps/Route123/scripts.pory"
@@ -295,7 +295,7 @@ Route123_EventScript_Jazmyn::
 # 148 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Davis::
 # 149 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_DAVIS, Route123_Text_DavisIntro, Route123_Text_DavisDefeat
+	trainerbattle_single TRAINER_539, Route123_Text_DavisIntro, Route123_Text_DavisDefeat
 # 150 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_DavisPostBattle, MSGBOX_AUTOCLOSE
 # 151 "data/maps/Route123/scripts.pory"
@@ -305,7 +305,7 @@ Route123_EventScript_Davis::
 # 153 "data/maps/Route123/scripts.pory"
 Route123_EventScript_Fernando::
 # 154 "data/maps/Route123/scripts.pory"
-	trainerbattle_single TRAINER_FERNANDO_1, Route123_Text_FernandoIntro, Route123_Text_FernandoDefeat, Route123_EventScript_RegisterFernando
+	trainerbattle_single TRAINER_195, Route123_Text_FernandoIntro, Route123_Text_FernandoDefeat, Route123_EventScript_RegisterFernando
 # 155 "data/maps/Route123/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 156 "data/maps/Route123/scripts.pory"
@@ -327,7 +327,7 @@ Route123_EventScript_RegisterFernando::
 # 164 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_FernandoRegister, MSGBOX_DEFAULT
 # 165 "data/maps/Route123/scripts.pory"
-	register_matchcall TRAINER_FERNANDO_1
+	register_matchcall TRAINER_195
 # 166 "data/maps/Route123/scripts.pory"
 	release
 # 167 "data/maps/Route123/scripts.pory"
@@ -337,7 +337,7 @@ Route123_EventScript_RegisterFernando::
 # 169 "data/maps/Route123/scripts.pory"
 Route123_EventScript_RematchFernando::
 # 170 "data/maps/Route123/scripts.pory"
-	trainerbattle_rematch TRAINER_FERNANDO_1, Route123_Text_FernandoRematchIntro, Route123_Text_FernandoRematchDefeat
+	trainerbattle_rematch TRAINER_195, Route123_Text_FernandoRematchIntro, Route123_Text_FernandoRematchDefeat
 # 171 "data/maps/Route123/scripts.pory"
 	msgbox Route123_Text_FernandoPostRematch, MSGBOX_AUTOCLOSE
 # 172 "data/maps/Route123/scripts.pory"

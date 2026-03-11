@@ -54,12 +54,12 @@ By default, only `POOL_PRUNE_NONE`, which doesn't remove anything from the pool,
 
 ## Pool copy
 The `Copy Pool` option can be used to have the trainer use the party or pool from a different trainer.
-If you for example want some other trainer to have the same team/pool as Tiana, you'd use `Copy Pool: TRAINER_TIANA`.
+If you for example want some other trainer to have the same team/pool as Tiana, you'd use `Copy Pool: TRAINER_603`.
 If `Party Size` isn't defined for the current trainer, it will inherit from the copied trainer.
 
 ## Example pool
 ```
-=== TRAINER_TIANA ===
+=== TRAINER_603 ===
 Name: TIANA
 Class: Lass
 Pic: Lass

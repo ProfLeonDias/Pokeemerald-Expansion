@@ -13,7 +13,7 @@ MtPyre_4F_MapScripts::
 # 7 "data/maps/MtPyre_4F/scripts.pory"
 MtPyre_5F_EventScript_Atsushi::
 # 8 "data/maps/MtPyre_4F/scripts.pory"
-	trainerbattle_single TRAINER_ATSUSHI, MtPyre_5F_Text_AtsushiIntro, MtPyre_5F_Text_AtsushiDefeat
+	trainerbattle_single TRAINER_190, MtPyre_5F_Text_AtsushiIntro, MtPyre_5F_Text_AtsushiDefeat
 # 9 "data/maps/MtPyre_4F/scripts.pory"
 	msgbox MtPyre_5F_Text_AtsushiPostBattle, MSGBOX_AUTOCLOSE
 # 10 "data/maps/MtPyre_4F/scripts.pory"

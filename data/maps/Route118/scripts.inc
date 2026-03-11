@@ -359,7 +359,7 @@ Route118_Movement_StevenExit2:
 # 180 "data/maps/Route118/scripts.pory"
 Route118_EventScript_Rose::
 # 181 "data/maps/Route118/scripts.pory"
-	trainerbattle_single TRAINER_ROSE_1, Route118_Text_RoseIntro, Route118_Text_RoseDefeat, Route118_EventScript_RegisterRose
+	trainerbattle_single TRAINER_37, Route118_Text_RoseIntro, Route118_Text_RoseDefeat, Route118_EventScript_RegisterRose
 # 182 "data/maps/Route118/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 183 "data/maps/Route118/scripts.pory"
@@ -381,7 +381,7 @@ Route118_EventScript_RegisterRose::
 # 191 "data/maps/Route118/scripts.pory"
 	msgbox Route118_Text_RoseRegister, MSGBOX_DEFAULT
 # 192 "data/maps/Route118/scripts.pory"
-	register_matchcall TRAINER_ROSE_1
+	register_matchcall TRAINER_37
 # 193 "data/maps/Route118/scripts.pory"
 	release
 # 194 "data/maps/Route118/scripts.pory"
@@ -391,7 +391,7 @@ Route118_EventScript_RegisterRose::
 # 196 "data/maps/Route118/scripts.pory"
 Route118_EventScript_RematchRose::
 # 197 "data/maps/Route118/scripts.pory"
-	trainerbattle_rematch TRAINER_ROSE_1, Route118_Text_RoseRematchIntro, Route118_Text_RoseRematchDefeat
+	trainerbattle_rematch TRAINER_37, Route118_Text_RoseRematchIntro, Route118_Text_RoseRematchDefeat
 # 198 "data/maps/Route118/scripts.pory"
 	msgbox Route118_Text_RosePostRematch, MSGBOX_AUTOCLOSE
 # 199 "data/maps/Route118/scripts.pory"
@@ -401,7 +401,7 @@ Route118_EventScript_RematchRose::
 # 201 "data/maps/Route118/scripts.pory"
 Route118_EventScript_Barny::
 # 202 "data/maps/Route118/scripts.pory"
-	trainerbattle_single TRAINER_BARNY, Route118_Text_BarnyIntro, Route118_Text_BarnyDefeat
+	trainerbattle_single TRAINER_343, Route118_Text_BarnyIntro, Route118_Text_BarnyDefeat
 # 203 "data/maps/Route118/scripts.pory"
 	msgbox Route118_Text_BarnyPostBattle, MSGBOX_AUTOCLOSE
 # 204 "data/maps/Route118/scripts.pory"
@@ -411,7 +411,7 @@ Route118_EventScript_Barny::
 # 206 "data/maps/Route118/scripts.pory"
 Route118_EventScript_Wade::
 # 207 "data/maps/Route118/scripts.pory"
-	trainerbattle_single TRAINER_WADE, Route118_Text_WadeIntro, Route118_Text_WadeDefeat
+	trainerbattle_single TRAINER_344, Route118_Text_WadeIntro, Route118_Text_WadeDefeat
 # 208 "data/maps/Route118/scripts.pory"
 	msgbox Route118_Text_WadePostBattle, MSGBOX_AUTOCLOSE
 # 209 "data/maps/Route118/scripts.pory"
@@ -421,7 +421,7 @@ Route118_EventScript_Wade::
 # 211 "data/maps/Route118/scripts.pory"
 Route118_EventScript_Dalton::
 # 212 "data/maps/Route118/scripts.pory"
-	trainerbattle_single TRAINER_DALTON_1, Route118_Text_DaltonIntro, Route118_Text_DaltonDefeat, Route118_EventScript_RegisterDalton
+	trainerbattle_single TRAINER_196, Route118_Text_DaltonIntro, Route118_Text_DaltonDefeat, Route118_EventScript_RegisterDalton
 # 213 "data/maps/Route118/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 214 "data/maps/Route118/scripts.pory"
@@ -443,7 +443,7 @@ Route118_EventScript_RegisterDalton::
 # 222 "data/maps/Route118/scripts.pory"
 	msgbox Route118_Text_DaltonRegister, MSGBOX_DEFAULT
 # 223 "data/maps/Route118/scripts.pory"
-	register_matchcall TRAINER_DALTON_1
+	register_matchcall TRAINER_196
 # 224 "data/maps/Route118/scripts.pory"
 	release
 # 225 "data/maps/Route118/scripts.pory"
@@ -453,7 +453,7 @@ Route118_EventScript_RegisterDalton::
 # 227 "data/maps/Route118/scripts.pory"
 Route118_EventScript_RematchDalton::
 # 228 "data/maps/Route118/scripts.pory"
-	trainerbattle_rematch TRAINER_DALTON_1, Route118_Text_DaltonRematchIntro, Route118_Text_DaltonRematchDefeat
+	trainerbattle_rematch TRAINER_196, Route118_Text_DaltonRematchIntro, Route118_Text_DaltonRematchDefeat
 # 229 "data/maps/Route118/scripts.pory"
 	msgbox Route118_Text_DaltonPostRematch, MSGBOX_AUTOCLOSE
 # 230 "data/maps/Route118/scripts.pory"
@@ -463,7 +463,7 @@ Route118_EventScript_RematchDalton::
 # 232 "data/maps/Route118/scripts.pory"
 Route118_EventScript_Perry::
 # 233 "data/maps/Route118/scripts.pory"
-	trainerbattle_single TRAINER_PERRY, Route118_Text_PerryIntro, Route118_Text_PerryDefeat
+	trainerbattle_single TRAINER_398, Route118_Text_PerryIntro, Route118_Text_PerryDefeat
 # 234 "data/maps/Route118/scripts.pory"
 	msgbox Route118_Text_PerryPostBattle, MSGBOX_AUTOCLOSE
 # 235 "data/maps/Route118/scripts.pory"
@@ -473,7 +473,7 @@ Route118_EventScript_Perry::
 # 237 "data/maps/Route118/scripts.pory"
 Route118_EventScript_Chester::
 # 238 "data/maps/Route118/scripts.pory"
-	trainerbattle_single TRAINER_CHESTER, Route118_Text_ChesterIntro, Route118_Text_ChesterDefeat
+	trainerbattle_single TRAINER_408, Route118_Text_ChesterIntro, Route118_Text_ChesterDefeat
 # 239 "data/maps/Route118/scripts.pory"
 	msgbox Route118_Text_ChesterPostBattle, MSGBOX_AUTOCLOSE
 # 240 "data/maps/Route118/scripts.pory"
@@ -483,7 +483,7 @@ Route118_EventScript_Chester::
 # 242 "data/maps/Route118/scripts.pory"
 Route118_EventScript_Deandre::
 # 243 "data/maps/Route118/scripts.pory"
-	trainerbattle_single TRAINER_DEANDRE, Route118_Text_DeandreIntro, Route118_Text_DeandreDefeat
+	trainerbattle_single TRAINER_715, Route118_Text_DeandreIntro, Route118_Text_DeandreDefeat
 # 244 "data/maps/Route118/scripts.pory"
 	msgbox Route118_Text_DeandrePostBattle, MSGBOX_AUTOCLOSE
 # 245 "data/maps/Route118/scripts.pory"

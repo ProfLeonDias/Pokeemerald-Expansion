@@ -113,7 +113,7 @@ MossdeepCity_Gym_EventScript_SetSwitch4Metatiles::
 # 57 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_TateAndLiza::
 # 58 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_double TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaIntro, MossdeepCity_Gym_Text_TateAndLizaDefeat, MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons, MossdeepCity_Gym_EventScript_TateAndLizaDefeated, NO_MUSIC
+	trainerbattle_double TRAINER_271, MossdeepCity_Gym_Text_TateAndLizaIntro, MossdeepCity_Gym_Text_TateAndLizaDefeat, MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons, MossdeepCity_Gym_EventScript_TateAndLizaDefeated, NO_MUSIC
 # 59 "data/maps/MossdeepCity_Gym/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 60 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -225,7 +225,7 @@ MossdeepCity_Gym_EventScript_GiveCalmMind::
 # 113 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_TateAndLizaRematch::
 # 114 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_rematch_double TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaPreRematch, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat, MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons
+	trainerbattle_rematch_double TRAINER_271, MossdeepCity_Gym_Text_TateAndLizaPreRematch, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat, MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons
 # 115 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_TateAndLizaPostRematch, MSGBOX_AUTOCLOSE
 # 116 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -423,7 +423,7 @@ MossdeepCity_Gym_EventScript_WarpToEntrance::
 # 212 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Preston::
 # 213 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_PRESTON, MossdeepCity_Gym_Text_PrestonIntro, MossdeepCity_Gym_Text_PrestonDefeat
+	trainerbattle_single TRAINER_233, MossdeepCity_Gym_Text_PrestonIntro, MossdeepCity_Gym_Text_PrestonDefeat
 # 214 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_PrestonPostBattle, MSGBOX_AUTOCLOSE
 # 215 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -433,7 +433,7 @@ MossdeepCity_Gym_EventScript_Preston::
 # 217 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Virgil::
 # 218 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_VIRGIL, MossdeepCity_Gym_Text_VirgilIntro, MossdeepCity_Gym_Text_VirgilDefeat
+	trainerbattle_single TRAINER_234, MossdeepCity_Gym_Text_VirgilIntro, MossdeepCity_Gym_Text_VirgilDefeat
 # 219 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_VirgilPostBattle, MSGBOX_AUTOCLOSE
 # 220 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -443,7 +443,7 @@ MossdeepCity_Gym_EventScript_Virgil::
 # 222 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Blake::
 # 223 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_BLAKE, MossdeepCity_Gym_Text_BlakeIntro, MossdeepCity_Gym_Text_BlakeDefeat
+	trainerbattle_single TRAINER_235, MossdeepCity_Gym_Text_BlakeIntro, MossdeepCity_Gym_Text_BlakeDefeat
 # 224 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_BlakePostBattle, MSGBOX_AUTOCLOSE
 # 225 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -453,7 +453,7 @@ MossdeepCity_Gym_EventScript_Blake::
 # 227 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Hannah::
 # 228 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_HANNAH, MossdeepCity_Gym_Text_HannahIntro, MossdeepCity_Gym_Text_HannahDefeat
+	trainerbattle_single TRAINER_244, MossdeepCity_Gym_Text_HannahIntro, MossdeepCity_Gym_Text_HannahDefeat
 # 229 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_HannahPostBattle, MSGBOX_AUTOCLOSE
 # 230 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -463,7 +463,7 @@ MossdeepCity_Gym_EventScript_Hannah::
 # 232 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Samantha::
 # 233 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_SAMANTHA, MossdeepCity_Gym_Text_SamanthaIntro, MossdeepCity_Gym_Text_SamanthaDefeat
+	trainerbattle_single TRAINER_245, MossdeepCity_Gym_Text_SamanthaIntro, MossdeepCity_Gym_Text_SamanthaDefeat
 # 234 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_SamanthaPostBattle, MSGBOX_AUTOCLOSE
 # 235 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -473,7 +473,7 @@ MossdeepCity_Gym_EventScript_Samantha::
 # 237 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Maura::
 # 238 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_MAURA, MossdeepCity_Gym_Text_MauraIntro, MossdeepCity_Gym_Text_MauraDefeat
+	trainerbattle_single TRAINER_246, MossdeepCity_Gym_Text_MauraIntro, MossdeepCity_Gym_Text_MauraDefeat
 # 239 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_MauraPostBattle, MSGBOX_AUTOCLOSE
 # 240 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -483,7 +483,7 @@ MossdeepCity_Gym_EventScript_Maura::
 # 242 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Sylvia::
 # 243 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_SYLVIA, MossdeepCity_Gym_Text_SylviaIntro, MossdeepCity_Gym_Text_SylviaDefeat
+	trainerbattle_single TRAINER_575, MossdeepCity_Gym_Text_SylviaIntro, MossdeepCity_Gym_Text_SylviaDefeat
 # 244 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_SylviaPostBattle, MSGBOX_AUTOCLOSE
 # 245 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -493,7 +493,7 @@ MossdeepCity_Gym_EventScript_Sylvia::
 # 247 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Nate::
 # 248 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_NATE, MossdeepCity_Gym_Text_NateIntro, MossdeepCity_Gym_Text_NateDefeat
+	trainerbattle_single TRAINER_582, MossdeepCity_Gym_Text_NateIntro, MossdeepCity_Gym_Text_NateDefeat
 # 249 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_NatePostBattle, MSGBOX_AUTOCLOSE
 # 250 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -503,7 +503,7 @@ MossdeepCity_Gym_EventScript_Nate::
 # 252 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Macey::
 # 253 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_MACEY, MossdeepCity_Gym_Text_MaceyIntro, MossdeepCity_Gym_Text_MaceyDefeat
+	trainerbattle_single TRAINER_591, MossdeepCity_Gym_Text_MaceyIntro, MossdeepCity_Gym_Text_MaceyDefeat
 # 254 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_MaceyPostBattle, MSGBOX_AUTOCLOSE
 # 255 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -513,7 +513,7 @@ MossdeepCity_Gym_EventScript_Macey::
 # 257 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Clifford::
 # 258 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_CLIFFORD, MossdeepCity_Gym_Text_CliffordIntro, MossdeepCity_Gym_Text_CliffordDefeat
+	trainerbattle_single TRAINER_584, MossdeepCity_Gym_Text_CliffordIntro, MossdeepCity_Gym_Text_CliffordDefeat
 # 259 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_CliffordPostBattle, MSGBOX_AUTOCLOSE
 # 260 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -523,7 +523,7 @@ MossdeepCity_Gym_EventScript_Clifford::
 # 262 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Nicholas::
 # 263 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_NICHOLAS, MossdeepCity_Gym_Text_NicholasIntro, MossdeepCity_Gym_Text_NicholasDefeat
+	trainerbattle_single TRAINER_585, MossdeepCity_Gym_Text_NicholasIntro, MossdeepCity_Gym_Text_NicholasDefeat
 # 264 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_NicholasPostBattle, MSGBOX_AUTOCLOSE
 # 265 "data/maps/MossdeepCity_Gym/scripts.pory"
@@ -533,7 +533,7 @@ MossdeepCity_Gym_EventScript_Nicholas::
 # 267 "data/maps/MossdeepCity_Gym/scripts.pory"
 MossdeepCity_Gym_EventScript_Kathleen::
 # 268 "data/maps/MossdeepCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_KATHLEEN, MossdeepCity_Gym_Text_KathleenIntro, MossdeepCity_Gym_Text_KathleenDefeat
+	trainerbattle_single TRAINER_583, MossdeepCity_Gym_Text_KathleenIntro, MossdeepCity_Gym_Text_KathleenDefeat
 # 269 "data/maps/MossdeepCity_Gym/scripts.pory"
 	msgbox MossdeepCity_Gym_Text_KathleenPostBattle, MSGBOX_AUTOCLOSE
 # 270 "data/maps/MossdeepCity_Gym/scripts.pory"

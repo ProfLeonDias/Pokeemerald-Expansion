@@ -12,9 +12,241 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
-  "object_events": [],
-  "warp_events": [],
-  "coord_events": [],
-  "bg_events": []
+  "connections": [
+    {
+      "map": "MAP_ROUTE1SOUTH",
+      "offset": 14,
+      "direction": "up"
+    },
+    {
+      "map": "MAP_ROUTE29",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE_2",
+      "offset": -8,
+      "direction": "left"
+    }
+  ],
+  "object_events": [
+    {
+      "local_id": "LOCALID_OLDMAN",
+      "graphics_id": "OBJ_EVENT_GFX_043_MALE_11",
+      "x": 6,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "JasperTown_EventScript_OldMan",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_111_EXPERT_F",
+      "x": 16,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "JasperTown_EventScript_OldLady",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_136_SAILOR",
+      "x": 23,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "JasperTown_EventScript_Sailor2",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_145_SWIMMER_F_LAND",
+      "x": 30,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "JasperTown_EventScript_Girl",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_042_MALE_10",
+      "x": 21,
+      "y": 22,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "JasperTown_EventScript_Sailor1",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
+      "x": 37,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_ANTIDOTE",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_JASPER_TOWN_ANTIDOTE"
+    }
+  ],
+  "warp_events": [
+    {
+      "warp_id": "WARP_JASPER_TOWN_POKECENTER_A",
+      "x": 10,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_JASPER_TOWN_POKECENTER",
+      "dest_warp_id": "WARP_JASPER_TOWN_POKECENTER_B"
+    },
+    {
+      "warp_id": "WARP_JASPER_TOWN_POKEMART_A",
+      "x": 16,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_JASPER_TOWN_POKEMART",
+      "dest_warp_id": "WARP_JASPER_TOWN_POKEMART_B"
+    },
+    {
+      "warp_id": "WARP_JASPER_TOWN_LYON_HOUSE_A",
+      "x": 8,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_JASPER_TOWN_LYONS_HOUSE",
+      "dest_warp_id": "WARP_JASPER_TOWN_LYON_HOUSE_B"
+    },
+    {
+      "warp_id": "WARP_JASPER_TOWN_HOUSE_3A",
+      "x": 27,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_JASPER_TOWN_HOUSE3",
+      "dest_warp_id": "WARP_JASPER_TOWN_HOUSE_3B"
+    },
+    {
+      "warp_id": "WARP_JASPER_TOWN_HOUSE_1A",
+      "x": 27,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_JASPER_TOWN_HOUSE1",
+      "dest_warp_id": "WARP_JASPER_TOWN_HOUSE_1B"
+    },
+    {
+      "warp_id": "WARP_JASPER_TOWN_HOUSE_2A",
+      "x": 35,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_JASPER_TOWN_HOUSE2",
+      "dest_warp_id": "WARP_JASPER_TOWN_HOUSE_2B"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 9,
+      "elevation": 3,
+      "var": "VAR_JASPER_TOWN_STATE",
+      "var_value": "0",
+      "script": "JasperTown_EventScript_OldManEventA"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 10,
+      "elevation": 3,
+      "var": "VAR_JASPER_TOWN_STATE",
+      "var_value": "0",
+      "script": "JasperTown_EventScript_OldManEventB"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 11,
+      "elevation": 3,
+      "var": "VAR_JASPER_TOWN_STATE",
+      "var_value": "0",
+      "script": "JasperTown_EventScript_OldManEventC"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 12,
+      "elevation": 3,
+      "var": "VAR_JASPER_TOWN_STATE",
+      "var_value": "0",
+      "script": "JasperTown_EventScript_OldManEventD"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 17,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_HoneyTree"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 17,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_HoneyTree"
+    },
+    {
+      "type": "sign",
+      "x": 36,
+      "y": 13,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "JasperTown_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 7,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "JasperTown_EventScript_Sign2"
+    },
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 17,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "NULL"
+    }
+  ]
 }

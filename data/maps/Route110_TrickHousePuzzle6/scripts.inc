@@ -61,7 +61,7 @@ Route110_TrickHousePuzzle6_EventScript_FoundScroll::
 # 31 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_EventScript_Sophia::
 # 32 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	trainerbattle_single TRAINER_SOPHIA, Route110_TrickHousePuzzle6_Text_SophiaIntro, Route110_TrickHousePuzzle6_Text_SophiaDefeat
+	trainerbattle_single TRAINER_561, Route110_TrickHousePuzzle6_Text_SophiaIntro, Route110_TrickHousePuzzle6_Text_SophiaDefeat
 # 33 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 	msgbox Route110_TrickHousePuzzle6_Text_SophiaPostBattle, MSGBOX_AUTOCLOSE
 # 34 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
@@ -71,7 +71,7 @@ Route110_TrickHousePuzzle6_EventScript_Sophia::
 # 36 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_EventScript_Benny::
 # 37 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	trainerbattle_single TRAINER_BENNY, Route110_TrickHousePuzzle6_Text_BennyIntro, Route110_TrickHousePuzzle6_Text_BennyDefeat
+	trainerbattle_single TRAINER_407, Route110_TrickHousePuzzle6_Text_BennyIntro, Route110_TrickHousePuzzle6_Text_BennyDefeat
 # 38 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 	msgbox Route110_TrickHousePuzzle6_Text_BennyPostBattle, MSGBOX_AUTOCLOSE
 # 39 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
@@ -81,7 +81,7 @@ Route110_TrickHousePuzzle6_EventScript_Benny::
 # 41 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 Route110_TrickHousePuzzle6_EventScript_Sebastian::
 # 42 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
-	trainerbattle_single TRAINER_SEBASTIAN, Route110_TrickHousePuzzle6_Text_SebastianIntro, Route110_TrickHousePuzzle6_Text_SebastianDefeat
+	trainerbattle_single TRAINER_554, Route110_TrickHousePuzzle6_Text_SebastianIntro, Route110_TrickHousePuzzle6_Text_SebastianDefeat
 # 43 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"
 	msgbox Route110_TrickHousePuzzle6_Text_SebastianPostBattle, MSGBOX_AUTOCLOSE
 # 44 "data/maps/Route110_TrickHousePuzzle6/scripts.pory"

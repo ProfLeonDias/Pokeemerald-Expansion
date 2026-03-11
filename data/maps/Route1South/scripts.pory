@@ -1,1 +1,33 @@
 mapscripts Route1South_MapScripts {}
+
+script Route1S_EventScript_Sign {
+    msgbox("Route 1 - Sapphire Path\pJames Woods to the north.\nJasper Town to the south.")
+    release
+}
+
+script Route1S_EventScript_Fisherman {
+    lock
+    faceplayer
+    msgbox("Going fishing is the world's best stress\nrelief, hands down. Don't you agree?")
+    release
+
+
+}
+
+script Route1S_EventScript_Lass {
+    trainerbattle_single(TRAINER_01, Rt1LassIntro, Rt1LassDefeated)
+    msgbox(Rt1LassPostBattle, MSGBOX_AUTOCLOSE)
+    waitmessage
+}
+
+text Rt1LassIntro {
+    "Look at my adorable Pokémon!"
+}
+
+text Rt1LassDefeated {
+    "Your Pokémon is adorable too!"
+}
+
+text Rt1LassPostBattle {
+    "One day, I'll catch the cutest little\nPokémon! Just you wait!"
+}

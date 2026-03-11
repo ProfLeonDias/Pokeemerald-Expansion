@@ -53,7 +53,7 @@ Route119_WeatherInstitute_2F_EventScript_SetScientistPosGameClear::
 # 27 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 Route119_WeatherInstitute_2F_EventScript_Grunt5::
 # 28 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_5, Route119_WeatherInstitute_2F_Text_Grunt5Intro, Route119_WeatherInstitute_2F_Text_Grunt5Defeat
+	trainerbattle_single TRAINER_596, Route119_WeatherInstitute_2F_Text_Grunt5Intro, Route119_WeatherInstitute_2F_Text_Grunt5Defeat
 # 29 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 	msgbox Route119_WeatherInstitute_2F_Text_Grunt5PostBattle, MSGBOX_AUTOCLOSE
 # 30 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
@@ -63,7 +63,7 @@ Route119_WeatherInstitute_2F_EventScript_Grunt5::
 # 32 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 Route119_WeatherInstitute_2F_EventScript_Grunt2::
 # 33 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_2, Route119_WeatherInstitute_2F_Text_Grunt2Intro, Route119_WeatherInstitute_2F_Text_Grunt2Defeat
+	trainerbattle_single TRAINER_18, Route119_WeatherInstitute_2F_Text_Grunt2Intro, Route119_WeatherInstitute_2F_Text_Grunt2Defeat
 # 34 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 	msgbox Route119_WeatherInstitute_2F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 # 35 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
@@ -73,7 +73,7 @@ Route119_WeatherInstitute_2F_EventScript_Grunt2::
 # 37 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 Route119_WeatherInstitute_2F_EventScript_Grunt3::
 # 38 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_3, Route119_WeatherInstitute_2F_Text_Grunt3Intro, Route119_WeatherInstitute_2F_Text_Grunt3Defeat
+	trainerbattle_single TRAINER_19, Route119_WeatherInstitute_2F_Text_Grunt3Intro, Route119_WeatherInstitute_2F_Text_Grunt3Defeat
 # 39 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 	msgbox Route119_WeatherInstitute_2F_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 # 40 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
@@ -83,7 +83,7 @@ Route119_WeatherInstitute_2F_EventScript_Grunt3::
 # 42 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 Route119_WeatherInstitute_2F_EventScript_Shelly::
 # 43 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
-	trainerbattle_single TRAINER_SHELLY_WEATHER_INSTITUTE, Route119_WeatherInstitute_2F_Text_ShellyIntro, Route119_WeatherInstitute_2F_Text_ShellyDefeat, Route119_WeatherInstitute_2F_EventScript_ShellyDefeated
+	trainerbattle_single TRAINER_32, Route119_WeatherInstitute_2F_Text_ShellyIntro, Route119_WeatherInstitute_2F_Text_ShellyDefeat, Route119_WeatherInstitute_2F_EventScript_ShellyDefeated
 # 44 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
 	msgbox Route119_WeatherInstitute_2F_Text_ShellyPostBattle, MSGBOX_AUTOCLOSE
 # 45 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"

@@ -19,7 +19,7 @@ DewfordTown_Gym_OnTransition:
 # 10 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_SetFlashLevel::
 # 11 "data/maps/DewfordTown_Gym/scripts.pory"
-	goto_if_defeated TRAINER_BRAWLY_1, DewfordTown_Gym_EventScript_SetLightsOn
+	goto_if_defeated TRAINER_266, DewfordTown_Gym_EventScript_SetLightsOn
 # 12 "data/maps/DewfordTown_Gym/scripts.pory"
 	call DewfordTown_Gym_EventScript_CountTrainersDefeated
 # 13 "data/maps/DewfordTown_Gym/scripts.pory"
@@ -229,37 +229,37 @@ DewfordTown_Gym_EventScript_CountTrainersDefeated::
 # 115 "data/maps/DewfordTown_Gym/scripts.pory"
 	setvar VAR_0x8000, 0
 # 116 "data/maps/DewfordTown_Gym/scripts.pory"
-	goto_if_not_defeated TRAINER_TAKAO, DewfordTown_Gym_EventScript_CheckJocelyn
+	goto_if_not_defeated TRAINER_179, DewfordTown_Gym_EventScript_CheckJocelyn
 # 117 "data/maps/DewfordTown_Gym/scripts.pory"
 	addvar VAR_0x8000, 1
 # 118 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_CheckJocelyn::
 # 119 "data/maps/DewfordTown_Gym/scripts.pory"
-	goto_if_not_defeated TRAINER_JOCELYN, DewfordTown_Gym_EventScript_CheckLaura
+	goto_if_not_defeated TRAINER_425, DewfordTown_Gym_EventScript_CheckLaura
 # 120 "data/maps/DewfordTown_Gym/scripts.pory"
 	addvar VAR_0x8000, 1
 # 121 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_CheckLaura::
 # 122 "data/maps/DewfordTown_Gym/scripts.pory"
-	goto_if_not_defeated TRAINER_LAURA, DewfordTown_Gym_EventScript_CheckBrenden
+	goto_if_not_defeated TRAINER_426, DewfordTown_Gym_EventScript_CheckBrenden
 # 123 "data/maps/DewfordTown_Gym/scripts.pory"
 	addvar VAR_0x8000, 1
 # 124 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_CheckBrenden::
 # 125 "data/maps/DewfordTown_Gym/scripts.pory"
-	goto_if_not_defeated TRAINER_BRENDEN, DewfordTown_Gym_EventScript_CheckCristian
+	goto_if_not_defeated TRAINER_572, DewfordTown_Gym_EventScript_CheckCristian
 # 126 "data/maps/DewfordTown_Gym/scripts.pory"
 	addvar VAR_0x8000, 1
 # 127 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_CheckCristian::
 # 128 "data/maps/DewfordTown_Gym/scripts.pory"
-	goto_if_not_defeated TRAINER_CRISTIAN, DewfordTown_Gym_EventScript_CheckLilith
+	goto_if_not_defeated TRAINER_574, DewfordTown_Gym_EventScript_CheckLilith
 # 129 "data/maps/DewfordTown_Gym/scripts.pory"
 	addvar VAR_0x8000, 1
 # 130 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_CheckLilith::
 # 131 "data/maps/DewfordTown_Gym/scripts.pory"
-	goto_if_not_defeated TRAINER_LILITH, DewfordTown_Gym_EventScript_StopCountingTrainers
+	goto_if_not_defeated TRAINER_573, DewfordTown_Gym_EventScript_StopCountingTrainers
 # 132 "data/maps/DewfordTown_Gym/scripts.pory"
 	addvar VAR_0x8000, 1
 # 133 "data/maps/DewfordTown_Gym/scripts.pory"
@@ -271,7 +271,7 @@ DewfordTown_Gym_EventScript_StopCountingTrainers::
 # 136 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_Brawly::
 # 137 "data/maps/DewfordTown_Gym/scripts.pory"
-	trainerbattle_single TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_266, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
 # 138 "data/maps/DewfordTown_Gym/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 139 "data/maps/DewfordTown_Gym/scripts.pory"
@@ -371,7 +371,7 @@ DewfordTown_Gym_EventScript_GiveBulkUp2:
 # 186 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_BrawlyRematch::
 # 187 "data/maps/DewfordTown_Gym/scripts.pory"
-	trainerbattle_rematch_double TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons
+	trainerbattle_rematch_double TRAINER_266, DewfordTown_Gym_Text_BrawlyPreRematch, DewfordTown_Gym_Text_BrawlyRematchDefeat, DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons
 # 188 "data/maps/DewfordTown_Gym/scripts.pory"
 	msgbox DewfordTown_Gym_Text_BrawlyPostRematch, MSGBOX_AUTOCLOSE
 # 189 "data/maps/DewfordTown_Gym/scripts.pory"
@@ -381,7 +381,7 @@ DewfordTown_Gym_EventScript_BrawlyRematch::
 # 191 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_Takao::
 # 192 "data/maps/DewfordTown_Gym/scripts.pory"
-	trainerbattle_single TRAINER_TAKAO, DewfordTown_Gym_Text_TakaoIntro, DewfordTown_Gym_Text_TakaoDefeat, DewfordTown_Gym_EventScript_TakaoBrightenRoom
+	trainerbattle_single TRAINER_179, DewfordTown_Gym_Text_TakaoIntro, DewfordTown_Gym_Text_TakaoDefeat, DewfordTown_Gym_EventScript_TakaoBrightenRoom
 # 193 "data/maps/DewfordTown_Gym/scripts.pory"
 	msgbox DewfordTown_Gym_Text_TakaoPostBattle, MSGBOX_AUTOCLOSE
 # 194 "data/maps/DewfordTown_Gym/scripts.pory"
@@ -401,7 +401,7 @@ DewfordTown_Gym_EventScript_TakaoBrightenRoom::
 # 201 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_Jocelyn::
 # 202 "data/maps/DewfordTown_Gym/scripts.pory"
-	trainerbattle_single TRAINER_JOCELYN, DewfordTown_Gym_Text_JocelynIntro, DewfordTown_Gym_Text_JocelynDefeat, DewfordTown_Gym_EventScript_JocelynBrightenRoom
+	trainerbattle_single TRAINER_425, DewfordTown_Gym_Text_JocelynIntro, DewfordTown_Gym_Text_JocelynDefeat, DewfordTown_Gym_EventScript_JocelynBrightenRoom
 # 203 "data/maps/DewfordTown_Gym/scripts.pory"
 	msgbox DewfordTown_Gym_Text_JocelynPostBattle, MSGBOX_AUTOCLOSE
 # 204 "data/maps/DewfordTown_Gym/scripts.pory"
@@ -421,7 +421,7 @@ DewfordTown_Gym_EventScript_JocelynBrightenRoom::
 # 211 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_Laura::
 # 212 "data/maps/DewfordTown_Gym/scripts.pory"
-	trainerbattle_single TRAINER_LAURA, DewfordTown_Gym_Text_LauraIntro, DewfordTown_Gym_Text_LauraDefeat, DewfordTown_Gym_EventScript_LauraBrightenRoom
+	trainerbattle_single TRAINER_426, DewfordTown_Gym_Text_LauraIntro, DewfordTown_Gym_Text_LauraDefeat, DewfordTown_Gym_EventScript_LauraBrightenRoom
 # 213 "data/maps/DewfordTown_Gym/scripts.pory"
 	msgbox DewfordTown_Gym_Text_LauraPostBattle, MSGBOX_AUTOCLOSE
 # 214 "data/maps/DewfordTown_Gym/scripts.pory"
@@ -441,7 +441,7 @@ DewfordTown_Gym_EventScript_LauraBrightenRoom::
 # 221 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_Brenden::
 # 222 "data/maps/DewfordTown_Gym/scripts.pory"
-	trainerbattle_single TRAINER_BRENDEN, DewfordTown_Gym_Text_BrendenIntro, DewfordTown_Gym_Text_BrendenDefeat, DewfordTown_Gym_EventScript_BrendenBrightenRoom
+	trainerbattle_single TRAINER_572, DewfordTown_Gym_Text_BrendenIntro, DewfordTown_Gym_Text_BrendenDefeat, DewfordTown_Gym_EventScript_BrendenBrightenRoom
 # 223 "data/maps/DewfordTown_Gym/scripts.pory"
 	msgbox DewfordTown_Gym_Text_BrendenPostBattle, MSGBOX_AUTOCLOSE
 # 224 "data/maps/DewfordTown_Gym/scripts.pory"
@@ -461,7 +461,7 @@ DewfordTown_Gym_EventScript_BrendenBrightenRoom::
 # 231 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_Cristian::
 # 232 "data/maps/DewfordTown_Gym/scripts.pory"
-	trainerbattle_single TRAINER_CRISTIAN, DewfordTown_Gym_Text_CristianIntro, DewfordTown_Gym_Text_CristianDefeat, DewfordTown_Gym_EventScript_CristianBrightenRoom
+	trainerbattle_single TRAINER_574, DewfordTown_Gym_Text_CristianIntro, DewfordTown_Gym_Text_CristianDefeat, DewfordTown_Gym_EventScript_CristianBrightenRoom
 # 233 "data/maps/DewfordTown_Gym/scripts.pory"
 	msgbox DewfordTown_Gym_Text_CristianPostBattle, MSGBOX_AUTOCLOSE
 # 234 "data/maps/DewfordTown_Gym/scripts.pory"
@@ -481,7 +481,7 @@ DewfordTown_Gym_EventScript_CristianBrightenRoom::
 # 241 "data/maps/DewfordTown_Gym/scripts.pory"
 DewfordTown_Gym_EventScript_Lilith::
 # 242 "data/maps/DewfordTown_Gym/scripts.pory"
-	trainerbattle_single TRAINER_LILITH, DewfordTown_Gym_Text_LilithIntro, DewfordTown_Gym_Text_LilithDefeat, DewfordTown_Gym_EventScript_LilithBrightenRoom
+	trainerbattle_single TRAINER_573, DewfordTown_Gym_Text_LilithIntro, DewfordTown_Gym_Text_LilithDefeat, DewfordTown_Gym_EventScript_LilithBrightenRoom
 # 243 "data/maps/DewfordTown_Gym/scripts.pory"
 	msgbox DewfordTown_Gym_Text_LilithPostBattle, MSGBOX_AUTOCLOSE
 # 244 "data/maps/DewfordTown_Gym/scripts.pory"

@@ -123,7 +123,7 @@ Route103_EventScript_RivalBrendan::
 # 62 "data/maps/Route103/scripts.pory"
 Route103_EventScript_StartMayBattleTreecko::
 # 63 "data/maps/Route103/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_TREECKO, Route103_Text_MayDefeated
+	trainerbattle_no_intro TRAINER_532, Route103_Text_MayDefeated
 # 64 "data/maps/Route103/scripts.pory"
 	goto Route103_EventScript_AfterMayBattle
 # 65 "data/maps/Route103/scripts.pory"
@@ -133,7 +133,7 @@ Route103_EventScript_StartMayBattleTreecko::
 # 67 "data/maps/Route103/scripts.pory"
 Route103_EventScript_StartMayBattleTorchic::
 # 68 "data/maps/Route103/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_TORCHIC, Route103_Text_MayDefeated
+	trainerbattle_no_intro TRAINER_535, Route103_Text_MayDefeated
 # 69 "data/maps/Route103/scripts.pory"
 	goto Route103_EventScript_AfterMayBattle
 # 70 "data/maps/Route103/scripts.pory"
@@ -143,7 +143,7 @@ Route103_EventScript_StartMayBattleTorchic::
 # 72 "data/maps/Route103/scripts.pory"
 Route103_EventScript_StartMayBattleMudkip::
 # 73 "data/maps/Route103/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_103_MUDKIP, Route103_Text_MayDefeated
+	trainerbattle_no_intro TRAINER_529, Route103_Text_MayDefeated
 # 74 "data/maps/Route103/scripts.pory"
 	goto Route103_EventScript_AfterMayBattle
 # 75 "data/maps/Route103/scripts.pory"
@@ -153,7 +153,7 @@ Route103_EventScript_StartMayBattleMudkip::
 # 77 "data/maps/Route103/scripts.pory"
 Route103_EventScript_StartBrendanBattleTreecko::
 # 78 "data/maps/Route103/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_TREECKO, Route103_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_523, Route103_Text_BrendanDefeated
 # 79 "data/maps/Route103/scripts.pory"
 	goto Route103_EventScript_AfterBrendanBattle
 # 80 "data/maps/Route103/scripts.pory"
@@ -163,7 +163,7 @@ Route103_EventScript_StartBrendanBattleTreecko::
 # 82 "data/maps/Route103/scripts.pory"
 Route103_EventScript_StartBrendanBattleTorchic::
 # 83 "data/maps/Route103/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_TORCHIC, Route103_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_526, Route103_Text_BrendanDefeated
 # 84 "data/maps/Route103/scripts.pory"
 	goto Route103_EventScript_AfterBrendanBattle
 # 85 "data/maps/Route103/scripts.pory"
@@ -173,7 +173,7 @@ Route103_EventScript_StartBrendanBattleTorchic::
 # 87 "data/maps/Route103/scripts.pory"
 Route103_EventScript_StartBrendanBattleMudkip::
 # 88 "data/maps/Route103/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_MUDKIP, Route103_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_520, Route103_Text_BrendanDefeated
 # 89 "data/maps/Route103/scripts.pory"
 	goto Route103_EventScript_AfterBrendanBattle
 # 90 "data/maps/Route103/scripts.pory"
@@ -281,7 +281,7 @@ Route103_EventScript_RivalEnd::
 # 141 "data/maps/Route103/scripts.pory"
 	removeobject LOCALID_ROUTE103_RIVAL
 # 142 "data/maps/Route103/scripts.pory"
-	setvar VAR_BIRCH_LAB_STATE, 4
+	setvar VAR_ASPEN_LAB_EVENT, 4
 # 143 "data/maps/Route103/scripts.pory"
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL
 # 144 "data/maps/Route103/scripts.pory"
@@ -405,7 +405,7 @@ Route103_EventScript_RouteSign::
 # 203 "data/maps/Route103/scripts.pory"
 Route103_EventScript_Daisy::
 # 204 "data/maps/Route103/scripts.pory"
-	trainerbattle_single TRAINER_DAISY, Route103_Text_DaisyIntro, Route103_Text_DaisyDefeated
+	trainerbattle_single TRAINER_36, Route103_Text_DaisyIntro, Route103_Text_DaisyDefeated
 # 205 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_DaisyPostBattle, MSGBOX_AUTOCLOSE
 # 206 "data/maps/Route103/scripts.pory"
@@ -415,7 +415,7 @@ Route103_EventScript_Daisy::
 # 208 "data/maps/Route103/scripts.pory"
 Route103_EventScript_Amy::
 # 209 "data/maps/Route103/scripts.pory"
-	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_AmyIntro, Route103_Text_AmyDefeated, Route103_Text_AmyNotEnoughPokemon, Route102_EventScript_AmyRegisterMatchCallAfterBattle
+	trainerbattle_double TRAINER_481, Route103_Text_AmyIntro, Route103_Text_AmyDefeated, Route103_Text_AmyNotEnoughPokemon, Route102_EventScript_AmyRegisterMatchCallAfterBattle
 # 210 "data/maps/Route103/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 211 "data/maps/Route103/scripts.pory"
@@ -431,7 +431,7 @@ Route102_EventScript_AmyRegisterMatchCallAfterBattle::
 # 216 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_AmyLivRegister, MSGBOX_DEFAULT
 # 217 "data/maps/Route103/scripts.pory"
-	register_matchcall TRAINER_AMY_AND_LIV_1
+	register_matchcall TRAINER_481
 # 218 "data/maps/Route103/scripts.pory"
 	release
 # 219 "data/maps/Route103/scripts.pory"
@@ -441,7 +441,7 @@ Route102_EventScript_AmyRegisterMatchCallAfterBattle::
 # 221 "data/maps/Route103/scripts.pory"
 Route102_EventScript_AmyRematch::
 # 222 "data/maps/Route103/scripts.pory"
-	trainerbattle_rematch_double TRAINER_AMY_AND_LIV_1, Route103_Text_AmyRematchIntro, Route103_Text_AmyRematchDefeated, Route103_Text_AmyRematchNotEnoughPokemon
+	trainerbattle_rematch_double TRAINER_481, Route103_Text_AmyRematchIntro, Route103_Text_AmyRematchDefeated, Route103_Text_AmyRematchNotEnoughPokemon
 # 223 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_AmyRematchPostBattle, MSGBOX_AUTOCLOSE
 # 224 "data/maps/Route103/scripts.pory"
@@ -451,7 +451,7 @@ Route102_EventScript_AmyRematch::
 # 226 "data/maps/Route103/scripts.pory"
 Route103_EventScript_Liv::
 # 227 "data/maps/Route103/scripts.pory"
-	trainerbattle_double TRAINER_AMY_AND_LIV_1, Route103_Text_LivIntro, Route103_Text_LivDefeated, Route103_Text_LivNotEnoughPokemon, Route102_EventScript_LivRegisterMatchCallAfterBattle
+	trainerbattle_double TRAINER_481, Route103_Text_LivIntro, Route103_Text_LivDefeated, Route103_Text_LivNotEnoughPokemon, Route102_EventScript_LivRegisterMatchCallAfterBattle
 # 228 "data/maps/Route103/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 229 "data/maps/Route103/scripts.pory"
@@ -467,7 +467,7 @@ Route102_EventScript_LivRegisterMatchCallAfterBattle::
 # 234 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_AmyLivRegister, MSGBOX_DEFAULT
 # 235 "data/maps/Route103/scripts.pory"
-	register_matchcall TRAINER_AMY_AND_LIV_1
+	register_matchcall TRAINER_481
 # 236 "data/maps/Route103/scripts.pory"
 	release
 # 237 "data/maps/Route103/scripts.pory"
@@ -477,7 +477,7 @@ Route102_EventScript_LivRegisterMatchCallAfterBattle::
 # 239 "data/maps/Route103/scripts.pory"
 Route102_EventScript_LivRematch::
 # 240 "data/maps/Route103/scripts.pory"
-	trainerbattle_rematch_double TRAINER_AMY_AND_LIV_1, Route103_Text_LivRematchIntro, Route103_Text_LivRematchDefeated, Route103_Text_LivRematchNotEnoughPokemon
+	trainerbattle_rematch_double TRAINER_481, Route103_Text_LivRematchIntro, Route103_Text_LivRematchDefeated, Route103_Text_LivRematchNotEnoughPokemon
 # 241 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_LivRematchPostBattle, MSGBOX_AUTOCLOSE
 # 242 "data/maps/Route103/scripts.pory"
@@ -487,7 +487,7 @@ Route102_EventScript_LivRematch::
 # 244 "data/maps/Route103/scripts.pory"
 Route103_EventScript_Andrew::
 # 245 "data/maps/Route103/scripts.pory"
-	trainerbattle_single TRAINER_ANDREW, Route103_Text_AndrewIntro, Route103_Text_AndrewDefeated
+	trainerbattle_single TRAINER_336, Route103_Text_AndrewIntro, Route103_Text_AndrewDefeated
 # 246 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_AndrewPostBattle, MSGBOX_AUTOCLOSE
 # 247 "data/maps/Route103/scripts.pory"
@@ -497,7 +497,7 @@ Route103_EventScript_Andrew::
 # 249 "data/maps/Route103/scripts.pory"
 Route103_EventScript_Miguel::
 # 250 "data/maps/Route103/scripts.pory"
-	trainerbattle_single TRAINER_MIGUEL_1, Route103_Text_MiguelIntro, Route103_Text_MiguelDefeated, Route102_EventScript_MiguelRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_293, Route103_Text_MiguelIntro, Route103_Text_MiguelDefeated, Route102_EventScript_MiguelRegisterMatchCallAfterBattle
 # 251 "data/maps/Route103/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 252 "data/maps/Route103/scripts.pory"
@@ -519,7 +519,7 @@ Route102_EventScript_MiguelRegisterMatchCallAfterBattle::
 # 260 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_MiguelRegister, MSGBOX_DEFAULT
 # 261 "data/maps/Route103/scripts.pory"
-	register_matchcall TRAINER_MIGUEL_1
+	register_matchcall TRAINER_293
 # 262 "data/maps/Route103/scripts.pory"
 	release
 # 263 "data/maps/Route103/scripts.pory"
@@ -529,7 +529,7 @@ Route102_EventScript_MiguelRegisterMatchCallAfterBattle::
 # 265 "data/maps/Route103/scripts.pory"
 Route103_EventScript_MiguelRematch::
 # 266 "data/maps/Route103/scripts.pory"
-	trainerbattle_rematch TRAINER_MIGUEL_1, Route103_Text_MiguelRematchIntro, Route103_Text_MiguelRematchDefeated
+	trainerbattle_rematch TRAINER_293, Route103_Text_MiguelRematchIntro, Route103_Text_MiguelRematchDefeated
 # 267 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_MiguelRematchPostBattle, MSGBOX_AUTOCLOSE
 # 268 "data/maps/Route103/scripts.pory"
@@ -539,7 +539,7 @@ Route103_EventScript_MiguelRematch::
 # 270 "data/maps/Route103/scripts.pory"
 Route103_EventScript_Marcos::
 # 271 "data/maps/Route103/scripts.pory"
-	trainerbattle_single TRAINER_MARCOS, Route103_Text_MarcosIntro, Route103_Text_MarcosDefeated
+	trainerbattle_single TRAINER_702, Route103_Text_MarcosIntro, Route103_Text_MarcosDefeated
 # 272 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_MarcosPostBattle, MSGBOX_AUTOCLOSE
 # 273 "data/maps/Route103/scripts.pory"
@@ -549,7 +549,7 @@ Route103_EventScript_Marcos::
 # 275 "data/maps/Route103/scripts.pory"
 Route103_EventScript_Rhett::
 # 276 "data/maps/Route103/scripts.pory"
-	trainerbattle_single TRAINER_RHETT, Route103_Text_RhettIntro, Route103_Text_RhettDefeated
+	trainerbattle_single TRAINER_703, Route103_Text_RhettIntro, Route103_Text_RhettDefeated
 # 277 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_RhettPostBattle, MSGBOX_AUTOCLOSE
 # 278 "data/maps/Route103/scripts.pory"
@@ -559,7 +559,7 @@ Route103_EventScript_Rhett::
 # 280 "data/maps/Route103/scripts.pory"
 Route103_EventScript_Pete::
 # 281 "data/maps/Route103/scripts.pory"
-	trainerbattle_single TRAINER_PETE, Route103_Text_PeteIntro, Route103_Text_PeteDefeated
+	trainerbattle_single TRAINER_735, Route103_Text_PeteIntro, Route103_Text_PeteDefeated
 # 282 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_PetePostBattle, MSGBOX_AUTOCLOSE
 # 283 "data/maps/Route103/scripts.pory"
@@ -569,7 +569,7 @@ Route103_EventScript_Pete::
 # 285 "data/maps/Route103/scripts.pory"
 Route103_EventScript_Isabelle::
 # 286 "data/maps/Route103/scripts.pory"
-	trainerbattle_single TRAINER_ISABELLE, Route103_Text_IsabelleIntro, Route103_Text_IsabelleDefeated
+	trainerbattle_single TRAINER_736, Route103_Text_IsabelleIntro, Route103_Text_IsabelleDefeated
 # 287 "data/maps/Route103/scripts.pory"
 	msgbox Route103_Text_IsabellePostBattle, MSGBOX_AUTOCLOSE
 # 288 "data/maps/Route103/scripts.pory"

@@ -13,9 +13,9 @@ LittlerootTown_BrendansHouse_2F_MapScripts::
 # 7 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 LittlerootTown_BrendansHouse_2F_OnTransition:
 # 8 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	call_if_lt VAR_LITTLEROOT_RIVAL_STATE, 2, LittlerootTown_BrendansHouse_2F_EventScript_CheckSetReadyToMeetBrendan
+	call_if_lt VAR_INITIAL_EVENTS, 2, LittlerootTown_BrendansHouse_2F_EventScript_CheckSetReadyToMeetBrendan
 # 9 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	call_if_ge VAR_LITTLEROOT_RIVAL_STATE, 3, LittlerootTown_BrendansHouse_2F_EventScript_CheckShouldUpdateBrendanPos
+	call_if_ge VAR_INITIAL_EVENTS, 3, LittlerootTown_BrendansHouse_2F_EventScript_CheckShouldUpdateBrendanPos
 # 10 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 4, PlayersHouse_2F_EventScript_BlockStairsUntilClockIsSet
 # 11 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
@@ -31,7 +31,7 @@ LittlerootTown_BrendansHouse_2F_EventScript_CheckShouldUpdateBrendanPos::
 # 16 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	goto_if_set FLAG_MET_RIVAL_LILYCOVE, LittlerootTown_BrendansHouse_2F_EventScript_TryUpdateBrendanPos
 # 17 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	goto_if_ge VAR_BIRCH_LAB_STATE, 2, LittlerootTown_BrendansHouse_2F_EventScript_Ret
+	goto_if_ge VAR_ASPEN_LAB_EVENT, 2, LittlerootTown_BrendansHouse_2F_EventScript_Ret
 # 18 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	goto LittlerootTown_BrendansHouse_2F_EventScript_TryUpdateBrendanPos
 # 19 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
@@ -73,7 +73,7 @@ LittlerootTown_BrendansHouse_2F_EventScript_CheckSetReadyToMeetBrendan::
 # 37 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 LittlerootTown_BrendansHouse_2F_EventScript_SetReadyToMeetBrendan::
 # 38 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	setvar VAR_LITTLEROOT_RIVAL_STATE, 2
+	setvar VAR_INITIAL_EVENTS, 2
 # 39 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	return
 # 40 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
@@ -101,7 +101,7 @@ LittlerootTown_BrendansHouse_2F_EventScript_RivalsPokeBall::
 # 51 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	lockall
 # 52 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	goto_if_eq VAR_LITTLEROOT_RIVAL_STATE, 2, LittlerootTown_BrendansHouse_2F_EventScript_MeetBrendan
+	goto_if_eq VAR_INITIAL_EVENTS, 2, LittlerootTown_BrendansHouse_2F_EventScript_MeetBrendan
 # 53 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	msgbox RivalsHouse_2F_Text_ItsRivalsPokeBall, MSGBOX_DEFAULT
 # 54 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
@@ -143,13 +143,13 @@ LittlerootTown_BrendansHouse_2F_EventScript_MeetBrendan::
 # 72 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	call_if_eq VAR_FACING, DIR_EAST, LittlerootTown_BrendansHouse_2F_EventScript_MeetBrendanEast
 # 73 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
+	setvar VAR_INITIAL_EVENTS, 3
 # 74 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
 # 75 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
 # 76 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	setvar VAR_LITTLEROOT_TOWN_STATE, 1
+	setvar VAR_SAPPHIRE_VILLAGE_STATE, 1
 # 77 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	savebgm MUS_DUMMY
 # 78 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"

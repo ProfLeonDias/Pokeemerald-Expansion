@@ -9,7 +9,7 @@ SeafloorCavern_Room3_MapScripts::
 # 5 "data/maps/SeafloorCavern_Room3/scripts.pory"
 SeafloorCavern_Room3_EventScript_Shelly::
 # 6 "data/maps/SeafloorCavern_Room3/scripts.pory"
-	trainerbattle_single TRAINER_SHELLY_SEAFLOOR_CAVERN, SeafloorCavern_Room3_Text_ShellyIntro, SeafloorCavern_Room3_Text_ShellyDefeat
+	trainerbattle_single TRAINER_33, SeafloorCavern_Room3_Text_ShellyIntro, SeafloorCavern_Room3_Text_ShellyDefeat
 # 7 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	msgbox SeafloorCavern_Room3_Text_ShellyPostBattle, MSGBOX_AUTOCLOSE
 # 8 "data/maps/SeafloorCavern_Room3/scripts.pory"
@@ -19,7 +19,7 @@ SeafloorCavern_Room3_EventScript_Shelly::
 # 10 "data/maps/SeafloorCavern_Room3/scripts.pory"
 SeafloorCavern_Room3_EventScript_Grunt5::
 # 11 "data/maps/SeafloorCavern_Room3/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_SEAFLOOR_CAVERN_5, SeafloorCavern_Room3_Text_Grunt5Intro, SeafloorCavern_Room3_Text_Grunt5Defeat
+	trainerbattle_single TRAINER_567, SeafloorCavern_Room3_Text_Grunt5Intro, SeafloorCavern_Room3_Text_Grunt5Defeat
 # 12 "data/maps/SeafloorCavern_Room3/scripts.pory"
 	msgbox SeafloorCavern_Room3_Text_Grunt5PostBattle, MSGBOX_AUTOCLOSE
 # 13 "data/maps/SeafloorCavern_Room3/scripts.pory"

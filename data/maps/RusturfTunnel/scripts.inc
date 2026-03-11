@@ -607,7 +607,7 @@ RusturfTunnel_EventScript_Grunt::
 # 304 "data/maps/RusturfTunnel/scripts.pory"
 	msgbox RusturfTunnel_Text_GruntIntro, MSGBOX_DEFAULT
 # 305 "data/maps/RusturfTunnel/scripts.pory"
-	trainerbattle_no_intro TRAINER_GRUNT_RUSTURF_TUNNEL, RusturfTunnel_Text_GruntDefeat
+	trainerbattle_no_intro TRAINER_16, RusturfTunnel_Text_GruntDefeat
 # 306 "data/maps/RusturfTunnel/scripts.pory"
 	msgbox RusturfTunnel_Text_GruntTakePackage, MSGBOX_DEFAULT
 # 307 "data/maps/RusturfTunnel/scripts.pory"
@@ -833,7 +833,7 @@ RusturfTunnel_Movement_PeekoExit:
 # 417 "data/maps/RusturfTunnel/scripts.pory"
 RusturfTunnel_EventScript_Mike::
 # 418 "data/maps/RusturfTunnel/scripts.pory"
-	trainerbattle_single TRAINER_MIKE_2, RusturfTunnel_Text_MikeIntro, RusturfTunnel_Text_MikeDefeat
+	trainerbattle_single TRAINER_635, RusturfTunnel_Text_MikeIntro, RusturfTunnel_Text_MikeDefeat
 # 419 "data/maps/RusturfTunnel/scripts.pory"
 	msgbox RusturfTunnel_Text_MikePostBattle, MSGBOX_AUTOCLOSE
 # 420 "data/maps/RusturfTunnel/scripts.pory"

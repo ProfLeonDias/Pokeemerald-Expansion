@@ -9,7 +9,7 @@ SSTidalLowerDeck_MapScripts::
 # 5 "data/maps/SSTidalLowerDeck/scripts.pory"
 SSTidalLowerDeck_EventScript_Phillip::
 # 6 "data/maps/SSTidalLowerDeck/scripts.pory"
-	trainerbattle_single TRAINER_PHILLIP, SSTidalLowerDeck_Text_PhillipIntro, SSTidalLowerDeck_Text_PhillipDefeat
+	trainerbattle_single TRAINER_494, SSTidalLowerDeck_Text_PhillipIntro, SSTidalLowerDeck_Text_PhillipDefeat
 # 7 "data/maps/SSTidalLowerDeck/scripts.pory"
 	msgbox SSTidalLowerDeck_Text_PhillipPostBattle, MSGBOX_AUTOCLOSE
 # 8 "data/maps/SSTidalLowerDeck/scripts.pory"
@@ -19,7 +19,7 @@ SSTidalLowerDeck_EventScript_Phillip::
 # 10 "data/maps/SSTidalLowerDeck/scripts.pory"
 SSTidalLowerDeck_EventScript_Leonard::
 # 11 "data/maps/SSTidalLowerDeck/scripts.pory"
-	trainerbattle_single TRAINER_LEONARD, SSTidalLowerDeck_Text_LeonardIntro, SSTidalLowerDeck_Text_LeonardDefeat
+	trainerbattle_single TRAINER_495, SSTidalLowerDeck_Text_LeonardIntro, SSTidalLowerDeck_Text_LeonardDefeat
 # 12 "data/maps/SSTidalLowerDeck/scripts.pory"
 	msgbox SSTidalLowerDeck_Text_LeonardPostBattle, MSGBOX_AUTOCLOSE
 # 13 "data/maps/SSTidalLowerDeck/scripts.pory"

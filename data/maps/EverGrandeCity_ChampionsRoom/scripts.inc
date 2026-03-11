@@ -85,7 +85,7 @@ EverGrandeCity_ChampionsRoom_EventScript_Wallace::
 # 43 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	msgbox EverGrandeCity_ChampionsRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 # 44 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
-	trainerbattle_no_intro TRAINER_WALLACE, EverGrandeCity_ChampionsRoom_Text_Defeat
+	trainerbattle_no_intro TRAINER_335, EverGrandeCity_ChampionsRoom_Text_Defeat
 # 45 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"
 	goto EverGrandeCity_ChampionsRoom_EventScript_Defeated
 # 46 "data/maps/EverGrandeCity_ChampionsRoom/scripts.pory"

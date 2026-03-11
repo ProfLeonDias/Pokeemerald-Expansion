@@ -137,7 +137,7 @@ Route121_Movement_Grunt3Exit:
 # 69 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Vanessa::
 # 70 "data/maps/Route121/scripts.pory"
-	trainerbattle_single TRAINER_VANESSA, Route121_Text_VanessaIntro, Route121_Text_VanessaDefeat
+	trainerbattle_single TRAINER_300, Route121_Text_VanessaIntro, Route121_Text_VanessaDefeat
 # 71 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_VanessaPostBattle, MSGBOX_AUTOCLOSE
 # 72 "data/maps/Route121/scripts.pory"
@@ -147,7 +147,7 @@ Route121_EventScript_Vanessa::
 # 74 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Walter::
 # 75 "data/maps/Route121/scripts.pory"
-	trainerbattle_single TRAINER_WALTER_1, Route121_Text_WalterIntro, Route121_Text_WalterDefeat, Route121_EventScript_RegisterWalter
+	trainerbattle_single TRAINER_254, Route121_Text_WalterIntro, Route121_Text_WalterDefeat, Route121_EventScript_RegisterWalter
 # 76 "data/maps/Route121/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 77 "data/maps/Route121/scripts.pory"
@@ -169,7 +169,7 @@ Route121_EventScript_RegisterWalter::
 # 85 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_WalterRegister, MSGBOX_DEFAULT
 # 86 "data/maps/Route121/scripts.pory"
-	register_matchcall TRAINER_WALTER_1
+	register_matchcall TRAINER_254
 # 87 "data/maps/Route121/scripts.pory"
 	release
 # 88 "data/maps/Route121/scripts.pory"
@@ -179,7 +179,7 @@ Route121_EventScript_RegisterWalter::
 # 90 "data/maps/Route121/scripts.pory"
 Route121_EventScript_RematchWalter::
 # 91 "data/maps/Route121/scripts.pory"
-	trainerbattle_rematch TRAINER_WALTER_1, Route121_Text_WalterRematchIntro, Route121_Text_WalterRematchDefeat
+	trainerbattle_rematch TRAINER_254, Route121_Text_WalterRematchIntro, Route121_Text_WalterRematchDefeat
 # 92 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_WalterPostRematch, MSGBOX_AUTOCLOSE
 # 93 "data/maps/Route121/scripts.pory"
@@ -189,7 +189,7 @@ Route121_EventScript_RematchWalter::
 # 95 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Tammy::
 # 96 "data/maps/Route121/scripts.pory"
-	trainerbattle_single TRAINER_TAMMY, Route121_Text_TammyIntro, Route121_Text_TammyDefeat
+	trainerbattle_single TRAINER_107, Route121_Text_TammyIntro, Route121_Text_TammyDefeat
 # 97 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_TammyPostBattle, MSGBOX_AUTOCLOSE
 # 98 "data/maps/Route121/scripts.pory"
@@ -199,7 +199,7 @@ Route121_EventScript_Tammy::
 # 100 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Kate::
 # 101 "data/maps/Route121/scripts.pory"
-	trainerbattle_double TRAINER_KATE_AND_JOY, Route121_Text_KateIntro, Route121_Text_KateDefeat, Route121_Text_KateNotEnoughMons
+	trainerbattle_double TRAINER_286, Route121_Text_KateIntro, Route121_Text_KateDefeat, Route121_Text_KateNotEnoughMons
 # 102 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_KatePostBattle, MSGBOX_AUTOCLOSE
 # 103 "data/maps/Route121/scripts.pory"
@@ -209,7 +209,7 @@ Route121_EventScript_Kate::
 # 105 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Joy::
 # 106 "data/maps/Route121/scripts.pory"
-	trainerbattle_double TRAINER_KATE_AND_JOY, Route121_Text_JoyIntro, Route121_Text_JoyDefeat, Route121_Text_JoyNotEnoughMons
+	trainerbattle_double TRAINER_286, Route121_Text_JoyIntro, Route121_Text_JoyDefeat, Route121_Text_JoyNotEnoughMons
 # 107 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_JoyPostBattle, MSGBOX_AUTOCLOSE
 # 108 "data/maps/Route121/scripts.pory"
@@ -219,7 +219,7 @@ Route121_EventScript_Joy::
 # 110 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Jessica::
 # 111 "data/maps/Route121/scripts.pory"
-	trainerbattle_single TRAINER_JESSICA_1, Route121_Text_JessicaIntro, Route121_Text_JessicaDefeat, Route121_EventScript_RegisterJessica
+	trainerbattle_single TRAINER_127, Route121_Text_JessicaIntro, Route121_Text_JessicaDefeat, Route121_EventScript_RegisterJessica
 # 112 "data/maps/Route121/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 113 "data/maps/Route121/scripts.pory"
@@ -241,7 +241,7 @@ Route121_EventScript_RegisterJessica::
 # 121 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_JessicaRegister, MSGBOX_DEFAULT
 # 122 "data/maps/Route121/scripts.pory"
-	register_matchcall TRAINER_JESSICA_1
+	register_matchcall TRAINER_127
 # 123 "data/maps/Route121/scripts.pory"
 	release
 # 124 "data/maps/Route121/scripts.pory"
@@ -251,7 +251,7 @@ Route121_EventScript_RegisterJessica::
 # 126 "data/maps/Route121/scripts.pory"
 Route121_EventScript_RematchJessica::
 # 127 "data/maps/Route121/scripts.pory"
-	trainerbattle_rematch TRAINER_JESSICA_1, Route121_Text_JessicaRematchIntro, Route121_Text_JessicaRematchDefeat
+	trainerbattle_rematch TRAINER_127, Route121_Text_JessicaRematchIntro, Route121_Text_JessicaRematchDefeat
 # 128 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_JessicaPostRematch, MSGBOX_AUTOCLOSE
 # 129 "data/maps/Route121/scripts.pory"
@@ -261,7 +261,7 @@ Route121_EventScript_RematchJessica::
 # 131 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Cale::
 # 132 "data/maps/Route121/scripts.pory"
-	trainerbattle_single TRAINER_CALE, Route121_Text_CaleIntro, Route121_Text_CaleDefeat
+	trainerbattle_single TRAINER_764, Route121_Text_CaleIntro, Route121_Text_CaleDefeat
 # 133 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_CalePostBattle, MSGBOX_AUTOCLOSE
 # 134 "data/maps/Route121/scripts.pory"
@@ -271,7 +271,7 @@ Route121_EventScript_Cale::
 # 136 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Myles::
 # 137 "data/maps/Route121/scripts.pory"
-	trainerbattle_single TRAINER_MYLES, Route121_Text_MylesIntro, Route121_Text_MylesDefeat
+	trainerbattle_single TRAINER_765, Route121_Text_MylesIntro, Route121_Text_MylesDefeat
 # 138 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_MylesPostBattle, MSGBOX_AUTOCLOSE
 # 139 "data/maps/Route121/scripts.pory"
@@ -281,7 +281,7 @@ Route121_EventScript_Myles::
 # 141 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Pat::
 # 142 "data/maps/Route121/scripts.pory"
-	trainerbattle_single TRAINER_PAT, Route121_Text_PatIntro, Route121_Text_PatDefeat
+	trainerbattle_single TRAINER_766, Route121_Text_PatIntro, Route121_Text_PatDefeat
 # 143 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_PatPostBattle, MSGBOX_AUTOCLOSE
 # 144 "data/maps/Route121/scripts.pory"
@@ -291,7 +291,7 @@ Route121_EventScript_Pat::
 # 146 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Marcel::
 # 147 "data/maps/Route121/scripts.pory"
-	trainerbattle_single TRAINER_MARCEL, Route121_Text_MarcelIntro, Route121_Text_MarcelDefeat
+	trainerbattle_single TRAINER_11, Route121_Text_MarcelIntro, Route121_Text_MarcelDefeat
 # 148 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_MarcelPostBattle, MSGBOX_AUTOCLOSE
 # 149 "data/maps/Route121/scripts.pory"
@@ -301,7 +301,7 @@ Route121_EventScript_Marcel::
 # 151 "data/maps/Route121/scripts.pory"
 Route121_EventScript_Cristin::
 # 152 "data/maps/Route121/scripts.pory"
-	trainerbattle_single TRAINER_CRISTIN_1, Route121_Text_CristinIntro, Route121_Text_CristinDefeat, Route121_EventScript_RegisterCristin
+	trainerbattle_single TRAINER_767, Route121_Text_CristinIntro, Route121_Text_CristinDefeat, Route121_EventScript_RegisterCristin
 # 153 "data/maps/Route121/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 154 "data/maps/Route121/scripts.pory"
@@ -323,7 +323,7 @@ Route121_EventScript_RegisterCristin::
 # 162 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_CristinRegister, MSGBOX_DEFAULT
 # 163 "data/maps/Route121/scripts.pory"
-	register_matchcall TRAINER_CRISTIN_1
+	register_matchcall TRAINER_767
 # 164 "data/maps/Route121/scripts.pory"
 	release
 # 165 "data/maps/Route121/scripts.pory"
@@ -333,7 +333,7 @@ Route121_EventScript_RegisterCristin::
 # 167 "data/maps/Route121/scripts.pory"
 Route121_EventScript_RematchCristin::
 # 168 "data/maps/Route121/scripts.pory"
-	trainerbattle_rematch TRAINER_CRISTIN_1, Route121_Text_CristinRematchIntro, Route121_Text_CristinRematchDefeat
+	trainerbattle_rematch TRAINER_767, Route121_Text_CristinRematchIntro, Route121_Text_CristinRematchDefeat
 # 169 "data/maps/Route121/scripts.pory"
 	msgbox Route121_Text_CristinPostRematch, MSGBOX_AUTOCLOSE
 # 170 "data/maps/Route121/scripts.pory"

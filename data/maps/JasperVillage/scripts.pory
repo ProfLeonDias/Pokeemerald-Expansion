@@ -1,1 +1,171 @@
-mapscripts JasperVillage_MapScripts {}
+mapscripts JasperVillage_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION : OnTransitionJasperTown
+}
+
+script OnTransitionJasperTown{
+    setflag(FLAG_VISITED_OLDALE_TOWN)
+}
+
+script JasperTown_EventScript_Mailbox{
+    msgbox("????'s House\nThe name is scraped off…")
+    release
+}
+
+script JasperTown_EventScript_Sign1{
+    msgbox("Jasper Beach Ahead")
+    release
+}
+
+script JasperTown_EventScript_Sign2{
+    msgbox("Jasper Town\nThe Gateway to the sea.")
+    release
+}
+
+script JasperTown_EventScript_Girl{
+    lock
+    faceplayer
+    msgbox("I tan at the beach every day!\nHow do I look?")
+    release
+}
+
+script JasperTown_EventScript_OldLady{
+    lock
+    faceplayer
+    msgbox("A young man lives across this pond.\pHe always seems to be searching for\nsomeone, but I don't know who or why.")
+    release
+}
+
+script JasperTown_EventScript_Sailor1{
+    lock
+    faceplayer
+    msgbox("I must head out to sea again, but every\ntime I go, I miss my wife.")
+    release
+}
+
+script JasperTown_EventScript_Sailor2{
+    lock
+    faceplayer
+    msgbox("At the docks, you could buy some neat\nstuff from other regions.\pBut I heard the government will start\ncracking down imports soon.")
+    release
+}
+
+script JasperTown_EventScript_OldMan{
+    lock
+    faceplayer
+    if(var(VAR_JASPER_TOWN_STATE) == 1){
+        msgbox("Hello, young sprout.\nYou have a good day now, y'hear?")
+        release
+    }
+    else{
+        msgbox("Hold on there, young sprout!\pYou look like you need to be somewhere\nelse. Why not take care of that first?")
+        release
+    }
+}
+
+script JasperTown_EventScript_OldManEventA{
+    lockall
+    playse(21)
+    applymovement(LOCALID_OLDMAN, Jaspermov1)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Jaspermov2)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Hold on there, young sprout!\pYou look like you need to be somewhere\nelse. Why not take care of that first?")
+    closemessage
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, Jaspermov3)
+    waitmovement(0)
+    releaseall
+}
+
+script JasperTown_EventScript_OldManEventB{
+    lockall
+    playse(21)
+    applymovement(LOCALID_OLDMAN, Jaspermov1x)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Jaspermov2)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Hold on there, young sprout!\pYou look like you need to be somewhere\nelse. Why not take care of that first?")
+    closemessage
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, Jaspermov3)
+    waitmovement(0)
+    applymovement(LOCALID_OLDMAN, Jaspermov4)
+    waitmovement(0)
+    releaseall
+}
+
+script JasperTown_EventScript_OldManEventC{
+    lockall
+    playse(21)
+    applymovement(LOCALID_OLDMAN, Jaspermov1xx)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Jaspermov2)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Hold on there, young sprout!\pYou look like you need to be somewhere\nelse. Why not take care of that first?")
+    closemessage
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, Jaspermov3)
+    waitmovement(0)
+    applymovement(LOCALID_OLDMAN, Jaspermov4x)
+    waitmovement(0)
+    releaseall
+}
+
+script JasperTown_EventScript_OldManEventD{
+    lockall
+    playse(21)
+    applymovement(LOCALID_OLDMAN, Jaspermov1xxx)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Jaspermov2)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Hold on there, young sprout!\pYou look like you need to be somewhere\nelse. Why not take care of that first?")
+    closemessage
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, Jaspermov3)
+    waitmovement(0)
+    applymovement(LOCALID_OLDMAN, Jaspermov4xx)
+    waitmovement(0)
+    releaseall
+}
+
+movement Jaspermov1{
+    emote_exclamation_mark
+}
+
+movement Jaspermov1x{
+    emote_exclamation_mark
+    walk_down
+}
+
+movement Jaspermov1xx{
+    emote_exclamation_mark
+    walk_down *2
+}
+
+movement Jaspermov1xxx{
+    emote_exclamation_mark
+    walk_down *3
+}
+
+movement Jaspermov2{
+    face_up
+}
+
+movement Jaspermov3{
+    walk_right
+}
+
+movement Jaspermov4{
+    walk_up
+    face_down
+}
+
+movement Jaspermov4x{
+    walk_up *2
+    face_down
+}
+
+movement Jaspermov4xx{
+    walk_up *3
+    face_down
+}

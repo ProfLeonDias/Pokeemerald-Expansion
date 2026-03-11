@@ -165,7 +165,7 @@ Route114_EventScript_LanettesHouseSign::
 # 83 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Lenny::
 # 84 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_LENNY, Route114_Text_LennyIntro, Route114_Text_LennyDefeat
+	trainerbattle_single TRAINER_628, Route114_Text_LennyIntro, Route114_Text_LennyDefeat
 # 85 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_LennyPostBattle, MSGBOX_AUTOCLOSE
 # 86 "data/maps/Route114/scripts.pory"
@@ -175,7 +175,7 @@ Route114_EventScript_Lenny::
 # 88 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Lucas::
 # 89 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_LUCAS_1, Route114_Text_LucasIntro, Route114_Text_LucasDefeat
+	trainerbattle_single TRAINER_629, Route114_Text_LucasIntro, Route114_Text_LucasDefeat
 # 90 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_LucasPostBattle, MSGBOX_AUTOCLOSE
 # 91 "data/maps/Route114/scripts.pory"
@@ -185,7 +185,7 @@ Route114_EventScript_Lucas::
 # 93 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Shane::
 # 94 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_SHANE, Route114_Text_ShaneIntro, Route114_Text_ShaneDefeat
+	trainerbattle_single TRAINER_214, Route114_Text_ShaneIntro, Route114_Text_ShaneDefeat
 # 95 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_ShanePostBattle, MSGBOX_AUTOCLOSE
 # 96 "data/maps/Route114/scripts.pory"
@@ -195,7 +195,7 @@ Route114_EventScript_Shane::
 # 98 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Nancy::
 # 99 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_NANCY, Route114_Text_NancyIntro, Route114_Text_NancyDefeat
+	trainerbattle_single TRAINER_472, Route114_Text_NancyIntro, Route114_Text_NancyDefeat
 # 100 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_NancyPostBattle, MSGBOX_AUTOCLOSE
 # 101 "data/maps/Route114/scripts.pory"
@@ -205,7 +205,7 @@ Route114_EventScript_Nancy::
 # 103 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Steve::
 # 104 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_STEVE_1, Route114_Text_SteveIntro, Route114_Text_SteveDefeat, Route114_EventScript_RegisterSteve
+	trainerbattle_single TRAINER_143, Route114_Text_SteveIntro, Route114_Text_SteveDefeat, Route114_EventScript_RegisterSteve
 # 105 "data/maps/Route114/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 106 "data/maps/Route114/scripts.pory"
@@ -227,7 +227,7 @@ Route114_EventScript_RegisterSteve::
 # 114 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_SteveRegister, MSGBOX_DEFAULT
 # 115 "data/maps/Route114/scripts.pory"
-	register_matchcall TRAINER_STEVE_1
+	register_matchcall TRAINER_143
 # 116 "data/maps/Route114/scripts.pory"
 	release
 # 117 "data/maps/Route114/scripts.pory"
@@ -237,7 +237,7 @@ Route114_EventScript_RegisterSteve::
 # 119 "data/maps/Route114/scripts.pory"
 Route114_EventScript_RematchSteve::
 # 120 "data/maps/Route114/scripts.pory"
-	trainerbattle_rematch TRAINER_STEVE_1, Route114_Text_SteveRematchIntro, Route114_Text_SteveRematchDefeat
+	trainerbattle_rematch TRAINER_143, Route114_Text_SteveRematchIntro, Route114_Text_SteveRematchDefeat
 # 121 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_StevePostRematch, MSGBOX_AUTOCLOSE
 # 122 "data/maps/Route114/scripts.pory"
@@ -247,7 +247,7 @@ Route114_EventScript_RematchSteve::
 # 124 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Bernie::
 # 125 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_BERNIE_1, Route114_Text_BernieIntro, Route114_Text_BernieDefeat, Route114_EventScript_RegisterBernie
+	trainerbattle_single TRAINER_206, Route114_Text_BernieIntro, Route114_Text_BernieDefeat, Route114_EventScript_RegisterBernie
 # 126 "data/maps/Route114/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 127 "data/maps/Route114/scripts.pory"
@@ -269,7 +269,7 @@ Route114_EventScript_RegisterBernie::
 # 135 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_BernieRegister, MSGBOX_DEFAULT
 # 136 "data/maps/Route114/scripts.pory"
-	register_matchcall TRAINER_BERNIE_1
+	register_matchcall TRAINER_206
 # 137 "data/maps/Route114/scripts.pory"
 	release
 # 138 "data/maps/Route114/scripts.pory"
@@ -279,7 +279,7 @@ Route114_EventScript_RegisterBernie::
 # 140 "data/maps/Route114/scripts.pory"
 Route114_EventScript_RematchBernie::
 # 141 "data/maps/Route114/scripts.pory"
-	trainerbattle_rematch TRAINER_BERNIE_1, Route114_Text_BernieRematchIntro, Route114_Text_BernieRematchDefeat
+	trainerbattle_rematch TRAINER_206, Route114_Text_BernieRematchIntro, Route114_Text_BernieRematchDefeat
 # 142 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_BerniePostRematch, MSGBOX_AUTOCLOSE
 # 143 "data/maps/Route114/scripts.pory"
@@ -289,7 +289,7 @@ Route114_EventScript_RematchBernie::
 # 145 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Claude::
 # 146 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_CLAUDE, Route114_Text_ClaudeIntro, Route114_Text_ClaudeDefeat
+	trainerbattle_single TRAINER_338, Route114_Text_ClaudeIntro, Route114_Text_ClaudeDefeat
 # 147 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_ClaudePostBattle, MSGBOX_AUTOCLOSE
 # 148 "data/maps/Route114/scripts.pory"
@@ -299,7 +299,7 @@ Route114_EventScript_Claude::
 # 150 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Nolan::
 # 151 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_NOLAN, Route114_Text_NolanIntro, Route114_Text_NolanDefeat
+	trainerbattle_single TRAINER_342, Route114_Text_NolanIntro, Route114_Text_NolanDefeat
 # 152 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_NolanPostBattle, MSGBOX_AUTOCLOSE
 # 153 "data/maps/Route114/scripts.pory"
@@ -309,7 +309,7 @@ Route114_EventScript_Nolan::
 # 155 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Tyra::
 # 156 "data/maps/Route114/scripts.pory"
-	trainerbattle_double TRAINER_TYRA_AND_IVY, Route114_Text_TyraIntro, Route114_Text_TyraDefeat, Route114_Text_TyraNotEnoughMons
+	trainerbattle_double TRAINER_679, Route114_Text_TyraIntro, Route114_Text_TyraDefeat, Route114_Text_TyraNotEnoughMons
 # 157 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_TyraPostBattle, MSGBOX_AUTOCLOSE
 # 158 "data/maps/Route114/scripts.pory"
@@ -319,7 +319,7 @@ Route114_EventScript_Tyra::
 # 160 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Ivy::
 # 161 "data/maps/Route114/scripts.pory"
-	trainerbattle_double TRAINER_TYRA_AND_IVY, Route114_Text_IvyIntro, Route114_Text_IvyDefeat, Route114_Text_IvyNotEnoughMons
+	trainerbattle_double TRAINER_679, Route114_Text_IvyIntro, Route114_Text_IvyDefeat, Route114_Text_IvyNotEnoughMons
 # 162 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_IvyPostBattle, MSGBOX_AUTOCLOSE
 # 163 "data/maps/Route114/scripts.pory"
@@ -329,7 +329,7 @@ Route114_EventScript_Ivy::
 # 165 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Angelina::
 # 166 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_ANGELINA, Route114_Text_AngelinaIntro, Route114_Text_AngelinaDefeat
+	trainerbattle_single TRAINER_712, Route114_Text_AngelinaIntro, Route114_Text_AngelinaDefeat
 # 167 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_AngelinaPostBattle, MSGBOX_AUTOCLOSE
 # 168 "data/maps/Route114/scripts.pory"
@@ -339,7 +339,7 @@ Route114_EventScript_Angelina::
 # 170 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Charlotte::
 # 171 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_CHARLOTTE, Route114_Text_CharlotteIntro, Route114_Text_CharlotteDefeat
+	trainerbattle_single TRAINER_714, Route114_Text_CharlotteIntro, Route114_Text_CharlotteDefeat
 # 172 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_CharlottePostBattle, MSGBOX_AUTOCLOSE
 # 173 "data/maps/Route114/scripts.pory"
@@ -349,7 +349,7 @@ Route114_EventScript_Charlotte::
 # 175 "data/maps/Route114/scripts.pory"
 Route114_EventScript_Kai::
 # 176 "data/maps/Route114/scripts.pory"
-	trainerbattle_single TRAINER_KAI, Route114_Text_KaiIntro, Route114_Text_KaiDefeat
+	trainerbattle_single TRAINER_713, Route114_Text_KaiIntro, Route114_Text_KaiDefeat
 # 177 "data/maps/Route114/scripts.pory"
 	msgbox Route114_Text_KaiPostBattle, MSGBOX_AUTOCLOSE
 # 178 "data/maps/Route114/scripts.pory"

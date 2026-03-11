@@ -587,7 +587,7 @@ LilycoveCity_EventScript_DeclineBrendanBattle::
 # 294 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_EventScript_BattleMayTreecko::
 # 295 "data/maps/LilycoveCity/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_TREECKO, LilycoveCity_Text_MayDefeat
+	trainerbattle_no_intro TRAINER_665, LilycoveCity_Text_MayDefeat
 # 296 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_DefeatedMay
 # 297 "data/maps/LilycoveCity/scripts.pory"
@@ -597,7 +597,7 @@ LilycoveCity_EventScript_BattleMayTreecko::
 # 299 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_EventScript_BattleMayTorchic::
 # 300 "data/maps/LilycoveCity/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_TORCHIC, LilycoveCity_Text_MayDefeat
+	trainerbattle_no_intro TRAINER_666, LilycoveCity_Text_MayDefeat
 # 301 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_DefeatedMay
 # 302 "data/maps/LilycoveCity/scripts.pory"
@@ -607,7 +607,7 @@ LilycoveCity_EventScript_BattleMayTorchic::
 # 304 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_EventScript_BattleMayMudkip::
 # 305 "data/maps/LilycoveCity/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_LILYCOVE_MUDKIP, LilycoveCity_Text_MayDefeat
+	trainerbattle_no_intro TRAINER_664, LilycoveCity_Text_MayDefeat
 # 306 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_DefeatedMay
 # 307 "data/maps/LilycoveCity/scripts.pory"
@@ -617,7 +617,7 @@ LilycoveCity_EventScript_BattleMayMudkip::
 # 309 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_EventScript_BattleBrendanTreecko::
 # 310 "data/maps/LilycoveCity/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_TREECKO, LilycoveCity_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_662, LilycoveCity_Text_BrendanDefeat
 # 311 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_DefeatedBrendan
 # 312 "data/maps/LilycoveCity/scripts.pory"
@@ -627,7 +627,7 @@ LilycoveCity_EventScript_BattleBrendanTreecko::
 # 314 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_EventScript_BattleBrendanTorchic::
 # 315 "data/maps/LilycoveCity/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_TORCHIC, LilycoveCity_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_663, LilycoveCity_Text_BrendanDefeat
 # 316 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_DefeatedBrendan
 # 317 "data/maps/LilycoveCity/scripts.pory"
@@ -637,7 +637,7 @@ LilycoveCity_EventScript_BattleBrendanTorchic::
 # 319 "data/maps/LilycoveCity/scripts.pory"
 LilycoveCity_EventScript_BattleBrendanMudkip::
 # 320 "data/maps/LilycoveCity/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_LILYCOVE_MUDKIP, LilycoveCity_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_661, LilycoveCity_Text_BrendanDefeat
 # 321 "data/maps/LilycoveCity/scripts.pory"
 	goto LilycoveCity_EventScript_DefeatedBrendan
 # 322 "data/maps/LilycoveCity/scripts.pory"
@@ -657,7 +657,7 @@ LilycoveCity_EventScript_DefeatedMay::
 # 329 "data/maps/LilycoveCity/scripts.pory"
 	call_if_eq VAR_RESULT, TRUE, LilycoveCity_EventScript_MayPokemonLeague
 # 330 "data/maps/LilycoveCity/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	clearflag FLAG_PROF_ASPEN_IMPROVEMENT
 # 331 "data/maps/LilycoveCity/scripts.pory"
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL
 # 332 "data/maps/LilycoveCity/scripts.pory"

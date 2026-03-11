@@ -91,7 +91,7 @@ EverGrandeCity_DrakesRoom_EventScript_Drake::
 # 46 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	msgbox EverGrandeCity_DrakesRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 # 47 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
-	trainerbattle_no_intro TRAINER_DRAKE, EverGrandeCity_DrakesRoom_Text_Defeat
+	trainerbattle_no_intro TRAINER_264, EverGrandeCity_DrakesRoom_Text_Defeat
 # 48 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"
 	goto EverGrandeCity_DrakesRoom_EventScript_Defeated
 # 49 "data/maps/EverGrandeCity_DrakesRoom/scripts.pory"

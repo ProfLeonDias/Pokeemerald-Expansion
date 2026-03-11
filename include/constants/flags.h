@@ -746,7 +746,7 @@
 #define FLAG_UNUSED_0x2BB  0x2BB // Unused Flag
 
 // Event Flags
-#define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC
+#define FLAG_HIDE_ARNIE                      0x2BC
 #define FLAG_HIDE_APPRENTICE                                        0x2BD
 #define FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN                0x2BE
 #define FLAG_HIDE_UNION_ROOM_PLAYER_1                               0x2BF
@@ -765,19 +765,17 @@
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC
 #define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD
 #define FLAG_HIDE_MEW                                               0x2CE
-#define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF
-#define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2
-#define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3
-#define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4
-#define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5
-#define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6
-#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7
-#define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8
-
-#define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
-
+#define FLAG_HIDE_ROUTE_24_TRAINERS                                 0x2CF
+#define FLAG_HIDE_SAPPHIRE_VILLAGE_PEOPLE                           0x2D0
+#define FLAG_HIDE_PROF_ASPEN                                        0x2D1
+#define FLAG_PROF_ASPEN_IMPROVEMENT                                 0x2D2
+#define FLAG_HIDE_JAMES_WOODS_PEOPLE                                0x2D3
+#define FLAG_HIDE_JAMES_WOODS_PEOPLE2                               0x2D4
+#define FLAG_HIDE_JAMES_WOODS_PEOPLE3                               0x2D5
+#define FLAG_HIDE_JAMES_WOODS_PEOPLE4                               0x2D6
+#define FLAG_HIDE_AUSTIN_FINAL                                      0x2D7
+#define FLAG_HIDE_ALEX_AND_LYON                                     0x2D8
+#define FLAG_BUNEARY_OBTAINED                                       0x2D9
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC
@@ -878,7 +876,7 @@
 #define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0x33B
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0x33C
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0x33D
-#define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0x33E
+#define FLAG_HIDE_JAMES_WOODS_PEOPLE4S_DAD                         0x33E
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS               0x33F
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER                0x340
 #define FLAG_HIDE_GRANITE_CAVE_STEVEN                               0x341
@@ -1050,18 +1048,18 @@
 #define FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT                0x3E7
 
 // Item Ball Flags
-#define FLAG_ITEM_ROUTE_102_POTION                                  0x3E8
-#define FLAG_ITEM_ROUTE_116_X_SPECIAL                               0x3E9
-#define FLAG_ITEM_ROUTE_104_PP_UP                                   0x3EA
-#define FLAG_ITEM_ROUTE_105_IRON                                    0x3EB
-#define FLAG_ITEM_ROUTE_106_PROTEIN                                 0x3EC
-#define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED
-#define FLAG_ITEM_ROUTE_110_RARE_CANDY                              0x3EE
-#define FLAG_ITEM_ROUTE_110_DIRE_HIT                                0x3EF
-#define FLAG_ITEM_ROUTE_111_TM_SANDSTORM                            0x3F0
-#define FLAG_ITEM_ROUTE_111_STARDUST                                0x3F1
-#define FLAG_ITEM_ROUTE_111_HP_UP                                   0x3F2
-#define FLAG_ITEM_ROUTE_112_NUGGET                                  0x3F3
+#define FLAG_ITEM_ROUTE_24S_POTION                                  0x3E8
+#define FLAG_ITEM_ROUTE_1S_RARE_CANDY                               0x3E9
+#define FLAG_ITEM_ROUTE_2_REPEL                                     0x3EA
+#define FLAG_ITEM_ROUTE_2_PP_UP                                     0x3EB
+#define FLAG_ITEM_ROUTE_29_SHARP_BEAK                               0x3EC
+#define FLAG_ITEM_ROUTE_29_SUPER_POTION                             0x3ED
+#define FLAG_ITEM_JASPER_TOWN_ANTIDOTE                              0x3EE
+#define FLAG_ITEM_JAMES_WOODS_ANTIDOTE                              0x3EF
+#define FLAG_ITEM_JAMES_WOODS_TM_U_TURN                             0x3F0
+#define FLAG_ITEM_JAMES_WOODS_POTION                                0x3F1
+#define FLAG_ITEM_JAMES_WOODS_X_ATTACK                              0x3F2
+#define FLAG_ITEM_JAMES_WOODS_POKE_BALL                                  0x3F3
 #define FLAG_ITEM_ROUTE_113_MAX_ETHER                               0x3F4
 #define FLAG_ITEM_ROUTE_113_SUPER_REPEL                             0x3F5
 #define FLAG_ITEM_ROUTE_114_RARE_CANDY                              0x3F6

@@ -17,7 +17,7 @@ struct LandmarkList
 
 static const u8 LandmarkName_MagmaHideout[] = _("Magma Hideout"); //Unused
 
-static const struct Landmark Landmark_FlowerShop = {COMPOUND_STRING("Flower Shop"), FLAG_LANDMARK_FLOWER_SHOP};
+static const struct Landmark Landmark_FlowerShop = {COMPOUND_STRING("James Woods"), FLAG_LANDMARK_FLOWER_SHOP};
 static const struct Landmark Landmark_PetalburgWoods = {COMPOUND_STRING("Petalburg Woods"), -1};
 static const struct Landmark Landmark_MrBrineysCottage = {COMPOUND_STRING("Mr. Briney's Cottage"), FLAG_LANDMARK_MR_BRINEY_HOUSE};
 static const struct Landmark Landmark_AbandonedShip = {COMPOUND_STRING("Abandoned Ship"), FLAG_LANDMARK_ABANDONED_SHIP};

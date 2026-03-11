@@ -213,3 +213,18 @@ const u16 gMetatileAttributes_Wish[] = INCBIN_U16("data/tilesets/primary/wish/me
 
 const u16 gMetatiles_Sapphire_Village[] = INCBIN_U16("data/tilesets/secondary/sapphire_village/metatiles.bin");
 const u16 gMetatileAttributes_Sapphire_Village[] = INCBIN_U16("data/tilesets/secondary/sapphire_village/metatile_attributes.bin");
+
+const u16 gMetatiles_Jasper_Town[] = INCBIN_U16("data/tilesets/secondary/jasper_town/metatiles.bin");
+const u16 gMetatileAttributes_Jasper_Town[] = INCBIN_U16("data/tilesets/secondary/jasper_town/metatile_attributes.bin");
+
+const u16 gMetatiles_Forest[] = INCBIN_U16("data/tilesets/secondary/forest/metatiles.bin");
+const u16 gMetatileAttributes_Forest[] = INCBIN_U16("data/tilesets/secondary/forest/metatile_attributes.bin");
+
+const u16 gMetatiles_Ionia[] = INCBIN_U16("data/tilesets/secondary/ionia/metatiles.bin");
+const u16 gMetatileAttributes_Ionia[] = INCBIN_U16("data/tilesets/secondary/ionia/metatile_attributes.bin");
+
+const u16 gMetatiles_Power_Plant[] = INCBIN_U16("data/tilesets/secondary/power_plant/metatiles.bin");
+const u16 gMetatileAttributes_Power_Plant[] = INCBIN_U16("data/tilesets/secondary/power_plant/metatile_attributes.bin");
+
+const u16 gMetatiles_WishIndoors[] = INCBIN_U16("data/tilesets/primary/wish_indoors/metatiles.bin");
+const u16 gMetatileAttributes_WishIndoors[] = INCBIN_U16("data/tilesets/primary/wish_indoors/metatile_attributes.bin");

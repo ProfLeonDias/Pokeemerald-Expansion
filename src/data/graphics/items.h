@@ -1958,6 +1958,9 @@ const u16 gItemIconPalette_Ruby[] = INCBIN_U16("graphics/items/icon_palettes/rub
 
 const u16 gItemIconPalette_Sapphire[] = INCBIN_U16("graphics/items/icon_palettes/sapphire.gbapal");
 
+const u32 gItemIcon_SpareDex[] = INCBIN_U32("graphics/items/icons/sparedex.4bpp.smol");
+const u16 gItemIconPalette_SpareDex[] = INCBIN_U16("graphics/items/icon_palettes/sparedex.gbapal");
+
 const u32 gItemIcon_AbilityShield[] = INCBIN_U32("graphics/items/icons/ability_shield.4bpp.smol");
 const u16 gItemIconPalette_AbilityShield[] = INCBIN_U16("graphics/items/icon_palettes/ability_shield.gbapal");
 

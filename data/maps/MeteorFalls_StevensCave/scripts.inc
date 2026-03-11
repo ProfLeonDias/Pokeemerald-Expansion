@@ -31,7 +31,7 @@ MeteorFalls_StevensCave_EventScript_Steven::
 # 16 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	msgbox MeteorFalls_StevensCave_Text_ShouldKnowHowGoodIAmExpectWorst, MSGBOX_DEFAULT
 # 17 "data/maps/MeteorFalls_StevensCave/scripts.pory"
-	trainerbattle_no_intro TRAINER_STEVEN, MeteorFalls_StevensCave_Text_StevenDefeat
+	trainerbattle_no_intro TRAINER_804, MeteorFalls_StevensCave_Text_StevenDefeat
 # 18 "data/maps/MeteorFalls_StevensCave/scripts.pory"
 	msgbox MeteorFalls_StevensCave_Text_MyPredictionCameTrue, MSGBOX_DEFAULT
 # 19 "data/maps/MeteorFalls_StevensCave/scripts.pory"

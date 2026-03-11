@@ -341,21 +341,21 @@ SSTidalCorridor_EventScript_EnjoyYourCruise::
 # 171 "data/maps/SSTidalCorridor/scripts.pory"
 SSTidalCorridor_EventScript_CheckIfTrainersDefeated::
 # 172 "data/maps/SSTidalCorridor/scripts.pory"
-	goto_if_not_defeated TRAINER_PHILLIP, SSTidalCorridor_EventScript_TrainerNotDefeated
+	goto_if_not_defeated TRAINER_494, SSTidalCorridor_EventScript_TrainerNotDefeated
 # 173 "data/maps/SSTidalCorridor/scripts.pory"
-	goto_if_not_defeated TRAINER_LEONARD, SSTidalCorridor_EventScript_TrainerNotDefeated
+	goto_if_not_defeated TRAINER_495, SSTidalCorridor_EventScript_TrainerNotDefeated
 # 174 "data/maps/SSTidalCorridor/scripts.pory"
-	goto_if_not_defeated TRAINER_COLTON, SSTidalCorridor_EventScript_TrainerNotDefeated
+	goto_if_not_defeated TRAINER_294, SSTidalCorridor_EventScript_TrainerNotDefeated
 # 175 "data/maps/SSTidalCorridor/scripts.pory"
-	goto_if_not_defeated TRAINER_MICAH, SSTidalCorridor_EventScript_TrainerNotDefeated
+	goto_if_not_defeated TRAINER_255, SSTidalCorridor_EventScript_TrainerNotDefeated
 # 176 "data/maps/SSTidalCorridor/scripts.pory"
-	goto_if_not_defeated TRAINER_THOMAS, SSTidalCorridor_EventScript_TrainerNotDefeated
+	goto_if_not_defeated TRAINER_256, SSTidalCorridor_EventScript_TrainerNotDefeated
 # 177 "data/maps/SSTidalCorridor/scripts.pory"
-	goto_if_not_defeated TRAINER_LEA_AND_JED, SSTidalCorridor_EventScript_TrainerNotDefeated
+	goto_if_not_defeated TRAINER_641, SSTidalCorridor_EventScript_TrainerNotDefeated
 # 178 "data/maps/SSTidalCorridor/scripts.pory"
-	goto_if_not_defeated TRAINER_GARRET, SSTidalCorridor_EventScript_TrainerNotDefeated
+	goto_if_not_defeated TRAINER_138, SSTidalCorridor_EventScript_TrainerNotDefeated
 # 179 "data/maps/SSTidalCorridor/scripts.pory"
-	goto_if_not_defeated TRAINER_NAOMI, SSTidalCorridor_EventScript_TrainerNotDefeated
+	goto_if_not_defeated TRAINER_119, SSTidalCorridor_EventScript_TrainerNotDefeated
 # 180 "data/maps/SSTidalCorridor/scripts.pory"
 	setflag FLAG_DEFEATED_SS_TIDAL_TRAINERS
 # 181 "data/maps/SSTidalCorridor/scripts.pory"

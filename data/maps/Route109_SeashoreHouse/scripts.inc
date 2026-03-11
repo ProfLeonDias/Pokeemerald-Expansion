@@ -155,7 +155,7 @@ Route109_SeashoreHouse_EventScript_NotEnoughSpace::
 # 78 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_EventScript_Dwayne::
 # 79 "data/maps/Route109_SeashoreHouse/scripts.pory"
-	trainerbattle_single TRAINER_DWAYNE, Route109_SeashoreHouse_Text_DwayneIntro, Route109_SeashoreHouse_Text_DwayneDefeated, Route109_SeashoreHouse_EventScript_CheckTrainersCompletion
+	trainerbattle_single TRAINER_493, Route109_SeashoreHouse_Text_DwayneIntro, Route109_SeashoreHouse_Text_DwayneDefeated, Route109_SeashoreHouse_EventScript_CheckTrainersCompletion
 # 80 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	msgbox Route109_SeashoreHouse_Text_DwaynePostBattle, MSGBOX_AUTOCLOSE
 # 81 "data/maps/Route109_SeashoreHouse/scripts.pory"
@@ -165,7 +165,7 @@ Route109_SeashoreHouse_EventScript_Dwayne::
 # 83 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_EventScript_Johanna::
 # 84 "data/maps/Route109_SeashoreHouse/scripts.pory"
-	trainerbattle_single TRAINER_JOHANNA, Route109_SeashoreHouse_Text_JohannaIntro, Route109_SeashoreHouse_Text_JohannaDefeated, Route109_SeashoreHouse_EventScript_CheckTrainersCompletion
+	trainerbattle_single TRAINER_647, Route109_SeashoreHouse_Text_JohannaIntro, Route109_SeashoreHouse_Text_JohannaDefeated, Route109_SeashoreHouse_EventScript_CheckTrainersCompletion
 # 85 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	msgbox Route109_SeashoreHouse_Text_JohannaPostBattle, MSGBOX_AUTOCLOSE
 # 86 "data/maps/Route109_SeashoreHouse/scripts.pory"
@@ -175,7 +175,7 @@ Route109_SeashoreHouse_EventScript_Johanna::
 # 88 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_EventScript_Simon::
 # 89 "data/maps/Route109_SeashoreHouse/scripts.pory"
-	trainerbattle_single TRAINER_SIMON, Route109_SeashoreHouse_Text_SimonIntro, Route109_SeashoreHouse_Text_SimonDefeated, Route109_SeashoreHouse_EventScript_CheckTrainersCompletion
+	trainerbattle_single TRAINER_65, Route109_SeashoreHouse_Text_SimonIntro, Route109_SeashoreHouse_Text_SimonDefeated, Route109_SeashoreHouse_EventScript_CheckTrainersCompletion
 # 90 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	msgbox Route109_SeashoreHouse_Text_SimonPostBattle, MSGBOX_AUTOCLOSE
 # 91 "data/maps/Route109_SeashoreHouse/scripts.pory"
@@ -185,11 +185,11 @@ Route109_SeashoreHouse_EventScript_Simon::
 # 93 "data/maps/Route109_SeashoreHouse/scripts.pory"
 Route109_SeashoreHouse_EventScript_CheckTrainersCompletion::
 # 94 "data/maps/Route109_SeashoreHouse/scripts.pory"
-	goto_if_not_defeated TRAINER_DWAYNE, Route109_SeashoreHouse_EventScript_TrainersNotCompleted
+	goto_if_not_defeated TRAINER_493, Route109_SeashoreHouse_EventScript_TrainersNotCompleted
 # 95 "data/maps/Route109_SeashoreHouse/scripts.pory"
-	goto_if_not_defeated TRAINER_JOHANNA, Route109_SeashoreHouse_EventScript_TrainersNotCompleted
+	goto_if_not_defeated TRAINER_647, Route109_SeashoreHouse_EventScript_TrainersNotCompleted
 # 96 "data/maps/Route109_SeashoreHouse/scripts.pory"
-	goto_if_not_defeated TRAINER_SIMON, Route109_SeashoreHouse_EventScript_TrainersNotCompleted
+	goto_if_not_defeated TRAINER_65, Route109_SeashoreHouse_EventScript_TrainersNotCompleted
 # 97 "data/maps/Route109_SeashoreHouse/scripts.pory"
 	setflag FLAG_DEFEATED_SEASHORE_HOUSE
 # 98 "data/maps/Route109_SeashoreHouse/scripts.pory"

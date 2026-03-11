@@ -91,7 +91,7 @@ MtChimney_EventScript_Maxie::
 # 46 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_MaxieIntro, MSGBOX_DEFAULT
 # 47 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAXIE_MT_CHIMNEY, MtChimney_Text_MaxieDefeat
+	trainerbattle_no_intro TRAINER_602, MtChimney_Text_MaxieDefeat
 # 48 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_MaxieYouHaventSeenLastOfMagma, MSGBOX_DEFAULT
 # 49 "data/maps/MtChimney/scripts.pory"
@@ -817,7 +817,7 @@ MtChimney_EventScript_BusyAquaGrunt3::
 # 409 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_Tabitha::
 # 410 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_single TRAINER_TABITHA_MT_CHIMNEY, MtChimney_Text_TabithaIntro, MtChimney_Text_TabithaDefeat
+	trainerbattle_single TRAINER_597, MtChimney_Text_TabithaIntro, MtChimney_Text_TabithaDefeat
 # 411 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_TabithaPostBattle, MSGBOX_AUTOCLOSE
 # 412 "data/maps/MtChimney/scripts.pory"
@@ -827,7 +827,7 @@ MtChimney_EventScript_Tabitha::
 # 414 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_Grunt2::
 # 415 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MT_CHIMNEY_2, MtChimney_Text_Grunt2Intro, MtChimney_Text_Grunt2Defeat
+	trainerbattle_single TRAINER_579, MtChimney_Text_Grunt2Intro, MtChimney_Text_Grunt2Defeat
 # 416 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 # 417 "data/maps/MtChimney/scripts.pory"
@@ -965,7 +965,7 @@ MtChimney_EventScript_RouteSign::
 # 483 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_Shelby::
 # 484 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_single TRAINER_SHELBY_1, MtChimney_Text_ShelbyIntro, MtChimney_Text_ShelbyDefeat, MtChimney_EventScript_DefeatedShelby
+	trainerbattle_single TRAINER_313, MtChimney_Text_ShelbyIntro, MtChimney_Text_ShelbyDefeat, MtChimney_EventScript_DefeatedShelby
 # 485 "data/maps/MtChimney/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 486 "data/maps/MtChimney/scripts.pory"
@@ -987,7 +987,7 @@ MtChimney_EventScript_DefeatedShelby::
 # 494 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_ShelbyRegister, MSGBOX_DEFAULT
 # 495 "data/maps/MtChimney/scripts.pory"
-	register_matchcall TRAINER_SHELBY_1
+	register_matchcall TRAINER_313
 # 496 "data/maps/MtChimney/scripts.pory"
 	release
 # 497 "data/maps/MtChimney/scripts.pory"
@@ -997,7 +997,7 @@ MtChimney_EventScript_DefeatedShelby::
 # 499 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_RematchShelby::
 # 500 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_rematch TRAINER_SHELBY_1, MtChimney_Text_ShelbyRematchIntro, MtChimney_Text_ShelbyRematchDefeat
+	trainerbattle_rematch TRAINER_313, MtChimney_Text_ShelbyRematchIntro, MtChimney_Text_ShelbyRematchDefeat
 # 501 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_ShelbyPostRematch, MSGBOX_AUTOCLOSE
 # 502 "data/maps/MtChimney/scripts.pory"
@@ -1007,7 +1007,7 @@ MtChimney_EventScript_RematchShelby::
 # 504 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_Melissa::
 # 505 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_single TRAINER_MELISSA, MtChimney_Text_MelissaIntro, MtChimney_Text_MelissaDefeat
+	trainerbattle_single TRAINER_124, MtChimney_Text_MelissaIntro, MtChimney_Text_MelissaDefeat
 # 506 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_MelissaPostBattle, MSGBOX_AUTOCLOSE
 # 507 "data/maps/MtChimney/scripts.pory"
@@ -1017,7 +1017,7 @@ MtChimney_EventScript_Melissa::
 # 509 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_Sheila::
 # 510 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_single TRAINER_SHEILA, MtChimney_Text_SheilaIntro, MtChimney_Text_SheilaDefeat
+	trainerbattle_single TRAINER_125, MtChimney_Text_SheilaIntro, MtChimney_Text_SheilaDefeat
 # 511 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_SheilaPostBattle, MSGBOX_AUTOCLOSE
 # 512 "data/maps/MtChimney/scripts.pory"
@@ -1027,7 +1027,7 @@ MtChimney_EventScript_Sheila::
 # 514 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_Shirley::
 # 515 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_single TRAINER_SHIRLEY, MtChimney_Text_ShirleyIntro, MtChimney_Text_ShirleyDefeat
+	trainerbattle_single TRAINER_126, MtChimney_Text_ShirleyIntro, MtChimney_Text_ShirleyDefeat
 # 516 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_ShirleyPostBattle, MSGBOX_AUTOCLOSE
 # 517 "data/maps/MtChimney/scripts.pory"
@@ -1037,7 +1037,7 @@ MtChimney_EventScript_Shirley::
 # 519 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_Grunt1::
 # 520 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MT_CHIMNEY_1, MtChimney_Text_Grunt1Intro, MtChimney_Text_Grunt1Defeat
+	trainerbattle_single TRAINER_146, MtChimney_Text_Grunt1Intro, MtChimney_Text_Grunt1Defeat
 # 521 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 # 522 "data/maps/MtChimney/scripts.pory"
@@ -1047,7 +1047,7 @@ MtChimney_EventScript_Grunt1::
 # 524 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_Sawyer::
 # 525 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_single TRAINER_SAWYER_1, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat, MtChimney_EventScript_SawyerDefeated
+	trainerbattle_single TRAINER_01, MtChimney_Text_SawyerIntro, MtChimney_Text_SawyerDefeat, MtChimney_EventScript_SawyerDefeated
 # 526 "data/maps/MtChimney/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 527 "data/maps/MtChimney/scripts.pory"
@@ -1069,7 +1069,7 @@ MtChimney_EventScript_SawyerDefeated::
 # 535 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_SawyerRegister, MSGBOX_DEFAULT
 # 536 "data/maps/MtChimney/scripts.pory"
-	register_matchcall TRAINER_SAWYER_1
+	register_matchcall TRAINER_01
 # 537 "data/maps/MtChimney/scripts.pory"
 	release
 # 538 "data/maps/MtChimney/scripts.pory"
@@ -1079,7 +1079,7 @@ MtChimney_EventScript_SawyerDefeated::
 # 540 "data/maps/MtChimney/scripts.pory"
 MtChimney_EventScript_SawyerRematch::
 # 541 "data/maps/MtChimney/scripts.pory"
-	trainerbattle_rematch TRAINER_SAWYER_1, MtChimney_Text_SawyerRematchIntro, MtChimney_Text_SawyerRematchDefeat
+	trainerbattle_rematch TRAINER_01, MtChimney_Text_SawyerRematchIntro, MtChimney_Text_SawyerRematchDefeat
 # 542 "data/maps/MtChimney/scripts.pory"
 	msgbox MtChimney_Text_SawyerPostRematch, MSGBOX_AUTOCLOSE
 # 543 "data/maps/MtChimney/scripts.pory"

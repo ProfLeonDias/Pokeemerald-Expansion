@@ -459,7 +459,7 @@ Route116_Movement_GlassesManExitEast:
 # 230 "data/maps/Route116/scripts.pory"
 Route116_EventScript_Joey::
 # 231 "data/maps/Route116/scripts.pory"
-	trainerbattle_single TRAINER_JOEY, Route116_Text_JoeyIntro, Route116_Text_JoeyDefeat
+	trainerbattle_single TRAINER_322, Route116_Text_JoeyIntro, Route116_Text_JoeyDefeat
 # 232 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_JoeyPostBattle, MSGBOX_AUTOCLOSE
 # 233 "data/maps/Route116/scripts.pory"
@@ -469,7 +469,7 @@ Route116_EventScript_Joey::
 # 235 "data/maps/Route116/scripts.pory"
 Route116_EventScript_Jose::
 # 236 "data/maps/Route116/scripts.pory"
-	trainerbattle_single TRAINER_JOSE, Route116_Text_JoseIntro, Route116_Text_JoseDefeat
+	trainerbattle_single TRAINER_617, Route116_Text_JoseIntro, Route116_Text_JoseDefeat
 # 237 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_JosePostBattle, MSGBOX_AUTOCLOSE
 # 238 "data/maps/Route116/scripts.pory"
@@ -479,13 +479,13 @@ Route116_EventScript_Jose::
 # 240 "data/maps/Route116/scripts.pory"
 Route116_EventScript_Jerry::
 # 241 "data/maps/Route116/scripts.pory"
-	trainerbattle_single TRAINER_JERRY_1, Route116_Text_JerryIntro, Route116_Text_JerryDefeat, Route116_EventScript_TryRegisterJerryAfterBattle
+	trainerbattle_single TRAINER_273, Route116_Text_JerryIntro, Route116_Text_JerryDefeat, Route116_EventScript_TryRegisterJerryAfterBattle
 # 242 "data/maps/Route116/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 243 "data/maps/Route116/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, Route116_EventScript_RematchJerry
 # 244 "data/maps/Route116/scripts.pory"
-	setvar VAR_0x8004, TRAINER_JERRY_1
+	setvar VAR_0x8004, TRAINER_273
 # 245 "data/maps/Route116/scripts.pory"
 	specialvar VAR_RESULT, IsTrainerRegistered
 # 246 "data/maps/Route116/scripts.pory"
@@ -517,7 +517,7 @@ Route116_EventScript_RegisterJerryAfterBattle::
 # 259 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_JerryRegister2, MSGBOX_DEFAULT
 # 260 "data/maps/Route116/scripts.pory"
-	register_matchcall TRAINER_JERRY_1
+	register_matchcall TRAINER_273
 # 261 "data/maps/Route116/scripts.pory"
 	release
 # 262 "data/maps/Route116/scripts.pory"
@@ -541,7 +541,7 @@ Route116_EventScript_RegisterJerry::
 # 271 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_JerryRegister1, MSGBOX_DEFAULT
 # 272 "data/maps/Route116/scripts.pory"
-	register_matchcall TRAINER_JERRY_1
+	register_matchcall TRAINER_273
 # 273 "data/maps/Route116/scripts.pory"
 	release
 # 274 "data/maps/Route116/scripts.pory"
@@ -551,7 +551,7 @@ Route116_EventScript_RegisterJerry::
 # 276 "data/maps/Route116/scripts.pory"
 Route116_EventScript_RematchJerry::
 # 277 "data/maps/Route116/scripts.pory"
-	trainerbattle_rematch TRAINER_JERRY_1, Route116_Text_JerryRematchIntro, Route116_Text_JerryRematchDefeat
+	trainerbattle_rematch TRAINER_273, Route116_Text_JerryRematchIntro, Route116_Text_JerryRematchDefeat
 # 278 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_JerryPostRematch, MSGBOX_AUTOCLOSE
 # 279 "data/maps/Route116/scripts.pory"
@@ -561,7 +561,7 @@ Route116_EventScript_RematchJerry::
 # 281 "data/maps/Route116/scripts.pory"
 Route116_EventScript_Clark::
 # 282 "data/maps/Route116/scripts.pory"
-	trainerbattle_single TRAINER_CLARK, Route116_Text_ClarkIntro, Route116_Text_ClarkDefeat
+	trainerbattle_single TRAINER_631, Route116_Text_ClarkIntro, Route116_Text_ClarkDefeat
 # 283 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_ClarkPostBattle, MSGBOX_AUTOCLOSE
 # 284 "data/maps/Route116/scripts.pory"
@@ -571,7 +571,7 @@ Route116_EventScript_Clark::
 # 286 "data/maps/Route116/scripts.pory"
 Route116_EventScript_Janice::
 # 287 "data/maps/Route116/scripts.pory"
-	trainerbattle_single TRAINER_JANICE, Route116_Text_JaniceIntro, Route116_Text_JaniceDefeat
+	trainerbattle_single TRAINER_605, Route116_Text_JaniceIntro, Route116_Text_JaniceDefeat
 # 288 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_JanicePostBattle, MSGBOX_AUTOCLOSE
 # 289 "data/maps/Route116/scripts.pory"
@@ -581,13 +581,13 @@ Route116_EventScript_Janice::
 # 291 "data/maps/Route116/scripts.pory"
 Route116_EventScript_Karen::
 # 292 "data/maps/Route116/scripts.pory"
-	trainerbattle_single TRAINER_KAREN_1, Route116_Text_KarenIntro, Route116_Text_KarenDefeat, Route116_EventScript_TryRegisterKarenAfterBattle
+	trainerbattle_single TRAINER_280, Route116_Text_KarenIntro, Route116_Text_KarenDefeat, Route116_EventScript_TryRegisterKarenAfterBattle
 # 293 "data/maps/Route116/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 294 "data/maps/Route116/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, Route116_EventScript_RematchKaren
 # 295 "data/maps/Route116/scripts.pory"
-	setvar VAR_0x8004, TRAINER_KAREN_1
+	setvar VAR_0x8004, TRAINER_280
 # 296 "data/maps/Route116/scripts.pory"
 	specialvar VAR_RESULT, IsTrainerRegistered
 # 297 "data/maps/Route116/scripts.pory"
@@ -619,7 +619,7 @@ Route116_EventScript_RegisterKarenAfterBattle::
 # 310 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_KarenRegister2, MSGBOX_DEFAULT
 # 311 "data/maps/Route116/scripts.pory"
-	register_matchcall TRAINER_KAREN_1
+	register_matchcall TRAINER_280
 # 312 "data/maps/Route116/scripts.pory"
 	release
 # 313 "data/maps/Route116/scripts.pory"
@@ -643,7 +643,7 @@ Route116_EventScript_RegisterKaren::
 # 322 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_KarenRegister1, MSGBOX_DEFAULT
 # 323 "data/maps/Route116/scripts.pory"
-	register_matchcall TRAINER_KAREN_1
+	register_matchcall TRAINER_280
 # 324 "data/maps/Route116/scripts.pory"
 	release
 # 325 "data/maps/Route116/scripts.pory"
@@ -653,7 +653,7 @@ Route116_EventScript_RegisterKaren::
 # 327 "data/maps/Route116/scripts.pory"
 Route116_EventScript_RematchKaren::
 # 328 "data/maps/Route116/scripts.pory"
-	trainerbattle_rematch TRAINER_KAREN_1, Route116_Text_KarenRematchIntro, Route116_Text_KarenRematchDefeat
+	trainerbattle_rematch TRAINER_280, Route116_Text_KarenRematchIntro, Route116_Text_KarenRematchDefeat
 # 329 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_KarenPostRematch, MSGBOX_AUTOCLOSE
 # 330 "data/maps/Route116/scripts.pory"
@@ -663,7 +663,7 @@ Route116_EventScript_RematchKaren::
 # 332 "data/maps/Route116/scripts.pory"
 Route116_EventScript_Sarah::
 # 333 "data/maps/Route116/scripts.pory"
-	trainerbattle_single TRAINER_SARAH, Route116_Text_SarahIntro, Route116_Text_SarahDefeat
+	trainerbattle_single TRAINER_695, Route116_Text_SarahIntro, Route116_Text_SarahDefeat
 # 334 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_SarahPostBattle, MSGBOX_AUTOCLOSE
 # 335 "data/maps/Route116/scripts.pory"
@@ -673,7 +673,7 @@ Route116_EventScript_Sarah::
 # 337 "data/maps/Route116/scripts.pory"
 Route116_EventScript_Dawson::
 # 338 "data/maps/Route116/scripts.pory"
-	trainerbattle_single TRAINER_DAWSON, Route116_Text_DawsonIntro, Route116_Text_DawsonDefeat
+	trainerbattle_single TRAINER_694, Route116_Text_DawsonIntro, Route116_Text_DawsonDefeat
 # 339 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_DawsonPostBattle, MSGBOX_AUTOCLOSE
 # 340 "data/maps/Route116/scripts.pory"
@@ -683,7 +683,7 @@ Route116_EventScript_Dawson::
 # 342 "data/maps/Route116/scripts.pory"
 Route116_EventScript_Devan::
 # 343 "data/maps/Route116/scripts.pory"
-	trainerbattle_single TRAINER_DEVAN, Route116_Text_DevanIntro, Route116_Text_DevanDefeat
+	trainerbattle_single TRAINER_753, Route116_Text_DevanIntro, Route116_Text_DevanDefeat
 # 344 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_DevanPostBattle, MSGBOX_AUTOCLOSE
 # 345 "data/maps/Route116/scripts.pory"
@@ -693,7 +693,7 @@ Route116_EventScript_Devan::
 # 347 "data/maps/Route116/scripts.pory"
 Route116_EventScript_Johnson::
 # 348 "data/maps/Route116/scripts.pory"
-	trainerbattle_single TRAINER_JOHNSON, Route116_Text_JohnsonIntro, Route116_Text_JohnsonDefeat
+	trainerbattle_single TRAINER_754, Route116_Text_JohnsonIntro, Route116_Text_JohnsonDefeat
 # 349 "data/maps/Route116/scripts.pory"
 	msgbox Route116_Text_JohnsonPostBattle, MSGBOX_AUTOCLOSE
 # 350 "data/maps/Route116/scripts.pory"

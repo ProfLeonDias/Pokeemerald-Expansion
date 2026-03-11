@@ -9,7 +9,7 @@ SeafloorCavern_Room4_MapScripts::
 # 5 "data/maps/SeafloorCavern_Room4/scripts.pory"
 SeafloorCavern_Room4_EventScript_Grunt3::
 # 6 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_SEAFLOOR_CAVERN_3, SeafloorCavern_Room4_Text_Grunt3Intro, SeafloorCavern_Room4_Text_Grunt3Defeat
+	trainerbattle_single TRAINER_08, SeafloorCavern_Room4_Text_Grunt3Intro, SeafloorCavern_Room4_Text_Grunt3Defeat
 # 7 "data/maps/SeafloorCavern_Room4/scripts.pory"
 	msgbox SeafloorCavern_Room4_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 # 8 "data/maps/SeafloorCavern_Room4/scripts.pory"
@@ -19,7 +19,7 @@ SeafloorCavern_Room4_EventScript_Grunt3::
 # 10 "data/maps/SeafloorCavern_Room4/scripts.pory"
 SeafloorCavern_Room4_EventScript_Grunt4::
 # 11 "data/maps/SeafloorCavern_Room4/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_SEAFLOOR_CAVERN_4, SeafloorCavern_Room4_Text_Grunt4Intro, SeafloorCavern_Room4_Text_Grunt4Defeat
+	trainerbattle_single TRAINER_14, SeafloorCavern_Room4_Text_Grunt4Intro, SeafloorCavern_Room4_Text_Grunt4Defeat
 # 12 "data/maps/SeafloorCavern_Room4/scripts.pory"
 	msgbox SeafloorCavern_Room4_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
 # 13 "data/maps/SeafloorCavern_Room4/scripts.pory"

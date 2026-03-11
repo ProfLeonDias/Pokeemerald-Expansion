@@ -103,9 +103,9 @@ LittlerootTown_MaysHouse_1F_OnFrame:
 # 52 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_MaysHouse_1F_EventScript_PetalburgGymReport
 # 53 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	map_script_2 VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 1, LittlerootTown_MaysHouse_1F_EventScript_YoureNewNeighbor
+	map_script_2 VAR_POKEMART_MACK_EVENT, 1, LittlerootTown_MaysHouse_1F_EventScript_YoureNewNeighbor
 # 54 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	map_script_2 VAR_LITTLEROOT_HOUSES_STATE_MAY, 3, PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV
+	map_script_2 VAR_ASPEN_EVENTS, 3, PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV
 # 55 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	.2byte 0
 # 56 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -197,7 +197,7 @@ LittlerootTown_MaysHouse_1F_EventScript_YoureNewNeighbor::
 # 99 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	setflag FLAG_MET_RIVAL_MOM
 # 100 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 2
+	setvar VAR_POKEMART_MACK_EVENT, 2
 # 101 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	releaseall
 # 102 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -233,7 +233,7 @@ RivalsHouse_1F_EventScript_RivalMom::
 # 117 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	goto_if_set FLAG_SYS_POKEMON_GET, RivalsHouse_1F_EventScript_RivalIsOnRoute103
 # 118 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	goto_if_eq VAR_LITTLEROOT_RIVAL_STATE, 3, RivalsHouse_1F_EventScript_RivalTooBusy
+	goto_if_eq VAR_INITIAL_EVENTS, 3, RivalsHouse_1F_EventScript_RivalTooBusy
 # 119 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	special GetRivalSonDaughterString
 # 120 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
@@ -393,13 +393,13 @@ LittlerootTown_MaysHouse_1F_EventScript_MeetRival::
 # 197 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
 # 198 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	clearflag FLAG_PROF_ASPEN_IMPROVEMENT
 # 199 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	delay 30
 # 200 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
+	setvar VAR_INITIAL_EVENTS, 3
 # 201 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
-	setvar VAR_LITTLEROOT_TOWN_STATE, 1
+	setvar VAR_SAPPHIRE_VILLAGE_STATE, 1
 # 202 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"
 	savebgm MUS_DUMMY
 # 203 "data/maps/LittlerootTown_MaysHouse_1F/scripts.pory"

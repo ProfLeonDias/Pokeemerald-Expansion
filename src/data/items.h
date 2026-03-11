@@ -14001,21 +14001,21 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_BikeVoucher,
     },
 
-    [ITEM_GOLD_TEETH] =
+    [ITEM_SPARE_POKEBALL] =
     {
-        .name = ITEM_NAME("Gold Teeth"),
-        .pluralName = ITEM_PLURAL_NAME("Gold Teeth"),
+        .name = ITEM_NAME("Spare Poké Ball"),
+        .pluralName = ITEM_PLURAL_NAME("Spare Poké Balls"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "Gold dentures lost\n"
-            "by the Safari\n"
-            "Zone's Warden."),
+            "A tool used for\n"
+            "catching wild\n"
+            "Pokémon."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-        .iconPic = gItemIcon_GoldTeeth,
-        .iconPalette = gItemIconPalette_GoldTeeth,
+        .iconPic = gItemIcon_PokeBall,
+        .iconPalette = gItemIconPalette_PokeBall,
     },
 
     [ITEM_CARD_KEY] =
@@ -14117,21 +14117,21 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_Tea,
     },
 
-    [ITEM_RUBY] =
+    [ITEM_SPARE_POKEDEX] =
     {
-        .name = ITEM_NAME("Ruby"),
-        .pluralName = ITEM_PLURAL_NAME("Rubies"),
+        .name = ITEM_NAME("Pokédex"),
+        .pluralName = ITEM_PLURAL_NAME("Pokédexes"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "An exquisite, red-\n"
-            "glowing gem that\n"
-            "symbolizes passion."),
+            "An extra Pokédex\n"
+            "meant to be delivered\n"
+            "to your brother Alex."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-        .iconPic = gItemIcon_Gem,
-        .iconPalette = gItemIconPalette_Ruby,
+        .iconPic = gItemIcon_SpareDex,
+        .iconPalette = gItemIconPalette_SpareDex,
     },
 
     [ITEM_SAPPHIRE] =

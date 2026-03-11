@@ -211,11 +211,11 @@ BattlePyramid_WarpToTop::
 # 106 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 
 # 107 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-@ TRAINER_PHILLIP is used as a placeholder
+@ TRAINER_494 is used as a placeholder
 # 108 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 BattlePyramid_TrainerBattle::
 # 109 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
-	trainerbattle TRAINER_BATTLE_HILL, LOCALID_NONE, TRAINER_PHILLIP, BattleFacility_TrainerBattle_PlaceholderText, BattleFacility_TrainerBattle_PlaceholderText, NULL, LOCALID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, FALSE, FALSE, FALSE
+	trainerbattle TRAINER_BATTLE_HILL, LOCALID_NONE, TRAINER_494, BattleFacility_TrainerBattle_PlaceholderText, BattleFacility_TrainerBattle_PlaceholderText, NULL, LOCALID_NONE, TRAINER_NONE, NULL, NULL, NULL, NULL, NULL, FALSE, FALSE, FALSE, FALSE
 # 110 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"
 	pyramid_showhint
 # 111 "data/maps/BattleFrontier_BattlePyramidFloor/scripts.pory"

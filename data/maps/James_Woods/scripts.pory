@@ -1,1 +1,1891 @@
-mapscripts James_Woods_MapScripts {}
+mapscripts James_Woods_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: JamesWoodsOnTransition
+}
+
+script JamesWoodsOnTransition{
+    setflag(FLAG_LANDMARK_FLOWER_SHOP)
+    if(var(VAR_ASPEN_LAB_EVENT) == 4){
+        removeobject(LOCALID_ALEX)
+        removeobject(LOCALID_LYON)
+        addobject(LOCALID_TRAINER1)
+        addobject(LOCALID_TRAINER2)
+        addobject(LOCALID_TRAINER3)
+        addobject(LOCALID_TRAINER4)
+        addobject(LOCALID_TRAINER5)
+        addobject(LOCALID_TRAINER6)
+        addobject(LOCALID_BALL1)
+        addobject(LOCALID_BALL2)
+        setobjectxyperm(LOCALID_TRAINER1, 23, 15)
+        setobjectxyperm(LOCALID_TRAINER2, 38, 24)
+        setobjectxyperm(LOCALID_TRAINER3, 4, 21)
+        setobjectxyperm(LOCALID_TRAINER4, 37, 53)
+        setobjectxyperm(LOCALID_TRAINER5, 15, 51)
+        setobjectxyperm(LOCALID_TRAINER6, 16, 59)
+        setobjectxyperm(LOCALID_BALL1, 45, 26)
+        setobjectxyperm(LOCALID_BALL2, 45, 50)
+    }
+    elif(var(VAR_ASPEN_LAB_EVENT) == 3){
+        addobject(LOCALID_ALEX)
+        addobject(LOCALID_LYON)
+        setobjectxyperm(LOCALID_ALEX, 21, 36)
+        setobjectxyperm(LOCALID_LYON, 22, 46)
+        addobject(LOCALID_TRAINER1)
+        addobject(LOCALID_TRAINER2)
+        addobject(LOCALID_TRAINER3)
+        addobject(LOCALID_TRAINER4)
+        addobject(LOCALID_TRAINER5)
+        addobject(LOCALID_TRAINER6)
+        addobject(LOCALID_BALL1)
+        addobject(LOCALID_BALL2)
+        setobjectxyperm(LOCALID_TRAINER1, 23, 15)
+        setobjectxyperm(LOCALID_TRAINER2, 38, 24)
+        setobjectxyperm(LOCALID_TRAINER3, 4, 21)
+        setobjectxyperm(LOCALID_TRAINER4, 37, 53)
+        setobjectxyperm(LOCALID_TRAINER5, 15, 51)
+        setobjectxyperm(LOCALID_TRAINER6, 16, 59)
+        setobjectxyperm(LOCALID_BALL1, 45, 26)
+        setobjectxyperm(LOCALID_BALL2, 45, 50)
+    }
+    elif(var(VAR_ASPEN_EVENTS) == 5){
+        addobject(LOCALID_TRAINER1)
+        addobject(LOCALID_TRAINER2)
+        addobject(LOCALID_TRAINER3)
+        addobject(LOCALID_TRAINER4)
+        addobject(LOCALID_TRAINER5)
+        addobject(LOCALID_TRAINER6)
+        addobject(LOCALID_BALL1)
+        addobject(LOCALID_BALL2)
+        setobjectxyperm(LOCALID_TRAINER1, 23, 15)
+        setobjectxyperm(LOCALID_TRAINER2, 38, 24)
+        setobjectxyperm(LOCALID_TRAINER3, 4, 21)
+        setobjectxyperm(LOCALID_TRAINER4, 37, 53)
+        setobjectxyperm(LOCALID_TRAINER5, 15, 51)
+        setobjectxyperm(LOCALID_TRAINER6, 16, 59)
+        setobjectxyperm(LOCALID_BALL1, 45, 26)
+        setobjectxyperm(LOCALID_BALL2, 45, 50)
+    }
+    else{}
+}
+
+script JamesWoods_EventScript_Sign1{
+    msgbox("James Woods\pExit north to Sapphire Village.\nExit south to Jasper Town.")
+    release
+}
+
+script JamesWoods_EventScript_Sign2{
+    msgbox("James River\nBeware of the current!")
+    release
+}
+
+script JamesWoods_EventScript_Sign3{
+    msgbox("WARNING!\pThe James River has a dangerously fast\ncurrent. Please do not loiter!\pSponsored by Shining Star Labs")
+    release
+}
+
+script JamesWoods_EventScript_Sign4{
+    msgbox("James Woods\nExit south to Route 1, Jasper Town")
+}
+
+script JamesWoods_EventScript_AustinYoungster{
+    lock
+    faceplayer
+    msgbox("Don't you know when to quit?")
+    release
+}
+
+script JamesWoods_EventScript_AustinCatcher2{
+    lock
+    faceplayer
+    msgbox("Get lost already!")
+    release
+}
+
+script JamesWoods_EventScript_AustinCatcher1{
+    lock
+    faceplayer
+    msgbox("Don't you have anything else better\nto do?")
+    release
+}
+
+script JamesWoods_EventScript_YoungsterTile1{
+    lockall
+    playse(21)
+    applymovement(LOCALID_YOUNGSTER2, JWmov1)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Hold it, you're not going anywhere!")
+    closemessage
+    delay(30)
+    applymovement(LOCALID_YOUNGSTER2, JWmov2)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWmov2)
+    waitmovement(0)
+    delay(15)
+    applymovement(LOCALID_YOUNGSTER2, JWmov3)
+    waitmovement(0)
+    releaseall
+}
+
+script JamesWoods_EventScript_YoungsterTile2{
+    lockall
+    playse(21)
+    applymovement(LOCALID_YOUNGSTER2, JWmov1x)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Hold it, you're not going anywhere!")
+    closemessage
+    delay(30)
+    applymovement(LOCALID_YOUNGSTER2, JWmov2x)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWmov2x)
+    waitmovement(0)
+    delay(15)
+    applymovement(LOCALID_YOUNGSTER2, JWmov3x)
+    waitmovement(0)
+    releaseall
+}
+
+script JamesWoods_EventScript_BugCatcherTile1{
+    lockall
+    playse(21)
+    applymovement(LOCALID_BUGCATCHER3, JWmov4)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Oh no you don't!\nGet out of here!")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWmov5)
+    applymovement(LOCALID_BUGCATCHER3, JWmov5)
+    waitmovement(0)
+    delay(15)
+    applymovement(LOCALID_BUGCATCHER3, JWmov6)
+    waitmovement(0)
+    releaseall
+}
+
+script JamesWoods_EventScript_BugCatcherTile2{
+    lockall
+    playse(21)
+    applymovement(LOCALID_BUGCATCHER3, JWmov4x)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Oh no you don't!\nGet out of here!")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWmov5x)
+    waitmovement(0)
+    delay(15)
+    releaseall
+}
+
+script JamesWoods_EventScript_YoungsterTile3{
+    lockall
+    playse(21)
+    applymovement(LOCALID_YOUNGSTER4, JWmov7)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Don't you know when to quit?")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWmov8)
+    applymovement(LOCALID_YOUNGSTER4, JWmov8)
+    waitmovement(0)
+    delay(15)
+    applymovement(LOCALID_YOUNGSTER4, JWmov9)
+    waitmovement(0)
+    releaseall
+}
+
+script JamesWoods_EventScript_YoungsterTile4{
+    lockall
+    playse(21)
+    applymovement(LOCALID_YOUNGSTER4, JWmov7x)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Don't you know when to quit?")
+    closemessage
+    delay(30)
+    applymovement(LOCALID_YOUNGSTER4, JWmov10)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWmov8x)
+    applymovement(LOCALID_YOUNGSTER4, JWmov8x)
+    waitmovement(0)
+    delay(15)
+    applymovement(LOCALID_YOUNGSTER4, JWmov9x)
+    waitmovement(0)
+    releaseall
+}
+
+script JamesWoods_EventScript_BugCatcherTile3{
+    lockall
+    playse(21)
+    applymovement(LOCALID_BUGCATCHER4, JWmov11)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Get lost already!")
+    closemessage
+    delay(30)
+    applymovement(LOCALID_BUGCATCHER4, JWmov12)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWmov13)
+    applymovement(LOCALID_BUGCATCHER4, JWmov13)
+    waitmovement(0)
+    delay(15)
+    applymovement(LOCALID_BUGCATCHER4, JWmov14)
+    waitmovement(0)
+    releaseall
+}
+
+script JamesWoods_EventScript_BugCatcherTile4{
+    lockall
+    playse(21)
+    applymovement(LOCALID_BUGCATCHER4, JWmov11x)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Get lost already!")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWmov13x)
+    applymovement(LOCALID_BUGCATCHER4, JWmov13x)
+    waitmovement(0)
+    delay(15)
+    applymovement(LOCALID_BUGCATCHER4, JWmov14x)
+    waitmovement(0)
+    releaseall
+}
+
+script JamesWoods_EventScript_Buneary1A{
+    lockall
+    addobject(LOCALID_YOUNGSTER1)
+    addobject(LOCALID_AUSTIN1)
+    addobject(LOCALID_BUGCATCHER1)
+    addobject(LOCALID_BUNEARY1)
+    setobjectxy(LOCALID_YOUNGSTER1, 34, 16)
+    setobjectxy(LOCALID_AUSTIN1, 35, 19)    
+    setobjectxy(LOCALID_BUGCATCHER1, 36, 16)
+    setobjectxy(LOCALID_BUNEARY1, 35, 16)
+    delay(30)
+    special(SpawnCameraObject)
+    applymovement(LOCALID_CAMERA, JWCameramov1)
+    waitmovement(0)
+    delay(30)
+    msgbox("{COLOR BLUE}??? 1: We finally got her, Austin!\n??? 2: Throw a Poké Ball at it!")
+    closemessage
+    delay(30)
+    applymovement(LOCALID_AUSTIN1, JWAustinmov1)
+    waitmovement(0)
+    playse(61)
+    addobject(LOCALID_AUSTINBALL)
+    setobjectxy(LOCALID_AUSTINBALL, 35, 17)
+    playse(60)
+    applymovement(LOCALID_AUSTINBALL, JWBallmov1)
+    waitmovement(0)
+    playse(49)
+    removeobject(LOCALID_BUNEARY1)
+    setobjectxy(LOCALID_BUNEARY1, 51, 8)
+    delay(40)
+    playse(15)
+    removeobject(LOCALID_AUSTINBALL)
+    addobject(LOCALID_BUNEARY1)
+    setobjectxy(LOCALID_BUNEARY1, 35, 16)
+    setobjectxy(LOCALID_AUSTINBALL, 51, 8)
+    delay(15)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    applymovement(LOCALID_BUNEARY1, JWBunearymov1)
+    waitmovement(0)
+    removeobject(LOCALID_BUNEARY1)
+    delay(15)
+    msgbox("{COLOR BLUE}Austin: Damn it!\pAlright, let's split up.\nShe can't have gotten far!")
+    closemessage
+    delay(30)
+    playse(21)
+    applymovement(LOCALID_YOUNGSTER1, JWAustinmov2)
+    applymovement(LOCALID_AUSTIN1, JWAustinmov2)
+    applymovement(LOCALID_BUGCATCHER1, JWAustinmov2)
+    waitmovement(0)
+    delay(15)
+    msgbox("{COLOR BLUE}??? 1: What do you want?\n??? 2: Beat it!")
+    closemessage
+    delay(20)
+    msgbox("{COLOR BLUE}Austin: You idiots!\nThe Buneary is getting away! Find it!")
+    closemessage
+    delay(15)
+    msgbox("{COLOR BLUE}??? 1: Sorry Austin!\n??? 2: Yeah, we're sorry!")
+    closemessage
+    delay(20)
+    msgbox("{COLOR BLUE}Austin: You saw nothing, got it?")
+    closemessage
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_YOUNGSTER1)
+    removeobject(LOCALID_AUSTIN1)
+    removeobject(LOCALID_BUGCATCHER1)
+    addobject(LOCALID_AUSTINBALL)
+    setobjectxy(LOCALID_AUSTINBALL, 35, 16)
+    fadescreen(FADE_FROM_BLACK)
+    delay(45)
+    applymovement(LOCALID_CAMERA, JWCameramov2)
+    waitmovement(0)
+    special(RemoveCameraObject)
+    delay(20)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWBallGrab)
+    waitmovement(0)
+    delay(15)
+    playfanfare(367)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} obtained a Poké Ball.")
+    closemessage
+    waitfanfare
+    removeobject(LOCALID_AUSTINBALL)
+    additem(ITEM_SPARE_POKEBALL, 1)
+    setflag(FLAG_HIDE_JAMES_WOODS_PEOPLE)
+    setvar(VAR_INITIAL_EVENTS, 5)
+    releaseall
+}
+
+script JamesWoods_EventScript_Buneary1B{
+    lockall
+    addobject(LOCALID_YOUNGSTER1)
+    addobject(LOCALID_AUSTIN1)
+    addobject(LOCALID_BUGCATCHER1)
+    addobject(LOCALID_BUNEARY1)
+    setobjectxy(LOCALID_YOUNGSTER1, 34, 16)
+    setobjectxy(LOCALID_AUSTIN1, 35, 19)    
+    setobjectxy(LOCALID_BUGCATCHER1, 36, 16)
+    setobjectxy(LOCALID_BUNEARY1, 35, 16)
+    delay(30)
+    special(SpawnCameraObject)
+    applymovement(LOCALID_CAMERA, JWCameramov1)
+    waitmovement(0)
+    delay(30)
+    msgbox("{COLOR BLUE}??? 1: We finally got her, Austin!\n??? 2: Throw a Poké Ball at it!")
+    closemessage
+    delay(30)
+    applymovement(LOCALID_AUSTIN1, JWAustinmov1)
+    waitmovement(0)
+    playse(61)
+    addobject(LOCALID_AUSTINBALL)
+    setobjectxy(LOCALID_AUSTINBALL, 35, 17)
+    playse(60)
+    applymovement(LOCALID_AUSTINBALL, JWBallmov1)
+    waitmovement(0)
+    playse(49)
+    removeobject(LOCALID_BUNEARY1)
+    setobjectxy(LOCALID_BUNEARY1, 51, 8)
+    delay(40)
+    playse(15)
+    removeobject(LOCALID_AUSTINBALL)
+    addobject(LOCALID_BUNEARY1)
+    setobjectxy(LOCALID_BUNEARY1, 35, 16)
+    setobjectxy(LOCALID_AUSTINBALL, 51, 8)
+    delay(15)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    applymovement(LOCALID_BUNEARY1, JWBunearymov1)
+    waitmovement(0)
+    removeobject(LOCALID_BUNEARY1)
+    delay(15)
+    msgbox("{COLOR BLUE}Austin: Damn it!\pAlright, let's split up.\nShe can't have gotten far!")
+    closemessage
+    delay(30)
+    playse(21)
+    applymovement(LOCALID_YOUNGSTER1, JWAustinmov2)
+    applymovement(LOCALID_AUSTIN1, JWAustinmov2)
+    applymovement(LOCALID_BUGCATCHER1, JWAustinmov2)
+    waitmovement(0)
+    delay(15)
+    msgbox("{COLOR BLUE}??? 1: What do you want?\n??? 2: Beat it!")
+    closemessage
+    delay(20)
+    msgbox("{COLOR BLUE}Austin: You idiots!\nThe Buneary is getting away! Find it!")
+    closemessage
+    delay(15)
+    msgbox("{COLOR BLUE}??? 1: Sorry Austin!\n??? 2: Yeah, we're sorry!")
+    closemessage
+    delay(20)
+    msgbox("{COLOR BLUE}Austin: You saw nothing, got it?")
+    closemessage
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_YOUNGSTER1)
+    removeobject(LOCALID_AUSTIN1)
+    removeobject(LOCALID_BUGCATCHER1)
+    addobject(LOCALID_AUSTINBALL)
+    setobjectxy(LOCALID_AUSTINBALL, 35, 16)
+    fadescreen(FADE_FROM_BLACK)
+    delay(45)
+    applymovement(LOCALID_CAMERA, JWCameramov2)
+    waitmovement(0)
+    special(RemoveCameraObject)
+    delay(20)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWBallGrabx)
+    waitmovement(0)
+    delay(15)
+    playfanfare(367)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} obtained a Poké Ball.")
+    closemessage
+    waitfanfare
+    removeobject(LOCALID_AUSTINBALL)
+    additem(ITEM_SPARE_POKEBALL, 1)
+    setflag(FLAG_HIDE_JAMES_WOODS_PEOPLE)
+    setvar(VAR_INITIAL_EVENTS, 5)
+    releaseall
+}
+
+script JamesWoods_EventScript_Buneary2A{
+    lockall
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov)
+    waitmovement(0)
+    delay(30)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    applymovement(LOCALID_BUNEARY2, JWBunearymov2)
+    waitmovement(0)
+    removeobject(LOCALID_BUNEARY2)
+    delay(15)
+    msgbox("{COLOR BLUE}Austin: Tch...\nThat Buneary is mine!")
+    closemessage
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_AUSTIN2)
+    removeobject(LOCALID_YOUNGSTER2)
+    removeobject(LOCALID_BUGCATCHER2)
+    fadescreen(FADE_FROM_BLACK)
+    setflag(FLAG_HIDE_JAMES_WOODS_PEOPLE2)
+    setvar(VAR_INITIAL_EVENTS, 6)
+    releaseall
+}
+
+script JamesWoods_EventScript_Buneary2B{
+    lockall
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov)
+    waitmovement(0)
+    delay(30)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov2)
+    applymovement(LOCALID_BUNEARY2, JWBunearymov2)
+    waitmovement(0)
+    removeobject(LOCALID_BUNEARY2)
+    delay(15)
+    msgbox("{COLOR BLUE}Austin: Tch...\nThat Buneary is mine!")
+    closemessage
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_AUSTIN2)
+    removeobject(LOCALID_YOUNGSTER2)
+    removeobject(LOCALID_BUGCATCHER2)
+    fadescreen(FADE_FROM_BLACK)
+    setflag(FLAG_HIDE_JAMES_WOODS_PEOPLE2)
+    setvar(VAR_INITIAL_EVENTS, 6)
+    releaseall
+}
+
+script JamesWoods_EventScript_Buneary3A{
+    lockall
+    delay(30)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    applymovement(LOCALID_BUNEARY3, JWBunearymov3)
+    waitmovement(0)
+    removeobject(LOCALID_BUNEARY3)
+    delay(20)
+    msgbox("{COLOR BLUE}Austin: Almost had it!")
+    closemessage
+    delay(20)
+    addobject(LOCALID_BUGCATCHER5)
+    setobjectxy(LOCALID_BUGCATCHER5, 21, 31)
+    applymovement(LOCALID_BUGCATCHER5, JWBugCatchermov)
+    waitmovement(0)
+    delay(20)
+    msgbox("{COLOR BLUE}??? 2: Any luck?")
+    closemessage
+    applymovement(LOCALID_YOUNGSTER3, JWGangmov)
+    applymovement(LOCALID_AUSTIN3, JWGangmov)
+    waitmovement(0)
+    delay(15)
+    msgbox("{COLOR BLUE}Austin: It went further south.\nWe can't let it leave the forest!\lLet's split up, cover more ground!")
+    closemessage
+    delay(30)
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_BUGCATCHER3)
+    removeobject(LOCALID_BUGCATCHER5)
+    removeobject(LOCALID_YOUNGSTER3)
+    removeobject(LOCALID_AUSTIN3)
+    fadescreen(FADE_FROM_BLACK)
+    setflag(FLAG_HIDE_JAMES_WOODS_PEOPLE3)
+    setvar(VAR_INITIAL_EVENTS, 7)
+    releaseall
+}
+
+script JamesWoods_EventScript_Buneary3B{
+    lockall
+    delay(30)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    applymovement(LOCALID_BUNEARY3, JWBunearymov3)
+    waitmovement(0)
+    removeobject(LOCALID_BUNEARY3)
+    delay(20)
+    msgbox("{COLOR BLUE}Austin: Almost had it!")
+    closemessage
+    delay(20)
+    addobject(LOCALID_BUGCATCHER5)
+    setobjectxy(LOCALID_BUGCATCHER5, 20, 31)
+    applymovement(LOCALID_BUGCATCHER5, JWBugCatchermov)
+    waitmovement(0)
+    delay(20)
+    msgbox("{COLOR BLUE}??? 2: Any luck?")
+    closemessage
+    applymovement(LOCALID_YOUNGSTER3, JWGangmov)
+    applymovement(LOCALID_AUSTIN3, JWGangmov)
+    waitmovement(0)
+    delay(15)
+    msgbox("{COLOR BLUE}Austin: It went further south.\nWe can't let it leave the forest!\lLet's split up, cover more ground!")
+    closemessage
+    delay(30)
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_BUGCATCHER3)
+    removeobject(LOCALID_BUGCATCHER5)
+    removeobject(LOCALID_YOUNGSTER3)
+    removeobject(LOCALID_AUSTIN3)
+    fadescreen(FADE_FROM_BLACK)
+    setflag(FLAG_HIDE_JAMES_WOODS_PEOPLE3)
+    setvar(VAR_INITIAL_EVENTS, 7)
+    releaseall
+}
+
+script JamesWoods_EventScript_Buneary4A{
+    lockall
+    delay(30)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    applymovement(LOCALID_BUNEARY4, JWBunearymov4)
+    waitmovement(0)
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov2x)
+    waitmovement(0)
+    delay(15)
+    addobject(LOCALID_AUSTIN4)
+    setobjectxy(LOCALID_AUSTIN4, 33, 54)
+    addobject(LOCALID_YOUNGSTER4)
+    setobjectxy(LOCALID_YOUNGSTER4, 33, 53)
+    addobject(LOCALID_BUGCATCHER4)
+    setobjectxy(LOCALID_BUGCATCHER4, 33, 55)
+    applymovement(LOCALID_YOUNGSTER4, JWYoungstermov)
+    applymovement(LOCALID_AUSTIN4, JWAustinmov3)
+    applymovement(LOCALID_BUGCATCHER4, JWAustinmov3)
+    waitmovement(0)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov3)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Austin: There it is!\nAnd this guy too...\pHand over the Buneary or else!\nI need it for my collection!")
+    closemessage
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov4)
+    waitmovement(0)
+    delay(15)
+    applymovement(LOCALID_YOUNGSTER4, JWAustinmov4)
+    applymovement(LOCALID_BUGCATCHER4, JWAustinmov4)
+    applymovement(LOCALID_AUSTIN4, JWAustinmov4)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}??? 1: It's three on one.\n??? 2: We can take 'em!")
+    closemessage
+    delay(15)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    delay(15)
+    playse(54)
+    removeobject(LOCALID_BUNEARY4)
+    setobjectxy(LOCALID_BUNEARY4, 53, 7)
+    addobject(LOCALID_AUSTINBALL)
+    setobjectxy(LOCALID_AUSTINBALL, 45, 49)
+    delay(30)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov5)
+    waitmovement(0)
+    removeobject(LOCALID_AUSTINBALL)
+    setobjectxy(LOCALID_AUSTINBALL, 53, 7)
+    msgbox("The Buneary used the spare Poké Ball\nin your back pocket…")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov6)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Austin: No. Freaking. Way.\pIt let itself be caught by you?\nHand over the Ball, now!\p...\pFine, I'll take it by force!")
+    closemessage
+    createmon(0, 0, SPECIES_BUNEARY_STARTER, 5, ITEM_NONE, ITEM_POKE_BALL, NATURE_JOLLY, 0, 0, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_POUND, 0, 0, 0, 1, 0, 0, 0)
+    delay(15)
+    trainerbattle_no_intro(TRAINER_200, AustinDefeated)
+    delay(30)
+    msgbox("{COLOR BLUE}??? 1: Woah... Austin lost.\n??? 2: He's never lost before!")
+    closemessage
+    delay(20)
+    applymovement(LOCALID_AUSTIN4, JWAustinmov5)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Austin: Why didn't you idiots help me\nout here?!")
+    closemessage
+    delay(20)
+    msgbox("{COLOR BLUE}??? 1: Honestly, I'm getting tired of\nalways being insulted by you.\p??? 2: Yeah, this whole thing has gone\nway too far. Poor Buneary…")   
+    closemessage
+    delay(15)
+    msgbox("{COLOR BLUE}Austin: C'mon, we can still rush 'em and\nmake off with it!")
+    closemessage
+    delay(15)
+    msgbox("{COLOR BLUE}??? 1: Forget this, man.\n??? 2: I'm getting out of here.")
+    closemessage
+    delay(15)
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_YOUNGSTER4)
+    removeobject(LOCALID_BUGCATCHER4)
+    fadescreen(FADE_FROM_BLACK)
+    delay(15)
+    msgbox("{COLOR BLUE}Austin: You two idiots can't just leave\nme here!\p…")
+    closemessage
+    delay(15)
+    applymovement(LOCALID_AUSTIN4, JWAustinmov6)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Whatever, keep the Buneary.\nIt's not that strong anyway.\pI'm going to collect all of the rarest\nPokémon in the world!\pNext time I see you, it's payback time.")
+    closemessage
+    delay(15)
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_AUSTIN4)
+    addobject(LOCALID_BUNEARY4)
+    setobjectxy(LOCALID_BUNEARY4, 45, 49)
+    fadescreen(FADE_FROM_BLACK)
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAustinmov6)
+    waitmovement(0)
+    delay(15)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    delay(15)
+    msgbox("It seems the Buneary trusts you.\nIt wants to come along with you!")
+    closemessage
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_BUNEARY4)
+    fadescreen(FADE_FROM_BLACK)
+    delay(15)
+    msgbox("The Repel's effect wore off…")
+    closemessage
+    special(HealPlayerParty)
+    removeitem(ITEM_SPARE_POKEBALL, 1)
+    setvar(VAR_INITIAL_EVENTS, 8)
+    setflag(FLAG_HIDE_JAMES_WOODS_PEOPLE4)
+    setflag(FLAG_BUNEARY_OBTAINED)
+    setflag(FLAG_SYS_POKEMON_GET)
+    clearflag(FLAG_NO_ENCOUNTER)
+    releaseall
+}
+
+script JamesWoods_EventScript_Buneary4B{
+    lockall
+    delay(30)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    applymovement(LOCALID_BUNEARY4, JWBunearymov4)
+    waitmovement(0)
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov2xx)
+    waitmovement(0)
+    delay(15)
+    addobject(LOCALID_AUSTIN4)
+    setobjectxy(LOCALID_AUSTIN4, 33, 54)
+    addobject(LOCALID_YOUNGSTER4)
+    setobjectxy(LOCALID_YOUNGSTER4, 33, 53)
+    addobject(LOCALID_BUGCATCHER4)
+    setobjectxy(LOCALID_BUGCATCHER4, 33, 55)
+    applymovement(LOCALID_YOUNGSTER4, JWYoungstermov)
+    applymovement(LOCALID_AUSTIN4, JWAustinmov3)
+    applymovement(LOCALID_BUGCATCHER4, JWAustinmov3)
+    waitmovement(0)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov3)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Austin: There it is!\nAnd this guy too...\pHand over the Buneary or else!\nI need it for my collection!")
+    closemessage
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov4)
+    waitmovement(0)
+    delay(15)
+    applymovement(LOCALID_YOUNGSTER4, JWAustinmov4)
+    applymovement(LOCALID_BUGCATCHER4, JWAustinmov4)
+    applymovement(LOCALID_AUSTIN4, JWAustinmov4)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}??? 1: It's three on one.\n??? 2: We can take 'em!")
+    closemessage
+    delay(15)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    delay(15)
+    playse(54)
+    removeobject(LOCALID_BUNEARY4)
+    setobjectxy(LOCALID_BUNEARY4, 53, 7)
+    addobject(LOCALID_AUSTINBALL)
+    setobjectxy(LOCALID_AUSTINBALL, 45, 49)
+    delay(30)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov5)
+    waitmovement(0)
+    removeobject(LOCALID_AUSTINBALL)
+    setobjectxy(LOCALID_AUSTINBALL, 53, 7)
+    msgbox("The Buneary used the spare Poké Ball\nin your back pocket…")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWPlayermov6)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Austin: No. Freaking. Way.\pIt let itself be caught by you?\nHand over the Ball, now!\p...\pFine, I'll take it by force!")
+    closemessage
+    createmon(0, 0, SPECIES_BUNEARY_STARTER, 5, ITEM_NONE, ITEM_POKE_BALL, NATURE_JOLLY, 0, 0, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_POUND, 0, 0, 0, 1, 0, 0, 0)
+    delay(15)
+    trainerbattle_no_intro(TRAINER_200, AustinDefeated)
+    delay(30)
+    msgbox("{COLOR BLUE}??? 1: Woah... Austin lost.\n??? 2: He's never lost before!")
+    closemessage
+    delay(20)
+    applymovement(LOCALID_AUSTIN4, JWAustinmov5)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Austin: Why didn't you idiots help me\nout here?!")
+    closemessage
+    delay(20)
+    msgbox("{COLOR BLUE}??? 1: Honestly, I'm getting tired of\nalways being insulted by you.\p??? 2: Yeah, this whole thing has gone\nway too far. Poor Buneary…")   
+    closemessage
+    delay(15)
+    msgbox("{COLOR BLUE}Austin: C'mon, we can still rush 'em and\nmake off with it!")
+    closemessage
+    delay(15)
+    msgbox("{COLOR BLUE}??? 1: Forget this, man.\n??? 2: I'm getting out of here.")
+    closemessage
+    delay(15)
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_YOUNGSTER4)
+    removeobject(LOCALID_BUGCATCHER4)
+    fadescreen(FADE_FROM_BLACK)
+    delay(15)
+    msgbox("{COLOR BLUE}Austin: You two idiots can't just leave\nme here!\p…")
+    closemessage
+    delay(15)
+    applymovement(LOCALID_AUSTIN4, JWAustinmov6)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Whatever, keep the Buneary.\nIt's not that strong anyway.\pI'm going to collect all of the rarest\nPokémon in the world!\pNext time I see you, it's payback time.")
+    closemessage
+    delay(15)
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_AUSTIN4)
+    addobject(LOCALID_BUNEARY4)
+    setobjectxy(LOCALID_BUNEARY4, 45, 49)
+    fadescreen(FADE_FROM_BLACK)
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAustinmov6)
+    waitmovement(0)
+    delay(15)
+    playmoncry(SPECIES_BUNEARY, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    delay(15)
+    msgbox("It seems the Buneary trusts you.\nIt wants to come along with you!")
+    closemessage
+    fadescreen(FADE_TO_BLACK)
+    removeobject(LOCALID_BUNEARY4)
+    fadescreen(FADE_FROM_BLACK)
+    delay(15)
+    msgbox("The Repel's effect wore off…")
+    closemessage
+    special(HealPlayerParty)
+    removeitem(ITEM_SPARE_POKEBALL, 1)
+    setvar(VAR_INITIAL_EVENTS, 8)
+    setflag(FLAG_HIDE_JAMES_WOODS_PEOPLE4)
+    setflag(FLAG_BUNEARY_OBTAINED)
+    setflag(FLAG_SYS_POKEMON_GET)
+    clearflag(FLAG_NO_ENCOUNTER)
+    releaseall
+}
+
+script JamesWoods_EventScript_AlexBattle1{
+    lockall
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov1)
+    waitmovement(0)
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov2)
+    waitmovement(0)
+    delay(15)
+    playbgm(MUS_RG_TITLE, FALSE)
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: There we go, little guy.\nThat Potion should help.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(21)
+    applymovement(LOCALID_ALEX, JWAlexEventmov3)
+    delay(20)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nCheck it out, I found a Riolu!\pIt looked like the poor little guy was\nabandoned by its Trainer…\pI adopted him and gave him a good meal.\nNow we're best buddies!\p…\pOh, cool! You've got a Pokémon too!\nWe should battle each other!\pHuh?\pWhat's that in your hand?\nA Pokédex from the Professor?")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    removeitem(ITEM_SPARE_POKEDEX, 1)
+    playfanfare(367)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} delivered the Pokédex.")
+    closemessage
+    waitfanfare
+    delay(45)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: This is so cool!\nWell now I gotta go thank him!")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    fadenewbgm(MUS_RG_TITLE)
+    delay(60)
+    playbgm(MUS_RG_FOLLOW_ME, FALSE)
+    applymovement(LOCALID_LYON, JWAlexEventmov4)
+    waitmovement(0)
+    delay(10)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}???: Excuse me. Do you two have a\nminute to talk?")
+    closemessage
+    removefieldmugshot
+    applymovement(LOCALID_ALEX, JWAlexEventmov5)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov5)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Sure thing, man.\nI'm Alex, and this is {COLOR GREEN}{PLAYER}{COLOR BLUE}.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}???: Nice to meet ya. I'm Lyon.\nSorry if I was interrupting anything.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: It's cool, my dude.\nWhat did you wanna talk about?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Have you seen a woman around\nhere? Around her late 20s?\lGlasses...Hair color sort of like mine?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Sorry man, haven't seen her.\nIs she your sister or something?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Something like that, don't worry\nabout it. Figured she wasn't nearby.\pAnyway, I wouldn't stand here for too\nmuch longer.\pThis bridge is pretty dangerous.\nPeople have fallen off before.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Seems pretty sturdy to us.\nBut, thanks for the tip!")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Right. Suit yourselves.\nI'll get out of your hair.\pGood luck with your Pokédex quest!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(LOCALID_LYON, JWAlexEventmov6)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov7)
+    applymovement(LOCALID_ALEX, JWAlexEventmov7)
+    waitmovement(0)
+    fadenewbgm(MUS_RG_FOLLOW_ME)
+    delay(45)
+    removeobject(LOCALID_LYON)
+    setobjectxyperm(LOCALID_LYON, 52, 3)
+    delay(45)
+    playbgm(MUS_PETALBURG_WOODS, FALSE)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov8)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Well, that was weird.\nSeemed like he had a lot on his mind.\pAnyway, before I go back to the village,\nwanna battle?\pC'mon, don't you wanna see who's the\nstronger Trainer?\pI'm warning you, Riolu and I are a team\nthat can't be stopped!")
+    closemessage
+    removefieldmugshot
+    trainerbattle_no_intro(TRAINER_200, AlexDefeated)
+    delay(45)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: That. Was. AWESOME!")
+    closemessage
+    removefieldmugshot
+    applymovement(LOCALID_ALEX, JWAlexEventmov9)
+    waitmovement(0)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov10)
+    waitmovement(0)
+    playse(10)
+    applymovement(LOCALID_ALEX, JWAlexEventmov11)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov12)
+    waitmovement(0)
+    delay(25)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Thanks for the save…\nGuess that Lyon guy had a point.\pI should, uh, go to the Lab so I can\nthank the Professor.\pIt was a ton of fun battling you\n{COLOR GREEN}{PLAYER}{COLOR BLUE}!\pRiolu and I are going to keep training\ntogether! See you around!")
+    closemessage
+    removefieldmugshot
+    delay(25)
+    fadeoutbgm(MUS_PETALBURG_WOODS)
+    playbgm(MUS_RG_TITLE, FALSE)
+    applymovement(LOCALID_ALEX, JWAlexEventmov13)
+    waitmovement(0)
+    removeobject(LOCALID_ALEX)
+    setobjectxyperm(LOCALID_ALEX, 52, 3)
+    setvar(VAR_ASPEN_LAB_EVENT, 4)
+    setflag(FLAG_HIDE_ALEX_AND_LYON)
+    fadeoutbgm(MUS_RG_TITLE)
+    playbgm(MUS_PETALBURG_WOODS, FALSE)
+    releaseall
+}
+
+script JamesWoods_EventScriptAlexBattle2{
+    lockall
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov1)
+    waitmovement(0)
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov2x)
+    waitmovement(0)
+    delay(15)
+    playbgm(MUS_RG_TITLE, FALSE)
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: There we go, little guy.\nThat Potion should help.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(21)
+    applymovement(LOCALID_ALEX, JWAlexEventmov3)
+    delay(20)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nCheck it out, I found a Riolu!\pIt looked like the poor little guy was\nabandoned by its Trainer…\pI adopted him and gave him a good meal.\nNow we're best buddies!\p…\pOh, cool! You've got a Pokémon too!\nWe should battle each other!\pHuh?\pWhat's that in your hand?\nA Pokédex from the Professor?")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    removeitem(ITEM_SPARE_POKEDEX, 1)
+    playfanfare(367)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} delivered the Pokédex.")
+    closemessage
+    waitfanfare
+    delay(45)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: This is so cool!\nWell now I gotta go thank him!")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    fadenewbgm(MUS_RG_TITLE)
+    delay(60)
+    playbgm(MUS_RG_FOLLOW_ME, FALSE)
+    applymovement(LOCALID_LYON, JWAlexEventmov4)
+    waitmovement(0)
+    delay(10)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}???: Excuse me. Do you two have a\nminute to talk?")
+    closemessage
+    removefieldmugshot
+    applymovement(LOCALID_ALEX, JWAlexEventmov5)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov5)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Sure thing, man.\nI'm Alex, and this is {COLOR GREEN}{PLAYER}{COLOR BLUE}.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}???: Nice to meet ya. I'm Lyon.\nSorry if I was interrupting anything.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: It's cool, my dude.\nWhat did you wanna talk about?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Have you seen a woman around\nhere? Around her late 20s?\lGlasses...Hair color sort of like mine?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Sorry man, haven't seen her.\nIs she your sister or something?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Something like that, don't worry\nabout it. Figured she wasn't nearby.\pAnyway, I wouldn't stand here for too\nmuch longer.\pThis bridge is pretty dangerous.\nPeople have fallen off before.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Seems pretty sturdy to us.\nBut, thanks for the tip!")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Right. Suit yourselves.\nI'll get out of your hair.\pGood luck with your Pokédex quest!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(LOCALID_LYON, JWAlexEventmov6)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov7)
+    applymovement(LOCALID_ALEX, JWAlexEventmov7)
+    waitmovement(0)
+    fadenewbgm(MUS_RG_FOLLOW_ME)
+    delay(45)
+    removeobject(LOCALID_LYON)
+    setobjectxyperm(LOCALID_LYON, 52, 3)
+    delay(45)
+    playbgm(MUS_PETALBURG_WOODS, FALSE)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov8)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Well, that was weird.\nSeemed like he had a lot on his mind.\pAnyway, before I go back to the village,\nwanna battle?\pC'mon, don't you wanna see who's the\nstronger Trainer?\pI'm warning you, Riolu and I are a team\nthat can't be stopped!")
+    closemessage
+    removefieldmugshot
+    trainerbattle_no_intro(TRAINER_200, AlexDefeated)
+    delay(45)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: That. Was. AWESOME!")
+    closemessage
+    removefieldmugshot
+    applymovement(LOCALID_ALEX, JWAlexEventmov9)
+    waitmovement(0)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov10)
+    waitmovement(0)
+    playse(10)
+    applymovement(LOCALID_ALEX, JWAlexEventmov11)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov12)
+    waitmovement(0)
+    delay(25)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Thanks for the save…\nGuess that Lyon guy had a point.\pI should, uh, go to the Lab so I can\nthank the Professor.\pIt was a ton of fun battling you\n{COLOR GREEN}{PLAYER}{COLOR BLUE}!\pRiolu and I are going to keep training\ntogether! See you around!")
+    closemessage
+    removefieldmugshot
+    delay(25)
+    fadeoutbgm(MUS_PETALBURG_WOODS)
+    playbgm(MUS_RG_TITLE, FALSE)
+    applymovement(LOCALID_ALEX, JWAlexEventmov13)
+    waitmovement(0)
+    removeobject(LOCALID_ALEX)
+    setobjectxyperm(LOCALID_ALEX, 52, 3)
+    setvar(VAR_ASPEN_LAB_EVENT, 4)
+    setflag(FLAG_HIDE_ALEX_AND_LYON)
+    fadeoutbgm(MUS_RG_TITLE)
+    playbgm(MUS_PETALBURG_WOODS, FALSE)
+    releaseall
+}
+
+script JamesWoods_EventScript_AlexBattle3{
+    lockall
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov1)
+    waitmovement(0)
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov2xx)
+    waitmovement(0)
+    delay(15)
+    playbgm(MUS_RG_TITLE, FALSE)
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: There we go, little guy.\nThat Potion should help.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(21)
+    applymovement(LOCALID_ALEX, JWAlexEventmov3)
+    delay(20)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nCheck it out, I found a Riolu!\pIt looked like the poor little guy was\nabandoned by its Trainer…\pI adopted him and gave him a good meal.\nNow we're best buddies!\p…\pOh, cool! You've got a Pokémon too!\nWe should battle each other!\pHuh?\pWhat's that in your hand?\nA Pokédex from the Professor?")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    removeitem(ITEM_SPARE_POKEDEX, 1)
+    playfanfare(367)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} delivered the Pokédex.")
+    closemessage
+    waitfanfare
+    delay(45)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: This is so cool!\nWell now I gotta go thank him!")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    fadenewbgm(MUS_RG_TITLE)
+    delay(60)
+    playbgm(MUS_RG_FOLLOW_ME, FALSE)
+    applymovement(LOCALID_LYON, JWAlexEventmov4)
+    waitmovement(0)
+    delay(10)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}???: Excuse me. Do you two have a\nminute to talk?")
+    closemessage
+    removefieldmugshot
+    applymovement(LOCALID_ALEX, JWAlexEventmov5)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov5)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Sure thing, man.\nI'm Alex, and this is {COLOR GREEN}{PLAYER}{COLOR BLUE}.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}???: Nice to meet ya. I'm Lyon.\nSorry if I was interrupting anything.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: It's cool, my dude.\nWhat did you wanna talk about?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Have you seen a woman around\nhere? Around her late 20s?\lGlasses...Hair color sort of like mine?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Sorry man, haven't seen her.\nIs she your sister or something?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Something like that, don't worry\nabout it. Figured she wasn't nearby.\pAnyway, I wouldn't stand here for too\nmuch longer.\pThis bridge is pretty dangerous.\nPeople have fallen off before.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Seems pretty sturdy to us.\nBut, thanks for the tip!")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Right. Suit yourselves.\nI'll get out of your hair.\pGood luck with your Pokédex quest!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(LOCALID_LYON, JWAlexEventmov6)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov7)
+    applymovement(LOCALID_ALEX, JWAlexEventmov7)
+    waitmovement(0)
+    fadenewbgm(MUS_RG_FOLLOW_ME)
+    delay(45)
+    removeobject(LOCALID_LYON)
+    setobjectxyperm(LOCALID_LYON, 52, 3)
+    delay(45)
+    playbgm(MUS_PETALBURG_WOODS, FALSE)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov8)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Well, that was weird.\nSeemed like he had a lot on his mind.\pAnyway, before I go back to the village,\nwanna battle?\pC'mon, don't you wanna see who's the\nstronger Trainer?\pI'm warning you, Riolu and I are a team\nthat can't be stopped!")
+    closemessage
+    removefieldmugshot
+    trainerbattle_no_intro(TRAINER_200, AlexDefeated)
+    delay(45)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: That. Was. AWESOME!")
+    closemessage
+    removefieldmugshot
+    applymovement(LOCALID_ALEX, JWAlexEventmov9)
+    waitmovement(0)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov10)
+    waitmovement(0)
+    playse(10)
+    applymovement(LOCALID_ALEX, JWAlexEventmov11)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov12)
+    waitmovement(0)
+    delay(25)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Thanks for the save…\nGuess that Lyon guy had a point.\pI should, uh, go to the Lab so I can\nthank the Professor.\pIt was a ton of fun battling you\n{COLOR GREEN}{PLAYER}{COLOR BLUE}!\pRiolu and I are going to keep training\ntogether! See you around!")
+    closemessage
+    removefieldmugshot
+    delay(25)
+    fadeoutbgm(MUS_PETALBURG_WOODS)
+    playbgm(MUS_RG_TITLE, FALSE)
+    applymovement(LOCALID_ALEX, JWAlexEventmov13)
+    waitmovement(0)
+    removeobject(LOCALID_ALEX)
+    setobjectxyperm(LOCALID_ALEX, 52, 3)
+    setvar(VAR_ASPEN_LAB_EVENT, 4)
+    setflag(FLAG_HIDE_ALEX_AND_LYON)
+    fadeoutbgm(MUS_RG_TITLE)
+    playbgm(MUS_PETALBURG_WOODS, FALSE)
+    releaseall
+}
+
+script JamesWoods_EventScript_AlexBattle4{
+        lockall
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov1)
+    waitmovement(0)
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov2xxx)
+    waitmovement(0)
+    delay(15)
+    playbgm(MUS_RG_TITLE, FALSE)
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: There we go, little guy.\nThat Potion should help.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(21)
+    applymovement(LOCALID_ALEX, JWAlexEventmov3)
+    delay(20)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nCheck it out, I found a Riolu!\pIt looked like the poor little guy was\nabandoned by its Trainer…\pI adopted him and gave him a good meal.\nNow we're best buddies!\p…\pOh, cool! You've got a Pokémon too!\nWe should battle each other!\pHuh?\pWhat's that in your hand?\nA Pokédex from the Professor?")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    removeitem(ITEM_SPARE_POKEDEX, 1)
+    playfanfare(367)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} delivered the Pokédex.")
+    closemessage
+    waitfanfare
+    delay(45)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: This is so cool!\nWell now I gotta go thank him!")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    fadenewbgm(MUS_RG_TITLE)
+    delay(60)
+    playbgm(MUS_RG_FOLLOW_ME, FALSE)
+    applymovement(LOCALID_LYON, JWAlexEventmov4)
+    waitmovement(0)
+    delay(10)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}???: Excuse me. Do you two have a\nminute to talk?")
+    closemessage
+    removefieldmugshot
+    applymovement(LOCALID_ALEX, JWAlexEventmov5)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov5)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Sure thing, man.\nI'm Alex, and this is {COLOR GREEN}{PLAYER}{COLOR BLUE}.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}???: Nice to meet ya. I'm Lyon.\nSorry if I was interrupting anything.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: It's cool, my dude.\nWhat did you wanna talk about?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Have you seen a woman around\nhere? Around her late 20s?\lGlasses...Hair color sort of like mine?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Sorry man, haven't seen her.\nIs she your sister or something?")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Something like that, don't worry\nabout it. Figured she wasn't nearby.\pAnyway, I wouldn't stand here for too\nmuch longer.\pThis bridge is pretty dangerous.\nPeople have fallen off before.")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Seems pretty sturdy to us.\nBut, thanks for the tip!")
+    closemessage
+    removefieldmugshot
+    delay(15)
+    createfieldmugshot(MUGSHOT_LYON, 0)
+    msgbox("{COLOR BLUE}Lyon: Right. Suit yourselves.\nI'll get out of your hair.\pGood luck with your Pokédex quest!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(LOCALID_LYON, JWAlexEventmov6)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov7)
+    applymovement(LOCALID_ALEX, JWAlexEventmov7)
+    waitmovement(0)
+    fadenewbgm(MUS_RG_FOLLOW_ME)
+    delay(45)
+    removeobject(LOCALID_LYON)
+    setobjectxyperm(LOCALID_LYON, 52, 3)
+    delay(45)
+    playbgm(MUS_PETALBURG_WOODS, FALSE)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov8)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Well, that was weird.\nSeemed like he had a lot on his mind.\pAnyway, before I go back to the village,\nwanna battle?\pC'mon, don't you wanna see who's the\nstronger Trainer?\pI'm warning you, Riolu and I are a team\nthat can't be stopped!")
+    closemessage
+    removefieldmugshot
+    trainerbattle_no_intro(TRAINER_200, AlexDefeated)
+    delay(45)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: That. Was. AWESOME!")
+    closemessage
+    removefieldmugshot
+    applymovement(LOCALID_ALEX, JWAlexEventmov9)
+    waitmovement(0)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov10)
+    waitmovement(0)
+    playse(10)
+    applymovement(LOCALID_ALEX, JWAlexEventmov11)
+    applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov12)
+    waitmovement(0)
+    delay(25)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Thanks for the save…\nGuess that Lyon guy had a point.\pI should, uh, go to the Lab so I can\nthank the Professor.\pIt was a ton of fun battling you\n{COLOR GREEN}{PLAYER}{COLOR BLUE}!\pRiolu and I are going to keep training\ntogether! See you around!")
+    closemessage
+    removefieldmugshot
+    delay(25)
+    fadeoutbgm(MUS_PETALBURG_WOODS)
+    playbgm(MUS_RG_TITLE, FALSE)
+    applymovement(LOCALID_ALEX, JWAlexEventmov13)
+    waitmovement(0)
+    removeobject(LOCALID_ALEX)
+    setobjectxyperm(LOCALID_ALEX, 52, 3)
+    setvar(VAR_ASPEN_LAB_EVENT, 4)
+    setflag(FLAG_HIDE_ALEX_AND_LYON)
+    fadeoutbgm(MUS_RG_TITLE)
+    playbgm(MUS_PETALBURG_WOODS, FALSE)
+    releaseall
+}
+
+text AustinDefeated{
+    "What? B-but how!?"
+}
+
+text AlexDefeated{
+    "Wow! You're good!"
+}
+
+movement JWAlexEventmov1{
+    emote_question_mark
+}
+
+movement JWAlexEventmov2{
+    walk_down
+    walk_right
+    walk_down
+}
+
+movement JWAlexEventmov2x{
+    walk_down *2
+}
+
+movement JWAlexEventmov2xx{
+    walk_down
+    walk_left
+    walk_down
+}
+
+movement JWAlexEventmov2xxx{
+    walk_down
+    walk_left *2
+    walk_down
+}
+
+movement JWAlexEventmov3{
+    emote_exclamation_mark
+    face_up
+}
+
+movement JWAlexEventmov4{
+    walk_up *8
+    face_left
+}
+
+movement JWAlexEventmov5{
+    face_right
+}
+
+movement JWAlexEventmov6{
+    walk_up *8
+}
+
+movement JWAlexEventmov7{
+    face_up
+}
+
+movement JWAlexEventmov8{
+    face_down
+}
+
+movement JWAlexEventmov9{
+    walk_in_place_faster_up *3
+    jump_in_place_up *2
+    face_right
+    lock_facing_direction
+    jump_left *2
+    unlock_facing_direction
+    emote_double_exclamation_mark
+}
+
+movement JWAlexEventmov10{
+    emote_exclamation_mark
+    walk_fast_down
+    walk_fast_left
+}
+
+movement JWAlexEventmov11{
+    jump_right
+}
+
+movement JWAlexEventmov12{
+    face_left
+    lock_facing_direction
+    walk_right
+    unlock_facing_direction
+}
+
+movement JWAlexEventmov13{
+    walk_up *8
+}
+
+movement JWAustinmov5{
+    face_down
+}
+
+movement JWAustinmov6{
+    face_up
+}
+
+movement JWPlayermov6{
+    face_down
+}
+
+movement JWYoungstermov{
+    walk_right *11
+    face_up
+}
+
+movement JWAustinmov3{
+    walk_right *12
+    walk_up *2
+}
+
+movement JWAustinmov4{
+    walk_up
+}
+
+movement JWPlayermov{
+    emote_exclamation_mark
+}
+
+movement JWPlayermov2x{
+    walk_right
+    walk_up *2
+}
+
+movement JWPlayermov2xx{
+    walk_up *3
+}
+
+movement JWPlayermov3{
+    emote_exclamation_mark
+    face_down
+}
+
+movement JWPlayermov4{
+    face_down
+    lock_facing_direction
+    walk_up
+    unlock_facing_direction
+}
+
+movement JWPlayermov5{
+    emote_exclamation_mark
+    face_up
+}
+
+movement JWGangmov{
+    face_up
+}
+
+movement JWBugCatchermov{
+    walk_down *10
+}
+
+movement JWPlayermov2{
+    walk_up
+    face_right
+}
+
+movement JWCameramov1{
+    walk_down *4
+}
+
+movement JWCameramov2{
+    walk_up *4
+}
+
+movement JWBallGrab{
+    walk_down *4
+}
+
+movement JWBallGrabx{
+    walk_down *2
+    walk_left
+    walk_down *2
+}
+
+movement JWAustinmov1{
+    walk_up
+}
+
+movement JWAustinmov2{
+    emote_exclamation_mark
+    face_up
+}
+
+movement JWBallmov1{
+    walk_up
+}
+
+movement JWBunearymov1{
+    walk_fast_down
+    walk_fast_right
+    walk_fast_down
+    walk_fast_right
+    walk_fast_down *5
+}
+
+movement JWBunearymov2{
+    walk_fast_down
+    walk_fast_left *8
+    walk_fast_up *7
+}
+
+movement JWBunearymov3{
+    walk_fast_down *7
+}
+
+movement JWBunearymov4{
+    face_down
+    lock_facing_direction
+    walk_up *2
+    unlock_facing_direction
+}
+
+movement JWmov1{
+    emote_exclamation_mark
+    face_right
+}
+
+movement JWmov1x{
+    emote_exclamation_mark
+    face_down
+}
+
+movement JWmov2{
+    walk_right
+}
+
+movement JWmov2x{
+    walk_down
+}
+
+movement JWmov3{
+    walk_left
+    face_down
+}
+
+movement JWmov3x{
+    walk_up
+    face_down
+}
+
+movement JWmov4{
+    emote_exclamation_mark
+    walk_down
+    face_right
+}
+
+movement JWmov4x{
+    emote_exclamation_mark
+    face_down
+}
+
+movement JWmov5{
+    walk_right
+}
+
+movement JWmov5x{
+    walk_left
+}
+
+movement JWmov6{
+    walk_left
+    walk_up
+    face_down
+}
+
+movement JWmov7{
+    emote_exclamation_mark
+    walk_right
+    face_up
+}
+
+movement JWmov7x{
+    emote_exclamation_mark
+    walk_down
+    face_left
+}
+
+movement JWmov8{
+    walk_up
+}
+
+movement JWmov8x{
+    walk_up *2
+}
+
+movement JWmov9{
+    walk_down
+    walk_left
+    face_up
+}
+
+movement JWmov9x{
+    walk_right
+    face_up
+}
+
+movement JWmov10{
+    walk_down
+    walk_left
+    face_up
+}
+
+movement JWmov11{
+    emote_exclamation_mark
+    face_up
+}
+
+movement JWmov11x{
+    emote_exclamation_mark
+    walk_down
+    face_right   
+}
+
+movement JWmov12{
+    walk_left
+    walk_up
+    face_right
+}
+
+movement JWmov13{
+    walk_right
+}
+
+movement JWmov13x{
+    walk_right   
+}
+
+movement JWmov14{
+    walk_down
+    face_right
+}
+
+movement JWmov14x{
+    walk_left
+    walk_up
+    face_right
+}
+
+script JamesWoodsHoneyTree {
+    lock
+    msgbox("There is a sweet scent in the air...")
+    closemessage
+    checkitem(ITEM_HONEY, 1)
+    if (var(VAR_RESULT) == TRUE){
+        msgbox("Slather the bark with Honey?", MSGBOX_YESNO)
+        if (var(VAR_RESULT) != 0)
+        {
+            removeitem(ITEM_HONEY, 1)
+            msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} slathered the bark with Honey.")
+            closemessage
+            delay(30)
+            playse(21)
+            applymovement(OBJ_EVENT_ID_PLAYER, movx2)
+            waitmovement(0)
+            random(10)
+            if (var(VAR_RESULT) == 0){
+                msgbox("A wild Pokémon attacked!")
+                closemessage
+                setwildbattle(SPECIES_COMBEE, 10, ITEM_NONE)
+                dowildbattle
+                release
+            }
+            elif (var(VAR_RESULT) == 1){
+                msgbox("A wild Pokémon attacked!")
+                closemessage
+                setwildbattle(SPECIES_COMBEE, 10, ITEM_NONE)
+                dowildbattle
+                release
+            }
+            elif (var(VAR_RESULT) == 2){
+                msgbox("A wild Pokémon attacked!")
+                closemessage
+                setwildbattle(SPECIES_COMBEE, 10, ITEM_NONE)
+                dowildbattle
+                release
+            }
+            elif (var(VAR_RESULT) == 3){
+                msgbox("A wild Pokémon attacked!")
+                closemessage
+                setwildbattle(SPECIES_HOOTHOOT, 10, ITEM_NONE)
+                dowildbattle
+                release
+            }
+            elif (var(VAR_RESULT) == 4){
+                msgbox("A wild Pokémon attacked!")
+                closemessage
+                setwildbattle(SPECIES_HOOTHOOT, 10, ITEM_NONE)
+                dowildbattle
+                release
+            }
+            elif (var(VAR_RESULT) == 5){
+                msgbox("A wild Pokémon attacked!")
+                closemessage
+                setwildbattle(SPECIES_DOTTLER, 10, ITEM_NONE)
+                dowildbattle
+                release
+            }
+            elif (var(VAR_RESULT) == 6){
+                msgbox("A wild Pokémon attacked!")
+                closemessage
+                setwildbattle(SPECIES_SEEDOT, 10, ITEM_NONE)
+                dowildbattle
+                release
+            }
+            if (var(VAR_RESULT) == 7){
+                msgbox("A wild Pokémon attacked!")
+                closemessage
+                setwildbattle(SPECIES_BLIPBUG, 10, ITEM_NONE)
+                dowildbattle
+                release
+            }
+            elif (var(VAR_RESULT) == 8){
+                msgbox("A wild Pokémon attacked!")
+                closemessage
+                setwildbattle(SPECIES_BOUNSWEET, 10, ITEM_NONE)
+                dowildbattle
+                release
+            }
+            elif (var(VAR_RESULT) == 9){
+                msgbox("A wild Pokémon attacked!")
+                closemessage
+                setwildbattle(SPECIES_BOUNSWEET, 10, ITEM_NONE)
+                dowildbattle
+                release
+            }
+        }
+        else
+        {
+            release
+        }
+    }
+    else
+    {
+        release
+    }
+}
+
+movement movx2 {
+    emote_exclamation_mark
+}
+
+script JamesWoods_EventScript_Trainer1{
+    trainerbattle_single(TRAINER_06, JWBugCatcher1Intro, JWBugCatcher1Defeated)
+    msgbox(JWBugCatcher1PostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script JamesWoods_EventScript_Trainer2{
+    trainerbattle_single(TRAINER_05, JWYoungster1Intro, JWYoungster1Defeated)
+    msgbox(JWYoungster1PostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script JamesWoods_EventScript_Trainer3{
+    trainerbattle_single(TRAINER_07, JWBugCatcher2Intro, JWBugCatcher2Defeated)
+    msgbox(JWBugCatcher2PostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script JamesWoods_EventScript_Trainer4{
+    trainerbattle_single(TRAINER_08, JWBugCatcher3Intro, JWBugCatcher3Defeated)
+    msgbox(JWBugCatcher3PostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script JamesWoods_EventScript_Trainer5{
+    trainerbattle_single(TRAINER_09, JWLassIntro, JWLassDefeated)
+    msgbox(JWLassPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script JamesWoods_EventScript_Trainer6{
+    trainerbattle_single(TRAINER_04, JWYoungster2Intro, JWYoungster2Defeated)
+    msgbox(JWYoungster2PostBattle)
+}
+
+text JWLassIntro{
+    "Hi! You look so cute!"
+}
+
+text JWLassDefeated{
+    "So cool!"
+}
+
+text JWLassPostBattle{
+    "If you're free later, would you like to\ngo to the beach with me?"
+}
+
+text JWYoungster2Intro{
+    "Hey again. You got a minute?"
+}
+
+text JWYoungster2Defeated{
+    "You really are strong."
+}
+
+text JWYoungster2PostBattle{
+    "I used to think Austin was cool.\nWhat a jerk."
+}
+
+text JWBugCatcher3Intro{
+    "I wanted to say sorry for earlier.\nCan we battle?"
+}
+
+text JWBugCatcher3Defeated{
+    "Truce?"
+}
+
+text JWBugCatcher3PostBattle{
+    "Austin was a real jerk. Sorry Buneary."
+}
+
+text JWBugCatcher2Intro{
+    "Shhh. You'll scare the bugs away!"
+}
+
+text JWBugCatcher2Defeated{
+    "Wow."
+}
+
+text JWBugCatcher2PostBattle{
+    "Maybe I should go back home."
+}
+
+text JWYoungster1Intro{
+    "Our eyes met! Time to battle!"
+}
+
+text JWYoungster1Defeated{
+    "Crud!"
+}
+
+text JWYoungster1PostBattle{
+    "Don't you know that when two trainers\nmeet, they have to battle?"
+}
+
+text JWBugCatcher1Intro{
+    "I'm looking to catch some bugs!\nHave you found any?"
+}
+
+text JWBugCatcher1Defeated{
+    "I need stronger bugs."
+}
+
+text JWBugCatcher1PostBattle{
+    "The James Woods is chock full of Bugs!"
+}

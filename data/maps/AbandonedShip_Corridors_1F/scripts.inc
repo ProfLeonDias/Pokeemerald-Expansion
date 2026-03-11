@@ -17,7 +17,7 @@ AbandonedShip_Corridors_1F_EventScript_Youngster::
 # 9 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
 AbandonedShip_Corridors_1F_EventScript_Charlie::
 # 10 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
-	trainerbattle_single TRAINER_CHARLIE, AbandonedShip_Corridors_1F_Text_CharlieIntro, AbandonedShip_Corridors_1F_Text_CharlieDefeat
+	trainerbattle_single TRAINER_66, AbandonedShip_Corridors_1F_Text_CharlieIntro, AbandonedShip_Corridors_1F_Text_CharlieDefeat
 # 11 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"
 	msgbox AbandonedShip_Corridors_1F_Text_CharliePostBattle, MSGBOX_AUTOCLOSE
 # 12 "data/maps/AbandonedShip_Corridors_1F/scripts.pory"

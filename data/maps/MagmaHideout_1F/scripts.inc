@@ -19,7 +19,7 @@ MagmaHideout_1F_OnTransition:
 # 10 "data/maps/MagmaHideout_1F/scripts.pory"
 MagmaHideout_1F_EventScript_Grunt1::
 # 11 "data/maps/MagmaHideout_1F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_1, MagmaHideout_1F_Text_Grunt1Intro, MagmaHideout_1F_Text_Grunt1Defeat
+	trainerbattle_single TRAINER_716, MagmaHideout_1F_Text_Grunt1Intro, MagmaHideout_1F_Text_Grunt1Defeat
 # 12 "data/maps/MagmaHideout_1F/scripts.pory"
 	msgbox MagmaHideout_1F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 # 13 "data/maps/MagmaHideout_1F/scripts.pory"
@@ -29,7 +29,7 @@ MagmaHideout_1F_EventScript_Grunt1::
 # 15 "data/maps/MagmaHideout_1F/scripts.pory"
 MagmaHideout_1F_EventScript_Grunt2::
 # 16 "data/maps/MagmaHideout_1F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_2, MagmaHideout_1F_Text_Grunt2Intro, MagmaHideout_1F_Text_Grunt2Defeat
+	trainerbattle_single TRAINER_717, MagmaHideout_1F_Text_Grunt2Intro, MagmaHideout_1F_Text_Grunt2Defeat
 # 17 "data/maps/MagmaHideout_1F/scripts.pory"
 	msgbox MagmaHideout_1F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 # 18 "data/maps/MagmaHideout_1F/scripts.pory"

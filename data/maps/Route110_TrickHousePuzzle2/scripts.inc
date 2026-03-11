@@ -175,7 +175,7 @@ Route110_TrickHousePuzzle2_EventScript_PressButton4::
 # 88 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_EventScript_Ted::
 # 89 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	trainerbattle_single TRAINER_TED, Route110_TrickHousePuzzle2_Text_TedIntro, Route110_TrickHousePuzzle2_Text_TedDefeat
+	trainerbattle_single TRAINER_274, Route110_TrickHousePuzzle2_Text_TedIntro, Route110_TrickHousePuzzle2_Text_TedDefeat
 # 90 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	msgbox Route110_TrickHousePuzzle2_Text_TedPostBattle, MSGBOX_AUTOCLOSE
 # 91 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
@@ -185,7 +185,7 @@ Route110_TrickHousePuzzle2_EventScript_Ted::
 # 93 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_EventScript_Paul::
 # 94 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	trainerbattle_single TRAINER_PAUL, Route110_TrickHousePuzzle2_Text_PaulIntro, Route110_TrickHousePuzzle2_Text_PaulDefeat
+	trainerbattle_single TRAINER_275, Route110_TrickHousePuzzle2_Text_PaulIntro, Route110_TrickHousePuzzle2_Text_PaulDefeat
 # 95 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	msgbox Route110_TrickHousePuzzle2_Text_PaulPostBattle, MSGBOX_AUTOCLOSE
 # 96 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
@@ -195,7 +195,7 @@ Route110_TrickHousePuzzle2_EventScript_Paul::
 # 98 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 Route110_TrickHousePuzzle2_EventScript_Georgia::
 # 99 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
-	trainerbattle_single TRAINER_GEORGIA, Route110_TrickHousePuzzle2_Text_GeorgiaIntro, Route110_TrickHousePuzzle2_Text_GeorgiaDefeat
+	trainerbattle_single TRAINER_281, Route110_TrickHousePuzzle2_Text_GeorgiaIntro, Route110_TrickHousePuzzle2_Text_GeorgiaDefeat
 # 100 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"
 	msgbox Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle, MSGBOX_AUTOCLOSE
 # 101 "data/maps/Route110_TrickHousePuzzle2/scripts.pory"

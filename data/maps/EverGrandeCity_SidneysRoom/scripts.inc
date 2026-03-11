@@ -101,7 +101,7 @@ EverGrandeCity_SidneysRoom_EventScript_Sidney::
 # 51 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 	msgbox EverGrandeCity_SidneysRoom_Text_IntroSpeech, MSGBOX_DEFAULT
 # 52 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
-	trainerbattle_no_intro TRAINER_SIDNEY, EverGrandeCity_SidneysRoom_Text_Defeat
+	trainerbattle_no_intro TRAINER_261, EverGrandeCity_SidneysRoom_Text_Defeat
 # 53 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"
 	goto EverGrandeCity_SidneysRoom_EventScript_Defeated
 # 54 "data/maps/EverGrandeCity_SidneysRoom/scripts.pory"

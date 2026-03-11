@@ -73,7 +73,7 @@ Route130_EventScript_CheckSetAbnormalWeather::
 # 37 "data/maps/Route130/scripts.pory"
 Route130_EventScript_Rodney::
 # 38 "data/maps/Route130/scripts.pory"
-	trainerbattle_single TRAINER_RODNEY, Route130_Text_RodneyIntro, Route130_Text_RodneyDefeat
+	trainerbattle_single TRAINER_165, Route130_Text_RodneyIntro, Route130_Text_RodneyDefeat
 # 39 "data/maps/Route130/scripts.pory"
 	msgbox Route130_Text_RodneyPostBattle, MSGBOX_AUTOCLOSE
 # 40 "data/maps/Route130/scripts.pory"
@@ -83,7 +83,7 @@ Route130_EventScript_Rodney::
 # 42 "data/maps/Route130/scripts.pory"
 Route130_EventScript_Katie::
 # 43 "data/maps/Route130/scripts.pory"
-	trainerbattle_single TRAINER_KATIE, Route130_Text_KatieIntro, Route130_Text_KatieDefeat
+	trainerbattle_single TRAINER_455, Route130_Text_KatieIntro, Route130_Text_KatieDefeat
 # 44 "data/maps/Route130/scripts.pory"
 	msgbox Route130_Text_KatiePostBattle, MSGBOX_AUTOCLOSE
 # 45 "data/maps/Route130/scripts.pory"
@@ -93,7 +93,7 @@ Route130_EventScript_Katie::
 # 47 "data/maps/Route130/scripts.pory"
 Route130_EventScript_Santiago::
 # 48 "data/maps/Route130/scripts.pory"
-	trainerbattle_single TRAINER_SANTIAGO, Route130_Text_SantiagoIntro, Route130_Text_SantiagoDefeat
+	trainerbattle_single TRAINER_168, Route130_Text_SantiagoIntro, Route130_Text_SantiagoDefeat
 # 49 "data/maps/Route130/scripts.pory"
 	msgbox Route130_Text_SantiagoPostBattle, MSGBOX_AUTOCLOSE
 # 50 "data/maps/Route130/scripts.pory"

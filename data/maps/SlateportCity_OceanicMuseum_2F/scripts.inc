@@ -59,7 +59,7 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 # 30 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	call_if_eq VAR_FACING, DIR_WEST, SlateportCity_OceanicMuseum_2F_EventScript_PlayerApproachGruntWest
 # 31 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
-	trainerbattle_no_intro TRAINER_GRUNT_MUSEUM_1, SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat
+	trainerbattle_no_intro TRAINER_20, SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat
 # 32 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	msgbox SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious, MSGBOX_DEFAULT
 # 33 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
@@ -75,7 +75,7 @@ SlateportCity_OceanicMuseum_2F_EventScript_CaptStern::
 # 38 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	msgbox SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis, MSGBOX_DEFAULT
 # 39 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
-	trainerbattle_no_intro TRAINER_GRUNT_MUSEUM_2, SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat
+	trainerbattle_no_intro TRAINER_21, SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat
 # 40 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"
 	applymovement LOCALID_OCEANIC_MUSEUM_2F_GRUNT_1, SlateportCity_OceanicMuseum_2F_Movement_GruntDefeated
 # 41 "data/maps/SlateportCity_OceanicMuseum_2F/scripts.pory"

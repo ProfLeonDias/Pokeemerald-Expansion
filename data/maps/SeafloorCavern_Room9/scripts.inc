@@ -57,7 +57,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 # 29 "data/maps/SeafloorCavern_Room9/scripts.pory"
 	msgbox SeafloorCavern_Room9_Text_ArchieYouMustDisappear, MSGBOX_DEFAULT
 # 30 "data/maps/SeafloorCavern_Room9/scripts.pory"
-	trainerbattle_no_intro TRAINER_ARCHIE, SeafloorCavern_Room9_Text_ArchieDefeat
+	trainerbattle_no_intro TRAINER_34, SeafloorCavern_Room9_Text_ArchieDefeat
 # 31 "data/maps/SeafloorCavern_Room9/scripts.pory"
 	msgbox SeafloorCavern_Room9_Text_ArchieWithThisRedOrb, MSGBOX_DEFAULT
 # 32 "data/maps/SeafloorCavern_Room9/scripts.pory"

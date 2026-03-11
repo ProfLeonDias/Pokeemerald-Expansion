@@ -226,14 +226,14 @@
     {
       "id": "HEAL_LOCATION_IONIA_CITY",
       "map": "MAP_IONIA_CITY",
-      "x": 10,
-      "y": 10
+      "x": 31,
+      "y": 23
     },
     {
       "id": "HEAL_LOCATION_JASPER_VILLAGE",
       "map": "MAP_JASPER_VILLAGE",
       "x": 10,
-      "y": 10
+      "y": 8
     },
     {
       "id": "HEAL_LOCATION_LUMINA_ISLAND",
@@ -268,8 +268,8 @@
     {
       "id": "HEAL_LOCATION_SAPPHIRE_VILLAGE",
       "map": "MAP_SAPPHIRE_VILLAGE",
-      "x": 10,
-      "y": 10
+      "x": 24,
+      "y": 20
     },
     {
       "id": "HEAL_LOCATION_STORMALONG_CITY",

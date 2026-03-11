@@ -809,7 +809,7 @@ MtPyre_Summit_Movement_MaxieApproachArchie2:
 # 405 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_Grunt1::
 # 406 "data/maps/MtPyre_Summit/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MT_PYRE_1, MtPyre_Summit_Text_Grunt1Intro, MtPyre_Summit_Text_Grunt1Defeat
+	trainerbattle_single TRAINER_23, MtPyre_Summit_Text_Grunt1Intro, MtPyre_Summit_Text_Grunt1Defeat
 # 407 "data/maps/MtPyre_Summit/scripts.pory"
 	msgbox MtPyre_Summit_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 # 408 "data/maps/MtPyre_Summit/scripts.pory"
@@ -819,7 +819,7 @@ MtPyre_Summit_EventScript_Grunt1::
 # 410 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_Grunt2::
 # 411 "data/maps/MtPyre_Summit/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MT_PYRE_2, MtPyre_Summit_Text_Grunt2Intro, MtPyre_Summit_Text_Grunt2Defeat
+	trainerbattle_single TRAINER_24, MtPyre_Summit_Text_Grunt2Intro, MtPyre_Summit_Text_Grunt2Defeat
 # 412 "data/maps/MtPyre_Summit/scripts.pory"
 	msgbox MtPyre_Summit_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 # 413 "data/maps/MtPyre_Summit/scripts.pory"
@@ -829,7 +829,7 @@ MtPyre_Summit_EventScript_Grunt2::
 # 415 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_Grunt3::
 # 416 "data/maps/MtPyre_Summit/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MT_PYRE_3, MtPyre_Summit_Text_Grunt3Intro, MtPyre_Summit_Text_Grunt3Defeat
+	trainerbattle_single TRAINER_25, MtPyre_Summit_Text_Grunt3Intro, MtPyre_Summit_Text_Grunt3Defeat
 # 417 "data/maps/MtPyre_Summit/scripts.pory"
 	msgbox MtPyre_Summit_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 # 418 "data/maps/MtPyre_Summit/scripts.pory"
@@ -839,7 +839,7 @@ MtPyre_Summit_EventScript_Grunt3::
 # 420 "data/maps/MtPyre_Summit/scripts.pory"
 MtPyre_Summit_EventScript_Grunt4::
 # 421 "data/maps/MtPyre_Summit/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MT_PYRE_4, MtPyre_Summit_Text_Grunt4Intro, MtPyre_Summit_Text_Grunt4Defeat
+	trainerbattle_single TRAINER_569, MtPyre_Summit_Text_Grunt4Intro, MtPyre_Summit_Text_Grunt4Defeat
 # 422 "data/maps/MtPyre_Summit/scripts.pory"
 	msgbox MtPyre_Summit_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
 # 423 "data/maps/MtPyre_Summit/scripts.pory"

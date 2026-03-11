@@ -61,7 +61,7 @@ SSTidalRooms_EventScript_Bed::
 # 31 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_EventScript_Colton::
 # 32 "data/maps/SSTidalRooms/scripts.pory"
-	trainerbattle_single TRAINER_COLTON, SSTidalRooms_Text_ColtonIntro, SSTidalRooms_Text_ColtonDefeat
+	trainerbattle_single TRAINER_294, SSTidalRooms_Text_ColtonIntro, SSTidalRooms_Text_ColtonDefeat
 # 33 "data/maps/SSTidalRooms/scripts.pory"
 	msgbox SSTidalRooms_Text_ColtonPostBattle, MSGBOX_AUTOCLOSE
 # 34 "data/maps/SSTidalRooms/scripts.pory"
@@ -71,7 +71,7 @@ SSTidalRooms_EventScript_Colton::
 # 36 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_EventScript_Micah::
 # 37 "data/maps/SSTidalRooms/scripts.pory"
-	trainerbattle_single TRAINER_MICAH, SSTidalRooms_Text_MicahIntro, SSTidalRooms_Text_MicahDefeat
+	trainerbattle_single TRAINER_255, SSTidalRooms_Text_MicahIntro, SSTidalRooms_Text_MicahDefeat
 # 38 "data/maps/SSTidalRooms/scripts.pory"
 	msgbox SSTidalRooms_Text_MicahPostBattle, MSGBOX_AUTOCLOSE
 # 39 "data/maps/SSTidalRooms/scripts.pory"
@@ -81,7 +81,7 @@ SSTidalRooms_EventScript_Micah::
 # 41 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_EventScript_Thomas::
 # 42 "data/maps/SSTidalRooms/scripts.pory"
-	trainerbattle_single TRAINER_THOMAS, SSTidalRooms_Text_ThomasIntro, SSTidalRooms_Text_ThomasDefeat
+	trainerbattle_single TRAINER_256, SSTidalRooms_Text_ThomasIntro, SSTidalRooms_Text_ThomasDefeat
 # 43 "data/maps/SSTidalRooms/scripts.pory"
 	msgbox SSTidalRooms_Text_ThomasPostBattle, MSGBOX_AUTOCLOSE
 # 44 "data/maps/SSTidalRooms/scripts.pory"
@@ -91,7 +91,7 @@ SSTidalRooms_EventScript_Thomas::
 # 46 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_EventScript_Jed::
 # 47 "data/maps/SSTidalRooms/scripts.pory"
-	trainerbattle_double TRAINER_LEA_AND_JED, SSTidalRooms_Text_JedIntro, SSTidalRooms_Text_JedDefeat, SSTidalRooms_Text_JedNotEnoughMons
+	trainerbattle_double TRAINER_641, SSTidalRooms_Text_JedIntro, SSTidalRooms_Text_JedDefeat, SSTidalRooms_Text_JedNotEnoughMons
 # 48 "data/maps/SSTidalRooms/scripts.pory"
 	msgbox SSTidalRooms_Text_JedPostBattle, MSGBOX_AUTOCLOSE
 # 49 "data/maps/SSTidalRooms/scripts.pory"
@@ -101,7 +101,7 @@ SSTidalRooms_EventScript_Jed::
 # 51 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_EventScript_Lea::
 # 52 "data/maps/SSTidalRooms/scripts.pory"
-	trainerbattle_double TRAINER_LEA_AND_JED, SSTidalRooms_Text_LeaIntro, SSTidalRooms_Text_LeaDefeat, SSTidalRooms_Text_LeaNotEnoughMons
+	trainerbattle_double TRAINER_641, SSTidalRooms_Text_LeaIntro, SSTidalRooms_Text_LeaDefeat, SSTidalRooms_Text_LeaNotEnoughMons
 # 53 "data/maps/SSTidalRooms/scripts.pory"
 	msgbox SSTidalRooms_Text_LeaPostBattle, MSGBOX_AUTOCLOSE
 # 54 "data/maps/SSTidalRooms/scripts.pory"
@@ -111,7 +111,7 @@ SSTidalRooms_EventScript_Lea::
 # 56 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_EventScript_Garret::
 # 57 "data/maps/SSTidalRooms/scripts.pory"
-	trainerbattle_single TRAINER_GARRET, SSTidalRooms_Text_GarretIntro, SSTidalRooms_Text_GarretDefeat
+	trainerbattle_single TRAINER_138, SSTidalRooms_Text_GarretIntro, SSTidalRooms_Text_GarretDefeat
 # 58 "data/maps/SSTidalRooms/scripts.pory"
 	msgbox SSTidalRooms_Text_GarretPostBattle, MSGBOX_AUTOCLOSE
 # 59 "data/maps/SSTidalRooms/scripts.pory"
@@ -121,7 +121,7 @@ SSTidalRooms_EventScript_Garret::
 # 61 "data/maps/SSTidalRooms/scripts.pory"
 SSTidalRooms_EventScript_Naomi::
 # 62 "data/maps/SSTidalRooms/scripts.pory"
-	trainerbattle_single TRAINER_NAOMI, SSTidalRooms_Text_NaomiIntro, SSTidalRooms_Text_NaomiDefeat
+	trainerbattle_single TRAINER_119, SSTidalRooms_Text_NaomiIntro, SSTidalRooms_Text_NaomiDefeat
 # 63 "data/maps/SSTidalRooms/scripts.pory"
 	msgbox SSTidalRooms_Text_NaomiPostBattle, MSGBOX_AUTOCLOSE
 # 64 "data/maps/SSTidalRooms/scripts.pory"

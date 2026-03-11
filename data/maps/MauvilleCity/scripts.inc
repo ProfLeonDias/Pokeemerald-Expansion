@@ -401,7 +401,7 @@ MauvilleCity_EventScript_BattleWally::
 # 201 "data/maps/MauvilleCity/scripts.pory"
 	msgbox MauvilleCity_Text_WallyHereICome, MSGBOX_DEFAULT
 # 202 "data/maps/MauvilleCity/scripts.pory"
-	trainerbattle_no_intro TRAINER_WALLY_MAUVILLE, MauvilleCity_Text_WallyDefeat
+	trainerbattle_no_intro TRAINER_656, MauvilleCity_Text_WallyDefeat
 # 203 "data/maps/MauvilleCity/scripts.pory"
 	applymovement LOCALID_MAUVILLE_WALLY, Common_Movement_WalkInPlaceFasterRight
 # 204 "data/maps/MauvilleCity/scripts.pory"

@@ -25,11 +25,11 @@ OldaleTown_OnTransition:
 # 13 "data/maps/OldaleTown/scripts.pory"
 
 # 14 "data/maps/OldaleTown/scripts.pory"
-@ This script seems pointless because nothing uses VAR_OLDALE_TOWN_STATE
+@ This script seems pointless because nothing uses VAR_JASPER_TOWN_STATE
 # 15 "data/maps/OldaleTown/scripts.pory"
 OldaleTown_EventScript_SetOldaleState::
 # 16 "data/maps/OldaleTown/scripts.pory"
-	setvar VAR_OLDALE_TOWN_STATE, 1
+	setvar VAR_JASPER_TOWN_STATE, 1
 # 17 "data/maps/OldaleTown/scripts.pory"
 	return
 # 18 "data/maps/OldaleTown/scripts.pory"

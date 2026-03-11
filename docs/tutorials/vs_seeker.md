@@ -40,11 +40,11 @@ Objects listed in `regularTrainersOnLand` or `regularTrainersInWater` are consid
 
 | Sequence   | Trainer ID       |
 | ---------- | ---------------- |
-| 1st Battle | `TRAINER_ROSE_1` |
-| 2nd Battle | `TRAINER_ROSE_2` |
-| 3rd Battle | `TRAINER_ROSE_3` |
-| 4th Battle | `TRAINER_ROSE_4` |
-| 5th Battle | `TRAINER_ROSE_5` |
+| 1st Battle | `TRAINER_37` |
+| 2nd Battle | `TRAINER_40` |
+| 3rd Battle | `TRAINER_41` |
+| 4th Battle | `TRAINER_42` |
+| 5th Battle | `TRAINER_43` |
 
 The game determines which version of the Trainer you'll fight next by following these rules:
 
@@ -58,7 +58,7 @@ The game determines which version of the Trainer you'll fight next by following 
 No extra work is required. With the exception of Wally, Gym Leaders and Elite Four, all of the rematchable Trainers in Emerald will work with the Vs. Seeker without any changes.
 ### New Trainers
 #### Party / `gRematchTable`
-Each of the rematches for the Trainer must be defined as seperate Trainers in `src/data/trainers.party` and `include/constants/opponents`. For example, `TRAINER_CALVIN_1` also has `TRAINER_CALVIN_2`,`TRAINER_CALVIN_3`,`TRAINER_CALVIN_4`, and `TRAINER_CALVIN_5`.  
+Each of the rematches for the Trainer must be defined as seperate Trainers in `src/data/trainers.party` and `include/constants/opponents`. For example, `TRAINER_318` also has `TRAINER_328`,`TRAINER_329`,`TRAINER_330`, and `TRAINER_331`.  
 
 Once all of those constants and parties are defined, a new row must be added to `gRematchTable` (located in in `src/battle_setup.c`). The row header should be a rematch ID, which can be added in `include/constants/rematches.h`. The row contents must be the five constants created for the new parties, with the lat argument being the constant of the map (`include/constants/map_groups.h`) where the Trainer is placed.
 
@@ -66,7 +66,7 @@ If a Trainer is intended to have less than five unique rematch parties, the extr
 
 ```c
 // This Trainer only has two teams.
-    [REMATCH_ROSE] = REMATCH(TRAINER_ROSE_1, TRAINER_ROSE_2, TRAINER_ROSE_2, TRAINER_ROSE_2, TRAINER_ROSE_2, MAP_ROUTE118),
+    [REMATCH_ROSE] = REMATCH(TRAINER_37, TRAINER_40, TRAINER_40, TRAINER_40, TRAINER_40, MAP_ROUTE118),
 ```
 
 WARNING: Rematch IDs should be placed BEFORE `REMATCH_WALLY_VR`. Trainers below that are treated as "special Trainers" that are not triggered by the Vs. Seeker.
@@ -77,7 +77,7 @@ The trainer's object needs to have a script that begins with a method to signify
 #### `trainerbattle`
 ```
 Route103_EventScript_Daisy::
-    trainerbattle_single TRAINER_DAISY, Route103_Text_DaisyIntro, Route103_Text_DaisyDefeated
+    trainerbattle_single TRAINER_36, Route103_Text_DaisyIntro, Route103_Text_DaisyDefeated
     msgbox Route103_Text_DaisyPostBattle, MSGBOX_AUTOCLOSE
     end
 ```
@@ -87,13 +87,13 @@ Daisy is using one of the `trainerbattle` macros, which has the trainer battle m
 ##### `vsseeker_rematchid`
 ```
 Route102_EventScript_Calvin::
-    vsseeker_rematchid TRAINER_CALVIN_1
+    vsseeker_rematchid TRAINER_318
     applymovement LOCALID_CALVIN, CalvinMovementTest
     waitmovement 0
-    trainerbattle_single TRAINER_CALVIN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Route102_EventScript_CalvinRegisterMatchCallAfterBattle
+    trainerbattle_single TRAINER_318, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Route102_EventScript_CalvinRegisterMatchCallAfterBattle
     specialvar VAR_RESULT, ShouldTryRematchBattle
     goto_if_eq VAR_RESULT, TRUE, Route102_EventScript_CalvinRematch
-    setvar VAR_0x8004, TRAINER_CALVIN_1
+    setvar VAR_0x8004, TRAINER_318
     specialvar VAR_RESULT, IsTrainerRegistered
     goto_if_eq VAR_RESULT, FALSE, Route102_EventScript_CalvinTryRegister
     msgbox Route102_Text_CalvinPostBattle, MSGBOX_DEFAULT

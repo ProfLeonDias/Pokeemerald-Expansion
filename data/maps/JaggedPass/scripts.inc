@@ -155,7 +155,7 @@ JaggedPass_EventScript_MagmaHideoutGuard::
 # 78 "data/maps/JaggedPass/scripts.pory"
 	closemessage
 # 79 "data/maps/JaggedPass/scripts.pory"
-	trainerbattle_no_intro TRAINER_GRUNT_JAGGED_PASS, JaggedPass_Text_GruntDefeat
+	trainerbattle_no_intro TRAINER_570, JaggedPass_Text_GruntDefeat
 # 80 "data/maps/JaggedPass/scripts.pory"
 	setflag FLAG_BEAT_MAGMA_GRUNT_JAGGED_PASS
 # 81 "data/maps/JaggedPass/scripts.pory"
@@ -191,7 +191,7 @@ JaggedPass_EventScript_GuardDefeated::
 # 96 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_EventScript_Eric::
 # 97 "data/maps/JaggedPass/scripts.pory"
-	trainerbattle_single TRAINER_ERIC, JaggedPass_Text_EricIntro, JaggedPass_Text_EricDefeat
+	trainerbattle_single TRAINER_632, JaggedPass_Text_EricIntro, JaggedPass_Text_EricDefeat
 # 98 "data/maps/JaggedPass/scripts.pory"
 	msgbox JaggedPass_Text_EricPostBattle, MSGBOX_AUTOCLOSE
 # 99 "data/maps/JaggedPass/scripts.pory"
@@ -201,7 +201,7 @@ JaggedPass_EventScript_Eric::
 # 101 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_EventScript_Diana::
 # 102 "data/maps/JaggedPass/scripts.pory"
-	trainerbattle_single TRAINER_DIANA_1, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat, JaggedPass_EventScript_RegisterDiana
+	trainerbattle_single TRAINER_474, JaggedPass_Text_DianaIntro, JaggedPass_Text_DianaDefeat, JaggedPass_EventScript_RegisterDiana
 # 103 "data/maps/JaggedPass/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 104 "data/maps/JaggedPass/scripts.pory"
@@ -221,7 +221,7 @@ JaggedPass_EventScript_RegisterDiana::
 # 111 "data/maps/JaggedPass/scripts.pory"
 	msgbox JaggedPass_Text_DianaRegister, MSGBOX_DEFAULT
 # 112 "data/maps/JaggedPass/scripts.pory"
-	register_matchcall TRAINER_DIANA_1
+	register_matchcall TRAINER_474
 # 113 "data/maps/JaggedPass/scripts.pory"
 	release
 # 114 "data/maps/JaggedPass/scripts.pory"
@@ -231,7 +231,7 @@ JaggedPass_EventScript_RegisterDiana::
 # 116 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_EventScript_DianaRematch::
 # 117 "data/maps/JaggedPass/scripts.pory"
-	trainerbattle_rematch TRAINER_DIANA_1, JaggedPass_Text_DianaRematchIntro, JaggedPass_Text_DianaRematchDefeat
+	trainerbattle_rematch TRAINER_474, JaggedPass_Text_DianaRematchIntro, JaggedPass_Text_DianaRematchDefeat
 # 118 "data/maps/JaggedPass/scripts.pory"
 	msgbox JaggedPass_Text_DianaPostRematch, MSGBOX_AUTOCLOSE
 # 119 "data/maps/JaggedPass/scripts.pory"
@@ -241,7 +241,7 @@ JaggedPass_EventScript_DianaRematch::
 # 121 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_EventScript_Ethan::
 # 122 "data/maps/JaggedPass/scripts.pory"
-	trainerbattle_single TRAINER_ETHAN_1, JaggedPass_Text_EthanIntro, JaggedPass_Text_EthanDefeat, JaggedPass_EventScript_RegisterEthan
+	trainerbattle_single TRAINER_216, JaggedPass_Text_EthanIntro, JaggedPass_Text_EthanDefeat, JaggedPass_EventScript_RegisterEthan
 # 123 "data/maps/JaggedPass/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 124 "data/maps/JaggedPass/scripts.pory"
@@ -261,7 +261,7 @@ JaggedPass_EventScript_RegisterEthan::
 # 131 "data/maps/JaggedPass/scripts.pory"
 	msgbox JaggedPass_Text_EthanRegister, MSGBOX_DEFAULT
 # 132 "data/maps/JaggedPass/scripts.pory"
-	register_matchcall TRAINER_ETHAN_1
+	register_matchcall TRAINER_216
 # 133 "data/maps/JaggedPass/scripts.pory"
 	release
 # 134 "data/maps/JaggedPass/scripts.pory"
@@ -271,7 +271,7 @@ JaggedPass_EventScript_RegisterEthan::
 # 136 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_EventScript_EthanRematch::
 # 137 "data/maps/JaggedPass/scripts.pory"
-	trainerbattle_rematch TRAINER_ETHAN_1, JaggedPass_Text_EthanRematchIntro, JaggedPass_Text_EthanRematchDefeat
+	trainerbattle_rematch TRAINER_216, JaggedPass_Text_EthanRematchIntro, JaggedPass_Text_EthanRematchDefeat
 # 138 "data/maps/JaggedPass/scripts.pory"
 	msgbox JaggedPass_Text_EthanPostRematch, MSGBOX_AUTOCLOSE
 # 139 "data/maps/JaggedPass/scripts.pory"
@@ -281,7 +281,7 @@ JaggedPass_EventScript_EthanRematch::
 # 141 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_EventScript_Julio::
 # 142 "data/maps/JaggedPass/scripts.pory"
-	trainerbattle_single TRAINER_JULIO, JaggedPass_Text_JulioIntro, JaggedPass_Text_JulioDefeat
+	trainerbattle_single TRAINER_566, JaggedPass_Text_JulioIntro, JaggedPass_Text_JulioDefeat
 # 143 "data/maps/JaggedPass/scripts.pory"
 	msgbox JaggedPass_Text_JulioPostBattle, MSGBOX_AUTOCLOSE
 # 144 "data/maps/JaggedPass/scripts.pory"
@@ -291,7 +291,7 @@ JaggedPass_EventScript_Julio::
 # 146 "data/maps/JaggedPass/scripts.pory"
 JaggedPass_EventScript_Autumn::
 # 147 "data/maps/JaggedPass/scripts.pory"
-	trainerbattle_single TRAINER_AUTUMN, JaggedPass_Text_AutumnIntro, JaggedPass_Text_AutumnDefeat
+	trainerbattle_single TRAINER_217, JaggedPass_Text_AutumnIntro, JaggedPass_Text_AutumnDefeat
 # 148 "data/maps/JaggedPass/scripts.pory"
 	msgbox JaggedPass_Text_AutumnPostBattle, MSGBOX_AUTOCLOSE
 # 149 "data/maps/JaggedPass/scripts.pory"

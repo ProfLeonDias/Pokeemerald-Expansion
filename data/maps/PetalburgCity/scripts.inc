@@ -141,7 +141,7 @@ PetalburgCity_EventScript_WalkToWallyHouse::
 # 71 "data/maps/PetalburgCity/scripts.pory"
 	waitmovement 0
 # 72 "data/maps/PetalburgCity/scripts.pory"
-	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
+	setflag FLAG_HIDE_JAMES_WOODS_PEOPLE4S_DAD
 # 73 "data/maps/PetalburgCity/scripts.pory"
 	hideobjectat LOCALID_PLAYER, MAP_PETALBURG_CITY
 # 74 "data/maps/PetalburgCity/scripts.pory"

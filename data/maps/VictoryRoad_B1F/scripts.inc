@@ -9,7 +9,7 @@ VictoryRoad_B1F_MapScripts::
 # 5 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_EventScript_Samuel::
 # 6 "data/maps/VictoryRoad_B1F/scripts.pory"
-	trainerbattle_single TRAINER_SAMUEL, VictoryRoad_B1F_Text_SamuelIntro, VictoryRoad_B1F_Text_SamuelDefeat
+	trainerbattle_single TRAINER_81, VictoryRoad_B1F_Text_SamuelIntro, VictoryRoad_B1F_Text_SamuelDefeat
 # 7 "data/maps/VictoryRoad_B1F/scripts.pory"
 	msgbox VictoryRoad_B1F_Text_SamuelPostBattle, MSGBOX_AUTOCLOSE
 # 8 "data/maps/VictoryRoad_B1F/scripts.pory"
@@ -19,7 +19,7 @@ VictoryRoad_B1F_EventScript_Samuel::
 # 10 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_EventScript_Shannon::
 # 11 "data/maps/VictoryRoad_B1F/scripts.pory"
-	trainerbattle_single TRAINER_SHANNON, VictoryRoad_B1F_Text_ShannonIntro, VictoryRoad_B1F_Text_ShannonDefeat
+	trainerbattle_single TRAINER_97, VictoryRoad_B1F_Text_ShannonIntro, VictoryRoad_B1F_Text_ShannonDefeat
 # 12 "data/maps/VictoryRoad_B1F/scripts.pory"
 	msgbox VictoryRoad_B1F_Text_ShannonPostBattle, MSGBOX_AUTOCLOSE
 # 13 "data/maps/VictoryRoad_B1F/scripts.pory"
@@ -29,7 +29,7 @@ VictoryRoad_B1F_EventScript_Shannon::
 # 15 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_EventScript_Michelle::
 # 16 "data/maps/VictoryRoad_B1F/scripts.pory"
-	trainerbattle_single TRAINER_MICHELLE, VictoryRoad_B1F_Text_MichelleIntro, VictoryRoad_B1F_Text_MichelleDefeat
+	trainerbattle_single TRAINER_98, VictoryRoad_B1F_Text_MichelleIntro, VictoryRoad_B1F_Text_MichelleDefeat
 # 17 "data/maps/VictoryRoad_B1F/scripts.pory"
 	msgbox VictoryRoad_B1F_Text_MichellePostBattle, MSGBOX_AUTOCLOSE
 # 18 "data/maps/VictoryRoad_B1F/scripts.pory"
@@ -39,7 +39,7 @@ VictoryRoad_B1F_EventScript_Michelle::
 # 20 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_EventScript_Mitchell::
 # 21 "data/maps/VictoryRoad_B1F/scripts.pory"
-	trainerbattle_single TRAINER_MITCHELL, VictoryRoad_B1F_Text_MitchellIntro, VictoryRoad_B1F_Text_MitchellDefeat
+	trainerbattle_single TRAINER_540, VictoryRoad_B1F_Text_MitchellIntro, VictoryRoad_B1F_Text_MitchellDefeat
 # 22 "data/maps/VictoryRoad_B1F/scripts.pory"
 	msgbox VictoryRoad_B1F_Text_MitchellPostBattle, MSGBOX_AUTOCLOSE
 # 23 "data/maps/VictoryRoad_B1F/scripts.pory"
@@ -49,7 +49,7 @@ VictoryRoad_B1F_EventScript_Mitchell::
 # 25 "data/maps/VictoryRoad_B1F/scripts.pory"
 VictoryRoad_B1F_EventScript_Halle::
 # 26 "data/maps/VictoryRoad_B1F/scripts.pory"
-	trainerbattle_single TRAINER_HALLE, VictoryRoad_B1F_Text_HalleIntro, VictoryRoad_B1F_Text_HalleDefeat
+	trainerbattle_single TRAINER_546, VictoryRoad_B1F_Text_HalleIntro, VictoryRoad_B1F_Text_HalleDefeat
 # 27 "data/maps/VictoryRoad_B1F/scripts.pory"
 	msgbox VictoryRoad_B1F_Text_HallePostBattle, MSGBOX_AUTOCLOSE
 # 28 "data/maps/VictoryRoad_B1F/scripts.pory"

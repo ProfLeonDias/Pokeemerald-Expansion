@@ -95,7 +95,7 @@ Route111_OnTransition:
 # 48 "data/maps/Route111/scripts.pory"
 	call GabbyAndTy_EventScript_UpdateLocation
 # 49 "data/maps/Route111/scripts.pory"
-	goto_if_not_defeated TRAINER_VICKY, Route111_EventScript_SetWinstratesNotDefeated
+	goto_if_not_defeated TRAINER_312, Route111_EventScript_SetWinstratesNotDefeated
 # 50 "data/maps/Route111/scripts.pory"
 	end
 # 51 "data/maps/Route111/scripts.pory"
@@ -163,11 +163,11 @@ Route111_EventScript_SetWinstratesNotDefeated::
 # 82 "data/maps/Route111/scripts.pory"
 	setflag FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE
 # 83 "data/maps/Route111/scripts.pory"
-	cleartrainerflag TRAINER_VICTOR
+	cleartrainerflag TRAINER_292
 # 84 "data/maps/Route111/scripts.pory"
-	cleartrainerflag TRAINER_VICTORIA
+	cleartrainerflag TRAINER_299
 # 85 "data/maps/Route111/scripts.pory"
-	cleartrainerflag TRAINER_VIVI
+	cleartrainerflag TRAINER_606
 # 86 "data/maps/Route111/scripts.pory"
 	end
 # 87 "data/maps/Route111/scripts.pory"
@@ -541,7 +541,7 @@ Route111_EventScript_BattleWinstrates::
 # 271 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_VictorIntro, MSGBOX_DEFAULT
 # 272 "data/maps/Route111/scripts.pory"
-	trainerbattle_no_intro TRAINER_VICTOR, Route111_Text_VictorDefeat
+	trainerbattle_no_intro TRAINER_292, Route111_Text_VictorDefeat
 # 273 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_ROUTE111_VICTOR, Common_Movement_WalkInPlaceFasterUp
 # 274 "data/maps/Route111/scripts.pory"
@@ -577,7 +577,7 @@ Route111_EventScript_BattleWinstrates::
 # 289 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_VictoriaIntro, MSGBOX_DEFAULT
 # 290 "data/maps/Route111/scripts.pory"
-	trainerbattle_no_intro TRAINER_VICTORIA, Route111_Text_VictoriaDefeat
+	trainerbattle_no_intro TRAINER_299, Route111_Text_VictoriaDefeat
 # 291 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_ROUTE111_VICTORIA, Common_Movement_WalkInPlaceFasterUp
 # 292 "data/maps/Route111/scripts.pory"
@@ -613,7 +613,7 @@ Route111_EventScript_BattleWinstrates::
 # 307 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_ViviIntro, MSGBOX_DEFAULT
 # 308 "data/maps/Route111/scripts.pory"
-	trainerbattle_no_intro TRAINER_VIVI, Route111_Text_ViviDefeat
+	trainerbattle_no_intro TRAINER_606, Route111_Text_ViviDefeat
 # 309 "data/maps/Route111/scripts.pory"
 	applymovement LOCALID_ROUTE111_VIVI, Common_Movement_WalkInPlaceFasterUp
 # 310 "data/maps/Route111/scripts.pory"
@@ -649,7 +649,7 @@ Route111_EventScript_BattleWinstrates::
 # 325 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_VickyIntro, MSGBOX_DEFAULT
 # 326 "data/maps/Route111/scripts.pory"
-	trainerbattle_no_intro TRAINER_VICKY, Route111_Text_VickyDefeat
+	trainerbattle_no_intro TRAINER_312, Route111_Text_VickyDefeat
 # 327 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_VickyPostBattle, MSGBOX_DEFAULT
 # 328 "data/maps/Route111/scripts.pory"
@@ -863,7 +863,7 @@ Route111_EventScript_RockSmashTipFatMan::
 # 432 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Drew::
 # 433 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_DREW, Route111_Text_DrewIntro, Route111_Text_DrewDefeat
+	trainerbattle_single TRAINER_211, Route111_Text_DrewIntro, Route111_Text_DrewDefeat
 # 434 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_DrewPostBattle, MSGBOX_AUTOCLOSE
 # 435 "data/maps/Route111/scripts.pory"
@@ -873,7 +873,7 @@ Route111_EventScript_Drew::
 # 437 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Heidi::
 # 438 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_HEIDI, Route111_Text_HeidiIntro, Route111_Text_HeidiDefeat
+	trainerbattle_single TRAINER_469, Route111_Text_HeidiIntro, Route111_Text_HeidiDefeat
 # 439 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_HeidiPostBattle, MSGBOX_AUTOCLOSE
 # 440 "data/maps/Route111/scripts.pory"
@@ -883,7 +883,7 @@ Route111_EventScript_Heidi::
 # 442 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Beau::
 # 443 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_BEAU, Route111_Text_BeauIntro, Route111_Text_BeauDefeat
+	trainerbattle_single TRAINER_212, Route111_Text_BeauIntro, Route111_Text_BeauDefeat
 # 444 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_BeauPostBattle, MSGBOX_AUTOCLOSE
 # 445 "data/maps/Route111/scripts.pory"
@@ -893,7 +893,7 @@ Route111_EventScript_Beau::
 # 447 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Becky::
 # 448 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_BECKY, Route111_Text_BeckyIntro, Route111_Text_BeckyDefeat
+	trainerbattle_single TRAINER_470, Route111_Text_BeckyIntro, Route111_Text_BeckyDefeat
 # 449 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_BeckyPostBattle, MSGBOX_AUTOCLOSE
 # 450 "data/maps/Route111/scripts.pory"
@@ -903,7 +903,7 @@ Route111_EventScript_Becky::
 # 452 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Dusty::
 # 453 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_DUSTY_1, Route111_Text_DustyIntro, Route111_Text_DustyDefeat, Route111_EventScript_RegisterDusty
+	trainerbattle_single TRAINER_44, Route111_Text_DustyIntro, Route111_Text_DustyDefeat, Route111_EventScript_RegisterDusty
 # 454 "data/maps/Route111/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 455 "data/maps/Route111/scripts.pory"
@@ -925,7 +925,7 @@ Route111_EventScript_RegisterDusty::
 # 463 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_DustyRegister, MSGBOX_DEFAULT
 # 464 "data/maps/Route111/scripts.pory"
-	register_matchcall TRAINER_DUSTY_1
+	register_matchcall TRAINER_44
 # 465 "data/maps/Route111/scripts.pory"
 	release
 # 466 "data/maps/Route111/scripts.pory"
@@ -935,7 +935,7 @@ Route111_EventScript_RegisterDusty::
 # 468 "data/maps/Route111/scripts.pory"
 Route111_EventScript_RematchDusty::
 # 469 "data/maps/Route111/scripts.pory"
-	trainerbattle_rematch TRAINER_DUSTY_1, Route111_Text_DustyRematchIntro, Route111_Text_DustyRematchDefeat
+	trainerbattle_rematch TRAINER_44, Route111_Text_DustyRematchIntro, Route111_Text_DustyRematchDefeat
 # 470 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_DustyPostRematch, MSGBOX_AUTOCLOSE
 # 471 "data/maps/Route111/scripts.pory"
@@ -945,7 +945,7 @@ Route111_EventScript_RematchDusty::
 # 473 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Travis::
 # 474 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_TRAVIS, Route111_Text_TravisIntro, Route111_Text_TravisDefeat
+	trainerbattle_single TRAINER_218, Route111_Text_TravisIntro, Route111_Text_TravisDefeat
 # 475 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_TravisPostBattle, MSGBOX_AUTOCLOSE
 # 476 "data/maps/Route111/scripts.pory"
@@ -955,7 +955,7 @@ Route111_EventScript_Travis::
 # 478 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Irene::
 # 479 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_IRENE, Route111_Text_IreneIntro, Route111_Text_IreneDefeat
+	trainerbattle_single TRAINER_476, Route111_Text_IreneIntro, Route111_Text_IreneDefeat
 # 480 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_IrenePostBattle, MSGBOX_AUTOCLOSE
 # 481 "data/maps/Route111/scripts.pory"
@@ -965,7 +965,7 @@ Route111_EventScript_Irene::
 # 483 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Daisuke::
 # 484 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_DAISUKE, Route111_Text_DaisukeIntro, Route111_Text_DaisukeDefeat
+	trainerbattle_single TRAINER_189, Route111_Text_DaisukeIntro, Route111_Text_DaisukeDefeat
 # 485 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_DaisukePostBattle, MSGBOX_AUTOCLOSE
 # 486 "data/maps/Route111/scripts.pory"
@@ -975,7 +975,7 @@ Route111_EventScript_Daisuke::
 # 488 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Wilton::
 # 489 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_WILTON_1, Route111_Text_WiltonIntro, Route111_Text_WiltonDefeat, Route111_EventScript_RegisterWilton
+	trainerbattle_single TRAINER_78, Route111_Text_WiltonIntro, Route111_Text_WiltonDefeat, Route111_EventScript_RegisterWilton
 # 490 "data/maps/Route111/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 491 "data/maps/Route111/scripts.pory"
@@ -997,7 +997,7 @@ Route111_EventScript_RegisterWilton::
 # 499 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_WiltonRegister, MSGBOX_DEFAULT
 # 500 "data/maps/Route111/scripts.pory"
-	register_matchcall TRAINER_WILTON_1
+	register_matchcall TRAINER_78
 # 501 "data/maps/Route111/scripts.pory"
 	release
 # 502 "data/maps/Route111/scripts.pory"
@@ -1007,7 +1007,7 @@ Route111_EventScript_RegisterWilton::
 # 504 "data/maps/Route111/scripts.pory"
 Route111_EventScript_RematchWilton::
 # 505 "data/maps/Route111/scripts.pory"
-	trainerbattle_rematch TRAINER_WILTON_1, Route111_Text_WiltonRematchIntro, Route111_Text_WiltonRematchDefeat
+	trainerbattle_rematch TRAINER_78, Route111_Text_WiltonRematchIntro, Route111_Text_WiltonRematchDefeat
 # 506 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_WiltonPostRematch, MSGBOX_AUTOCLOSE
 # 507 "data/maps/Route111/scripts.pory"
@@ -1017,7 +1017,7 @@ Route111_EventScript_RematchWilton::
 # 509 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Brooke::
 # 510 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_BROOKE_1, Route111_Text_BrookeIntro, Route111_Text_BrookeDefeat, Route111_EventScript_RegisterBrooke
+	trainerbattle_single TRAINER_94, Route111_Text_BrookeIntro, Route111_Text_BrookeDefeat, Route111_EventScript_RegisterBrooke
 # 511 "data/maps/Route111/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 512 "data/maps/Route111/scripts.pory"
@@ -1039,7 +1039,7 @@ Route111_EventScript_RegisterBrooke::
 # 520 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_BrookeRegister, MSGBOX_DEFAULT
 # 521 "data/maps/Route111/scripts.pory"
-	register_matchcall TRAINER_BROOKE_1
+	register_matchcall TRAINER_94
 # 522 "data/maps/Route111/scripts.pory"
 	release
 # 523 "data/maps/Route111/scripts.pory"
@@ -1049,7 +1049,7 @@ Route111_EventScript_RegisterBrooke::
 # 525 "data/maps/Route111/scripts.pory"
 Route111_EventScript_RematchBrooke::
 # 526 "data/maps/Route111/scripts.pory"
-	trainerbattle_rematch TRAINER_BROOKE_1, Route111_Text_BrookeRematchIntro, Route111_Text_BrookeRematchDefeat
+	trainerbattle_rematch TRAINER_94, Route111_Text_BrookeRematchIntro, Route111_Text_BrookeRematchDefeat
 # 527 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_BrookePostRematch, MSGBOX_AUTOCLOSE
 # 528 "data/maps/Route111/scripts.pory"
@@ -1059,7 +1059,7 @@ Route111_EventScript_RematchBrooke::
 # 530 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Hayden::
 # 531 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_HAYDEN, Route111_Text_HaydenIntro, Route111_Text_HaydenDefeat
+	trainerbattle_single TRAINER_707, Route111_Text_HaydenIntro, Route111_Text_HaydenDefeat
 # 532 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_HaydenPostBattle, MSGBOX_AUTOCLOSE
 # 533 "data/maps/Route111/scripts.pory"
@@ -1069,7 +1069,7 @@ Route111_EventScript_Hayden::
 # 535 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Bianca::
 # 536 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_BIANCA, Route111_Text_BiancaIntro, Route111_Text_BiancaDefeat
+	trainerbattle_single TRAINER_706, Route111_Text_BiancaIntro, Route111_Text_BiancaDefeat
 # 537 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_BiancaPostBattle, MSGBOX_AUTOCLOSE
 # 538 "data/maps/Route111/scripts.pory"
@@ -1079,7 +1079,7 @@ Route111_EventScript_Bianca::
 # 540 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Tyron::
 # 541 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_TYRON, Route111_Text_TyronIntro, Route111_Text_TyronDefeat
+	trainerbattle_single TRAINER_704, Route111_Text_TyronIntro, Route111_Text_TyronDefeat
 # 542 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_TyronPostBattle, MSGBOX_AUTOCLOSE
 # 543 "data/maps/Route111/scripts.pory"
@@ -1089,7 +1089,7 @@ Route111_EventScript_Tyron::
 # 545 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Celina::
 # 546 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_CELINA, Route111_Text_CelinaIntro, Route111_Text_CelinaDefeat
+	trainerbattle_single TRAINER_705, Route111_Text_CelinaIntro, Route111_Text_CelinaDefeat
 # 547 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_CelinaPostBattle, MSGBOX_AUTOCLOSE
 # 548 "data/maps/Route111/scripts.pory"
@@ -1099,7 +1099,7 @@ Route111_EventScript_Celina::
 # 550 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Celia::
 # 551 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_CELIA, Route111_Text_CeliaIntro, Route111_Text_CeliaDefeat
+	trainerbattle_single TRAINER_743, Route111_Text_CeliaIntro, Route111_Text_CeliaDefeat
 # 552 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_CeliaPostBattle, MSGBOX_AUTOCLOSE
 # 553 "data/maps/Route111/scripts.pory"
@@ -1109,7 +1109,7 @@ Route111_EventScript_Celia::
 # 555 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Bryan::
 # 556 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_BRYAN, Route111_Text_BryanIntro, Route111_Text_BryanDefeat
+	trainerbattle_single TRAINER_744, Route111_Text_BryanIntro, Route111_Text_BryanDefeat
 # 557 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_BryanPostBattle, MSGBOX_AUTOCLOSE
 # 558 "data/maps/Route111/scripts.pory"
@@ -1119,7 +1119,7 @@ Route111_EventScript_Bryan::
 # 560 "data/maps/Route111/scripts.pory"
 Route111_EventScript_Branden::
 # 561 "data/maps/Route111/scripts.pory"
-	trainerbattle_single TRAINER_BRANDEN, Route111_Text_BrandenIntro, Route111_Text_BrandenDefeat
+	trainerbattle_single TRAINER_745, Route111_Text_BrandenIntro, Route111_Text_BrandenDefeat
 # 562 "data/maps/Route111/scripts.pory"
 	msgbox Route111_Text_BrandenPostBattle, MSGBOX_AUTOCLOSE
 # 563 "data/maps/Route111/scripts.pory"

@@ -101,7 +101,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_POTION",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_102_POTION"
+      "flag": "FLAG_ITEM_ROUTE_24S_POTION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -112,7 +112,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_102_ORAN",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_1N_ORAN",
       "script": "BerryTreeScript",
       "flag": "0"
     },
@@ -125,7 +125,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_102_PECHA",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_1N_PECHA",
       "script": "BerryTreeScript",
       "flag": "0"
     },

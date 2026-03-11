@@ -153,7 +153,7 @@ MauvilleCity_Gym_EventScript_DeactivatePuzzle::
 # 77 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_EventScript_Wattson::
 # 78 "data/maps/MauvilleCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonIntro, MauvilleCity_Gym_Text_WattsonDefeat, MauvilleCity_Gym_EventScript_WattsonDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_267, MauvilleCity_Gym_Text_WattsonIntro, MauvilleCity_Gym_Text_WattsonDefeat, MauvilleCity_Gym_EventScript_WattsonDefeated, NO_MUSIC
 # 79 "data/maps/MauvilleCity_Gym/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 80 "data/maps/MauvilleCity_Gym/scripts.pory"
@@ -269,7 +269,7 @@ MauvilleCity_Gym_EventScript_CompletedNewMauville::
 # 135 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_EventScript_WattsonRematch::
 # 136 "data/maps/MauvilleCity_Gym/scripts.pory"
-	trainerbattle_rematch_double TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonPreRematch, MauvilleCity_Gym_Text_WattsonRematchDefeat, MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons
+	trainerbattle_rematch_double TRAINER_267, MauvilleCity_Gym_Text_WattsonPreRematch, MauvilleCity_Gym_Text_WattsonRematchDefeat, MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons
 # 137 "data/maps/MauvilleCity_Gym/scripts.pory"
 	msgbox MauvilleCity_Gym_Text_WattsonPostRematch, MSGBOX_AUTOCLOSE
 # 138 "data/maps/MauvilleCity_Gym/scripts.pory"
@@ -399,7 +399,7 @@ MauvilleCity_Gym_EventScript_ClearBarriersAltState::
 # 200 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_EventScript_Kirk::
 # 201 "data/maps/MauvilleCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_KIRK, MauvilleCity_Gym_Text_KirkIntro, MauvilleCity_Gym_Text_KirkDefeat
+	trainerbattle_single TRAINER_191, MauvilleCity_Gym_Text_KirkIntro, MauvilleCity_Gym_Text_KirkDefeat
 # 202 "data/maps/MauvilleCity_Gym/scripts.pory"
 	msgbox MauvilleCity_Gym_Text_KirkPostBattle, MSGBOX_AUTOCLOSE
 # 203 "data/maps/MauvilleCity_Gym/scripts.pory"
@@ -409,7 +409,7 @@ MauvilleCity_Gym_EventScript_Kirk::
 # 205 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_EventScript_Shawn::
 # 206 "data/maps/MauvilleCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_SHAWN, MauvilleCity_Gym_Text_ShawnIntro, MauvilleCity_Gym_Text_ShawnDefeat
+	trainerbattle_single TRAINER_194, MauvilleCity_Gym_Text_ShawnIntro, MauvilleCity_Gym_Text_ShawnDefeat
 # 207 "data/maps/MauvilleCity_Gym/scripts.pory"
 	msgbox MauvilleCity_Gym_Text_ShawnPostBattle, MSGBOX_AUTOCLOSE
 # 208 "data/maps/MauvilleCity_Gym/scripts.pory"
@@ -419,7 +419,7 @@ MauvilleCity_Gym_EventScript_Shawn::
 # 210 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_EventScript_Ben::
 # 211 "data/maps/MauvilleCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_BEN, MauvilleCity_Gym_Text_BenIntro, MauvilleCity_Gym_Text_BenDefeat
+	trainerbattle_single TRAINER_323, MauvilleCity_Gym_Text_BenIntro, MauvilleCity_Gym_Text_BenDefeat
 # 212 "data/maps/MauvilleCity_Gym/scripts.pory"
 	msgbox MauvilleCity_Gym_Text_BenPostBattle, MSGBOX_AUTOCLOSE
 # 213 "data/maps/MauvilleCity_Gym/scripts.pory"
@@ -429,7 +429,7 @@ MauvilleCity_Gym_EventScript_Ben::
 # 215 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_EventScript_Vivian::
 # 216 "data/maps/MauvilleCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_VIVIAN, MauvilleCity_Gym_Text_VivianIntro, MauvilleCity_Gym_Text_VivianDefeat
+	trainerbattle_single TRAINER_649, MauvilleCity_Gym_Text_VivianIntro, MauvilleCity_Gym_Text_VivianDefeat
 # 217 "data/maps/MauvilleCity_Gym/scripts.pory"
 	msgbox MauvilleCity_Gym_Text_VivianPostBattle, MSGBOX_AUTOCLOSE
 # 218 "data/maps/MauvilleCity_Gym/scripts.pory"
@@ -439,7 +439,7 @@ MauvilleCity_Gym_EventScript_Vivian::
 # 220 "data/maps/MauvilleCity_Gym/scripts.pory"
 MauvilleCity_Gym_EventScript_Angelo::
 # 221 "data/maps/MauvilleCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_ANGELO, MauvilleCity_Gym_Text_AngeloIntro, MauvilleCity_Gym_Text_AngeloDefeat
+	trainerbattle_single TRAINER_802, MauvilleCity_Gym_Text_AngeloIntro, MauvilleCity_Gym_Text_AngeloDefeat
 # 222 "data/maps/MauvilleCity_Gym/scripts.pory"
 	msgbox MauvilleCity_Gym_Text_AngeloPostBattle, MSGBOX_AUTOCLOSE
 # 223 "data/maps/MauvilleCity_Gym/scripts.pory"

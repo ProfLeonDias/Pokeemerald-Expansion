@@ -17,7 +17,7 @@ Route106_EventScript_TrainerTipsSign::
 # 9 "data/maps/Route106/scripts.pory"
 Route106_EventScript_Douglas::
 # 10 "data/maps/Route106/scripts.pory"
-	trainerbattle_single TRAINER_DOUGLAS, Route106_Text_DouglasIntro, Route106_Text_DouglasDefeated
+	trainerbattle_single TRAINER_153, Route106_Text_DouglasIntro, Route106_Text_DouglasDefeated
 # 11 "data/maps/Route106/scripts.pory"
 	msgbox Route106_Text_DouglasPostBattle, MSGBOX_AUTOCLOSE
 # 12 "data/maps/Route106/scripts.pory"
@@ -27,7 +27,7 @@ Route106_EventScript_Douglas::
 # 14 "data/maps/Route106/scripts.pory"
 Route106_EventScript_Kyla::
 # 15 "data/maps/Route106/scripts.pory"
-	trainerbattle_single TRAINER_KYLA, Route106_Text_KylaIntro, Route106_Text_KylaDefeated
+	trainerbattle_single TRAINER_443, Route106_Text_KylaIntro, Route106_Text_KylaDefeated
 # 16 "data/maps/Route106/scripts.pory"
 	msgbox Route106_Text_KylaPostBattle, MSGBOX_AUTOCLOSE
 # 17 "data/maps/Route106/scripts.pory"
@@ -37,7 +37,7 @@ Route106_EventScript_Kyla::
 # 19 "data/maps/Route106/scripts.pory"
 Route106_EventScript_Elliot::
 # 20 "data/maps/Route106/scripts.pory"
-	trainerbattle_single TRAINER_ELLIOT_1, Route106_Text_ElliotIntro, Route106_Text_ElliotDefeated, Route106_EventScript_ElliotRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_339, Route106_Text_ElliotIntro, Route106_Text_ElliotDefeated, Route106_EventScript_ElliotRegisterMatchCallAfterBattle
 # 21 "data/maps/Route106/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 22 "data/maps/Route106/scripts.pory"
@@ -59,7 +59,7 @@ Route106_EventScript_ElliotRegisterMatchCallAfterBattle::
 # 30 "data/maps/Route106/scripts.pory"
 	msgbox Route106_Text_ElliotRegister, MSGBOX_DEFAULT
 # 31 "data/maps/Route106/scripts.pory"
-	register_matchcall TRAINER_ELLIOT_1
+	register_matchcall TRAINER_339
 # 32 "data/maps/Route106/scripts.pory"
 	release
 # 33 "data/maps/Route106/scripts.pory"
@@ -69,7 +69,7 @@ Route106_EventScript_ElliotRegisterMatchCallAfterBattle::
 # 35 "data/maps/Route106/scripts.pory"
 Route106_EventScript_ElliotRematch::
 # 36 "data/maps/Route106/scripts.pory"
-	trainerbattle_rematch TRAINER_ELLIOT_1, Route106_Text_ElliotRematchIntro, Route106_Text_ElliotRematchDefeated
+	trainerbattle_rematch TRAINER_339, Route106_Text_ElliotRematchIntro, Route106_Text_ElliotRematchDefeated
 # 37 "data/maps/Route106/scripts.pory"
 	msgbox Route106_Text_ElliotRematchPostBattle, MSGBOX_AUTOCLOSE
 # 38 "data/maps/Route106/scripts.pory"
@@ -79,7 +79,7 @@ Route106_EventScript_ElliotRematch::
 # 40 "data/maps/Route106/scripts.pory"
 Route106_EventScript_Ned::
 # 41 "data/maps/Route106/scripts.pory"
-	trainerbattle_single TRAINER_NED, Route106_Text_NedIntro, Route106_Text_NedDefeated
+	trainerbattle_single TRAINER_340, Route106_Text_NedIntro, Route106_Text_NedDefeated
 # 42 "data/maps/Route106/scripts.pory"
 	msgbox Route106_Text_NedPostBattle, MSGBOX_AUTOCLOSE
 # 43 "data/maps/Route106/scripts.pory"

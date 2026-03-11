@@ -47,7 +47,7 @@ Route125_OnFrame:
 # 24 "data/maps/Route125/scripts.pory"
 Route125_EventScript_Nolen::
 # 25 "data/maps/Route125/scripts.pory"
-	trainerbattle_single TRAINER_NOLEN, Route125_Text_NolenIntro, Route125_Text_NolenDefeat
+	trainerbattle_single TRAINER_161, Route125_Text_NolenIntro, Route125_Text_NolenDefeat
 # 26 "data/maps/Route125/scripts.pory"
 	msgbox Route125_Text_NolenPostBattle, MSGBOX_AUTOCLOSE
 # 27 "data/maps/Route125/scripts.pory"
@@ -57,7 +57,7 @@ Route125_EventScript_Nolen::
 # 29 "data/maps/Route125/scripts.pory"
 Route125_EventScript_Stan::
 # 30 "data/maps/Route125/scripts.pory"
-	trainerbattle_single TRAINER_STAN, Route125_Text_StanIntro, Route125_Text_StanDefeat
+	trainerbattle_single TRAINER_162, Route125_Text_StanIntro, Route125_Text_StanDefeat
 # 31 "data/maps/Route125/scripts.pory"
 	msgbox Route125_Text_StanPostBattle, MSGBOX_AUTOCLOSE
 # 32 "data/maps/Route125/scripts.pory"
@@ -67,7 +67,7 @@ Route125_EventScript_Stan::
 # 34 "data/maps/Route125/scripts.pory"
 Route125_EventScript_Tanya::
 # 35 "data/maps/Route125/scripts.pory"
-	trainerbattle_single TRAINER_TANYA, Route125_Text_TanyaIntro, Route125_Text_TanyaDefeat
+	trainerbattle_single TRAINER_451, Route125_Text_TanyaIntro, Route125_Text_TanyaDefeat
 # 36 "data/maps/Route125/scripts.pory"
 	msgbox Route125_Text_TanyaPostBattle, MSGBOX_AUTOCLOSE
 # 37 "data/maps/Route125/scripts.pory"
@@ -77,7 +77,7 @@ Route125_EventScript_Tanya::
 # 39 "data/maps/Route125/scripts.pory"
 Route125_EventScript_Sharon::
 # 40 "data/maps/Route125/scripts.pory"
-	trainerbattle_single TRAINER_SHARON, Route125_Text_SharonIntro, Route125_Text_SharonDefeat
+	trainerbattle_single TRAINER_452, Route125_Text_SharonIntro, Route125_Text_SharonDefeat
 # 41 "data/maps/Route125/scripts.pory"
 	msgbox Route125_Text_SharonPostBattle, MSGBOX_AUTOCLOSE
 # 42 "data/maps/Route125/scripts.pory"
@@ -87,7 +87,7 @@ Route125_EventScript_Sharon::
 # 44 "data/maps/Route125/scripts.pory"
 Route125_EventScript_Ernest::
 # 45 "data/maps/Route125/scripts.pory"
-	trainerbattle_single TRAINER_ERNEST_1, Route125_Text_ErnestIntro, Route125_Text_ErnestDefeat, Route125_EventScript_RegisterErnest
+	trainerbattle_single TRAINER_492, Route125_Text_ErnestIntro, Route125_Text_ErnestDefeat, Route125_EventScript_RegisterErnest
 # 46 "data/maps/Route125/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 47 "data/maps/Route125/scripts.pory"
@@ -109,7 +109,7 @@ Route125_EventScript_RegisterErnest::
 # 55 "data/maps/Route125/scripts.pory"
 	msgbox Route125_Text_ErnestRegister, MSGBOX_DEFAULT
 # 56 "data/maps/Route125/scripts.pory"
-	register_matchcall TRAINER_ERNEST_1
+	register_matchcall TRAINER_492
 # 57 "data/maps/Route125/scripts.pory"
 	release
 # 58 "data/maps/Route125/scripts.pory"
@@ -119,7 +119,7 @@ Route125_EventScript_RegisterErnest::
 # 60 "data/maps/Route125/scripts.pory"
 Route125_EventScript_RematchErnest::
 # 61 "data/maps/Route125/scripts.pory"
-	trainerbattle_rematch TRAINER_ERNEST_1, Route125_Text_ErnestRematchIntro, Route125_Text_ErnestRematchDefeat
+	trainerbattle_rematch TRAINER_492, Route125_Text_ErnestRematchIntro, Route125_Text_ErnestRematchDefeat
 # 62 "data/maps/Route125/scripts.pory"
 	msgbox Route125_Text_ErnestRematchPostBattle, MSGBOX_AUTOCLOSE
 # 63 "data/maps/Route125/scripts.pory"
@@ -129,7 +129,7 @@ Route125_EventScript_RematchErnest::
 # 65 "data/maps/Route125/scripts.pory"
 Route125_EventScript_Kim::
 # 66 "data/maps/Route125/scripts.pory"
-	trainerbattle_double TRAINER_KIM_AND_IRIS, Route125_Text_KimIntro, Route125_Text_KimDefeat, Route125_Text_KimNotEnoughMons
+	trainerbattle_double TRAINER_678, Route125_Text_KimIntro, Route125_Text_KimDefeat, Route125_Text_KimNotEnoughMons
 # 67 "data/maps/Route125/scripts.pory"
 	msgbox Route125_Text_KimPostBattle, MSGBOX_AUTOCLOSE
 # 68 "data/maps/Route125/scripts.pory"
@@ -139,7 +139,7 @@ Route125_EventScript_Kim::
 # 70 "data/maps/Route125/scripts.pory"
 Route125_EventScript_Iris::
 # 71 "data/maps/Route125/scripts.pory"
-	trainerbattle_double TRAINER_KIM_AND_IRIS, Route125_Text_IrisIntro, Route125_Text_IrisDefeat, Route125_Text_IrisNotEnoughMons
+	trainerbattle_double TRAINER_678, Route125_Text_IrisIntro, Route125_Text_IrisDefeat, Route125_Text_IrisNotEnoughMons
 # 72 "data/maps/Route125/scripts.pory"
 	msgbox Route125_Text_IrisPostBattle, MSGBOX_AUTOCLOSE
 # 73 "data/maps/Route125/scripts.pory"
@@ -149,7 +149,7 @@ Route125_EventScript_Iris::
 # 75 "data/maps/Route125/scripts.pory"
 Route125_EventScript_Presley::
 # 76 "data/maps/Route125/scripts.pory"
-	trainerbattle_single TRAINER_PRESLEY, Route125_Text_PresleyIntro, Route125_Text_PresleyDefeat
+	trainerbattle_single TRAINER_403, Route125_Text_PresleyIntro, Route125_Text_PresleyDefeat
 # 77 "data/maps/Route125/scripts.pory"
 	msgbox Route125_Text_PresleyPostBattle, MSGBOX_AUTOCLOSE
 # 78 "data/maps/Route125/scripts.pory"
@@ -159,7 +159,7 @@ Route125_EventScript_Presley::
 # 80 "data/maps/Route125/scripts.pory"
 Route125_EventScript_Auron::
 # 81 "data/maps/Route125/scripts.pory"
-	trainerbattle_single TRAINER_AURON, Route125_Text_AuronIntro, Route125_Text_AuronDefeat
+	trainerbattle_single TRAINER_506, Route125_Text_AuronIntro, Route125_Text_AuronDefeat
 # 82 "data/maps/Route125/scripts.pory"
 	msgbox Route125_Text_AuronPostBattle, MSGBOX_AUTOCLOSE
 # 83 "data/maps/Route125/scripts.pory"

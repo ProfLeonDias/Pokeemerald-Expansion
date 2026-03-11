@@ -153,7 +153,7 @@ Route117_EventScript_DayCareSign::
 # 77 "data/maps/Route117/scripts.pory"
 Route117_EventScript_Isaac::
 # 78 "data/maps/Route117/scripts.pory"
-	trainerbattle_single TRAINER_ISAAC_1, Route117_Text_IsaacIntro, Route117_Text_IsaacDefeat, Route117_EventScript_RegisterIsaac
+	trainerbattle_single TRAINER_538, Route117_Text_IsaacIntro, Route117_Text_IsaacDefeat, Route117_EventScript_RegisterIsaac
 # 79 "data/maps/Route117/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 80 "data/maps/Route117/scripts.pory"
@@ -175,7 +175,7 @@ Route117_EventScript_RegisterIsaac::
 # 88 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_IsaacRegister, MSGBOX_DEFAULT
 # 89 "data/maps/Route117/scripts.pory"
-	register_matchcall TRAINER_ISAAC_1
+	register_matchcall TRAINER_538
 # 90 "data/maps/Route117/scripts.pory"
 	release
 # 91 "data/maps/Route117/scripts.pory"
@@ -185,7 +185,7 @@ Route117_EventScript_RegisterIsaac::
 # 93 "data/maps/Route117/scripts.pory"
 Route117_EventScript_RematchIsaac::
 # 94 "data/maps/Route117/scripts.pory"
-	trainerbattle_rematch TRAINER_ISAAC_1, Route117_Text_IsaacRematchIntro, Route117_Text_IsaacRematchDefeat
+	trainerbattle_rematch TRAINER_538, Route117_Text_IsaacRematchIntro, Route117_Text_IsaacRematchDefeat
 # 95 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_IsaacPostRematch, MSGBOX_AUTOCLOSE
 # 96 "data/maps/Route117/scripts.pory"
@@ -195,7 +195,7 @@ Route117_EventScript_RematchIsaac::
 # 98 "data/maps/Route117/scripts.pory"
 Route117_EventScript_Lydia::
 # 99 "data/maps/Route117/scripts.pory"
-	trainerbattle_single TRAINER_LYDIA_1, Route117_Text_LydiaIntro, Route117_Text_LydiaDefeat, Route117_EventScript_RegisterLydia
+	trainerbattle_single TRAINER_545, Route117_Text_LydiaIntro, Route117_Text_LydiaDefeat, Route117_EventScript_RegisterLydia
 # 100 "data/maps/Route117/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 101 "data/maps/Route117/scripts.pory"
@@ -217,7 +217,7 @@ Route117_EventScript_RegisterLydia::
 # 109 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_LydiaRegister, MSGBOX_DEFAULT
 # 110 "data/maps/Route117/scripts.pory"
-	register_matchcall TRAINER_LYDIA_1
+	register_matchcall TRAINER_545
 # 111 "data/maps/Route117/scripts.pory"
 	release
 # 112 "data/maps/Route117/scripts.pory"
@@ -227,7 +227,7 @@ Route117_EventScript_RegisterLydia::
 # 114 "data/maps/Route117/scripts.pory"
 Route117_EventScript_RematchLydia::
 # 115 "data/maps/Route117/scripts.pory"
-	trainerbattle_rematch TRAINER_LYDIA_1, Route117_Text_LydiaRematchIntro, Route117_Text_LydiaRematchDefeat
+	trainerbattle_rematch TRAINER_545, Route117_Text_LydiaRematchIntro, Route117_Text_LydiaRematchDefeat
 # 116 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_LydiaPostRematch, MSGBOX_AUTOCLOSE
 # 117 "data/maps/Route117/scripts.pory"
@@ -237,7 +237,7 @@ Route117_EventScript_RematchLydia::
 # 119 "data/maps/Route117/scripts.pory"
 Route117_EventScript_Dylan::
 # 120 "data/maps/Route117/scripts.pory"
-	trainerbattle_single TRAINER_DYLAN_1, Route117_Text_DylanIntro, Route117_Text_DylanDefeat, Route117_EventScript_RegisterDylan
+	trainerbattle_single TRAINER_364, Route117_Text_DylanIntro, Route117_Text_DylanDefeat, Route117_EventScript_RegisterDylan
 # 121 "data/maps/Route117/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 122 "data/maps/Route117/scripts.pory"
@@ -259,7 +259,7 @@ Route117_EventScript_RegisterDylan::
 # 130 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_DylanRegister, MSGBOX_DEFAULT
 # 131 "data/maps/Route117/scripts.pory"
-	register_matchcall TRAINER_DYLAN_1
+	register_matchcall TRAINER_364
 # 132 "data/maps/Route117/scripts.pory"
 	release
 # 133 "data/maps/Route117/scripts.pory"
@@ -269,7 +269,7 @@ Route117_EventScript_RegisterDylan::
 # 135 "data/maps/Route117/scripts.pory"
 Route117_EventScript_RematchDylan::
 # 136 "data/maps/Route117/scripts.pory"
-	trainerbattle_rematch TRAINER_DYLAN_1, Route117_Text_DylanRematchIntro, Route117_Text_DylanRematchDefeat
+	trainerbattle_rematch TRAINER_364, Route117_Text_DylanRematchIntro, Route117_Text_DylanRematchDefeat
 # 137 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_DylanPostRematch, MSGBOX_AUTOCLOSE
 # 138 "data/maps/Route117/scripts.pory"
@@ -279,7 +279,7 @@ Route117_EventScript_RematchDylan::
 # 140 "data/maps/Route117/scripts.pory"
 Route117_EventScript_Maria::
 # 141 "data/maps/Route117/scripts.pory"
-	trainerbattle_single TRAINER_MARIA_1, Route117_Text_MariaIntro, Route117_Text_MariaDefeat, Route117_EventScript_RegisterMaria
+	trainerbattle_single TRAINER_369, Route117_Text_MariaIntro, Route117_Text_MariaDefeat, Route117_EventScript_RegisterMaria
 # 142 "data/maps/Route117/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 143 "data/maps/Route117/scripts.pory"
@@ -301,7 +301,7 @@ Route117_EventScript_RegisterMaria::
 # 151 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_MariaRegister, MSGBOX_DEFAULT
 # 152 "data/maps/Route117/scripts.pory"
-	register_matchcall TRAINER_MARIA_1
+	register_matchcall TRAINER_369
 # 153 "data/maps/Route117/scripts.pory"
 	release
 # 154 "data/maps/Route117/scripts.pory"
@@ -311,7 +311,7 @@ Route117_EventScript_RegisterMaria::
 # 156 "data/maps/Route117/scripts.pory"
 Route117_EventScript_RematchMaria::
 # 157 "data/maps/Route117/scripts.pory"
-	trainerbattle_rematch TRAINER_MARIA_1, Route117_Text_MariaRematchIntro, Route117_Text_MariaRematchDefeat
+	trainerbattle_rematch TRAINER_369, Route117_Text_MariaRematchIntro, Route117_Text_MariaRematchDefeat
 # 158 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_MariaPostRematch, MSGBOX_AUTOCLOSE
 # 159 "data/maps/Route117/scripts.pory"
@@ -321,7 +321,7 @@ Route117_EventScript_RematchMaria::
 # 161 "data/maps/Route117/scripts.pory"
 Route117_EventScript_Derek::
 # 162 "data/maps/Route117/scripts.pory"
-	trainerbattle_single TRAINER_DEREK, Route117_Text_DerekIntro, Route117_Text_DerekDefeat
+	trainerbattle_single TRAINER_227, Route117_Text_DerekIntro, Route117_Text_DerekDefeat
 # 163 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_DerekPostBattle, MSGBOX_AUTOCLOSE
 # 164 "data/maps/Route117/scripts.pory"
@@ -331,7 +331,7 @@ Route117_EventScript_Derek::
 # 166 "data/maps/Route117/scripts.pory"
 Route117_EventScript_Anna::
 # 167 "data/maps/Route117/scripts.pory"
-	trainerbattle_double TRAINER_ANNA_AND_MEG_1, Route117_Text_AnnaIntro, Route117_Text_AnnaDefeat, Route117_Text_AnnaNotEnoughMons, Route117_EventScript_RegisterAnna
+	trainerbattle_double TRAINER_287, Route117_Text_AnnaIntro, Route117_Text_AnnaDefeat, Route117_Text_AnnaNotEnoughMons, Route117_EventScript_RegisterAnna
 # 168 "data/maps/Route117/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 169 "data/maps/Route117/scripts.pory"
@@ -349,7 +349,7 @@ Route117_EventScript_RegisterAnna::
 # 175 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_AnnaAndMegRegister, MSGBOX_DEFAULT
 # 176 "data/maps/Route117/scripts.pory"
-	register_matchcall TRAINER_ANNA_AND_MEG_1
+	register_matchcall TRAINER_287
 # 177 "data/maps/Route117/scripts.pory"
 	release
 # 178 "data/maps/Route117/scripts.pory"
@@ -359,7 +359,7 @@ Route117_EventScript_RegisterAnna::
 # 180 "data/maps/Route117/scripts.pory"
 Route117_EventScript_RematchAnna::
 # 181 "data/maps/Route117/scripts.pory"
-	trainerbattle_rematch_double TRAINER_ANNA_AND_MEG_1, Route117_Text_AnnaRematchIntro, Route117_Text_AnnaRematchDefeat, Route117_Text_AnnaRematchNotEnoughMons
+	trainerbattle_rematch_double TRAINER_287, Route117_Text_AnnaRematchIntro, Route117_Text_AnnaRematchDefeat, Route117_Text_AnnaRematchNotEnoughMons
 # 182 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_AnnaPostRematch, MSGBOX_AUTOCLOSE
 # 183 "data/maps/Route117/scripts.pory"
@@ -369,7 +369,7 @@ Route117_EventScript_RematchAnna::
 # 185 "data/maps/Route117/scripts.pory"
 Route117_EventScript_Meg::
 # 186 "data/maps/Route117/scripts.pory"
-	trainerbattle_double TRAINER_ANNA_AND_MEG_1, Route117_Text_MegIntro, Route117_Text_MegDefeat, Route117_Text_MegNotEnoughMons, Route117_EventScript_RegisterMeg
+	trainerbattle_double TRAINER_287, Route117_Text_MegIntro, Route117_Text_MegDefeat, Route117_Text_MegNotEnoughMons, Route117_EventScript_RegisterMeg
 # 187 "data/maps/Route117/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 188 "data/maps/Route117/scripts.pory"
@@ -387,7 +387,7 @@ Route117_EventScript_RegisterMeg::
 # 194 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_AnnaAndMegRegister, MSGBOX_DEFAULT
 # 195 "data/maps/Route117/scripts.pory"
-	register_matchcall TRAINER_ANNA_AND_MEG_1
+	register_matchcall TRAINER_287
 # 196 "data/maps/Route117/scripts.pory"
 	release
 # 197 "data/maps/Route117/scripts.pory"
@@ -397,7 +397,7 @@ Route117_EventScript_RegisterMeg::
 # 199 "data/maps/Route117/scripts.pory"
 Route117_EventScript_RematchMeg::
 # 200 "data/maps/Route117/scripts.pory"
-	trainerbattle_rematch_double TRAINER_ANNA_AND_MEG_1, Route117_Text_MegRematchIntro, Route117_Text_MegRematchDefeat, Route117_Text_MegRematchNotEnoughMons
+	trainerbattle_rematch_double TRAINER_287, Route117_Text_MegRematchIntro, Route117_Text_MegRematchDefeat, Route117_Text_MegRematchNotEnoughMons
 # 201 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_MegPostRematch, MSGBOX_AUTOCLOSE
 # 202 "data/maps/Route117/scripts.pory"
@@ -407,7 +407,7 @@ Route117_EventScript_RematchMeg::
 # 204 "data/maps/Route117/scripts.pory"
 Route117_EventScript_Melina::
 # 205 "data/maps/Route117/scripts.pory"
-	trainerbattle_single TRAINER_MELINA, Route117_Text_MelinaIntro, Route117_Text_MelinaDefeat
+	trainerbattle_single TRAINER_755, Route117_Text_MelinaIntro, Route117_Text_MelinaDefeat
 # 206 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_MelinaPostBattle, MSGBOX_AUTOCLOSE
 # 207 "data/maps/Route117/scripts.pory"
@@ -417,7 +417,7 @@ Route117_EventScript_Melina::
 # 209 "data/maps/Route117/scripts.pory"
 Route117_EventScript_Brandi::
 # 210 "data/maps/Route117/scripts.pory"
-	trainerbattle_single TRAINER_BRANDI, Route117_Text_BrandiIntro, Route117_Text_BrandiDefeat
+	trainerbattle_single TRAINER_756, Route117_Text_BrandiIntro, Route117_Text_BrandiDefeat
 # 211 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_BrandiPostBattle, MSGBOX_AUTOCLOSE
 # 212 "data/maps/Route117/scripts.pory"
@@ -427,7 +427,7 @@ Route117_EventScript_Brandi::
 # 214 "data/maps/Route117/scripts.pory"
 Route117_EventScript_Aisha::
 # 215 "data/maps/Route117/scripts.pory"
-	trainerbattle_single TRAINER_AISHA, Route117_Text_AishaIntro, Route117_Text_AishaDefeat
+	trainerbattle_single TRAINER_757, Route117_Text_AishaIntro, Route117_Text_AishaDefeat
 # 216 "data/maps/Route117/scripts.pory"
 	msgbox Route117_Text_AishaPostBattle, MSGBOX_AUTOCLOSE
 # 217 "data/maps/Route117/scripts.pory"

@@ -51,7 +51,7 @@ AquaHideout_B2F_EventScript_MattNoticePlayer::
 # 26 "data/maps/AquaHideout_B2F/scripts.pory"
 AquaHideout_B2F_EventScript_Matt::
 # 27 "data/maps/AquaHideout_B2F/scripts.pory"
-	trainerbattle_single TRAINER_MATT, AquaHideout_B2F_Text_MattIntro, AquaHideout_B2F_Text_MattDefeat, AquaHideout_B2F_EventScript_SubmarineEscape
+	trainerbattle_single TRAINER_30, AquaHideout_B2F_Text_MattIntro, AquaHideout_B2F_Text_MattDefeat, AquaHideout_B2F_EventScript_SubmarineEscape
 # 28 "data/maps/AquaHideout_B2F/scripts.pory"
 	msgbox AquaHideout_B2F_Text_MattPostBattle, MSGBOX_DEFAULT
 # 29 "data/maps/AquaHideout_B2F/scripts.pory"
@@ -139,7 +139,7 @@ AquaHideout_B2F_Movement_SumbarineDepartRight:
 # 70 "data/maps/AquaHideout_B2F/scripts.pory"
 AquaHideout_B2F_EventScript_Grunt4::
 # 71 "data/maps/AquaHideout_B2F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_4, AquaHideout_B2F_Text_Grunt4Intro, AquaHideout_B2F_Text_Grunt4Defeat, AquaHideout_B2F_EventScript_Grunt4Defeated
+	trainerbattle_single TRAINER_05, AquaHideout_B2F_Text_Grunt4Intro, AquaHideout_B2F_Text_Grunt4Defeat, AquaHideout_B2F_EventScript_Grunt4Defeated
 # 72 "data/maps/AquaHideout_B2F/scripts.pory"
 	msgbox AquaHideout_B2F_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
 # 73 "data/maps/AquaHideout_B2F/scripts.pory"
@@ -159,7 +159,7 @@ AquaHideout_B2F_EventScript_Grunt4Defeated::
 # 80 "data/maps/AquaHideout_B2F/scripts.pory"
 AquaHideout_B2F_EventScript_Grunt6::
 # 81 "data/maps/AquaHideout_B2F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_6, AquaHideout_B2F_Text_Grunt6Intro, AquaHideout_B2F_Text_Grunt6Defeat
+	trainerbattle_single TRAINER_28, AquaHideout_B2F_Text_Grunt6Intro, AquaHideout_B2F_Text_Grunt6Defeat
 # 82 "data/maps/AquaHideout_B2F/scripts.pory"
 	msgbox AquaHideout_B2F_Text_Grunt6PostBattle, MSGBOX_AUTOCLOSE
 # 83 "data/maps/AquaHideout_B2F/scripts.pory"
@@ -169,7 +169,7 @@ AquaHideout_B2F_EventScript_Grunt6::
 # 85 "data/maps/AquaHideout_B2F/scripts.pory"
 AquaHideout_B2F_EventScript_Grunt8::
 # 86 "data/maps/AquaHideout_B2F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_8, AquaHideout_B2F_Text_Grunt8Intro, AquaHideout_B2F_Text_Grunt8Defeat
+	trainerbattle_single TRAINER_193, AquaHideout_B2F_Text_Grunt8Intro, AquaHideout_B2F_Text_Grunt8Defeat
 # 87 "data/maps/AquaHideout_B2F/scripts.pory"
 	msgbox AquaHideout_B2F_Text_Grunt8PostBattle, MSGBOX_AUTOCLOSE
 # 88 "data/maps/AquaHideout_B2F/scripts.pory"

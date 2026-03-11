@@ -268,7 +268,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_TM_SANDSTORM",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_111_TM_SANDSTORM"
+      "flag": "FLAG_ITEM_JAMES_WOODS_TM_U_TURN"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -363,7 +363,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_STARDUST",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_111_STARDUST"
+      "flag": "FLAG_ITEM_JAMES_WOODS_POTION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
@@ -376,7 +376,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_HP_UP",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_ROUTE_111_HP_UP"
+      "flag": "FLAG_ITEM_JAMES_WOODS_X_ATTACK"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE",

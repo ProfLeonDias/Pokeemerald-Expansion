@@ -575,7 +575,7 @@ Route110_TrickHousePuzzle7_EventScript_RedButton::
 # 288 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_EventScript_Joshua::
 # 289 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	trainerbattle_single TRAINER_JOSHUA, Route110_TrickHousePuzzle7_Text_JoshuaIntro, Route110_TrickHousePuzzle7_Text_JoshuaDefeat
+	trainerbattle_single TRAINER_237, Route110_TrickHousePuzzle7_Text_JoshuaIntro, Route110_TrickHousePuzzle7_Text_JoshuaDefeat
 # 290 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	msgbox Route110_TrickHousePuzzle7_Text_JoshuaPostBattle, MSGBOX_AUTOCLOSE
 # 291 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
@@ -585,7 +585,7 @@ Route110_TrickHousePuzzle7_EventScript_Joshua::
 # 293 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_EventScript_Patricia::
 # 294 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	trainerbattle_single TRAINER_PATRICIA, Route110_TrickHousePuzzle7_Text_PatriciaIntro, Route110_TrickHousePuzzle7_Text_PatriciaDefeat
+	trainerbattle_single TRAINER_105, Route110_TrickHousePuzzle7_Text_PatriciaIntro, Route110_TrickHousePuzzle7_Text_PatriciaDefeat
 # 295 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	msgbox Route110_TrickHousePuzzle7_Text_PatriciaPostBattle, MSGBOX_AUTOCLOSE
 # 296 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
@@ -595,7 +595,7 @@ Route110_TrickHousePuzzle7_EventScript_Patricia::
 # 298 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_EventScript_Alexis::
 # 299 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	trainerbattle_single TRAINER_ALEXIS, Route110_TrickHousePuzzle7_Text_AlexisIntro, Route110_TrickHousePuzzle7_Text_AlexisDefeat
+	trainerbattle_single TRAINER_248, Route110_TrickHousePuzzle7_Text_AlexisIntro, Route110_TrickHousePuzzle7_Text_AlexisDefeat
 # 300 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	msgbox Route110_TrickHousePuzzle7_Text_AlexisPostBattle, MSGBOX_AUTOCLOSE
 # 301 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
@@ -605,7 +605,7 @@ Route110_TrickHousePuzzle7_EventScript_Alexis::
 # 303 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_EventScript_Mariela::
 # 304 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	trainerbattle_single TRAINER_MARIELA, Route110_TrickHousePuzzle7_Text_MarielaIntro, Route110_TrickHousePuzzle7_Text_MarielaDefeat
+	trainerbattle_single TRAINER_848, Route110_TrickHousePuzzle7_Text_MarielaIntro, Route110_TrickHousePuzzle7_Text_MarielaDefeat
 # 305 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	msgbox Route110_TrickHousePuzzle7_Text_MarielaPostBattle, MSGBOX_AUTOCLOSE
 # 306 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
@@ -615,7 +615,7 @@ Route110_TrickHousePuzzle7_EventScript_Mariela::
 # 308 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_EventScript_Alvaro::
 # 309 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	trainerbattle_single TRAINER_ALVARO, Route110_TrickHousePuzzle7_Text_AlvaroIntro, Route110_TrickHousePuzzle7_Text_AlvaroDefeat
+	trainerbattle_single TRAINER_849, Route110_TrickHousePuzzle7_Text_AlvaroIntro, Route110_TrickHousePuzzle7_Text_AlvaroDefeat
 # 310 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	msgbox Route110_TrickHousePuzzle7_Text_AlvaroPostBattle, MSGBOX_AUTOCLOSE
 # 311 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
@@ -625,7 +625,7 @@ Route110_TrickHousePuzzle7_EventScript_Alvaro::
 # 313 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 Route110_TrickHousePuzzle7_EventScript_Everett::
 # 314 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
-	trainerbattle_single TRAINER_EVERETT, Route110_TrickHousePuzzle7_Text_EverettIntro, Route110_TrickHousePuzzle7_Text_EverettDefeat
+	trainerbattle_single TRAINER_850, Route110_TrickHousePuzzle7_Text_EverettIntro, Route110_TrickHousePuzzle7_Text_EverettDefeat
 # 315 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"
 	msgbox Route110_TrickHousePuzzle7_Text_EverettPostBattle, MSGBOX_AUTOCLOSE
 # 316 "data/maps/Route110_TrickHousePuzzle7/scripts.pory"

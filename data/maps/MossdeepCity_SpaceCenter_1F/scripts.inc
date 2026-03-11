@@ -401,7 +401,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_MagmaNote::
 # 201 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt3::
 # 202 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_SPACE_CENTER_3, MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat
+	trainerbattle_single TRAINER_586, MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt3Defeat
 # 203 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt3PostBattle, MSGBOX_AUTOCLOSE
 # 204 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
@@ -411,7 +411,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_Grunt3::
 # 206 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt1::
 # 207 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_SPACE_CENTER_1, MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat
+	trainerbattle_single TRAINER_22, MossdeepCity_SpaceCenter_1F_Text_Grunt1Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt1Defeat
 # 208 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle, MSGBOX_AUTOCLOSE
 # 209 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
@@ -421,7 +421,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_Grunt1::
 # 211 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 MossdeepCity_SpaceCenter_1F_EventScript_Grunt4::
 # 212 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_SPACE_CENTER_4, MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat
+	trainerbattle_single TRAINER_587, MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat
 # 213 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
 # 214 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
@@ -439,7 +439,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_Grunt2::
 # 220 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro, MSGBOX_DEFAULT
 # 221 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
-	trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_2, MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat
+	trainerbattle_no_intro TRAINER_116, MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat
 # 222 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"
 	setflag FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F
 # 223 "data/maps/MossdeepCity_SpaceCenter_1F/scripts.pory"

@@ -1329,3 +1329,111 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route19/scripts.inc"
 
 	.include "data/maps/MtNorfair3F/scripts.inc"
+
+	.include "data/maps/SapphireVillage_Lab/scripts.inc"
+
+	.include "data/maps/SapphireVillage_PlayerHouse2F/scripts.inc"
+
+	.include "data/maps/SapphireVillage_PlayerHouse_TwinRoom/scripts.inc"
+
+	.include "data/maps/Route_1_Gate1/scripts.inc"
+
+	.include "data/maps/Route_1_Barn/scripts.inc"
+
+	.include "data/maps/Jasper_Town_House2/scripts.inc"
+
+	.include "data/maps/SapphireVillage_PlayerHouse_MomRoom/scripts.inc"
+
+	.include "data/maps/Route_1_PalmerHouse/scripts.inc"
+
+	.include "data/maps/Jasper_Town_Pokecenter/scripts.inc"
+
+	.include "data/maps/SapphireVillage_PlayerHouse1F/scripts.inc"
+
+	.include "data/maps/SapphireVillage_PlayerHouse_AlexRoom/scripts.inc"
+
+	.include "data/maps/Jasper_Town_Pokecenter2F/scripts.inc"
+
+	.include "data/maps/IoniaCity_House1/scripts.inc"
+
+	.include "data/maps/SapphireVillage_AspenHouse/scripts.inc"
+
+	.include "data/maps/Jasper_Town_House1/scripts.inc"
+
+	.include "data/maps/Jasper_Town_Pokemart/scripts.inc"
+
+	.include "data/maps/Ionia_City_Pokemart/scripts.inc"
+
+	.include "data/maps/SapphireVillage_House2/scripts.inc"
+
+	.include "data/maps/Route_1_Gate2/scripts.inc"
+
+	.include "data/maps/IoniaCity_Pokecenter1F/scripts.inc"
+
+	.include "data/maps/SapphireVillage_PlayerHouse_Bathroom/scripts.inc"
+
+	.include "data/maps/SapphireVillage_House1/scripts.inc"
+
+	.include "data/maps/SapphireVillage_PlayerHouse_PlayerRoom/scripts.inc"
+
+	.include "data/maps/IoniaCity_PokeCenter2F/scripts.inc"
+
+	.include "data/maps/Jasper_Town_LyonsHouse/scripts.inc"
+
+	.include "data/maps/Jasper_Town_House3/scripts.inc"
+
+	.include "data/maps/IoniaCity_House3/scripts.inc"
+
+	.include "data/maps/IoniaCity_House2/scripts.inc"
+
+	.include "data/maps/IoniaCity_House4/scripts.inc"
+
+	.include "data/maps/IoniaCity_Gate1x/scripts.inc"
+
+	.include "data/maps/IoniaCity_HospitalRm5/scripts.inc"
+
+	.include "data/maps/IoniaCity_Gate2/scripts.inc"
+
+	.include "data/maps/IoniaCity_HospitalRm6/scripts.inc"
+
+	.include "data/maps/IoniaCity_Nightmare1/scripts.inc"
+
+	.include "data/maps/IoniaPowerPlant_House2/scripts.inc"
+
+	.include "data/maps/IoniaCity_Gym/scripts.inc"
+
+	.include "data/maps/IoniaCity_Hospital1F/scripts.inc"
+
+	.include "data/maps/IoniaCity_HospitalRm3/scripts.inc"
+
+	.include "data/maps/IoniaCity_HospitalRm1/scripts.inc"
+
+	.include "data/maps/IoniaCity_Nightmare2/scripts.inc"
+
+	.include "data/maps/IoniaCity_Hospital3F/scripts.inc"
+
+	.include "data/maps/IoniaPowerPlant_House1/scripts.inc"
+
+	.include "data/maps/IoniaCity_HospitalRm4/scripts.inc"
+
+	.include "data/maps/IoniaCity_Hospital2F/scripts.inc"
+
+	.include "data/maps/IoniaCity_Nightmare3/scripts.inc"
+
+	.include "data/maps/IoniaCity_Gate1/scripts.inc"
+
+	.include "data/maps/IoniaCity_HospitalRm2/scripts.inc"
+
+	.include "data/maps/IoniaPowerPlant_House3/scripts.inc"
+
+	.include "data/maps/Route4_House1/scripts.inc"
+
+	.include "data/maps/IoniaPowerPlant_BackArea1/scripts.inc"
+
+	.include "data/maps/Route3_Gate/scripts.inc"
+
+	.include "data/maps/IoniaPowerPlant_BackArea2/scripts.inc"
+
+	.include "data/maps/Route4_House2/scripts.inc"
+
+	.include "data/maps/IoniaPowerPlant_Inside/scripts.inc"

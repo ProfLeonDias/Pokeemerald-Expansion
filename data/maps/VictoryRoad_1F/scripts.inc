@@ -83,7 +83,7 @@ VictoryRoad_1F_EventScript_WallyEntranceBattle::
 # 42 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore, MSGBOX_DEFAULT
 # 43 "data/maps/VictoryRoad_1F/scripts.pory"
-	trainerbattle_no_intro TRAINER_WALLY_VR_1, VictoryRoad_1F_Text_WallyEntranceDefeat
+	trainerbattle_no_intro TRAINER_519, VictoryRoad_1F_Text_WallyEntranceDefeat
 # 44 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_WallyPostEntranceBattle, MSGBOX_DEFAULT
 # 45 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -169,7 +169,7 @@ VictoryRoad_1F_EventScript_EntranceWally::
 # 85 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_EventScript_ExitWally::
 # 86 "data/maps/VictoryRoad_1F/scripts.pory"
-	trainerbattle_single TRAINER_WALLY_VR_2, VictoryRoad_1F_Text_WallyIntro, VictoryRoad_1F_Text_WallyDefeat
+	trainerbattle_single TRAINER_657, VictoryRoad_1F_Text_WallyIntro, VictoryRoad_1F_Text_WallyDefeat
 # 87 "data/maps/VictoryRoad_1F/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 88 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -183,7 +183,7 @@ VictoryRoad_1F_EventScript_ExitWally::
 # 92 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_EventScript_RematchWally::
 # 93 "data/maps/VictoryRoad_1F/scripts.pory"
-	trainerbattle_rematch TRAINER_WALLY_VR_2, VictoryRoad_1F_Text_WallyIntro, VictoryRoad_1F_Text_WallyDefeat
+	trainerbattle_rematch TRAINER_657, VictoryRoad_1F_Text_WallyIntro, VictoryRoad_1F_Text_WallyDefeat
 # 94 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_WallyPostBattle, MSGBOX_AUTOCLOSE
 # 95 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -193,7 +193,7 @@ VictoryRoad_1F_EventScript_RematchWally::
 # 97 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_EventScript_Edgar::
 # 98 "data/maps/VictoryRoad_1F/scripts.pory"
-	trainerbattle_single TRAINER_EDGAR, VictoryRoad_1F_Text_EdgarIntro, VictoryRoad_1F_Text_EdgarDefeat
+	trainerbattle_single TRAINER_79, VictoryRoad_1F_Text_EdgarIntro, VictoryRoad_1F_Text_EdgarDefeat
 # 99 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_EdgarPostBattle, MSGBOX_AUTOCLOSE
 # 100 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -203,7 +203,7 @@ VictoryRoad_1F_EventScript_Edgar::
 # 102 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_EventScript_Albert::
 # 103 "data/maps/VictoryRoad_1F/scripts.pory"
-	trainerbattle_single TRAINER_ALBERT, VictoryRoad_1F_Text_AlbertIntro, VictoryRoad_1F_Text_AlbertDefeat
+	trainerbattle_single TRAINER_80, VictoryRoad_1F_Text_AlbertIntro, VictoryRoad_1F_Text_AlbertDefeat
 # 104 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_AlbertPostBattle, MSGBOX_AUTOCLOSE
 # 105 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -213,7 +213,7 @@ VictoryRoad_1F_EventScript_Albert::
 # 107 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_EventScript_Hope::
 # 108 "data/maps/VictoryRoad_1F/scripts.pory"
-	trainerbattle_single TRAINER_HOPE, VictoryRoad_1F_Text_HopeIntro, VictoryRoad_1F_Text_HopeDefeat
+	trainerbattle_single TRAINER_96, VictoryRoad_1F_Text_HopeIntro, VictoryRoad_1F_Text_HopeDefeat
 # 109 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_HopePostBattle, MSGBOX_AUTOCLOSE
 # 110 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -223,7 +223,7 @@ VictoryRoad_1F_EventScript_Hope::
 # 112 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_EventScript_Quincy::
 # 113 "data/maps/VictoryRoad_1F/scripts.pory"
-	trainerbattle_single TRAINER_QUINCY, VictoryRoad_1F_Text_QuincyIntro, VictoryRoad_1F_Text_QuincyDefeat
+	trainerbattle_single TRAINER_324, VictoryRoad_1F_Text_QuincyIntro, VictoryRoad_1F_Text_QuincyDefeat
 # 114 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_QuincyPostBattle, MSGBOX_AUTOCLOSE
 # 115 "data/maps/VictoryRoad_1F/scripts.pory"
@@ -233,7 +233,7 @@ VictoryRoad_1F_EventScript_Quincy::
 # 117 "data/maps/VictoryRoad_1F/scripts.pory"
 VictoryRoad_1F_EventScript_Katelynn::
 # 118 "data/maps/VictoryRoad_1F/scripts.pory"
-	trainerbattle_single TRAINER_KATELYNN, VictoryRoad_1F_Text_KatelynnIntro, VictoryRoad_1F_Text_KatelynnDefeat
+	trainerbattle_single TRAINER_325, VictoryRoad_1F_Text_KatelynnIntro, VictoryRoad_1F_Text_KatelynnDefeat
 # 119 "data/maps/VictoryRoad_1F/scripts.pory"
 	msgbox VictoryRoad_1F_Text_KatelynnPostBattle, MSGBOX_AUTOCLOSE
 # 120 "data/maps/VictoryRoad_1F/scripts.pory"

@@ -12,9 +12,199 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
-  "object_events": [],
-  "warp_events": [],
-  "coord_events": [],
-  "bg_events": []
+  "connections": [
+    {
+      "map": "MAP_SAPPHIRE_VILLAGE",
+      "offset": 0,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_043_MALE_11",
+      "x": 8,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 2,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route1N_EventScript_OldMan",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_ARNIE",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER",
+      "x": 7,
+      "y": 29,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route1N_EventScript_Arnie",
+      "flag": "FLAG_HIDE_ARNIE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
+      "x": 26,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_1N_ORAN",
+      "script": "BerryTreeScript",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
+      "x": 26,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_1N_SOIL_1",
+      "script": "BerryTreeScript",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
+      "x": 26,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_1N_PECHA",
+      "script": "BerryTreeScript",
+      "flag": "0"
+    }
+  ],
+  "warp_events": [
+    {
+      "warp_id": "WARP_ROUTE_1_PALMER_HOUSE_A",
+      "x": 7,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE_1_PALMER_HOUSE",
+      "dest_warp_id": "WARP_ROUTE_1_PALMER_HOUSE_B"
+    },
+    {
+      "warp_id": "WARP_ROUTE_1_BARN_A",
+      "x": 18,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE_1_BARN",
+      "dest_warp_id": "WARP_ROUTE_1_BARN_B"
+    },
+    {
+      "warp_id": "WARP_ROUTE_1_GATE1A",
+      "x": 20,
+      "y": 37,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE_1_GATE1",
+      "dest_warp_id": "WARP_ROUTE_1_GATE1B"
+    },
+    {
+      "warp_id": "WARP_ROUTE_1_GATE1C",
+      "x": 21,
+      "y": 37,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE_1_GATE1",
+      "dest_warp_id": "WARP_ROUTE_1_GATE1B"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 29,
+      "elevation": 3,
+      "var": "VAR_ASPEN_LAB_EVENT",
+      "var_value": "2",
+      "script": "Route1N_EventScript_ArnieEventA"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 29,
+      "elevation": 3,
+      "var": "VAR_ASPEN_LAB_EVENT",
+      "var_value": "2",
+      "script": "Route1N_EventScript_ArnieEventB"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 29,
+      "elevation": 3,
+      "var": "VAR_ASPEN_LAB_EVENT",
+      "var_value": "2",
+      "script": "Route1N_EventScript_ArnieEventC"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 29,
+      "elevation": 3,
+      "var": "VAR_ASPEN_LAB_EVENT",
+      "var_value": "2",
+      "script": "Route1N_EventScript_ArnieEventD"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 9,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Route1N_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 31,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route1N_EventScript_Sign2"
+    },
+    {
+      "type": "secret_base",
+      "x": 26,
+      "y": 5,
+      "elevation": 0,
+      "secret_base_id": "SECRET_BASE_TREE1_1"
+    },
+    {
+      "type": "secret_base",
+      "x": 27,
+      "y": 5,
+      "elevation": 0,
+      "secret_base_id": "SECRET_BASE_TREE1_1"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 9,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_HoneyTree"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 9,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_EventScript_HoneyTree"
+    }
+  ]
 }

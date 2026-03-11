@@ -113,7 +113,7 @@ MagmaHideout_4F_EventScript_Maxie::
 # 57 "data/maps/MagmaHideout_4F/scripts.pory"
 	closemessage
 # 58 "data/maps/MagmaHideout_4F/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAXIE_MAGMA_HIDEOUT, MagmaHideout_4F_Text_MaxieDefeat
+	trainerbattle_no_intro TRAINER_601, MagmaHideout_4F_Text_MaxieDefeat
 # 59 "data/maps/MagmaHideout_4F/scripts.pory"
 	msgbox MagmaHideout_4F_Text_MaxieImGoingAfterGroudon, MSGBOX_DEFAULT
 # 60 "data/maps/MagmaHideout_4F/scripts.pory"
@@ -217,7 +217,7 @@ MagmaHideout_4F_Movement_MaxieLookAround:
 # 109 "data/maps/MagmaHideout_4F/scripts.pory"
 MagmaHideout_4F_EventScript_Grunt11::
 # 110 "data/maps/MagmaHideout_4F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_11, MagmaHideout_4F_Text_Grunt11Intro, MagmaHideout_4F_Text_Grunt11Defeat
+	trainerbattle_single TRAINER_726, MagmaHideout_4F_Text_Grunt11Intro, MagmaHideout_4F_Text_Grunt11Defeat
 # 111 "data/maps/MagmaHideout_4F/scripts.pory"
 	msgbox MagmaHideout_4F_Text_Grunt11PostBattle, MSGBOX_AUTOCLOSE
 # 112 "data/maps/MagmaHideout_4F/scripts.pory"
@@ -227,7 +227,7 @@ MagmaHideout_4F_EventScript_Grunt11::
 # 114 "data/maps/MagmaHideout_4F/scripts.pory"
 MagmaHideout_4F_EventScript_Grunt12::
 # 115 "data/maps/MagmaHideout_4F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_12, MagmaHideout_4F_Text_Grunt12Intro, MagmaHideout_4F_Text_Grunt12Defeat
+	trainerbattle_single TRAINER_727, MagmaHideout_4F_Text_Grunt12Intro, MagmaHideout_4F_Text_Grunt12Defeat
 # 116 "data/maps/MagmaHideout_4F/scripts.pory"
 	msgbox MagmaHideout_4F_Text_Grunt12PostBattle, MSGBOX_AUTOCLOSE
 # 117 "data/maps/MagmaHideout_4F/scripts.pory"
@@ -237,7 +237,7 @@ MagmaHideout_4F_EventScript_Grunt12::
 # 119 "data/maps/MagmaHideout_4F/scripts.pory"
 MagmaHideout_4F_EventScript_Grunt13::
 # 120 "data/maps/MagmaHideout_4F/scripts.pory"
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_13, MagmaHideout_4F_Text_Grunt13Intro, MagmaHideout_4F_Text_Grunt13Defeat
+	trainerbattle_single TRAINER_728, MagmaHideout_4F_Text_Grunt13Intro, MagmaHideout_4F_Text_Grunt13Defeat
 # 121 "data/maps/MagmaHideout_4F/scripts.pory"
 	msgbox MagmaHideout_4F_Text_Grunt13PostBattle, MSGBOX_AUTOCLOSE
 # 122 "data/maps/MagmaHideout_4F/scripts.pory"
@@ -247,7 +247,7 @@ MagmaHideout_4F_EventScript_Grunt13::
 # 124 "data/maps/MagmaHideout_4F/scripts.pory"
 MagmaHideout_4F_EventScript_Tabitha::
 # 125 "data/maps/MagmaHideout_4F/scripts.pory"
-	trainerbattle_single TRAINER_TABITHA_MAGMA_HIDEOUT, MagmaHideout_4F_Text_TabithaIntro, MagmaHideout_4F_Text_TabithaDefeat
+	trainerbattle_single TRAINER_732, MagmaHideout_4F_Text_TabithaIntro, MagmaHideout_4F_Text_TabithaDefeat
 # 126 "data/maps/MagmaHideout_4F/scripts.pory"
 	msgbox MagmaHideout_4F_Text_TabithaPostBattle, MSGBOX_AUTOCLOSE
 # 127 "data/maps/MagmaHideout_4F/scripts.pory"

@@ -12,9 +12,133 @@
   "allow_running": true,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
-  "object_events": [],
+  "connections": [
+    {
+      "map": "MAP_SAPPHIRE_VILLAGE",
+      "offset": 0,
+      "direction": "down"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
+      "x": 9,
+      "y": 28,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_POTION",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_ROUTE_24S_POTION"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_112_FISHERMAN",
+      "x": 17,
+      "y": 12,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route24South_EventScript_Fisherman",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_043_MALE_11",
+      "x": 11,
+      "y": 31,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route24South_EventScript_OldMan",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_143_SWIMMER_F",
+      "x": 16,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WALK_RIGHT_AND_LEFT",
+      "movement_range_x": 5,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "Route24South_EventScript_TrainerSwimmer",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCALID_HIDE_1",
+      "graphics_id": "OBJ_EVENT_GFX_101_CAMPER",
+      "x": 12,
+      "y": 35,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route24South_EventScript_TrainerA",
+      "flag": "FLAG_HIDE_ROUTE_24_TRAINERS"
+    },
+    {
+      "local_id": "LOCALID_HIDE_4",
+      "graphics_id": "OBJ_EVENT_GFX_120_LASS",
+      "x": 15,
+      "y": 35,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route24South_EventScript_TrainerB",
+      "flag": "FLAG_HIDE_ROUTE_24_TRAINERS"
+    },
+    {
+      "local_id": "LOCALID_HIDE_2",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(PICHU)",
+      "x": 13,
+      "y": 35,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_JOG_IN_PLACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route24South_EventScript_Pichu",
+      "flag": "FLAG_HIDE_ROUTE_24_TRAINERS"
+    },
+    {
+      "local_id": "LOCALID_HIDE_3",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(AZURILL)",
+      "x": 14,
+      "y": 35,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_JOG_IN_PLACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route24South_EventScript_Azurill",
+      "flag": "FLAG_HIDE_ROUTE_24_TRAINERS"
+    }
+  ],
   "warp_events": [],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 30,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Route24South_EventScript_Sign"
+    }
+  ]
 }

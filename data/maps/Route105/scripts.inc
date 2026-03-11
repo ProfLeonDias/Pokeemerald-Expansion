@@ -57,7 +57,7 @@ Route105_OnFrame:
 # 29 "data/maps/Route105/scripts.pory"
 Route105_EventScript_Foster::
 # 30 "data/maps/Route105/scripts.pory"
-	trainerbattle_single TRAINER_FOSTER, Route105_Text_FosterIntro, Route105_Text_FosterDefeated
+	trainerbattle_single TRAINER_46, Route105_Text_FosterIntro, Route105_Text_FosterDefeated
 # 31 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_FosterPostBattle, MSGBOX_AUTOCLOSE
 # 32 "data/maps/Route105/scripts.pory"
@@ -67,7 +67,7 @@ Route105_EventScript_Foster::
 # 34 "data/maps/Route105/scripts.pory"
 Route105_EventScript_Luis::
 # 35 "data/maps/Route105/scripts.pory"
-	trainerbattle_single TRAINER_LUIS, Route105_Text_LuisIntro, Route105_Text_LuisDefeated
+	trainerbattle_single TRAINER_151, Route105_Text_LuisIntro, Route105_Text_LuisDefeated
 # 36 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_LuisPostBattle, MSGBOX_AUTOCLOSE
 # 37 "data/maps/Route105/scripts.pory"
@@ -77,7 +77,7 @@ Route105_EventScript_Luis::
 # 39 "data/maps/Route105/scripts.pory"
 Route105_EventScript_Dominik::
 # 40 "data/maps/Route105/scripts.pory"
-	trainerbattle_single TRAINER_DOMINIK, Route105_Text_DominikIntro, Route105_Text_DominikDefeated
+	trainerbattle_single TRAINER_152, Route105_Text_DominikIntro, Route105_Text_DominikDefeated
 # 41 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_DominikPostBattle, MSGBOX_AUTOCLOSE
 # 42 "data/maps/Route105/scripts.pory"
@@ -87,7 +87,7 @@ Route105_EventScript_Dominik::
 # 44 "data/maps/Route105/scripts.pory"
 Route105_EventScript_Beverly::
 # 45 "data/maps/Route105/scripts.pory"
-	trainerbattle_single TRAINER_BEVERLY, Route105_Text_BeverlyIntro, Route105_Text_BeverlyDefeated
+	trainerbattle_single TRAINER_441, Route105_Text_BeverlyIntro, Route105_Text_BeverlyDefeated
 # 46 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_PostBattle, MSGBOX_AUTOCLOSE
 # 47 "data/maps/Route105/scripts.pory"
@@ -97,7 +97,7 @@ Route105_EventScript_Beverly::
 # 49 "data/maps/Route105/scripts.pory"
 Route105_EventScript_Imani::
 # 50 "data/maps/Route105/scripts.pory"
-	trainerbattle_single TRAINER_IMANI, Route105_Text_ImaniIntro, Route105_Text_ImaniDefeated
+	trainerbattle_single TRAINER_442, Route105_Text_ImaniIntro, Route105_Text_ImaniDefeated
 # 51 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_ImaniPostBattle, MSGBOX_AUTOCLOSE
 # 52 "data/maps/Route105/scripts.pory"
@@ -107,7 +107,7 @@ Route105_EventScript_Imani::
 # 54 "data/maps/Route105/scripts.pory"
 Route105_EventScript_Josue::
 # 55 "data/maps/Route105/scripts.pory"
-	trainerbattle_single TRAINER_JOSUE, Route105_Text_JosueIntro, Route105_Text_JosueDefeated
+	trainerbattle_single TRAINER_738, Route105_Text_JosueIntro, Route105_Text_JosueDefeated
 # 56 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_JosuePostBattle, MSGBOX_AUTOCLOSE
 # 57 "data/maps/Route105/scripts.pory"
@@ -117,7 +117,7 @@ Route105_EventScript_Josue::
 # 59 "data/maps/Route105/scripts.pory"
 Route105_EventScript_Andres::
 # 60 "data/maps/Route105/scripts.pory"
-	trainerbattle_single TRAINER_ANDRES_1, Route105_Text_AndresIntro, Route105_Text_AndresDefeated, Route105_EventScript_AndresRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_737, Route105_Text_AndresIntro, Route105_Text_AndresDefeated, Route105_EventScript_AndresRegisterMatchCallAfterBattle
 # 61 "data/maps/Route105/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 62 "data/maps/Route105/scripts.pory"
@@ -139,7 +139,7 @@ Route105_EventScript_AndresRegisterMatchCallAfterBattle::
 # 70 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_AndresRegister, MSGBOX_DEFAULT
 # 71 "data/maps/Route105/scripts.pory"
-	register_matchcall TRAINER_ANDRES_1
+	register_matchcall TRAINER_737
 # 72 "data/maps/Route105/scripts.pory"
 	release
 # 73 "data/maps/Route105/scripts.pory"
@@ -149,7 +149,7 @@ Route105_EventScript_AndresRegisterMatchCallAfterBattle::
 # 75 "data/maps/Route105/scripts.pory"
 Route105_EventScript_AndresRematch::
 # 76 "data/maps/Route105/scripts.pory"
-	trainerbattle_rematch TRAINER_ANDRES_1, Route105_Text_AndresRematchIntro, Route105_Text_AndresRematchDefeated
+	trainerbattle_rematch TRAINER_737, Route105_Text_AndresRematchIntro, Route105_Text_AndresRematchDefeated
 # 77 "data/maps/Route105/scripts.pory"
 	msgbox Route105_Text_AndresRematchPostBattle, MSGBOX_AUTOCLOSE
 # 78 "data/maps/Route105/scripts.pory"

@@ -157,7 +157,7 @@ Route119_EventScript_BattleMay::
 # 79 "data/maps/Route119/scripts.pory"
 Route119_EventScript_BattleMayTreecko::
 # 80 "data/maps/Route119/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_119_TREECKO, Route119_Text_MayDefeat
+	trainerbattle_no_intro TRAINER_534, Route119_Text_MayDefeat
 # 81 "data/maps/Route119/scripts.pory"
 	goto Route119_EventScript_DefeatedMay
 # 82 "data/maps/Route119/scripts.pory"
@@ -167,7 +167,7 @@ Route119_EventScript_BattleMayTreecko::
 # 84 "data/maps/Route119/scripts.pory"
 Route119_EventScript_BattleMayTorchic::
 # 85 "data/maps/Route119/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_119_TORCHIC, Route119_Text_MayDefeat
+	trainerbattle_no_intro TRAINER_537, Route119_Text_MayDefeat
 # 86 "data/maps/Route119/scripts.pory"
 	goto Route119_EventScript_DefeatedMay
 # 87 "data/maps/Route119/scripts.pory"
@@ -177,7 +177,7 @@ Route119_EventScript_BattleMayTorchic::
 # 89 "data/maps/Route119/scripts.pory"
 Route119_EventScript_BattleMayMudkip::
 # 90 "data/maps/Route119/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_119_MUDKIP, Route119_Text_MayDefeat
+	trainerbattle_no_intro TRAINER_531, Route119_Text_MayDefeat
 # 91 "data/maps/Route119/scripts.pory"
 	goto Route119_EventScript_DefeatedMay
 # 92 "data/maps/Route119/scripts.pory"
@@ -217,7 +217,7 @@ Route119_EventScript_BattleBrendan::
 # 109 "data/maps/Route119/scripts.pory"
 Route119_EventScript_BattleBrendanTreecko::
 # 110 "data/maps/Route119/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_119_TREECKO, Route119_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_525, Route119_Text_BrendanDefeat
 # 111 "data/maps/Route119/scripts.pory"
 	goto Route119_EventScript_DefeatedBrendan
 # 112 "data/maps/Route119/scripts.pory"
@@ -227,7 +227,7 @@ Route119_EventScript_BattleBrendanTreecko::
 # 114 "data/maps/Route119/scripts.pory"
 Route119_EventScript_BattleBrendanTorchic::
 # 115 "data/maps/Route119/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_119_TORCHIC, Route119_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_526, Route119_Text_BrendanDefeat
 # 116 "data/maps/Route119/scripts.pory"
 	goto Route119_EventScript_DefeatedBrendan
 # 117 "data/maps/Route119/scripts.pory"
@@ -237,7 +237,7 @@ Route119_EventScript_BattleBrendanTorchic::
 # 119 "data/maps/Route119/scripts.pory"
 Route119_EventScript_BattleBrendanMudkip::
 # 120 "data/maps/Route119/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_119_MUDKIP, Route119_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_522, Route119_Text_BrendanDefeat
 # 121 "data/maps/Route119/scripts.pory"
 	goto Route119_EventScript_DefeatedBrendan
 # 122 "data/maps/Route119/scripts.pory"
@@ -641,7 +641,7 @@ Route119_EventScript_WeatherInstituteSign::
 # 321 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Brent::
 # 322 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_BRENT, Route119_Text_BrentIntro, Route119_Text_BrentDefeat
+	trainerbattle_single TRAINER_223, Route119_Text_BrentIntro, Route119_Text_BrentDefeat
 # 323 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_BrentPostBattle, MSGBOX_AUTOCLOSE
 # 324 "data/maps/Route119/scripts.pory"
@@ -651,7 +651,7 @@ Route119_EventScript_Brent::
 # 326 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Donald::
 # 327 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_DONALD, Route119_Text_DonaldIntro, Route119_Text_DonaldDefeat
+	trainerbattle_single TRAINER_224, Route119_Text_DonaldIntro, Route119_Text_DonaldDefeat
 # 328 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_DonaldPostBattle, MSGBOX_AUTOCLOSE
 # 329 "data/maps/Route119/scripts.pory"
@@ -661,7 +661,7 @@ Route119_EventScript_Donald::
 # 331 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Taylor::
 # 332 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_TAYLOR, Route119_Text_TaylorIntro, Route119_Text_TaylorDefeat
+	trainerbattle_single TRAINER_225, Route119_Text_TaylorIntro, Route119_Text_TaylorDefeat
 # 333 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_TaylorPostBattle, MSGBOX_AUTOCLOSE
 # 334 "data/maps/Route119/scripts.pory"
@@ -671,7 +671,7 @@ Route119_EventScript_Taylor::
 # 336 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Doug::
 # 337 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_DOUG, Route119_Text_DougIntro, Route119_Text_DougDefeat
+	trainerbattle_single TRAINER_618, Route119_Text_DougIntro, Route119_Text_DougDefeat
 # 338 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_DougPostBattle, MSGBOX_AUTOCLOSE
 # 339 "data/maps/Route119/scripts.pory"
@@ -681,7 +681,7 @@ Route119_EventScript_Doug::
 # 341 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Greg::
 # 342 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_GREG, Route119_Text_GregIntro, Route119_Text_GregDefeat
+	trainerbattle_single TRAINER_619, Route119_Text_GregIntro, Route119_Text_GregDefeat
 # 343 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_GregPostBattle, MSGBOX_AUTOCLOSE
 # 344 "data/maps/Route119/scripts.pory"
@@ -691,7 +691,7 @@ Route119_EventScript_Greg::
 # 346 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Kent::
 # 347 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_KENT, Route119_Text_KentIntro, Route119_Text_KentDefeat
+	trainerbattle_single TRAINER_620, Route119_Text_KentIntro, Route119_Text_KentDefeat
 # 348 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_KentPostBattle, MSGBOX_AUTOCLOSE
 # 349 "data/maps/Route119/scripts.pory"
@@ -701,7 +701,7 @@ Route119_EventScript_Kent::
 # 351 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Jackson::
 # 352 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_JACKSON_1, Route119_Text_JacksonIntro, Route119_Text_JacksonDefeat, Route119_EventScript_RegisterJackson
+	trainerbattle_single TRAINER_552, Route119_Text_JacksonIntro, Route119_Text_JacksonDefeat, Route119_EventScript_RegisterJackson
 # 353 "data/maps/Route119/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 354 "data/maps/Route119/scripts.pory"
@@ -723,7 +723,7 @@ Route119_EventScript_RegisterJackson::
 # 362 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_JacksonRegister, MSGBOX_DEFAULT
 # 363 "data/maps/Route119/scripts.pory"
-	register_matchcall TRAINER_JACKSON_1
+	register_matchcall TRAINER_552
 # 364 "data/maps/Route119/scripts.pory"
 	release
 # 365 "data/maps/Route119/scripts.pory"
@@ -733,7 +733,7 @@ Route119_EventScript_RegisterJackson::
 # 367 "data/maps/Route119/scripts.pory"
 Route119_EventScript_RematchJackson::
 # 368 "data/maps/Route119/scripts.pory"
-	trainerbattle_rematch TRAINER_JACKSON_1, Route119_Text_JacksonRematchIntro, Route119_Text_JacksonRematchDefeat
+	trainerbattle_rematch TRAINER_552, Route119_Text_JacksonRematchIntro, Route119_Text_JacksonRematchDefeat
 # 369 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_JacksonPostRematch, MSGBOX_AUTOCLOSE
 # 370 "data/maps/Route119/scripts.pory"
@@ -743,7 +743,7 @@ Route119_EventScript_RematchJackson::
 # 372 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Catherine::
 # 373 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_CATHERINE_1, Route119_Text_CatherineIntro, Route119_Text_CatherineDefeat, Route119_EventScript_RegisterCatherine
+	trainerbattle_single TRAINER_559, Route119_Text_CatherineIntro, Route119_Text_CatherineDefeat, Route119_EventScript_RegisterCatherine
 # 374 "data/maps/Route119/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 375 "data/maps/Route119/scripts.pory"
@@ -765,7 +765,7 @@ Route119_EventScript_RegisterCatherine::
 # 383 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_CatherineRegister, MSGBOX_DEFAULT
 # 384 "data/maps/Route119/scripts.pory"
-	register_matchcall TRAINER_CATHERINE_1
+	register_matchcall TRAINER_559
 # 385 "data/maps/Route119/scripts.pory"
 	release
 # 386 "data/maps/Route119/scripts.pory"
@@ -775,7 +775,7 @@ Route119_EventScript_RegisterCatherine::
 # 388 "data/maps/Route119/scripts.pory"
 Route119_EventScript_RematchCatherine::
 # 389 "data/maps/Route119/scripts.pory"
-	trainerbattle_rematch TRAINER_CATHERINE_1, Route119_Text_CatherineRematchIntro, Route119_Text_CatherineRematchDefeat
+	trainerbattle_rematch TRAINER_559, Route119_Text_CatherineRematchIntro, Route119_Text_CatherineRematchDefeat
 # 390 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_CatherinePostRematch, MSGBOX_AUTOCLOSE
 # 391 "data/maps/Route119/scripts.pory"
@@ -785,7 +785,7 @@ Route119_EventScript_RematchCatherine::
 # 393 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Hugh::
 # 394 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_HUGH, Route119_Text_HughIntro, Route119_Text_HughDefeat
+	trainerbattle_single TRAINER_399, Route119_Text_HughIntro, Route119_Text_HughDefeat
 # 395 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_HughPostBattle, MSGBOX_AUTOCLOSE
 # 396 "data/maps/Route119/scripts.pory"
@@ -795,7 +795,7 @@ Route119_EventScript_Hugh::
 # 398 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Phil::
 # 399 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_PHIL, Route119_Text_PhilIntro, Route119_Text_PhilDefeat
+	trainerbattle_single TRAINER_400, Route119_Text_PhilIntro, Route119_Text_PhilDefeat
 # 400 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_PhilPostBattle, MSGBOX_AUTOCLOSE
 # 401 "data/maps/Route119/scripts.pory"
@@ -805,7 +805,7 @@ Route119_EventScript_Phil::
 # 403 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Yasu::
 # 404 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_YASU, Route119_Text_YasuIntro, Route119_Text_YasuDefeat
+	trainerbattle_single TRAINER_415, Route119_Text_YasuIntro, Route119_Text_YasuDefeat
 # 405 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_YasuPostBattle, MSGBOX_AUTOCLOSE
 # 406 "data/maps/Route119/scripts.pory"
@@ -815,7 +815,7 @@ Route119_EventScript_Yasu::
 # 408 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Takashi::
 # 409 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_TAKASHI, Route119_Text_TakashiIntro, Route119_Text_TakashiDefeat
+	trainerbattle_single TRAINER_416, Route119_Text_TakashiIntro, Route119_Text_TakashiDefeat
 # 410 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_TakashiPostBattle, MSGBOX_AUTOCLOSE
 # 411 "data/maps/Route119/scripts.pory"
@@ -825,7 +825,7 @@ Route119_EventScript_Takashi::
 # 413 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Hideo::
 # 414 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_HIDEO, Route119_Text_HideoIntro, Route119_Text_HideoDefeat
+	trainerbattle_single TRAINER_651, Route119_Text_HideoIntro, Route119_Text_HideoDefeat
 # 415 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_HideoPostBattle, MSGBOX_AUTOCLOSE
 # 416 "data/maps/Route119/scripts.pory"
@@ -835,7 +835,7 @@ Route119_EventScript_Hideo::
 # 418 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Chris::
 # 419 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_CHRIS, Route119_Text_ChrisIntro, Route119_Text_ChrisDefeat
+	trainerbattle_single TRAINER_693, Route119_Text_ChrisIntro, Route119_Text_ChrisDefeat
 # 420 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_ChrisPostBattle, MSGBOX_AUTOCLOSE
 # 421 "data/maps/Route119/scripts.pory"
@@ -845,7 +845,7 @@ Route119_EventScript_Chris::
 # 423 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Fabian::
 # 424 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_FABIAN, Route119_Text_FabianIntro, Route119_Text_FabianDefeat
+	trainerbattle_single TRAINER_759, Route119_Text_FabianIntro, Route119_Text_FabianDefeat
 # 425 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_FabianPostBattle, MSGBOX_AUTOCLOSE
 # 426 "data/maps/Route119/scripts.pory"
@@ -855,7 +855,7 @@ Route119_EventScript_Fabian::
 # 428 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Dayton::
 # 429 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_DAYTON, Route119_Text_DaytonIntro, Route119_Text_DaytonDefeat
+	trainerbattle_single TRAINER_760, Route119_Text_DaytonIntro, Route119_Text_DaytonDefeat
 # 430 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_DaytonPostBattle, MSGBOX_AUTOCLOSE
 # 431 "data/maps/Route119/scripts.pory"
@@ -865,7 +865,7 @@ Route119_EventScript_Dayton::
 # 433 "data/maps/Route119/scripts.pory"
 Route119_EventScript_Rachel::
 # 434 "data/maps/Route119/scripts.pory"
-	trainerbattle_single TRAINER_RACHEL, Route119_Text_RachelIntro, Route119_Text_RachelDefeat
+	trainerbattle_single TRAINER_761, Route119_Text_RachelIntro, Route119_Text_RachelDefeat
 # 435 "data/maps/Route119/scripts.pory"
 	msgbox Route119_Text_RachelPostBattle, MSGBOX_AUTOCLOSE
 # 436 "data/maps/Route119/scripts.pory"

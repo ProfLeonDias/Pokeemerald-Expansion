@@ -113,7 +113,7 @@ Route104_EventScript_RivalTrigger::
 # 57 "data/maps/Route104/scripts.pory"
 	addobject LOCALID_ROUTE104_RIVAL
 # 58 "data/maps/Route104/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE_104_RIVAL
+	clearflag FLAG_HIDE_ROUTE_24_TRAINERS
 # 59 "data/maps/Route104/scripts.pory"
 	applymovement LOCALID_PLAYER, Route104_Movement_PlayerBackUp
 # 60 "data/maps/Route104/scripts.pory"
@@ -323,7 +323,7 @@ Route104_EventScript_RestoreMusic::
 # 162 "data/maps/Route104/scripts.pory"
 Route104_EventScript_BattleMayTreecko::
 # 163 "data/maps/Route104/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TREECKO, Route104_Text_MayDefeat
+	trainerbattle_no_intro TRAINER_768, Route104_Text_MayDefeat
 # 164 "data/maps/Route104/scripts.pory"
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 # 165 "data/maps/Route104/scripts.pory"
@@ -335,7 +335,7 @@ Route104_EventScript_BattleMayTreecko::
 # 168 "data/maps/Route104/scripts.pory"
 Route104_EventScript_BattleMayTorchic::
 # 169 "data/maps/Route104/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TORCHIC, Route104_Text_MayDefeat
+	trainerbattle_no_intro TRAINER_769, Route104_Text_MayDefeat
 # 170 "data/maps/Route104/scripts.pory"
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 # 171 "data/maps/Route104/scripts.pory"
@@ -347,7 +347,7 @@ Route104_EventScript_BattleMayTorchic::
 # 174 "data/maps/Route104/scripts.pory"
 Route104_EventScript_BattleMayMudkip::
 # 175 "data/maps/Route104/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_MUDKIP, Route104_Text_MayDefeat
+	trainerbattle_no_intro TRAINER_600, Route104_Text_MayDefeat
 # 176 "data/maps/Route104/scripts.pory"
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 # 177 "data/maps/Route104/scripts.pory"
@@ -457,7 +457,7 @@ Route104_EventScript_BrendanDefeated::
 # 229 "data/maps/Route104/scripts.pory"
 Route104_EventScript_BattleBrendanTreecko::
 # 230 "data/maps/Route104/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TREECKO, Route104_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_592, Route104_Text_BrendanDefeat
 # 231 "data/maps/Route104/scripts.pory"
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 # 232 "data/maps/Route104/scripts.pory"
@@ -469,7 +469,7 @@ Route104_EventScript_BattleBrendanTreecko::
 # 235 "data/maps/Route104/scripts.pory"
 Route104_EventScript_BattleBrendanTorchic::
 # 236 "data/maps/Route104/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TORCHIC, Route104_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_599, Route104_Text_BrendanDefeat
 # 237 "data/maps/Route104/scripts.pory"
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 # 238 "data/maps/Route104/scripts.pory"
@@ -481,7 +481,7 @@ Route104_EventScript_BattleBrendanTorchic::
 # 241 "data/maps/Route104/scripts.pory"
 Route104_EventScript_BattleBrendanMudkip::
 # 242 "data/maps/Route104/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_MUDKIP, Route104_Text_BrendanDefeat
+	trainerbattle_no_intro TRAINER_593, Route104_Text_BrendanDefeat
 # 243 "data/maps/Route104/scripts.pory"
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
 # 244 "data/maps/Route104/scripts.pory"
@@ -1691,7 +1691,7 @@ Route104_Movement_BrineyExitBoat:
 # 846 "data/maps/Route104/scripts.pory"
 Route104_EventScript_Ivan::
 # 847 "data/maps/Route104/scripts.pory"
-	trainerbattle_single TRAINER_IVAN, Route104_Text_IvanIntro, Route104_Text_IvanDefeat
+	trainerbattle_single TRAINER_337, Route104_Text_IvanIntro, Route104_Text_IvanDefeat
 # 848 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_IvanPostBattle, MSGBOX_AUTOCLOSE
 # 849 "data/maps/Route104/scripts.pory"
@@ -1701,7 +1701,7 @@ Route104_EventScript_Ivan::
 # 851 "data/maps/Route104/scripts.pory"
 Route104_EventScript_Billy::
 # 852 "data/maps/Route104/scripts.pory"
-	trainerbattle_single TRAINER_BILLY, Route104_Text_BillyIntro, Route104_Text_BillyDefeat
+	trainerbattle_single TRAINER_319, Route104_Text_BillyIntro, Route104_Text_BillyDefeat
 # 853 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_BillyPostBattle, MSGBOX_AUTOCLOSE
 # 854 "data/maps/Route104/scripts.pory"
@@ -1711,13 +1711,13 @@ Route104_EventScript_Billy::
 # 856 "data/maps/Route104/scripts.pory"
 Route104_EventScript_Haley::
 # 857 "data/maps/Route104/scripts.pory"
-	trainerbattle_single TRAINER_HALEY_1, Route104_Text_HaleyIntro, Route104_Text_HaleyDefeat, Route104_EventScript_TryRegisterHaleyAfterBattle
+	trainerbattle_single TRAINER_604, Route104_Text_HaleyIntro, Route104_Text_HaleyDefeat, Route104_EventScript_TryRegisterHaleyAfterBattle
 # 858 "data/maps/Route104/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 859 "data/maps/Route104/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, Route104_EventScript_RematchHaley
 # 860 "data/maps/Route104/scripts.pory"
-	setvar VAR_0x8004, TRAINER_HALEY_1
+	setvar VAR_0x8004, TRAINER_604
 # 861 "data/maps/Route104/scripts.pory"
 	specialvar VAR_RESULT, IsTrainerRegistered
 # 862 "data/maps/Route104/scripts.pory"
@@ -1749,7 +1749,7 @@ Route104_EventScript_RegisterHaleyAfterBattle::
 # 875 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_HaleyRegister2, MSGBOX_DEFAULT
 # 876 "data/maps/Route104/scripts.pory"
-	register_matchcall TRAINER_HALEY_1
+	register_matchcall TRAINER_604
 # 877 "data/maps/Route104/scripts.pory"
 	release
 # 878 "data/maps/Route104/scripts.pory"
@@ -1773,7 +1773,7 @@ Route104_EventScript_RegisterHaley::
 # 887 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_HaleyRegister1, MSGBOX_DEFAULT
 # 888 "data/maps/Route104/scripts.pory"
-	register_matchcall TRAINER_HALEY_1
+	register_matchcall TRAINER_604
 # 889 "data/maps/Route104/scripts.pory"
 	release
 # 890 "data/maps/Route104/scripts.pory"
@@ -1783,7 +1783,7 @@ Route104_EventScript_RegisterHaley::
 # 892 "data/maps/Route104/scripts.pory"
 Route104_EventScript_RematchHaley::
 # 893 "data/maps/Route104/scripts.pory"
-	trainerbattle_rematch TRAINER_HALEY_1, Route104_Text_HaleyRematchIntro, Route104_Text_HaleyRematchDefeat
+	trainerbattle_rematch TRAINER_604, Route104_Text_HaleyRematchIntro, Route104_Text_HaleyRematchDefeat
 # 894 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_HaleyPostRematch, MSGBOX_AUTOCLOSE
 # 895 "data/maps/Route104/scripts.pory"
@@ -1793,13 +1793,13 @@ Route104_EventScript_RematchHaley::
 # 897 "data/maps/Route104/scripts.pory"
 Route104_EventScript_Winston::
 # 898 "data/maps/Route104/scripts.pory"
-	trainerbattle_single TRAINER_WINSTON_1, Route104_Text_WinstonIntro, Route104_Text_WinstonDefeat, Route104_EventScript_TryRegisterWinstonAfterBattle
+	trainerbattle_single TRAINER_136, Route104_Text_WinstonIntro, Route104_Text_WinstonDefeat, Route104_EventScript_TryRegisterWinstonAfterBattle
 # 899 "data/maps/Route104/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 900 "data/maps/Route104/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, Route104_EventScript_RematchWinston
 # 901 "data/maps/Route104/scripts.pory"
-	setvar VAR_0x8004, TRAINER_WINSTON_1
+	setvar VAR_0x8004, TRAINER_136
 # 902 "data/maps/Route104/scripts.pory"
 	specialvar VAR_RESULT, IsTrainerRegistered
 # 903 "data/maps/Route104/scripts.pory"
@@ -1831,7 +1831,7 @@ Route104_EventScript_RegisterWinstonAfterBattle::
 # 916 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_WinstonRegister2, MSGBOX_DEFAULT
 # 917 "data/maps/Route104/scripts.pory"
-	register_matchcall TRAINER_WINSTON_1
+	register_matchcall TRAINER_136
 # 918 "data/maps/Route104/scripts.pory"
 	release
 # 919 "data/maps/Route104/scripts.pory"
@@ -1855,7 +1855,7 @@ Route104_EventScript_RegisterWinston::
 # 928 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_WinstonRegister1, MSGBOX_DEFAULT
 # 929 "data/maps/Route104/scripts.pory"
-	register_matchcall TRAINER_WINSTON_1
+	register_matchcall TRAINER_136
 # 930 "data/maps/Route104/scripts.pory"
 	release
 # 931 "data/maps/Route104/scripts.pory"
@@ -1865,7 +1865,7 @@ Route104_EventScript_RegisterWinston::
 # 933 "data/maps/Route104/scripts.pory"
 Route104_EventScript_RematchWinston::
 # 934 "data/maps/Route104/scripts.pory"
-	trainerbattle_rematch TRAINER_WINSTON_1, Route104_Text_WinstonRematchIntro, Route104_Text_WinstonRematchDefeat
+	trainerbattle_rematch TRAINER_136, Route104_Text_WinstonRematchIntro, Route104_Text_WinstonRematchDefeat
 # 935 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_WinstonPostRematch, MSGBOX_AUTOCLOSE
 # 936 "data/maps/Route104/scripts.pory"
@@ -1875,13 +1875,13 @@ Route104_EventScript_RematchWinston::
 # 938 "data/maps/Route104/scripts.pory"
 Route104_EventScript_Cindy::
 # 939 "data/maps/Route104/scripts.pory"
-	trainerbattle_single TRAINER_CINDY_1, Route104_Text_CindyIntro, Route104_Text_CindyDefeat, Route104_EventScript_TryRegisterCindyAfterBattle
+	trainerbattle_single TRAINER_114, Route104_Text_CindyIntro, Route104_Text_CindyDefeat, Route104_EventScript_TryRegisterCindyAfterBattle
 # 940 "data/maps/Route104/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 941 "data/maps/Route104/scripts.pory"
 	goto_if_eq VAR_RESULT, TRUE, Route104_EventScript_RematchCindy
 # 942 "data/maps/Route104/scripts.pory"
-	setvar VAR_0x8004, TRAINER_CINDY_1
+	setvar VAR_0x8004, TRAINER_114
 # 943 "data/maps/Route104/scripts.pory"
 	specialvar VAR_RESULT, IsTrainerRegistered
 # 944 "data/maps/Route104/scripts.pory"
@@ -1913,7 +1913,7 @@ Route104_EventScript_RegisterCindyAfterBattle::
 # 957 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_CindyRegister2, MSGBOX_DEFAULT
 # 958 "data/maps/Route104/scripts.pory"
-	register_matchcall TRAINER_CINDY_1
+	register_matchcall TRAINER_114
 # 959 "data/maps/Route104/scripts.pory"
 	release
 # 960 "data/maps/Route104/scripts.pory"
@@ -1937,7 +1937,7 @@ Route104_EventScript_RegisterCindy::
 # 969 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_CindyRegister1, MSGBOX_DEFAULT
 # 970 "data/maps/Route104/scripts.pory"
-	register_matchcall TRAINER_CINDY_1
+	register_matchcall TRAINER_114
 # 971 "data/maps/Route104/scripts.pory"
 	release
 # 972 "data/maps/Route104/scripts.pory"
@@ -1947,7 +1947,7 @@ Route104_EventScript_RegisterCindy::
 # 974 "data/maps/Route104/scripts.pory"
 Route104_EventScript_RematchCindy::
 # 975 "data/maps/Route104/scripts.pory"
-	trainerbattle_rematch TRAINER_CINDY_1, Route104_Text_CindyRematchIntro, Route104_Text_CindyRematchDefeat
+	trainerbattle_rematch TRAINER_114, Route104_Text_CindyRematchIntro, Route104_Text_CindyRematchDefeat
 # 976 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_CindyPostRematch, MSGBOX_AUTOCLOSE
 # 977 "data/maps/Route104/scripts.pory"
@@ -1957,7 +1957,7 @@ Route104_EventScript_RematchCindy::
 # 979 "data/maps/Route104/scripts.pory"
 Route104_EventScript_Gina::
 # 980 "data/maps/Route104/scripts.pory"
-	trainerbattle_double TRAINER_GINA_AND_MIA_1, Route104_Text_GinaIntro, Route104_Text_GinaDefeat, Route104_Text_GinaNotEnoughMons
+	trainerbattle_double TRAINER_483, Route104_Text_GinaIntro, Route104_Text_GinaDefeat, Route104_Text_GinaNotEnoughMons
 # 981 "data/maps/Route104/scripts.pory"
 	special GetPlayerBigGuyGirlString
 # 982 "data/maps/Route104/scripts.pory"
@@ -1971,7 +1971,7 @@ Route104_EventScript_Gina::
 # 986 "data/maps/Route104/scripts.pory"
 Route104_EventScript_Mia::
 # 987 "data/maps/Route104/scripts.pory"
-	trainerbattle_double TRAINER_GINA_AND_MIA_1, Route104_Text_MiaIntro, Route104_Text_MiaDefeat, Route104_Text_MiaNotEnoughMons
+	trainerbattle_double TRAINER_483, Route104_Text_MiaIntro, Route104_Text_MiaDefeat, Route104_Text_MiaNotEnoughMons
 # 988 "data/maps/Route104/scripts.pory"
 	special GetPlayerBigGuyGirlString
 # 989 "data/maps/Route104/scripts.pory"
@@ -1985,7 +1985,7 @@ Route104_EventScript_Mia::
 # 993 "data/maps/Route104/scripts.pory"
 Route104_EventScript_Darian::
 # 994 "data/maps/Route104/scripts.pory"
-	trainerbattle_single TRAINER_DARIAN, Route104_Text_DarianIntro, Route104_Text_DarianDefeat
+	trainerbattle_single TRAINER_696, Route104_Text_DarianIntro, Route104_Text_DarianDefeat
 # 995 "data/maps/Route104/scripts.pory"
 	msgbox Route104_Text_DarianPostBattle, MSGBOX_AUTOCLOSE
 # 996 "data/maps/Route104/scripts.pory"

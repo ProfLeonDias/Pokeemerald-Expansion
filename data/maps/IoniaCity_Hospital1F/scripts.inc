@@ -1,0 +1,3 @@
+IoniaCity_Hospital1F_MapScripts::
+	.byte 0
+

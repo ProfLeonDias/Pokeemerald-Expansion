@@ -327,7 +327,7 @@ Route110_EventScript_PlayerRidingAcroBike::
 # 164 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Edward::
 # 165 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_EDWARD, Route110_Text_EdwardIntro, Route110_Text_EdwardDefeated
+	trainerbattle_single TRAINER_232, Route110_Text_EdwardIntro, Route110_Text_EdwardDefeated
 # 166 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_EdwardPostBattle, MSGBOX_AUTOCLOSE
 # 167 "data/maps/Route110/scripts.pory"
@@ -337,7 +337,7 @@ Route110_EventScript_Edward::
 # 169 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Jaclyn::
 # 170 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_JACLYN, Route110_Text_JaclynIntro, Route110_Text_JaclynDefeated
+	trainerbattle_single TRAINER_243, Route110_Text_JaclynIntro, Route110_Text_JaclynDefeated
 # 171 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_JaclynPostBattle, MSGBOX_AUTOCLOSE
 # 172 "data/maps/Route110/scripts.pory"
@@ -347,7 +347,7 @@ Route110_EventScript_Jaclyn::
 # 174 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Edwin::
 # 175 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_EDWIN_1, Route110_Text_EdwinIntro, Route110_Text_EdwinDefeated, Route110_EventScript_EdwinRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_512, Route110_Text_EdwinIntro, Route110_Text_EdwinDefeated, Route110_EventScript_EdwinRegisterMatchCallAfterBattle
 # 176 "data/maps/Route110/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 177 "data/maps/Route110/scripts.pory"
@@ -369,7 +369,7 @@ Route110_EventScript_EdwinRegisterMatchCallAfterBattle::
 # 185 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_EdwinRegister, MSGBOX_DEFAULT
 # 186 "data/maps/Route110/scripts.pory"
-	register_matchcall TRAINER_EDWIN_1
+	register_matchcall TRAINER_512
 # 187 "data/maps/Route110/scripts.pory"
 	release
 # 188 "data/maps/Route110/scripts.pory"
@@ -379,7 +379,7 @@ Route110_EventScript_EdwinRegisterMatchCallAfterBattle::
 # 190 "data/maps/Route110/scripts.pory"
 Route110_EventScript_EdwinRematch::
 # 191 "data/maps/Route110/scripts.pory"
-	trainerbattle_rematch TRAINER_EDWIN_1, Route110_Text_EdwinRematchIntro, Route110_Text_EdwinRematchDefeated
+	trainerbattle_rematch TRAINER_512, Route110_Text_EdwinRematchIntro, Route110_Text_EdwinRematchDefeated
 # 192 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_EdwinRematchPostBattle, MSGBOX_AUTOCLOSE
 # 193 "data/maps/Route110/scripts.pory"
@@ -389,7 +389,7 @@ Route110_EventScript_EdwinRematch::
 # 195 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Dale::
 # 196 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_DALE, Route110_Text_DaleIntro, Route110_Text_DaleDefeated
+	trainerbattle_single TRAINER_341, Route110_Text_DaleIntro, Route110_Text_DaleDefeated
 # 197 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_DalePostBattle, MSGBOX_AUTOCLOSE
 # 198 "data/maps/Route110/scripts.pory"
@@ -399,7 +399,7 @@ Route110_EventScript_Dale::
 # 200 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Jacob::
 # 201 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_JACOB, Route110_Text_JacobIntro, Route110_Text_JacobDefeated
+	trainerbattle_single TRAINER_351, Route110_Text_JacobIntro, Route110_Text_JacobDefeated
 # 202 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_JacobPostBattle, MSGBOX_AUTOCLOSE
 # 203 "data/maps/Route110/scripts.pory"
@@ -409,7 +409,7 @@ Route110_EventScript_Jacob::
 # 205 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Anthony::
 # 206 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_ANTHONY, Route110_Text_AnthonyIntro, Route110_Text_AnthonyDefeated
+	trainerbattle_single TRAINER_352, Route110_Text_AnthonyIntro, Route110_Text_AnthonyDefeated
 # 207 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_AnthonyPostBattle, MSGBOX_AUTOCLOSE
 # 208 "data/maps/Route110/scripts.pory"
@@ -419,7 +419,7 @@ Route110_EventScript_Anthony::
 # 210 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Benjamin::
 # 211 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_BENJAMIN_1, Route110_Text_BenjaminIntro, Route110_Text_BenjaminDefeated, Route110_EventScript_BenjaminRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_353, Route110_Text_BenjaminIntro, Route110_Text_BenjaminDefeated, Route110_EventScript_BenjaminRegisterMatchCallAfterBattle
 # 212 "data/maps/Route110/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 213 "data/maps/Route110/scripts.pory"
@@ -441,7 +441,7 @@ Route110_EventScript_BenjaminRegisterMatchCallAfterBattle::
 # 221 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_BenjaminRegister, MSGBOX_DEFAULT
 # 222 "data/maps/Route110/scripts.pory"
-	register_matchcall TRAINER_BENJAMIN_1
+	register_matchcall TRAINER_353
 # 223 "data/maps/Route110/scripts.pory"
 	release
 # 224 "data/maps/Route110/scripts.pory"
@@ -451,7 +451,7 @@ Route110_EventScript_BenjaminRegisterMatchCallAfterBattle::
 # 226 "data/maps/Route110/scripts.pory"
 Route110_EventScript_BenjaminRematch::
 # 227 "data/maps/Route110/scripts.pory"
-	trainerbattle_rematch TRAINER_BENJAMIN_1, Route110_Text_BenjaminRematchIntro, Route110_Text_BenjaminRematchDefeated
+	trainerbattle_rematch TRAINER_353, Route110_Text_BenjaminRematchIntro, Route110_Text_BenjaminRematchDefeated
 # 228 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_BenjaminRematchPostBattle, MSGBOX_AUTOCLOSE
 # 229 "data/maps/Route110/scripts.pory"
@@ -461,7 +461,7 @@ Route110_EventScript_BenjaminRematch::
 # 231 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Jasmine::
 # 232 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_JASMINE, Route110_Text_JasmineIntro, Route110_Text_JasmineDefeated
+	trainerbattle_single TRAINER_359, Route110_Text_JasmineIntro, Route110_Text_JasmineDefeated
 # 233 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_JasminePostBattle, MSGBOX_AUTOCLOSE
 # 234 "data/maps/Route110/scripts.pory"
@@ -471,7 +471,7 @@ Route110_EventScript_Jasmine::
 # 236 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Abigail::
 # 237 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_ABIGAIL_1, Route110_Text_AbigailIntro, Route110_Text_AbigailDefeated, Route110_EventScript_AbigailRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_358, Route110_Text_AbigailIntro, Route110_Text_AbigailDefeated, Route110_EventScript_AbigailRegisterMatchCallAfterBattle
 # 238 "data/maps/Route110/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 239 "data/maps/Route110/scripts.pory"
@@ -493,7 +493,7 @@ Route110_EventScript_AbigailRegisterMatchCallAfterBattle::
 # 247 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_AbigailRegister, MSGBOX_DEFAULT
 # 248 "data/maps/Route110/scripts.pory"
-	register_matchcall TRAINER_ABIGAIL_1
+	register_matchcall TRAINER_358
 # 249 "data/maps/Route110/scripts.pory"
 	release
 # 250 "data/maps/Route110/scripts.pory"
@@ -503,7 +503,7 @@ Route110_EventScript_AbigailRegisterMatchCallAfterBattle::
 # 252 "data/maps/Route110/scripts.pory"
 Route110_EventScript_AbigailRematch::
 # 253 "data/maps/Route110/scripts.pory"
-	trainerbattle_rematch TRAINER_ABIGAIL_1, Route110_Text_AbigailRematchIntro, Route110_Text_AbigailRematchDefeated
+	trainerbattle_rematch TRAINER_358, Route110_Text_AbigailRematchIntro, Route110_Text_AbigailRematchDefeated
 # 254 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_AbigailRematchPostBattle, MSGBOX_AUTOCLOSE
 # 255 "data/maps/Route110/scripts.pory"
@@ -513,7 +513,7 @@ Route110_EventScript_AbigailRematch::
 # 257 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Isabel::
 # 258 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_ISABEL_1, Route110_Text_IsabelIntro, Route110_Text_IsabelDefeated, Route110_EventScript_IsabelRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_302, Route110_Text_IsabelIntro, Route110_Text_IsabelDefeated, Route110_EventScript_IsabelRegisterMatchCallAfterBattle
 # 259 "data/maps/Route110/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 260 "data/maps/Route110/scripts.pory"
@@ -535,7 +535,7 @@ Route110_EventScript_IsabelRegisterMatchCallAfterBattle::
 # 268 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_IsabelRegister, MSGBOX_DEFAULT
 # 269 "data/maps/Route110/scripts.pory"
-	register_matchcall TRAINER_ISABEL_1
+	register_matchcall TRAINER_302
 # 270 "data/maps/Route110/scripts.pory"
 	release
 # 271 "data/maps/Route110/scripts.pory"
@@ -545,7 +545,7 @@ Route110_EventScript_IsabelRegisterMatchCallAfterBattle::
 # 273 "data/maps/Route110/scripts.pory"
 Route110_EventScript_IsabelRematch::
 # 274 "data/maps/Route110/scripts.pory"
-	trainerbattle_rematch TRAINER_ISABEL_1, Route110_Text_IsabelRematchIntro, Route110_Text_IsabelRematchDefeated
+	trainerbattle_rematch TRAINER_302, Route110_Text_IsabelRematchIntro, Route110_Text_IsabelRematchDefeated
 # 275 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_IsabelRematchPostBattle, MSGBOX_AUTOCLOSE
 # 276 "data/maps/Route110/scripts.pory"
@@ -555,7 +555,7 @@ Route110_EventScript_IsabelRematch::
 # 278 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Timmy::
 # 279 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_TIMMY, Route110_Text_TimmyIntro, Route110_Text_TimmyDefeated
+	trainerbattle_single TRAINER_334, Route110_Text_TimmyIntro, Route110_Text_TimmyDefeated
 # 280 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_TimmyPostBattle, MSGBOX_AUTOCLOSE
 # 281 "data/maps/Route110/scripts.pory"
@@ -571,7 +571,7 @@ Route110_EventScript_Unused::
 # 286 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Kaleb::
 # 287 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_KALEB, Route110_Text_KalebIntro, Route110_Text_KalebDefeated
+	trainerbattle_single TRAINER_699, Route110_Text_KalebIntro, Route110_Text_KalebDefeated
 # 288 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_KalebPostBattle, MSGBOX_AUTOCLOSE
 # 289 "data/maps/Route110/scripts.pory"
@@ -581,7 +581,7 @@ Route110_EventScript_Kaleb::
 # 291 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Joseph::
 # 292 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_JOSEPH, Route110_Text_JosephIntro, Route110_Text_JosephDefeated
+	trainerbattle_single TRAINER_700, Route110_Text_JosephIntro, Route110_Text_JosephDefeated
 # 293 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_JosephPostBattle, MSGBOX_AUTOCLOSE
 # 294 "data/maps/Route110/scripts.pory"
@@ -591,7 +591,7 @@ Route110_EventScript_Joseph::
 # 296 "data/maps/Route110/scripts.pory"
 Route110_EventScript_Alyssa::
 # 297 "data/maps/Route110/scripts.pory"
-	trainerbattle_single TRAINER_ALYSSA, Route110_Text_AlyssaIntro, Route110_Text_AlyssaDefeated
+	trainerbattle_single TRAINER_701, Route110_Text_AlyssaIntro, Route110_Text_AlyssaDefeated
 # 298 "data/maps/Route110/scripts.pory"
 	msgbox Route110_Text_AlyssaPostBattle, MSGBOX_AUTOCLOSE
 # 299 "data/maps/Route110/scripts.pory"
@@ -817,7 +817,7 @@ Route110_EventScript_MayBattle::
 # 409 "data/maps/Route110/scripts.pory"
 Route110_EventScript_MayBattleTreecko::
 # 410 "data/maps/Route110/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_110_TREECKO, Route110_Text_MayDefeated
+	trainerbattle_no_intro TRAINER_533, Route110_Text_MayDefeated
 # 411 "data/maps/Route110/scripts.pory"
 	goto Route110_EventScript_MayDefeated
 # 412 "data/maps/Route110/scripts.pory"
@@ -827,7 +827,7 @@ Route110_EventScript_MayBattleTreecko::
 # 414 "data/maps/Route110/scripts.pory"
 Route110_EventScript_MayBattleTorchic::
 # 415 "data/maps/Route110/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_110_TORCHIC, Route110_Text_MayDefeated
+	trainerbattle_no_intro TRAINER_536, Route110_Text_MayDefeated
 # 416 "data/maps/Route110/scripts.pory"
 	goto Route110_EventScript_MayDefeated
 # 417 "data/maps/Route110/scripts.pory"
@@ -837,7 +837,7 @@ Route110_EventScript_MayBattleTorchic::
 # 419 "data/maps/Route110/scripts.pory"
 Route110_EventScript_MayBattleMudkip::
 # 420 "data/maps/Route110/scripts.pory"
-	trainerbattle_no_intro TRAINER_MAY_ROUTE_110_MUDKIP, Route110_Text_MayDefeated
+	trainerbattle_no_intro TRAINER_530, Route110_Text_MayDefeated
 # 421 "data/maps/Route110/scripts.pory"
 	goto Route110_EventScript_MayDefeated
 # 422 "data/maps/Route110/scripts.pory"
@@ -877,7 +877,7 @@ Route110_EventScript_BrendanBattle::
 # 439 "data/maps/Route110/scripts.pory"
 Route110_EventScript_BrendanBattleTreecko::
 # 440 "data/maps/Route110/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_TREECKO, Route110_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_524, Route110_Text_BrendanDefeated
 # 441 "data/maps/Route110/scripts.pory"
 	goto Route110_EventScript_BrendanDefeated
 # 442 "data/maps/Route110/scripts.pory"
@@ -887,7 +887,7 @@ Route110_EventScript_BrendanBattleTreecko::
 # 444 "data/maps/Route110/scripts.pory"
 Route110_EventScript_BrendanBattleTorchic::
 # 445 "data/maps/Route110/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_TORCHIC, Route110_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_526, Route110_Text_BrendanDefeated
 # 446 "data/maps/Route110/scripts.pory"
 	goto Route110_EventScript_BrendanDefeated
 # 447 "data/maps/Route110/scripts.pory"
@@ -897,7 +897,7 @@ Route110_EventScript_BrendanBattleTorchic::
 # 449 "data/maps/Route110/scripts.pory"
 Route110_EventScript_BrendanBattleMudkip::
 # 450 "data/maps/Route110/scripts.pory"
-	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_110_MUDKIP, Route110_Text_BrendanDefeated
+	trainerbattle_no_intro TRAINER_521, Route110_Text_BrendanDefeated
 # 451 "data/maps/Route110/scripts.pory"
 	goto Route110_EventScript_BrendanDefeated
 # 452 "data/maps/Route110/scripts.pory"

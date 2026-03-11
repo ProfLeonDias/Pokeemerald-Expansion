@@ -105,9 +105,9 @@ LittlerootTown_BrendansHouse_1F_OnFrame:
 # 53 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_BrendansHouse_1F_EventScript_PetalburgGymReport
 # 54 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	map_script_2 VAR_LITTLEROOT_HOUSES_STATE_MAY, 1, LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor
+	map_script_2 VAR_ASPEN_EVENTS, 1, LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor
 # 55 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	map_script_2 VAR_LITTLEROOT_HOUSES_STATE_MAY, 3, PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV
+	map_script_2 VAR_ASPEN_EVENTS, 3, PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV
 # 56 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	.2byte 0
 # 57 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
@@ -199,7 +199,7 @@ LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor::
 # 100 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	setflag FLAG_MET_RIVAL_MOM
 # 101 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 2
+	setvar VAR_ASPEN_EVENTS, 2
 # 102 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	releaseall
 # 103 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
@@ -331,9 +331,9 @@ LittlerootTown_BrendansHouse_1F_EventScript_MeetRival::
 # 166 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	delay 30
 # 167 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	setvar VAR_LITTLEROOT_RIVAL_STATE, 3
+	setvar VAR_INITIAL_EVENTS, 3
 # 168 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
-	setvar VAR_LITTLEROOT_TOWN_STATE, 1
+	setvar VAR_SAPPHIRE_VILLAGE_STATE, 1
 # 169 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"
 	savebgm MUS_DUMMY
 # 170 "data/maps/LittlerootTown_BrendansHouse_1F/scripts.pory"

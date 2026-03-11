@@ -1,1 +1,256 @@
 mapscripts Route29_MapScripts {}
+
+script Route29_EventScript_Sign1 {
+    msgbox("Route 29- Jasper Beach\pJasper Town to the west.\nLumina Island to the east.")
+    release
+}
+
+script Route29_EventScript_Sign2 {
+    msgbox("Jasper Market\nGoods from far off regions!")
+    release
+}
+
+script Route29_EventScript_Woman1 {
+    lock
+    msgbox("Ah, how relaxing…")
+    release
+}
+
+script Route29_EventScript_OldWoman {
+    lock
+    msgbox("Don't worry about me, dearie.\nI'm keeping these old bones warm.")
+    release
+}
+
+script Route29_EventScript_Tuber {
+    lock
+    faceplayer
+    msgbox("I wanna go swimming!")
+    release
+}
+
+script Route29_EventScript_Sailor1 {
+    lock
+    faceplayer
+    msgbox("The harbor is just up ahead.")
+    release
+}
+
+script Route29_EventScript_DragonTamer{
+    lock
+    msgbox("No one can ever know what I've just\ndone…")
+    release
+}
+
+script Route29_EventScript_Maniac{
+    lock
+    faceplayer
+    msgbox("I dropped something in the sand.\nBut then, I found it!")
+    release
+}
+
+script Route29_EventScript_Captain{
+    lock
+    faceplayer
+    if(var(VAR_ASPEN_EVENTS) == 5){
+        msgbox("I don't know you, kid. Beat it.")
+        release
+    }
+    elif(var(VAR_POKEMART_MACK_EVENT) == 1){
+        msgbox("Captain: I got a message from Mack.\nYou the kid that Allen sent?\p…\nAlright, I got the goods right here.")
+        closemessage
+        giveitem(ITEM_OAKS_PARCEL)
+        delay(30)
+        msgbox("If the cops ask, I don't know you.\nKeep that thing in your bag, got it?")
+        closemessage
+        setvar(VAR_ASPEN_EVENTS, 5)
+        release
+    }
+    else{
+        msgbox("Yeah kid, I run this harbor. So what?")
+        release
+    }
+}
+
+script Route29_EventScript_ManiacBlockA{
+    lockall
+    playse(21)
+    applymovement(LOCALID_MANIAC, Rt29mov1)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Wait!\pSorry, but I dropped something in the\nsand. Can you come back later? ")
+    closemessage
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, Rt29mov2)
+    waitmovement(0)
+    applymovement(LOCALID_MANIAC, Rt29mov3)
+    waitmovement(0)
+    releaseall
+}
+
+script Route29_EventScript_ManiacBlockB{
+    lockall
+    playse(21)
+    applymovement(LOCALID_MANIAC, Rt29mov1x)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Wait!\pSorry, but I dropped something in the\nsand. Can you come back later? ")
+    closemessage
+    delay(15)
+    applymovement(OBJ_EVENT_ID_PLAYER, Rt29mov2)
+    waitmovement(0)
+    applymovement(LOCALID_MANIAC, Rt29mov3x)
+    waitmovement(0)
+    releaseall
+}
+
+movement Rt29mov1{
+    emote_exclamation_mark
+    face_left
+    walk_left
+}
+
+movement Rt29mov1x{
+    emote_exclamation_mark
+    walk_down
+    face_left
+    walk_left
+}
+
+movement Rt29mov2{
+    face_left
+    walk_left
+}
+
+movement Rt29mov3{
+    walk_right
+    face_down
+}
+
+movement Rt29mov3x{
+    walk_right
+    walk_up
+    face_down
+}
+
+script Route29_EventScript_Shop1 {
+    lock
+    faceplayer
+    message("{COLOR BLUE}Ahoy!\nI've got Apricorns for sale!")
+    waitmessage
+    pokemart(MartItems1)
+    msgbox("{COLOR BLUE}Come back any time.")
+    release
+}
+
+script Route29_EventScript_Shop2 {
+    lock
+    faceplayer
+    message("{COLOR BLUE}Ahoy!\nI've got Incense for sale!")
+    waitmessage
+    pokemart(MartItems2)
+    msgbox("{COLOR BLUE}Come back any time.")
+    release
+}
+
+mart MartItems1 {
+    ITEM_BLACK_APRICORN
+    ITEM_BLUE_APRICORN
+    ITEM_GREEN_APRICORN
+    ITEM_PINK_APRICORN
+    ITEM_RED_APRICORN
+    ITEM_WHITE_APRICORN
+    ITEM_YELLOW_APRICORN
+}
+
+mart MartItems2 {
+    ITEM_FULL_INCENSE
+    ITEM_PURE_INCENSE
+    ITEM_ROCK_INCENSE
+    ITEM_ROSE_INCENSE
+    ITEM_SEA_INCENSE
+}
+
+script Route29_EventScript_Kindler {
+    trainerbattle_single(TRAINER_02, Rt29KindlerIntro, Rt29KindlerDefeated)
+    msgbox(Rt29KindlerPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script Route29_EventScript_SailorBattle {
+    trainerbattle_single(TRAINER_03, Rt29SailorIntro, Rt29SailorDefeated)
+    msgbox(Rt29SailorPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script Route29_EventScript_SwimmerM {
+    trainerbattle_single(TRAINER_200, Rt29SwimmerMIntro, Rt29SwimmerMDefeated)
+    msgbox(Rt29SwimmerMPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script Route29_EventScript_SwimmerF{
+    trainerbattle_single(TRAINER_200, Rt29SwimmerFIntro, Rt29SwimmerFDefeated)
+    msgbox(Rt29SwimmerFPostBattle, MSGBOX_AUTOCLOSE)
+}
+
+script Route29_EventScript_Triathlete{
+    trainerbattle_single(TRAINER_200, Rt29TriathleteIntro, Rt29TriathleteDefeated)
+    msgbox(Rt29TriathletePostBattle, MSGBOX_AUTOCLOSE)
+}
+
+text Rt29TriathleteIntro{
+    "What do you want?\nI'm training my endurance."
+}
+
+text Rt29TriathleteDefeated{
+    "Sheesh…"
+}
+
+text Rt29TriathletePostBattle{
+    "Can you leave?\nI need to get back to my regimen."
+}
+
+text Rt29SwimmerFIntro{
+    "Isn't this just relaxing?"
+}
+
+text Rt29SwimmerFDefeated{
+    "Good job!"
+}
+
+text Rt29SwimmerFPostBattle{
+    "I can just drift here forever."
+}
+
+text Rt29SwimmerMIntro{
+    "SPLASH!\nLet's get to it!"
+}
+
+text Rt29SwimmerMDefeated{
+    "Wicked…"
+}
+
+text Rt29SwimmerMPostBattle{
+    "I wake up every morning to go for a swim\neach and every day."
+}
+
+text Rt29SailorIntro{
+    "Hic…\nWhat are you lookin' at?"
+}
+
+text Rt29SailorDefeated{
+    "Blegh…"
+}
+
+text Rt29SailorPostBattle{
+    "Mind yer own business, kid!\nHic…"
+}
+
+text Rt29KindlerIntro{
+    "Do you know about fire safety?"
+}
+
+text Rt29KindlerDefeated{
+    "Doused!"
+}
+
+text Rt29KindlerPostBattle{
+    "This is a great spot to start a fire pit!"
+}
+

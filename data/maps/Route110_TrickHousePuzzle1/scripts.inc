@@ -49,7 +49,7 @@ Route110_TrickHousePuzzle1_EventScript_FoundScroll::
 # 25 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_EventScript_Sally::
 # 26 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	trainerbattle_single TRAINER_SALLY, Route110_TrickHousePuzzle1_Text_SallyIntro, Route110_TrickHousePuzzle1_Text_SallyDefeat
+	trainerbattle_single TRAINER_611, Route110_TrickHousePuzzle1_Text_SallyIntro, Route110_TrickHousePuzzle1_Text_SallyDefeat
 # 27 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 	msgbox Route110_TrickHousePuzzle1_Text_SallyPostBattle, MSGBOX_AUTOCLOSE
 # 28 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
@@ -59,7 +59,7 @@ Route110_TrickHousePuzzle1_EventScript_Sally::
 # 30 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_EventScript_Eddie::
 # 31 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	trainerbattle_single TRAINER_EDDIE, Route110_TrickHousePuzzle1_Text_EddieIntro, Route110_TrickHousePuzzle1_Text_EddieDefeat
+	trainerbattle_single TRAINER_332, Route110_TrickHousePuzzle1_Text_EddieIntro, Route110_TrickHousePuzzle1_Text_EddieDefeat
 # 32 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 	msgbox Route110_TrickHousePuzzle1_Text_EddiePostBattle, MSGBOX_AUTOCLOSE
 # 33 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
@@ -69,7 +69,7 @@ Route110_TrickHousePuzzle1_EventScript_Eddie::
 # 35 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 Route110_TrickHousePuzzle1_EventScript_Robin::
 # 36 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
-	trainerbattle_single TRAINER_ROBIN, Route110_TrickHousePuzzle1_Text_RobinIntro, Route110_TrickHousePuzzle1_Text_RobinDefeat
+	trainerbattle_single TRAINER_612, Route110_TrickHousePuzzle1_Text_RobinIntro, Route110_TrickHousePuzzle1_Text_RobinDefeat
 # 37 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"
 	msgbox Route110_TrickHousePuzzle1_Text_RobinPostBattle, MSGBOX_AUTOCLOSE
 # 38 "data/maps/Route110_TrickHousePuzzle1/scripts.pory"

@@ -853,3 +853,58 @@ const struct Tileset gTileset_Sapphire_Village =
     .callback = NULL,
 };
 
+
+const struct Tileset gTileset_Jasper_Town =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Jasper_Town,
+    .palettes = gTilesetPalettes_Jasper_Town,
+    .metatiles = gMetatiles_Jasper_Town,
+    .metatileAttributes = gMetatileAttributes_Jasper_Town,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Forest =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Forest,
+    .palettes = gTilesetPalettes_Forest,
+    .metatiles = gMetatiles_Forest,
+    .metatileAttributes = gMetatileAttributes_Forest,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Ionia =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Ionia,
+    .palettes = gTilesetPalettes_Ionia,
+    .metatiles = gMetatiles_Ionia,
+    .metatileAttributes = gMetatileAttributes_Ionia,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Power_Plant =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Power_Plant,
+    .palettes = gTilesetPalettes_Power_Plant,
+    .metatiles = gMetatiles_Power_Plant,
+    .metatileAttributes = gMetatileAttributes_Power_Plant,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_WishIndoors =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_WishIndoors,
+    .palettes = gTilesetPalettes_WishIndoors,
+    .metatiles = gMetatiles_WishIndoors,
+    .metatileAttributes = gMetatileAttributes_WishIndoors,
+    .callback = NULL,
+};

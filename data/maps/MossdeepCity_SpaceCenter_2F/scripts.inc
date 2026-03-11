@@ -107,7 +107,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts::
 # 54 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	msgbox MossdeepCity_SpaceCenter_2F_Text_Grunt5Intro, MSGBOX_DEFAULT
 # 55 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_5, MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat
+	trainerbattle_no_intro TRAINER_588, MossdeepCity_SpaceCenter_2F_Text_Grunt5Defeat
 # 56 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_SPACE_CENTER_GRUNT_5, MossdeepCity_SpaceCenter_2F_Movement_Grunt5Defeated
 # 57 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -119,7 +119,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts::
 # 60 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	msgbox MossdeepCity_SpaceCenter_2F_Text_Grunt6Intro, MSGBOX_DEFAULT
 # 61 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_6, MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat
+	trainerbattle_no_intro TRAINER_589, MossdeepCity_SpaceCenter_2F_Text_Grunt6Defeat
 # 62 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_SPACE_CENTER_GRUNT_6, MossdeepCity_SpaceCenter_2F_Movement_Grunt6Defeated
 # 63 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -131,7 +131,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_BattleThreeMagmaGrunts::
 # 66 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	msgbox MossdeepCity_SpaceCenter_2F_Text_Grunt7Intro, MSGBOX_DEFAULT
 # 67 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_7, MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat
+	trainerbattle_no_intro TRAINER_590, MossdeepCity_SpaceCenter_2F_Text_Grunt7Defeat
 # 68 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	applymovement LOCALID_SPACE_CENTER_GRUNT_7, MossdeepCity_SpaceCenter_2F_Movement_Grunt7Defeated
 # 69 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
@@ -497,7 +497,7 @@ MossdeepCity_SpaceCenter_2F_EventScript_ChoosePartyForMultiBattle::
 # 249 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 MossdeepCity_SpaceCenter_2F_EventScript_DoStevenMultiBattle::
 # 250 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
-	multi_2_vs_2 TRAINER_MAXIE_MOSSDEEP, MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand, TRAINER_TABITHA_MOSSDEEP, MossdeepCity_SpaceCenter_Text_TabithaDefeat, PARTNER_STEVEN
+	multi_2_vs_2 TRAINER_734, MossdeepCity_SpaceCenter_2F_Text_JustWantToExpandLand, TRAINER_514, MossdeepCity_SpaceCenter_Text_TabithaDefeat, PARTNER_STEVEN
 # 251 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"
 	switch VAR_RESULT
 # 252 "data/maps/MossdeepCity_SpaceCenter_2F/scripts.pory"

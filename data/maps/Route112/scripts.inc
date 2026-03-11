@@ -127,7 +127,7 @@ Route112_EventScript_Hiker::
 # 64 "data/maps/Route112/scripts.pory"
 Route112_EventScript_Brice::
 # 65 "data/maps/Route112/scripts.pory"
-	trainerbattle_single TRAINER_BRICE, Route112_Text_BriceIntro, Route112_Text_BriceDefeat
+	trainerbattle_single TRAINER_626, Route112_Text_BriceIntro, Route112_Text_BriceDefeat
 # 66 "data/maps/Route112/scripts.pory"
 	msgbox Route112_Text_BricePostBattle, MSGBOX_AUTOCLOSE
 # 67 "data/maps/Route112/scripts.pory"
@@ -137,7 +137,7 @@ Route112_EventScript_Brice::
 # 69 "data/maps/Route112/scripts.pory"
 Route112_EventScript_Trent::
 # 70 "data/maps/Route112/scripts.pory"
-	trainerbattle_single TRAINER_TRENT_1, Route112_Text_TrentIntro, Route112_Text_TrentDefeat, Route112_EventScript_RegisterTrent
+	trainerbattle_single TRAINER_627, Route112_Text_TrentIntro, Route112_Text_TrentDefeat, Route112_EventScript_RegisterTrent
 # 71 "data/maps/Route112/scripts.pory"
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 # 72 "data/maps/Route112/scripts.pory"
@@ -159,7 +159,7 @@ Route112_EventScript_RegisterTrent::
 # 80 "data/maps/Route112/scripts.pory"
 	msgbox Route112_Text_TrentRegister, MSGBOX_DEFAULT
 # 81 "data/maps/Route112/scripts.pory"
-	register_matchcall TRAINER_TRENT_1
+	register_matchcall TRAINER_627
 # 82 "data/maps/Route112/scripts.pory"
 	release
 # 83 "data/maps/Route112/scripts.pory"
@@ -169,7 +169,7 @@ Route112_EventScript_RegisterTrent::
 # 85 "data/maps/Route112/scripts.pory"
 Route112_EventScript_RematchTrent::
 # 86 "data/maps/Route112/scripts.pory"
-	trainerbattle_rematch TRAINER_TRENT_1, Route112_Text_TrentRematchIntro, Route112_Text_TrentRematchDefeat
+	trainerbattle_rematch TRAINER_627, Route112_Text_TrentRematchIntro, Route112_Text_TrentRematchDefeat
 # 87 "data/maps/Route112/scripts.pory"
 	msgbox Route112_Text_TrentRematchPostBattle, MSGBOX_AUTOCLOSE
 # 88 "data/maps/Route112/scripts.pory"
@@ -179,7 +179,7 @@ Route112_EventScript_RematchTrent::
 # 90 "data/maps/Route112/scripts.pory"
 Route112_EventScript_Larry::
 # 91 "data/maps/Route112/scripts.pory"
-	trainerbattle_single TRAINER_LARRY, Route112_Text_LarryIntro, Route112_Text_LarryDefeat
+	trainerbattle_single TRAINER_213, Route112_Text_LarryIntro, Route112_Text_LarryDefeat
 # 92 "data/maps/Route112/scripts.pory"
 	msgbox Route112_Text_LarryPostBattle, MSGBOX_AUTOCLOSE
 # 93 "data/maps/Route112/scripts.pory"
@@ -189,7 +189,7 @@ Route112_EventScript_Larry::
 # 95 "data/maps/Route112/scripts.pory"
 Route112_EventScript_Carol::
 # 96 "data/maps/Route112/scripts.pory"
-	trainerbattle_single TRAINER_CAROL, Route112_Text_CarolIntro, Route112_Text_CarolDefeat
+	trainerbattle_single TRAINER_471, Route112_Text_CarolIntro, Route112_Text_CarolDefeat
 # 97 "data/maps/Route112/scripts.pory"
 	msgbox Route112_Text_CarolPostBattle, MSGBOX_AUTOCLOSE
 # 98 "data/maps/Route112/scripts.pory"
@@ -199,7 +199,7 @@ Route112_EventScript_Carol::
 # 100 "data/maps/Route112/scripts.pory"
 Route112_EventScript_Bryant::
 # 101 "data/maps/Route112/scripts.pory"
-	trainerbattle_single TRAINER_BRYANT, Route112_Text_BryantIntro, Route112_Text_BryantDefeat
+	trainerbattle_single TRAINER_746, Route112_Text_BryantIntro, Route112_Text_BryantDefeat
 # 102 "data/maps/Route112/scripts.pory"
 	msgbox Route112_Text_BryantPostBattle, MSGBOX_AUTOCLOSE
 # 103 "data/maps/Route112/scripts.pory"
@@ -209,7 +209,7 @@ Route112_EventScript_Bryant::
 # 105 "data/maps/Route112/scripts.pory"
 Route112_EventScript_Shayla::
 # 106 "data/maps/Route112/scripts.pory"
-	trainerbattle_single TRAINER_SHAYLA, Route112_Text_ShaylaIntro, Route112_Text_ShaylaDefeat
+	trainerbattle_single TRAINER_747, Route112_Text_ShaylaIntro, Route112_Text_ShaylaDefeat
 # 107 "data/maps/Route112/scripts.pory"
 	msgbox Route112_Text_ShaylaPostBattle, MSGBOX_AUTOCLOSE
 # 108 "data/maps/Route112/scripts.pory"

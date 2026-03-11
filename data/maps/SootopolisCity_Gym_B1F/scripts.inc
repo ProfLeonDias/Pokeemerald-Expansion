@@ -9,7 +9,7 @@ SootopolisCity_Gym_B1F_MapScripts::
 # 5 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_EventScript_Andrea::
 # 6 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	trainerbattle_single TRAINER_ANDREA, SootopolisCity_Gym_B1F_Text_AndreaIntro, SootopolisCity_Gym_B1F_Text_AndreaDefeat
+	trainerbattle_single TRAINER_613, SootopolisCity_Gym_B1F_Text_AndreaIntro, SootopolisCity_Gym_B1F_Text_AndreaDefeat
 # 7 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 	msgbox SootopolisCity_Gym_B1F_Text_AndreaPostBattle, MSGBOX_AUTOCLOSE
 # 8 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
@@ -19,7 +19,7 @@ SootopolisCity_Gym_B1F_EventScript_Andrea::
 # 10 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_EventScript_Crissy::
 # 11 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	trainerbattle_single TRAINER_CRISSY, SootopolisCity_Gym_B1F_Text_CrissyIntro, SootopolisCity_Gym_B1F_Text_CrissyDefeat
+	trainerbattle_single TRAINER_614, SootopolisCity_Gym_B1F_Text_CrissyIntro, SootopolisCity_Gym_B1F_Text_CrissyDefeat
 # 12 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 	msgbox SootopolisCity_Gym_B1F_Text_CrissyPostBattle, MSGBOX_AUTOCLOSE
 # 13 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
@@ -29,7 +29,7 @@ SootopolisCity_Gym_B1F_EventScript_Crissy::
 # 15 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_EventScript_Brianna::
 # 16 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	trainerbattle_single TRAINER_BRIANNA, SootopolisCity_Gym_B1F_Text_BriannaIntro, SootopolisCity_Gym_B1F_Text_BriannaDefeat
+	trainerbattle_single TRAINER_118, SootopolisCity_Gym_B1F_Text_BriannaIntro, SootopolisCity_Gym_B1F_Text_BriannaDefeat
 # 17 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 	msgbox SootopolisCity_Gym_B1F_Text_BriannaPostBattle, MSGBOX_AUTOCLOSE
 # 18 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
@@ -39,7 +39,7 @@ SootopolisCity_Gym_B1F_EventScript_Brianna::
 # 20 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_EventScript_Connie::
 # 21 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	trainerbattle_single TRAINER_CONNIE, SootopolisCity_Gym_B1F_Text_ConnieIntro, SootopolisCity_Gym_B1F_Text_ConnieDefeat
+	trainerbattle_single TRAINER_128, SootopolisCity_Gym_B1F_Text_ConnieIntro, SootopolisCity_Gym_B1F_Text_ConnieDefeat
 # 22 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 	msgbox SootopolisCity_Gym_B1F_Text_ConniePostBattle, MSGBOX_AUTOCLOSE
 # 23 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
@@ -49,7 +49,7 @@ SootopolisCity_Gym_B1F_EventScript_Connie::
 # 25 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_EventScript_Bridget::
 # 26 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	trainerbattle_single TRAINER_BRIDGET, SootopolisCity_Gym_B1F_Text_BridgetIntro, SootopolisCity_Gym_B1F_Text_BridgetDefeat
+	trainerbattle_single TRAINER_129, SootopolisCity_Gym_B1F_Text_BridgetIntro, SootopolisCity_Gym_B1F_Text_BridgetDefeat
 # 27 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 	msgbox SootopolisCity_Gym_B1F_Text_BridgetPostBattle, MSGBOX_AUTOCLOSE
 # 28 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
@@ -59,7 +59,7 @@ SootopolisCity_Gym_B1F_EventScript_Bridget::
 # 30 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_EventScript_Olivia::
 # 31 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	trainerbattle_single TRAINER_OLIVIA, SootopolisCity_Gym_B1F_Text_OliviaIntro, SootopolisCity_Gym_B1F_Text_OliviaDefeat
+	trainerbattle_single TRAINER_130, SootopolisCity_Gym_B1F_Text_OliviaIntro, SootopolisCity_Gym_B1F_Text_OliviaDefeat
 # 32 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 	msgbox SootopolisCity_Gym_B1F_Text_OliviaPostBattle, MSGBOX_AUTOCLOSE
 # 33 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
@@ -69,7 +69,7 @@ SootopolisCity_Gym_B1F_EventScript_Olivia::
 # 35 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_EventScript_Tiffany::
 # 36 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	trainerbattle_single TRAINER_TIFFANY, SootopolisCity_Gym_B1F_Text_TiffanyIntro, SootopolisCity_Gym_B1F_Text_TiffanyDefeat
+	trainerbattle_single TRAINER_131, SootopolisCity_Gym_B1F_Text_TiffanyIntro, SootopolisCity_Gym_B1F_Text_TiffanyDefeat
 # 37 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 	msgbox SootopolisCity_Gym_B1F_Text_TiffanyPostBattle, MSGBOX_AUTOCLOSE
 # 38 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
@@ -79,7 +79,7 @@ SootopolisCity_Gym_B1F_EventScript_Tiffany::
 # 40 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_EventScript_Bethany::
 # 41 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	trainerbattle_single TRAINER_BETHANY, SootopolisCity_Gym_B1F_Text_BethanyIntro, SootopolisCity_Gym_B1F_Text_BethanyDefeat
+	trainerbattle_single TRAINER_301, SootopolisCity_Gym_B1F_Text_BethanyIntro, SootopolisCity_Gym_B1F_Text_BethanyDefeat
 # 42 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 	msgbox SootopolisCity_Gym_B1F_Text_BethanyPostBattle, MSGBOX_AUTOCLOSE
 # 43 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
@@ -89,7 +89,7 @@ SootopolisCity_Gym_B1F_EventScript_Bethany::
 # 45 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_EventScript_Annika::
 # 46 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	trainerbattle_single TRAINER_ANNIKA, SootopolisCity_Gym_B1F_Text_AnnikaIntro, SootopolisCity_Gym_B1F_Text_AnnikaDefeat
+	trainerbattle_single TRAINER_502, SootopolisCity_Gym_B1F_Text_AnnikaIntro, SootopolisCity_Gym_B1F_Text_AnnikaDefeat
 # 47 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 	msgbox SootopolisCity_Gym_B1F_Text_AnnikaPostBattle, MSGBOX_AUTOCLOSE
 # 48 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
@@ -99,7 +99,7 @@ SootopolisCity_Gym_B1F_EventScript_Annika::
 # 50 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 SootopolisCity_Gym_B1F_EventScript_Daphne::
 # 51 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
-	trainerbattle_single TRAINER_DAPHNE, SootopolisCity_Gym_B1F_Text_DaphneIntro, SootopolisCity_Gym_B1F_Text_DaphneDefeat
+	trainerbattle_single TRAINER_115, SootopolisCity_Gym_B1F_Text_DaphneIntro, SootopolisCity_Gym_B1F_Text_DaphneDefeat
 # 52 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"
 	msgbox SootopolisCity_Gym_B1F_Text_DaphnePostBattle, MSGBOX_AUTOCLOSE
 # 53 "data/maps/SootopolisCity_Gym_B1F/scripts.pory"

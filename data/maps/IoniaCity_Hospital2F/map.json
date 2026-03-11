@@ -1,0 +1,61 @@
+{
+  "id": "MAP_IONIA_CITY_HOSPITAL2F",
+  "name": "IoniaCity_Hospital2F",
+  "layout": "LAYOUT_IONIA_CITY_HOSPITAL2F",
+  "music": "MUS_RUSTBORO",
+  "region_map_section": "MAPSEC_PEWTER_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [],
+  "warp_events": [
+    {
+      "warp_id": "WARP_IONIA_CITY_HOSPITAL_2FB",
+      "x": 10,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_IONIA_CITY_HOSPITAL1F",
+      "dest_warp_id": "WARP_IONIA_CITY_HOSPITAL_2FA"
+    },
+    {
+      "warp_id": "WARP_IONIA_CITY_HOSPITAL_3FA",
+      "x": 13,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_IONIA_CITY_HOSPITAL3F",
+      "dest_warp_id": "WARP_IONIA_CITY_HOSPITAL_3FB"
+    },
+    {
+      "warp_id": "WARP_IONIA_CITY_HOSPITAL_RM1A",
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_IONIA_CITY_HOSPITAL_RM1",
+      "dest_warp_id": "WARP_IONIA_CITY_HOSPITAL_RM1B"
+    },
+    {
+      "warp_id": "WARP_IONIA_CITY_HOSPITAL_RM2A",
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_IONIA_CITY_HOSPITAL_RM2",
+      "dest_warp_id": "WARP_IONIA_CITY_HOSPITAL_RM2B"
+    },
+    {
+      "warp_id": "WARP_IONIA_CITY_HOSPITAL_RM3A",
+      "x": 10,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_IONIA_CITY_HOSPITAL_RM3",
+      "dest_warp_id": "WARP_IONIA_CITY_HOSPITAL_RM3B"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -19,7 +19,7 @@ Route134_OnResume:
 # 10 "data/maps/Route134/scripts.pory"
 Route134_EventScript_Jack::
 # 11 "data/maps/Route134/scripts.pory"
-	trainerbattle_single TRAINER_JACK, Route134_Text_JackIntro, Route134_Text_JackDefeat
+	trainerbattle_single TRAINER_172, Route134_Text_JackIntro, Route134_Text_JackDefeat
 # 12 "data/maps/Route134/scripts.pory"
 	msgbox Route134_Text_JackPostBattle, MSGBOX_AUTOCLOSE
 # 13 "data/maps/Route134/scripts.pory"
@@ -29,7 +29,7 @@ Route134_EventScript_Jack::
 # 15 "data/maps/Route134/scripts.pory"
 Route134_EventScript_Laurel::
 # 16 "data/maps/Route134/scripts.pory"
-	trainerbattle_single TRAINER_LAUREL, Route134_Text_LaurelIntro, Route134_Text_LaurelDefeat
+	trainerbattle_single TRAINER_463, Route134_Text_LaurelIntro, Route134_Text_LaurelDefeat
 # 17 "data/maps/Route134/scripts.pory"
 	msgbox Route134_Text_LaurelPostBattle, MSGBOX_AUTOCLOSE
 # 18 "data/maps/Route134/scripts.pory"
@@ -39,7 +39,7 @@ Route134_EventScript_Laurel::
 # 20 "data/maps/Route134/scripts.pory"
 Route134_EventScript_Alex::
 # 21 "data/maps/Route134/scripts.pory"
-	trainerbattle_single TRAINER_ALEX, Route134_Text_AlexIntro, Route134_Text_AlexDefeat
+	trainerbattle_single TRAINER_413, Route134_Text_AlexIntro, Route134_Text_AlexDefeat
 # 22 "data/maps/Route134/scripts.pory"
 	msgbox Route134_Text_AlexPostBattle, MSGBOX_AUTOCLOSE
 # 23 "data/maps/Route134/scripts.pory"
@@ -49,7 +49,7 @@ Route134_EventScript_Alex::
 # 25 "data/maps/Route134/scripts.pory"
 Route134_EventScript_Aaron::
 # 26 "data/maps/Route134/scripts.pory"
-	trainerbattle_single TRAINER_AARON, Route134_Text_AaronIntro, Route134_Text_AaronDefeat
+	trainerbattle_single TRAINER_397, Route134_Text_AaronIntro, Route134_Text_AaronDefeat
 # 27 "data/maps/Route134/scripts.pory"
 	msgbox Route134_Text_AaronPostBattle, MSGBOX_AUTOCLOSE
 # 28 "data/maps/Route134/scripts.pory"
@@ -59,7 +59,7 @@ Route134_EventScript_Aaron::
 # 30 "data/maps/Route134/scripts.pory"
 Route134_EventScript_Hitoshi::
 # 31 "data/maps/Route134/scripts.pory"
-	trainerbattle_single TRAINER_HITOSHI, Route134_Text_HitoshiIntro, Route134_Text_HitoshiDefeat
+	trainerbattle_single TRAINER_180, Route134_Text_HitoshiIntro, Route134_Text_HitoshiDefeat
 # 32 "data/maps/Route134/scripts.pory"
 	msgbox Route134_Text_HitoshiPostBattle, MSGBOX_AUTOCLOSE
 # 33 "data/maps/Route134/scripts.pory"
@@ -69,7 +69,7 @@ Route134_EventScript_Hitoshi::
 # 35 "data/maps/Route134/scripts.pory"
 Route134_EventScript_Hudson::
 # 36 "data/maps/Route134/scripts.pory"
-	trainerbattle_single TRAINER_HUDSON, Route134_Text_HudsonIntro, Route134_Text_HudsonDefeat
+	trainerbattle_single TRAINER_510, Route134_Text_HudsonIntro, Route134_Text_HudsonDefeat
 # 37 "data/maps/Route134/scripts.pory"
 	msgbox Route134_Text_HudsonPostBattle, MSGBOX_AUTOCLOSE
 # 38 "data/maps/Route134/scripts.pory"
@@ -79,7 +79,7 @@ Route134_EventScript_Hudson::
 # 40 "data/maps/Route134/scripts.pory"
 Route134_EventScript_Reyna::
 # 41 "data/maps/Route134/scripts.pory"
-	trainerbattle_single TRAINER_REYNA, Route134_Text_ReynaIntro, Route134_Text_ReynaDefeat
+	trainerbattle_single TRAINER_509, Route134_Text_ReynaIntro, Route134_Text_ReynaDefeat
 # 42 "data/maps/Route134/scripts.pory"
 	msgbox Route134_Text_ReynaPostBattle, MSGBOX_AUTOCLOSE
 # 43 "data/maps/Route134/scripts.pory"
@@ -89,7 +89,7 @@ Route134_EventScript_Reyna::
 # 45 "data/maps/Route134/scripts.pory"
 Route134_EventScript_Marley::
 # 46 "data/maps/Route134/scripts.pory"
-	trainerbattle_single TRAINER_MARLEY, Route134_Text_MarleyIntro, Route134_Text_MarleyDefeat
+	trainerbattle_single TRAINER_508, Route134_Text_MarleyIntro, Route134_Text_MarleyDefeat
 # 47 "data/maps/Route134/scripts.pory"
 	msgbox Route134_Text_MarleyPostBattle, MSGBOX_AUTOCLOSE
 # 48 "data/maps/Route134/scripts.pory"
@@ -99,7 +99,7 @@ Route134_EventScript_Marley::
 # 50 "data/maps/Route134/scripts.pory"
 Route134_EventScript_Kelvin::
 # 51 "data/maps/Route134/scripts.pory"
-	trainerbattle_single TRAINER_KELVIN, Route134_Text_KelvinIntro, Route134_Text_KelvinDefeat
+	trainerbattle_single TRAINER_507, Route134_Text_KelvinIntro, Route134_Text_KelvinDefeat
 # 52 "data/maps/Route134/scripts.pory"
 	msgbox Route134_Text_KelvinPostBattle, MSGBOX_AUTOCLOSE
 # 53 "data/maps/Route134/scripts.pory"

@@ -31,7 +31,7 @@ Route110_TrickHousePuzzle4_EventScript_FoundScroll::
 # 16 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_EventScript_Cora::
 # 17 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	trainerbattle_single TRAINER_CORA, Route110_TrickHousePuzzle4_Text_CoraIntro, Route110_TrickHousePuzzle4_Text_CoraDefeat
+	trainerbattle_single TRAINER_428, Route110_TrickHousePuzzle4_Text_CoraIntro, Route110_TrickHousePuzzle4_Text_CoraDefeat
 # 18 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	msgbox Route110_TrickHousePuzzle4_Text_CoraPostBattle, MSGBOX_AUTOCLOSE
 # 19 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
@@ -41,7 +41,7 @@ Route110_TrickHousePuzzle4_EventScript_Cora::
 # 21 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_EventScript_Yuji::
 # 22 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	trainerbattle_single TRAINER_YUJI, Route110_TrickHousePuzzle4_Text_YujiIntro, Route110_TrickHousePuzzle4_Text_YujiDefeat
+	trainerbattle_single TRAINER_188, Route110_TrickHousePuzzle4_Text_YujiIntro, Route110_TrickHousePuzzle4_Text_YujiDefeat
 # 23 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	msgbox Route110_TrickHousePuzzle4_Text_YujiPostBattle, MSGBOX_AUTOCLOSE
 # 24 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
@@ -51,7 +51,7 @@ Route110_TrickHousePuzzle4_EventScript_Yuji::
 # 26 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 Route110_TrickHousePuzzle4_EventScript_Paula::
 # 27 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
-	trainerbattle_single TRAINER_PAULA, Route110_TrickHousePuzzle4_Text_PaulaIntro, Route110_TrickHousePuzzle4_Text_PaulaDefeat
+	trainerbattle_single TRAINER_429, Route110_TrickHousePuzzle4_Text_PaulaIntro, Route110_TrickHousePuzzle4_Text_PaulaDefeat
 # 28 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"
 	msgbox Route110_TrickHousePuzzle4_Text_PaulaPostBattle, MSGBOX_AUTOCLOSE
 # 29 "data/maps/Route110_TrickHousePuzzle4/scripts.pory"

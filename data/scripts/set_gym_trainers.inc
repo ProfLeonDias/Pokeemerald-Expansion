@@ -11,82 +11,82 @@ Common_EventScript_SetGymTrainers::
 	end
 
 RustboroCity_Gym_SetGymTrainers::
-	settrainerflag TRAINER_JOSH
-	settrainerflag TRAINER_TOMMY
-	settrainerflag TRAINER_MARC
+	settrainerflag TRAINER_320
+	settrainerflag TRAINER_321
+	settrainerflag TRAINER_571
 	return
 
 DewfordTown_Gym_SetGymTrainers::
-	settrainerflag TRAINER_TAKAO
-	settrainerflag TRAINER_JOCELYN
-	settrainerflag TRAINER_LAURA
-	settrainerflag TRAINER_BRENDEN
-	settrainerflag TRAINER_CRISTIAN
-	settrainerflag TRAINER_LILITH
+	settrainerflag TRAINER_179
+	settrainerflag TRAINER_425
+	settrainerflag TRAINER_426
+	settrainerflag TRAINER_572
+	settrainerflag TRAINER_574
+	settrainerflag TRAINER_573
 	return
 
 MauvilleCity_Gym_SetGymTrainers::
-	settrainerflag TRAINER_KIRK
-	settrainerflag TRAINER_SHAWN
-	settrainerflag TRAINER_BEN
-	settrainerflag TRAINER_VIVIAN
-	settrainerflag TRAINER_ANGELO
+	settrainerflag TRAINER_191
+	settrainerflag TRAINER_194
+	settrainerflag TRAINER_323
+	settrainerflag TRAINER_649
+	settrainerflag TRAINER_802
 	return
 
 LavaridgeTown_Gym_SetGymTrainers::
-	settrainerflag TRAINER_COLE
-	settrainerflag TRAINER_AXLE
-	settrainerflag TRAINER_KEEGAN
-	settrainerflag TRAINER_GERALD
-	settrainerflag TRAINER_DANIELLE
-	settrainerflag TRAINER_JACE
-	settrainerflag TRAINER_JEFF
-	settrainerflag TRAINER_ELI
+	settrainerflag TRAINER_201
+	settrainerflag TRAINER_203
+	settrainerflag TRAINER_205
+	settrainerflag TRAINER_648
+	settrainerflag TRAINER_650
+	settrainerflag TRAINER_204
+	settrainerflag TRAINER_202
+	settrainerflag TRAINER_501
 	return
 
 PetalburgCity_Gym_SetGymTrainers::
-	settrainerflag TRAINER_RANDALL
-	settrainerflag TRAINER_PARKER
-	settrainerflag TRAINER_GEORGE
-	settrainerflag TRAINER_BERKE
-	settrainerflag TRAINER_MARY
-	settrainerflag TRAINER_ALEXIA
-	settrainerflag TRAINER_JODY
+	settrainerflag TRAINER_71
+	settrainerflag TRAINER_72
+	settrainerflag TRAINER_73
+	settrainerflag TRAINER_74
+	settrainerflag TRAINER_89
+	settrainerflag TRAINER_90
+	settrainerflag TRAINER_91
 	return
 
 FortreeCity_Gym_SetGymTrainers::
-	settrainerflag TRAINER_JARED
-	settrainerflag TRAINER_FLINT
-	settrainerflag TRAINER_ASHLEY
-	settrainerflag TRAINER_EDWARDO
-	settrainerflag TRAINER_HUMBERTO
-	settrainerflag TRAINER_DARIUS
+	settrainerflag TRAINER_401
+	settrainerflag TRAINER_654
+	settrainerflag TRAINER_655
+	settrainerflag TRAINER_404
+	settrainerflag TRAINER_402
+	settrainerflag TRAINER_803
 	return
 
 MossdeepCity_Gym_SetGymTrainers::
-	settrainerflag TRAINER_PRESTON
-	settrainerflag TRAINER_VIRGIL
-	settrainerflag TRAINER_BLAKE
-	settrainerflag TRAINER_HANNAH
-	settrainerflag TRAINER_SAMANTHA
-	settrainerflag TRAINER_MAURA
-	settrainerflag TRAINER_SYLVIA
-	settrainerflag TRAINER_NATE
-	settrainerflag TRAINER_KATHLEEN
-	settrainerflag TRAINER_CLIFFORD
-	settrainerflag TRAINER_MACEY
-	settrainerflag TRAINER_NICHOLAS
+	settrainerflag TRAINER_233
+	settrainerflag TRAINER_234
+	settrainerflag TRAINER_235
+	settrainerflag TRAINER_244
+	settrainerflag TRAINER_245
+	settrainerflag TRAINER_246
+	settrainerflag TRAINER_575
+	settrainerflag TRAINER_582
+	settrainerflag TRAINER_583
+	settrainerflag TRAINER_584
+	settrainerflag TRAINER_591
+	settrainerflag TRAINER_585
 	return
 
 SootopolisCity_Gym_SetGymTrainers::
-	settrainerflag TRAINER_ANDREA
-	settrainerflag TRAINER_CRISSY
-	settrainerflag TRAINER_BRIANNA
-	settrainerflag TRAINER_CONNIE
-	settrainerflag TRAINER_BRIDGET
-	settrainerflag TRAINER_OLIVIA
-	settrainerflag TRAINER_TIFFANY
-	settrainerflag TRAINER_BETHANY
-	settrainerflag TRAINER_ANNIKA
-	settrainerflag TRAINER_DAPHNE
+	settrainerflag TRAINER_613
+	settrainerflag TRAINER_614
+	settrainerflag TRAINER_118
+	settrainerflag TRAINER_128
+	settrainerflag TRAINER_129
+	settrainerflag TRAINER_130
+	settrainerflag TRAINER_131
+	settrainerflag TRAINER_301
+	settrainerflag TRAINER_502
+	settrainerflag TRAINER_115
 	return
