@@ -3,7 +3,7 @@
   "name": "Jasper_Town_Pokecenter2F",
   "layout": "LAYOUT_JASPER_TOWN_POKECENTER2F",
   "music": "MUS_POKE_CENTER",
-  "region_map_section": "MAPSEC_VIRIDIAN_CITY",
+  "region_map_section": "MAPSEC_JASPER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

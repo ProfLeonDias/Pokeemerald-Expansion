@@ -3,7 +3,7 @@
   "name": "ArchaeCity",
   "layout": "LAYOUT_ARCHAE_CITY",
   "music": "MUS_RG_CINNABAR",
-  "region_map_section": "MAPSEC_VERMILION_CITY",
+  "region_map_section": "MAPSEC_ARCHAE_CITY",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",

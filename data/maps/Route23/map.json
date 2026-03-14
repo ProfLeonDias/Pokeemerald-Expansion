@@ -3,7 +3,7 @@
   "name": "Route23",
   "layout": "LAYOUT_ROUTE23",
   "music": "MUS_ROUTE110",
-  "region_map_section": "MAPSEC_ROUTE_23",
+  "region_map_section": "MAPSEC_ROUTE_23_WISH",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",

@@ -3,7 +3,7 @@
   "name": "Route7",
   "layout": "LAYOUT_ROUTE7",
   "music": "MUS_RG_ROUTE11",
-  "region_map_section": "MAPSEC_ROUTE_7",
+  "region_map_section": "MAPSEC_ROUTE_7_WISH",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",

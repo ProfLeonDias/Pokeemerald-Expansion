@@ -3,7 +3,7 @@
   "name": "Route24North",
   "layout": "LAYOUT_ROUTE24NORTH",
   "music": "MUS_ROUTE104",
-  "region_map_section": "MAPSEC_ROUTE_24",
+  "region_map_section": "MAPSEC_ROUTE_24_WISH",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_OCEAN_ROUTE",

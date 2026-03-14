@@ -3,7 +3,7 @@
   "name": "AegisRuins",
   "layout": "LAYOUT_AEGIS_RUINS",
   "music": "MUS_RG_MT_MOON",
-  "region_map_section": "MAPSEC_TANOBY_RUINS",
+  "region_map_section": "MAPSEC_AEGIS_RUINS",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",

@@ -3,7 +3,7 @@
   "name": "IoniaPowerPlant",
   "layout": "LAYOUT_IONIA_POWER_PLANT",
   "music": "MUS_RG_ROUTE3",
-  "region_map_section": "MAPSEC_POWER_PLANT",
+  "region_map_section": "MAPSEC_IONIA_POWER_PLANT",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",

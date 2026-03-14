@@ -1,3 +1,0 @@
-UnderwaterRt27_MapScripts::
-	.byte 0
-

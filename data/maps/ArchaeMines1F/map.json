@@ -3,7 +3,7 @@
   "name": "ArchaeMines1F",
   "layout": "LAYOUT_ARCHAE_MINES1F",
   "music": "MUS_RG_MT_MOON",
-  "region_map_section": "MAPSEC_MT_MOON",
+  "region_map_section": "MAPSEC_ARCHAE_MINES",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",

@@ -1,6 +1,8 @@
 #ifndef GUARD_CONSTANTS_VARS_H
 #define GUARD_CONSTANTS_VARS_H
 
+#include "constants/vars_frlg.h"
+
 #define VARS_START 0x4000
 
 // temporary vars
@@ -300,22 +302,15 @@
 #define VAR_CONTEST_CATEGORY          0x8011
 #define VAR_MON_BOX_ID                0x8012
 #define VAR_MON_BOX_POS               0x8013
-#define VAR_TEXT_COLOR                0x8014
-#define VAR_PREV_TEXT_COLOR           0x8015
-#define VAR_TRAINER_BATTLE_OPPONENT_A 0x8016 // Alias of TRAINER_BATTLE_PARAM.opponentA
+#define VAR_UNUSED_0x8014             0x8014
+#define VAR_TRAINER_BATTLE_OPPONENT_A 0x8015 // Alias of TRAINER_BATTLE_PARAM.opponentA
 
-#define SPECIAL_VARS_END              0x8016
+#define SPECIAL_VARS_END              0x8015
 
-// Text color ids for VAR_TEXT_COLOR / VAR_PREV_TEXT_COLOR
-#define NPC_TEXT_COLOR_MALE       8 // Blue, for male NPCs
-#define NPC_TEXT_COLOR_FEMALE     4 // Red, for female NPCs
-#define NPC_TEXT_COLOR_MON        2 // Black, for Pokémon
-#define NPC_TEXT_COLOR_NEUTRAL    2 // Black, for inanimate objects and messages from the game
-#define NPC_TEXT_COLOR_DEFAULT  255 // If an NPC is selected, use the color specified by GetObjectEventGraphicsInfo, otherwise use Neutral.
-
-#define NPC_TEXT_COLOR_RIVAL    254 // Blue if player is female, red if player is male
-#define NPC_TEXT_COLOR_PREVIOUS 255 // Value written to VAR_PREV_TEXT_COLOR
-
+// If an overworld trigger uses this pseudo-variable as the trigger check,
+// then the script will be run using RunScriptImmediately instead of in the
+// global script context. This means it will run faster, but cannot do any
+// cutscenes nor call a wait command. Used for weather effects in vanilla.
 #define TRIGGER_RUN_IMMEDIATELY   0
 
 // Temp var aliases
@@ -334,8 +329,8 @@
 #if TESTING
 #define TESTING_VARS_START                  0x9000
 #define TESTING_VAR_DIFFICULTY              (TESTING_VARS_START + 0x0)
-#define TESTING_VAR_STARTING_STATUS         (TESTING_VARS_START + 0x1)
-#define TESTING_VAR_STARTING_STATUS_TIMER   (TESTING_VARS_START + 0x2)
+#define TESTING_VAR_TRAINER_SLIDES          (TESTING_VARS_START + 0x1)
+#define TESTING_VAR_UNUSED_2                (TESTING_VARS_START + 0x2)
 #define TESTING_VAR_UNUSED_3                (TESTING_VARS_START + 0x3)
 #define TESTING_VAR_UNUSED_4                (TESTING_VARS_START + 0x4)
 #define TESTING_VAR_UNUSED_5                (TESTING_VARS_START + 0x5)

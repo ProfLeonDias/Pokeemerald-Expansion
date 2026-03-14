@@ -1,13 +1,13 @@
-# `pokemerald-expansion` Vs. Seeker 
+# `pokemerald-expansion` Vs. Seeker
 
 ## What is the Vs. Seeker?
-The Vs. Seeker is a Key Item that is used to battle Trainers that the player has battled previously. 
+The Vs. Seeker is a Key Item that is used to battle Trainers that the player has battled previously.
 
-When used, the Vs. Seeker sends out a signal that allows the player to find other Trainers who want a rematch. This signal affects all Trainers that are on-screen. Once used on Trainers that can be rematched, the device cannot be used again until it is charged. The player does this by walking a specific number of steps. The effect on the Trainers wears off if they are battled, the player leaves the area, or the player walks a specific number of steps. If the player attempts to use the Vs. Seeker when it is not fully charged, the player will be told how many steps remain until it is. After the player uses the Vs. Seeker, some Trainers may have their team changed from their first battle. 
+When used, the Vs. Seeker sends out a signal that allows the player to find other Trainers who want a rematch. This signal affects all Trainers that are on-screen. Once used on Trainers that can be rematched, the device cannot be used again until it is charged. The player does this by walking a specific number of steps. The effect on the Trainers wears off if they are battled, the player leaves the area, or the player walks a specific number of steps. If the player attempts to use the Vs. Seeker when it is not fully charged, the player will be told how many steps remain until it is. After the player uses the Vs. Seeker, some Trainers may have their team changed from their first battle.
 
 ## How is the Vs. Seeker enabled?
 ### Users
-Vs. Seeker functionality is enabled by setting `I_VS_SEEKER_CHARGING` to `TRUE`. 
+Vs. Seeker functionality is enabled by setting `I_VS_SEEKER_CHARGING` to `TRUE`.
 
 ### Players
 `ITEM_VS_SEEKER` can only be used outside of battle. It can be used from the bag or registered to be used from the field.
@@ -26,7 +26,7 @@ When `I_VS_SEEKER_CHARGING` is enabled, the Match Call does not function at all.
 
 ## How does the Vs. Seeker choose a Trainer?
 
-When the Vs. Seeker is successfully used, every Trainer on screen is individually queried. There is a 31% chance that the Trainer will want a rematch. 
+When the Vs. Seeker is successfully used, every Trainer on screen is individually queried. There is a 31% chance that the Trainer will want a rematch.
 Objects listed in `regularTrainersOnLand` or `regularTrainersInWater` are considered Land/Water objects.
 
 | Status | Is Land/Water Object | Emote | New Movement Type |
@@ -34,17 +34,17 @@ Objects listed in `regularTrainersOnLand` or `regularTrainersInWater` are consid
 | Wants Rematch | Yes | `MOVEMENT_ACTION_EMOTE_DOUBLE_EXCL_MARK` | `MOVEMENT_TYPE_COUNTER_CLOCKWISE` |
 | Wants Rematch | No | `MOVEMENT_ACTION_EMOTE_DOUBLE_EXCL_MARK` | `MOVEMENT_TYPE_FACE_DOWN` |
 | Does Not Want Rematch | - | `MOVEMENT_ACTION_EMOTE_X` | none |
-| Has Not Been Fought | - | `MOVEMENT_ACTION_EMOTE_EXCLAMATION_MARK` | none | 
+| Has Not Been Fought | - | `MOVEMENT_ACTION_EMOTE_EXCLAMATION_MARK` | none |
 
 ###  Rematch Table
 
 | Sequence   | Trainer ID       |
 | ---------- | ---------------- |
-| 1st Battle | `TRAINER_37` |
-| 2nd Battle | `TRAINER_40` |
-| 3rd Battle | `TRAINER_41` |
-| 4th Battle | `TRAINER_42` |
-| 5th Battle | `TRAINER_43` |
+| 1st Battle | `TRAINER_ROSE_1` |
+| 2nd Battle | `TRAINER_ROSE_2` |
+| 3rd Battle | `TRAINER_ROSE_3` |
+| 4th Battle | `TRAINER_ROSE_4` |
+| 5th Battle | `TRAINER_ROSE_5` |
 
 The game determines which version of the Trainer you'll fight next by following these rules:
 
@@ -58,7 +58,7 @@ The game determines which version of the Trainer you'll fight next by following 
 No extra work is required. With the exception of Wally, Gym Leaders and Elite Four, all of the rematchable Trainers in Emerald will work with the Vs. Seeker without any changes.
 ### New Trainers
 #### Party / `gRematchTable`
-Each of the rematches for the Trainer must be defined as seperate Trainers in `src/data/trainers.party` and `include/constants/opponents`. For example, `TRAINER_318` also has `TRAINER_328`,`TRAINER_329`,`TRAINER_330`, and `TRAINER_331`.  
+Each of the rematches for the Trainer must be defined as seperate Trainers in `src/data/trainers.party` and `include/constants/opponents`. For example, `TRAINER_CALVIN_1` also has `TRAINER_CALVIN_2`,`TRAINER_CALVIN_3`,`TRAINER_CALVIN_4`, and `TRAINER_CALVIN_5`.
 
 Once all of those constants and parties are defined, a new row must be added to `gRematchTable` (located in in `src/battle_setup.c`). The row header should be a rematch ID, which can be added in `include/constants/rematches.h`. The row contents must be the five constants created for the new parties, with the lat argument being the constant of the map (`include/constants/map_groups.h`) where the Trainer is placed.
 
@@ -66,7 +66,7 @@ If a Trainer is intended to have less than five unique rematch parties, the extr
 
 ```c
 // This Trainer only has two teams.
-    [REMATCH_ROSE] = REMATCH(TRAINER_37, TRAINER_40, TRAINER_40, TRAINER_40, TRAINER_40, MAP_ROUTE118),
+    [REMATCH_ROSE] = REMATCH(TRAINER_ROSE_1, TRAINER_ROSE_2, TRAINER_ROSE_2, TRAINER_ROSE_2, TRAINER_ROSE_2, MAP_ROUTE118),
 ```
 
 WARNING: Rematch IDs should be placed BEFORE `REMATCH_WALLY_VR`. Trainers below that are treated as "special Trainers" that are not triggered by the Vs. Seeker.
@@ -77,7 +77,7 @@ The trainer's object needs to have a script that begins with a method to signify
 #### `trainerbattle`
 ```
 Route103_EventScript_Daisy::
-    trainerbattle_single TRAINER_36, Route103_Text_DaisyIntro, Route103_Text_DaisyDefeated
+    trainerbattle_single TRAINER_DAISY, Route103_Text_DaisyIntro, Route103_Text_DaisyDefeated
     msgbox Route103_Text_DaisyPostBattle, MSGBOX_AUTOCLOSE
     end
 ```
@@ -87,13 +87,13 @@ Daisy is using one of the `trainerbattle` macros, which has the trainer battle m
 ##### `vsseeker_rematchid`
 ```
 Route102_EventScript_Calvin::
-    vsseeker_rematchid TRAINER_318
+    vsseeker_rematchid TRAINER_CALVIN_1
     applymovement LOCALID_CALVIN, CalvinMovementTest
     waitmovement 0
-    trainerbattle_single TRAINER_318, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Route102_EventScript_CalvinRegisterMatchCallAfterBattle
+    trainerbattle_single TRAINER_CALVIN_1, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated, Route102_EventScript_CalvinRegisterMatchCallAfterBattle
     specialvar VAR_RESULT, ShouldTryRematchBattle
     goto_if_eq VAR_RESULT, TRUE, Route102_EventScript_CalvinRematch
-    setvar VAR_0x8004, TRAINER_318
+    setvar VAR_0x8004, TRAINER_CALVIN_1
     specialvar VAR_RESULT, IsTrainerRegistered
     goto_if_eq VAR_RESULT, FALSE, Route102_EventScript_CalvinTryRegister
     msgbox Route102_Text_CalvinPostBattle, MSGBOX_DEFAULT
@@ -111,5 +111,5 @@ If you want Trainers to spin once they are eligible for a rematch, their overwor
 * **Recharge Steps**: `VSSEEKER_RECHARGE_STEPS` is initally set to 100, but this value can be changed to any number under 256.
 * **Badge Requirement**: `HasAtLeastFiveBadges` is used to check if the Vs. Seeker will successfully work. You can customize the number of badges by changing `REMATCH_BADGE_COUNT` or otherwise alterting the function.
 
-## What are the limitations of the Vs. Seeker?
-The Vs. Seeker does not currently work with Gym Leaders. There is a bug filed to hopefully fix this in the future.
+## How do gym leaders rematch work with Vs. Seeker?
+They follow vanilla Emerald rules. You need to have set the flag `FLAG_SYS_GAME_CLEAR` by defeating Steven in Ever Grande City for the first rematch to be available. And then you need to have beaten every Gym Leader in a rematch once the second rematch is available. Then you need to beat every Gym Leader in a second rematch for the third rematch to be available, etc, etc ...

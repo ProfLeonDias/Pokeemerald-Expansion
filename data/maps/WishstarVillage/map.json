@@ -3,7 +3,7 @@
   "name": "WishstarVillage",
   "layout": "LAYOUT_WISHSTAR_VILLAGE",
   "music": "MUS_VERDANTURF",
-  "region_map_section": "MAPSEC_CINNABAR_ISLAND",
+  "region_map_section": "MAPSEC_WISHSTAR_VILLAGE",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_TOWN",

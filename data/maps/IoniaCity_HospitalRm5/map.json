@@ -3,7 +3,7 @@
   "name": "IoniaCity_HospitalRm5",
   "layout": "LAYOUT_IONIA_CITY_HOSPITAL_RM5",
   "music": "MUS_RUSTBORO",
-  "region_map_section": "MAPSEC_PEWTER_CITY",
+  "region_map_section": "MAPSEC_IONIA_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

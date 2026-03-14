@@ -65,6 +65,8 @@ static const u32 sTitleScreenRayquazaTilemap[] = INCBIN_U32("graphics/title_scre
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/logo_shine.4bpp.smol");
 static const u32 sTitleScreenCloudsGfx[] = INCBIN_U32("graphics/title_screen/clouds.4bpp.smol");
 
+
+
 // Used to blend "Emerald Version" as it passes over over the Pokémon banner.
 // Also used by the intro to blend the Game Freak name/logo in and out as they appear and disappear
 const u16 gTitleScreenAlphaBlend[64] =
@@ -166,8 +168,6 @@ static const struct SpriteTemplate sVersionBannerLeftSpriteTemplate =
     .paletteTag = TAG_VERSION,
     .oam = &sVersionBannerLeftOamData,
     .anims = sVersionBannerLeftAnimTable,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCB_VersionBannerLeft,
 };
 
@@ -177,8 +177,6 @@ static const struct SpriteTemplate sVersionBannerRightSpriteTemplate =
     .paletteTag = TAG_VERSION,
     .oam = &sVersionBannerRightOamData,
     .anims = sVersionBannerRightAnimTable,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCB_VersionBannerRight,
 };
 
@@ -285,8 +283,6 @@ static const struct SpriteTemplate sStartCopyrightBannerSpriteTemplate =
     .paletteTag = TAG_PRESS_START_COPYRIGHT,
     .oam = &sOamData_CopyrightBanner,
     .anims = sStartCopyrightBannerAnimTable,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCB_PressStartCopyrightBanner,
 };
 
@@ -343,8 +339,6 @@ static const struct SpriteTemplate sPokemonLogoShineSpriteTemplate =
     .paletteTag = TAG_PRESS_START_COPYRIGHT,
     .oam = &sPokemonLogoShineOamData,
     .anims = sPokemonLogoShineAnimTable,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCB_PokemonLogoShine,
 };
 
@@ -497,7 +491,7 @@ static void SpriteCB_PokemonLogoShine(struct Sprite *sprite)
              || sprite->x == DISPLAY_WIDTH / 2 + (4 * SHINE_SPEED)
              || sprite->x == DISPLAY_WIDTH / 2 + (5 * SHINE_SPEED)
              || sprite->x == DISPLAY_WIDTH / 2 + (6 * SHINE_SPEED))
-                gPlttBufferFaded[0] = RGB(1, 9, 12);
+                gPlttBufferFaded[0] = RGB(24, 31, 12);
             else
                 gPlttBufferFaded[0] = backgroundColor;
         }
@@ -567,6 +561,11 @@ static void VBlankCB(void)
 
 void CB2_InitTitleScreen(void)
 {
+    if (IS_FRLG)
+    {
+        CB2_InitTitleScreenFrlg();
+        return;
+    }
     switch (gMain.state)
     {
     default:

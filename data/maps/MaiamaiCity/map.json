@@ -3,7 +3,7 @@
   "name": "MaiamaiCity",
   "layout": "LAYOUT_MAIAMAI_CITY",
   "music": "MUS_LILYCOVE",
-  "region_map_section": "MAPSEC_TWO_ISLAND",
+  "region_map_section": "MAPSEC_MAIAMAI_CITY",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",
