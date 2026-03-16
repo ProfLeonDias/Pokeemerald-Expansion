@@ -161,8 +161,6 @@ static const struct SpriteTemplate sSpriteTemplate_ScrollArrowIndicator =
     .paletteTag = 0,
     .oam = &sOamData_ScrollArrowIndicator,
     .anims = sSpriteAnimTable_ScrollArrowIndicator,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallback_ScrollIndicatorArrow,
 };
 
@@ -280,8 +278,6 @@ static const struct SpriteTemplate sSpriteTemplate_RedArrowCursor =
     .paletteTag = 0,
     .oam = &sOamData_RedArrowCursor,
     .anims = sSpriteAnimTable_RedArrowCursor,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallback_RedArrowCursor,
 };
 
@@ -393,8 +389,6 @@ u8 ListMenuInitInRect(struct ListMenuTemplate *listMenuTemplate, struct ListMenu
 s32 ListMenu_ProcessInput(u8 listTaskId)
 {
     struct ListMenu *list = (void *) gTasks[listTaskId].data;
-    s32 currentPosition = list->scrollOffset + list->selectedRow;
-    u8 lastPositon = list->template.totalItems - 1;
 
     if (JOY_NEW(A_BUTTON))
     {
@@ -409,18 +403,12 @@ s32 ListMenu_ProcessInput(u8 listTaskId)
     }
     else if (JOY_REPEAT(DPAD_UP))
     {
-        if (currentPosition == 0)
-            ListMenuChangeSelection(list,TRUE,lastPositon,TRUE);
-        else
-            ListMenuChangeSelection(list, TRUE, 1, FALSE);
+        ListMenuChangeSelection(list, TRUE, 1, FALSE);
         return LIST_NOTHING_CHOSEN;
     }
     else if (JOY_REPEAT(DPAD_DOWN))
     {
-        if (currentPosition == lastPositon)
-            ListMenuChangeSelection(list,TRUE,lastPositon, FALSE);
-        else
-            ListMenuChangeSelection(list, TRUE, 1, TRUE);
+        ListMenuChangeSelection(list, TRUE, 1, TRUE);
         return LIST_NOTHING_CHOSEN;
     }
     else // try to move by one window scroll

@@ -154,7 +154,21 @@ bool32 IsConsideringZMove(enum BattlerId battlerAtk, enum BattlerId battlerDef, 
 bool32 ShouldUseZMove(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum Move chosenMove);
 void SetAIUsingGimmick(enum BattlerId battler, enum AIConsiderGimmick use);
 bool32 IsAIUsingGimmick(enum BattlerId battler);
+void DecideTerastal(enum BattlerId battler);
+bool32 CanEndureHit(enum BattlerId battler, enum BattlerId battlerTarget, enum Move move);
+bool32 ShouldFinalGambit(enum BattlerId battlerAtk, enum BattlerId battlerDef, bool32 aiIsFaster);
+bool32 ShouldConsiderSelfSacrificeDamageEffect(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum Move move, bool32 aiIsFaster);
 
+// stat stage checks
+bool32 AnyStatIsRaised(enum BattlerId battlerId);
+bool32 AnyUsefulStatIsRaised(enum BattlerId battlerId);
+bool32 CanLowerStat(enum BattlerId battlerAtk, enum BattlerId battlerDef, struct AiLogicData *aiData, enum Stat stat);
+bool32 BattlerStatCanRise(enum BattlerId battler, enum Ability battlerAbility, enum Stat stat);
+bool32 AreBattlersStatsMaxed(enum BattlerId battler);
+u32 CountPositiveStatStages(enum BattlerId battlerId);
+u32 CountNegativeStatStages(enum BattlerId battlerId);
+
+// move checks
 bool32 Ai_IsPriorityBlocked(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum Move move, struct AiLogicData *aiData);
 bool32 AI_CanMoveBeBlockedByTarget(struct BattleContext *ctx);
 bool32 MovesWithCategoryUnusable(u32 attacker, u32 target, enum DamageCategory category);
@@ -173,21 +187,7 @@ enum Move *GetMovesArray(enum BattlerId battler);
 bool32 IsConfusionMoveEffect(enum BattleMoveEffects moveEffect);
 bool32 HasMove(enum BattlerId battlerId, enum Move move);
 u32 GetBattlerMoveIndexWithEffect(enum BattlerId battler, enum BattleMoveEffects effect);
-bool32 HasPhysicalBestMove(enum Battlervoid DecideTerastal(enum BattlerId battler);
-bool32 CanEndureHit(enum BattlerId battler, enum BattlerId battlerTarget, enum Move move);
-bool32 ShouldFinalGambit(enum BattlerId battlerAtk, enum BattlerId battlerDef, bool32 aiIsFaster);
-bool32 ShouldConsiderSelfSacrificeDamageEffect(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum Move move, bool32 aiIsFaster);
-
-// stat stage checks
-bool32 AnyStatIsRaised(enum BattlerId battlerId);
-bool32 AnyUsefulStatIsRaised(enum BattlerId battlerId);
-bool32 CanLowerStat(enum BattlerId battlerAtk, enum BattlerId battlerDef, struct AiLogicData *aiData, enum Stat stat);
-bool32 BattlerStatCanRise(enum BattlerId battler, enum Ability battlerAbility, enum Stat stat);
-bool32 AreBattlersStatsMaxed(enum BattlerId battler);
-u32 CountPositiveStatStages(enum BattlerId battlerId);
-u32 CountNegativeStatStages(enum BattlerId battlerId);
-
-// move checksId battlerAtk, enum BattlerId battlerDef, enum DamageCalcContext calcContext);
+bool32 HasPhysicalBestMove(enum BattlerId battlerAtk, enum BattlerId battlerDef, enum DamageCalcContext calcContext);
 bool32 HasOnlyMovesWithCategory(enum BattlerId battlerId, enum DamageCategory category, bool32 onlyOffensive);
 bool32 HasMoveWithCategory(enum BattlerId battler, enum DamageCategory category);
 bool32 HasMoveWithType(enum BattlerId battler, enum Type type);

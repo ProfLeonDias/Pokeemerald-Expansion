@@ -85,27 +85,7 @@ static const struct SpriteTemplate sSpriteTemplate_SwapLine =
     .paletteTag = TAG_SWAP_LINE,
     .oam = &sOamData_SwapLine,
     .anims = sAnims_SwapLine,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCallbackDummy,
 };
-
-void ResetAllBgsCoordinatesAndBgCntRegs(void)
-{
-    SetGpuReg(REG_OFFSET_DISPCNT, 0);
-    SetGpuReg(REG_OFFSET_BG3CNT, 0);
-    SetGpuReg(REG_OFFSET_BG2CNT, 0);
-    SetGpuReg(REG_OFFSET_BG1CNT, 0);
-    SetGpuReg(REG_OFFSET_BG0CNT, 0);
-    ChangeBgX(0, 0, 0);
-    ChangeBgY(0, 0, 0);
-    ChangeBgX(1, 0, 0);
-    ChangeBgY(1, 0, 0);
-    ChangeBgX(2, 0, 0);
-    ChangeBgY(2, 0, 0);
-    ChangeBgX(3, 0, 0);
-    ChangeBgY(3, 0, 0);
-}
 
 // code
 void ResetVramOamAndBgCntRegs(void)
@@ -155,7 +135,7 @@ void DisplayMessageAndContinueTask(u8 taskId, u8 windowId, u16 tileNum, u8 palet
 bool16 RunTextPrintersRetIsActive(u8 textPrinterId)
 {
     RunTextPrinters();
-    return IsTextPrinterActive(textPrinterId);
+    return IsTextPrinterActiveOnWindow(textPrinterId);
 }
 
 static void Task_ContinueTaskAfterMessagePrints(u8 taskId)
@@ -292,7 +272,7 @@ u8 GetLRKeysPressedAndHeld(void)
     return 0;
 }
 
-bool8 IsHoldingItemAllowed(u16 itemId)
+bool8 IsHoldingItemAllowed(enum Item itemId)
 {
     // e-Reader Enigma Berry can't be held in link areas
     if (itemId == ITEM_ENIGMA_BERRY_E_READER
@@ -304,7 +284,7 @@ bool8 IsHoldingItemAllowed(u16 itemId)
         return TRUE;
 }
 
-bool8 IsWritingMailAllowed(u16 itemId)
+bool8 IsWritingMailAllowed(enum Item itemId)
 {
     if ((IsOverworldLinkActive() == TRUE || InUnionRoom() == TRUE) && ItemIsMail(itemId) == TRUE)
         return FALSE;

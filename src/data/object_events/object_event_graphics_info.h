@@ -5,7 +5,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal = {
     .size = 512,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    .paletteSlot = PALSLOT_PLAYER,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -14,7 +14,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_BrendanMayNormal,
     .images = sPicTable_BrendanNormal,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike = {
@@ -24,7 +23,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike = 
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    .paletteSlot = PALSLOT_PLAYER,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -33,7 +32,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike = 
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_BrendanMachBike,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanAcroBike = {
@@ -43,7 +41,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanAcroBike = 
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -52,7 +50,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanAcroBike = 
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_AcroBike,
     .images = sPicTable_BrendanAcroBike,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanSurfing = {
@@ -62,7 +59,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanSurfing = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -71,7 +68,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanSurfing = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Surfing,
     .images = sPicTable_BrendanSurfing,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanFieldMove = {
@@ -81,7 +77,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanFieldMove =
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -90,7 +86,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanFieldMove =
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_FieldMove,
     .images = sPicTable_BrendanFieldMove,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_QuintyPlump = {
@@ -100,7 +95,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_QuintyPlump = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_L,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -109,7 +104,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_QuintyPlump = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_QuintyPlump,
     .images = sPicTable_QuintyPlump,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NinjaBoy = {
@@ -119,7 +113,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NinjaBoy = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -128,7 +122,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NinjaBoy = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_NinjaBoy,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Twin = {
@@ -138,7 +131,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Twin = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -147,7 +140,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Twin = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Twin,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Boy1 = {
@@ -157,7 +149,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Boy1 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -166,7 +158,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Boy1 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Boy1,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Girl1 = {
@@ -176,7 +167,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Girl1 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -185,7 +176,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Girl1 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Girl1,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Boy2 = {
@@ -195,7 +185,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Boy2 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -204,7 +194,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Boy2 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Boy2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Girl2 = {
@@ -214,7 +203,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Girl2 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -223,7 +212,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Girl2 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Girl2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LittleBoy = {
@@ -233,7 +221,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LittleBoy = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -242,7 +230,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LittleBoy = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_LittleBoy,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LittleGirl = {
@@ -252,7 +239,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LittleGirl = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -261,7 +248,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LittleGirl = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_LittleGirl,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Boy3 = {
@@ -271,7 +257,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Boy3 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -280,7 +266,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Boy3 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Boy3,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Girl3 = {
@@ -290,7 +275,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Girl3 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -299,7 +284,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Girl3 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Girl3,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RichBoy = {
@@ -309,7 +293,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RichBoy = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -318,7 +302,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RichBoy = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_RichBoy,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman1 = {
@@ -328,7 +311,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman1 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -337,7 +320,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman1 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Woman1,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FatMan = {
@@ -347,7 +329,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FatMan = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -356,7 +338,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FatMan = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_FatMan,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokefanF = {
@@ -366,7 +347,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokefanF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -375,7 +356,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokefanF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_PokefanF,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man1 = {
@@ -385,7 +365,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man1 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -394,7 +374,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man1 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Man1,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman2 = {
@@ -404,7 +383,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman2 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -413,7 +392,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman2 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Woman2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ExpertM = {
@@ -423,7 +401,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ExpertM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -432,7 +410,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ExpertM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_ExpertM,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ExpertF = {
@@ -442,7 +419,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ExpertF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -451,7 +428,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ExpertF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_ExpertF,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man2 = {
@@ -461,7 +437,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man2 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -470,7 +446,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man2 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Man2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman3 = {
@@ -480,7 +455,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman3 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -489,7 +464,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman3 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Woman3,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokefanM = {
@@ -499,7 +473,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokefanM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -508,7 +482,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokefanM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_PokefanM,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman4 = {
@@ -518,7 +491,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman4 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -527,7 +500,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman4 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Woman4,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cook = {
@@ -537,7 +509,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cook = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -546,7 +518,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cook = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Cook,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkReceptionist = {
@@ -556,7 +527,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkReceptionist =
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -565,7 +536,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkReceptionist =
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_LinkReceptionist,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldMan = {
@@ -575,7 +545,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldMan = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+   //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -584,7 +554,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldMan = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_OldMan,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldWoman = {
@@ -594,7 +563,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldWoman = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -603,7 +572,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldWoman = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_OldWoman,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Camper = {
@@ -613,7 +581,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Camper = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -622,7 +590,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Camper = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Camper,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Picnicker = {
@@ -632,7 +599,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Picnicker = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -641,7 +608,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Picnicker = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Picnicker,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man3 = {
@@ -651,7 +617,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man3 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -660,7 +626,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man3 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Man3,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman5 = {
@@ -670,7 +635,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman5 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -679,7 +644,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman5 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Woman5,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Youngster = {
@@ -689,7 +653,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Youngster = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -698,7 +662,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Youngster = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Youngster,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BugCatcher = {
@@ -708,7 +671,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BugCatcher = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -717,7 +680,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BugCatcher = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_BugCatcher,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PsychicM = {
@@ -727,7 +689,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PsychicM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -736,7 +698,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PsychicM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_PsychicM,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SchoolKidM = {
@@ -746,7 +707,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SchoolKidM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -755,7 +716,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SchoolKidM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_SchoolKidM,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maniac = {
@@ -765,7 +725,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maniac = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -774,7 +734,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maniac = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Maniac,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HexManiac = {
@@ -784,7 +743,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HexManiac = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -793,7 +752,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HexManiac = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_HexManiac,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RayquazaStill = {
@@ -803,7 +761,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RayquazaStill = {
     .size = 2048,
     .width = 64,
     .height = 64,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -812,7 +770,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RayquazaStill = {
     .subspriteTables = sOamTables_64x64,
     .anims = sAnimTable_Standard,
     .images = sPicTable_RayquazaStill,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerM = {
@@ -822,7 +779,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -831,7 +788,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_SwimmerM,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerF = {
@@ -841,7 +797,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -850,7 +806,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_SwimmerF,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BlackBelt = {
@@ -860,7 +815,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BlackBelt = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -869,7 +824,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BlackBelt = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_BlackBelt,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Beauty = {
@@ -879,7 +833,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Beauty = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -888,7 +842,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Beauty = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Beauty,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scientist1 = {
@@ -898,7 +851,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scientist1 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -907,7 +860,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scientist1 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Scientist1,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lass = {
@@ -917,7 +869,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lass = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -926,7 +878,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lass = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Lass,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gentleman = {
@@ -936,7 +887,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gentleman = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -945,7 +896,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gentleman = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Gentleman,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sailor = {
@@ -955,7 +905,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sailor = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -964,7 +914,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sailor = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Sailor,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fisherman = {
@@ -974,7 +923,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fisherman = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -983,7 +932,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fisherman = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Fisherman,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RunningTriathleteM = {
@@ -993,7 +941,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RunningTriathleteM
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1002,7 +950,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RunningTriathleteM
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_RunningTriathleteM,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RunningTriathleteF = {
@@ -1012,7 +959,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RunningTriathleteF
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1021,7 +968,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RunningTriathleteF
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_RunningTriathleteF,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberF = {
@@ -1031,7 +977,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberF = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1040,7 +986,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberF = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_TuberF,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberM = {
@@ -1050,7 +995,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberM = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1059,7 +1004,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberM = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_TuberM,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hiker = {
@@ -1069,7 +1013,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hiker = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1078,7 +1022,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hiker = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Hiker,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyclingTriathleteM = {
@@ -1088,7 +1031,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyclingTriathleteM
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1097,7 +1040,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyclingTriathleteM
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_AcroBike,
     .images = sPicTable_CyclingTriathleteM,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyclingTriathleteF = {
@@ -1107,7 +1049,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyclingTriathleteF
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1116,7 +1058,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyclingTriathleteF
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_AcroBike,
     .images = sPicTable_CyclingTriathleteF,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nurse = {
@@ -1126,7 +1067,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nurse = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1135,7 +1076,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nurse = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Nurse,
     .images = sPicTable_Nurse,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTree = {
@@ -1145,7 +1085,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTree = {
     .size = 256,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1154,7 +1094,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTree = {
     .subspriteTables = NULL,
     .anims = sAnimTable_BerryTree,
     .images = sPicTable_PechaBerryTree,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTreeEarlyStages = {
@@ -1164,7 +1103,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTreeEarlyStag
     .size = 256,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1173,7 +1112,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTreeEarlyStag
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_BerryTree,
     .images = sPicTable_PechaBerryTree,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTreeLateStages = {
@@ -1183,7 +1121,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTreeLateStage
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1192,7 +1130,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BerryTreeLateStage
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_BerryTree,
     .images = sPicTable_PechaBerryTree,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfBirch = {
@@ -1202,7 +1139,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfBirch = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1211,7 +1148,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfBirch = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_ProfBirch,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man4 = {
@@ -1221,7 +1157,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man4 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1230,7 +1166,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man4 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Man4,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man5 = {
@@ -1240,7 +1175,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man5 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1249,7 +1184,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man5 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Man5,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ReporterM = {
@@ -1259,7 +1193,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ReporterM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1268,7 +1202,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ReporterM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_ReporterM,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ReporterF = {
@@ -1278,7 +1211,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ReporterF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1287,7 +1220,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ReporterF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_ReporterF,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard = {
@@ -1297,7 +1229,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1306,7 +1238,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MauvilleOldMan1,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster = {
@@ -1316,7 +1247,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1325,7 +1256,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MauvilleOldMan1,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trader = {
@@ -1335,7 +1265,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trader = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1344,7 +1274,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trader = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MauvilleOldMan1,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Storyteller = {
@@ -1354,7 +1283,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Storyteller = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1363,7 +1292,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Storyteller = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MauvilleOldMan2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giddy = {
@@ -1373,7 +1301,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giddy = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1382,7 +1310,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giddy = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MauvilleOldMan2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan1 = {
@@ -1392,7 +1319,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldM
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1401,7 +1328,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldM
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MauvilleOldMan2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan2 = {
@@ -1411,7 +1337,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldM
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1420,7 +1346,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldM
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MauvilleOldMan2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedNatuDoll = {
@@ -1430,7 +1355,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedNatuDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1439,7 +1364,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedNatuDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_UnusedNatuDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMagnemiteDoll = {
@@ -1449,7 +1373,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMagnemiteDol
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1458,7 +1382,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMagnemiteDol
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_UnusedMagnemiteDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedSquirtleDoll = {
@@ -1468,7 +1391,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedSquirtleDoll
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1477,7 +1400,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedSquirtleDoll
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_UnusedSquirtleDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedWooperDoll = {
@@ -1487,7 +1409,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedWooperDoll =
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1496,7 +1418,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedWooperDoll =
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_UnusedWooperDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPikachuDoll = {
@@ -1506,7 +1427,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPikachuDoll 
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1515,7 +1436,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPikachuDoll 
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_UnusedPikachuDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPorygon2Doll = {
@@ -1525,7 +1445,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPorygon2Doll
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1534,7 +1454,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPorygon2Doll
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_UnusedPorygon2Doll,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTree = {
@@ -1544,7 +1463,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTree = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1553,7 +1472,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTree = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_CuttableTree,
     .images = sPicTable_CuttableTree,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MartEmployee = {
@@ -1563,7 +1481,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MartEmployee = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1572,7 +1490,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MartEmployee = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MartEmployee,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RooftopSaleWoman = {
@@ -1582,7 +1499,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RooftopSaleWoman =
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1591,7 +1508,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RooftopSaleWoman =
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_RooftopSaleWoman,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Teala = {
@@ -1601,7 +1517,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Teala = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1610,7 +1526,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Teala = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Teala,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BreakableRock = {
@@ -1620,7 +1535,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BreakableRock = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1629,7 +1544,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BreakableRock = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_BreakableRock,
     .images = sPicTable_BreakableRock,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PushableBoulder = {
@@ -1639,7 +1553,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PushableBoulder = 
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1648,7 +1562,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PushableBoulder = 
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_PushableBoulder,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MrBrineysBoat = {
@@ -1658,7 +1571,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MrBrineysBoat = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1667,7 +1580,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MrBrineysBoat = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MrBrineysBoat,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayNormal = {
@@ -1677,7 +1589,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayNormal = {
     .size = 512,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1686,7 +1598,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayNormal = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_BrendanMayNormal,
     .images = sPicTable_MayNormal,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayMachBike = {
@@ -1696,7 +1607,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayMachBike = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1705,7 +1616,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayMachBike = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MayMachBike,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayAcroBike = {
@@ -1715,7 +1625,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayAcroBike = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1724,7 +1634,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayAcroBike = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_AcroBike,
     .images = sPicTable_MayAcroBike,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MaySurfing = {
@@ -1734,7 +1644,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MaySurfing = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1743,7 +1653,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MaySurfing = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Surfing,
     .images = sPicTable_MaySurfing,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayFieldMove = {
@@ -1753,7 +1663,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayFieldMove = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1762,7 +1672,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayFieldMove = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_FieldMove,
     .images = sPicTable_MayFieldMove,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Truck = {
@@ -1772,7 +1682,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Truck = {
     .size = 1152,
     .width = 48,
     .height = 48,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1781,7 +1691,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Truck = {
     .subspriteTables = sOamTables_48x48,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_Truck,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothCarryingBox = {
@@ -1791,7 +1701,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothCarryingBo
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1800,7 +1710,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothCarryingBo
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_VigorothCarryingBox,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothFacingAway = {
@@ -1810,7 +1720,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothFacingAway
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1819,7 +1729,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothFacingAway
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_VigorothFacingAway,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirchsBag = {
@@ -1829,7 +1739,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirchsBag = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -1838,7 +1748,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirchsBag = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BirchsBag,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EnemyZigzagoon = {
@@ -1848,7 +1758,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EnemyZigzagoon = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1857,7 +1767,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EnemyZigzagoon = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_EnemyZigzagoon,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Poochyena = {
@@ -1867,7 +1777,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Poochyena = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1876,7 +1786,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Poochyena = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_PoochyenaOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Artist = {
@@ -1886,7 +1796,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Artist = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1895,7 +1805,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Artist = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Artist,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanNormal = {
@@ -1905,7 +1815,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanNormal
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1914,7 +1824,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanNormal
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_BrendanMayNormal,
     .images = sPicTable_BrendanNormal,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanMachBike = {
@@ -1924,7 +1834,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanMachBi
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1933,7 +1843,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanMachBi
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_BrendanMachBike,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanAcroBike = {
@@ -1943,7 +1853,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanAcroBi
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1952,7 +1862,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanAcroBi
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_AcroBike,
     .images = sPicTable_BrendanAcroBike,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanSurfing = {
@@ -1962,7 +1872,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanSurfin
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1971,7 +1881,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanSurfin
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Surfing,
     .images = sPicTable_BrendanSurfing,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanFieldMove = {
@@ -1981,7 +1891,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanFieldM
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -1990,7 +1900,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalBrendanFieldM
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_FieldMove,
     .images = sPicTable_BrendanFieldMove,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayNormal = {
@@ -2000,7 +1910,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayNormal = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2009,7 +1919,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayNormal = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_BrendanMayNormal,
     .images = sPicTable_MayNormal,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayMachBike = {
@@ -2019,7 +1929,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayMachBike =
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2028,7 +1938,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayMachBike =
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MayMachBike,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayAcroBike = {
@@ -2038,7 +1948,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayAcroBike =
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2047,7 +1957,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayAcroBike =
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_AcroBike,
     .images = sPicTable_MayAcroBike,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMaySurfing = {
@@ -2057,7 +1967,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMaySurfing = 
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2066,7 +1976,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMaySurfing = 
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Surfing,
     .images = sPicTable_MaySurfing,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayFieldMove = {
@@ -2076,7 +1986,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayFieldMove 
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2085,7 +1995,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RivalMayFieldMove 
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_FieldMove,
     .images = sPicTable_MayFieldMove,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cameraman = {
@@ -2095,7 +2005,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cameraman = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2104,7 +2014,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cameraman = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Cameraman,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanUnderwater = {
@@ -2114,7 +2024,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanUnderwater 
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2123,7 +2033,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanUnderwater 
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_BrendanUnderwater,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayUnderwater = {
@@ -2133,7 +2043,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayUnderwater = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2142,7 +2052,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayUnderwater = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MayUnderwater,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MovingBox = {
@@ -2152,7 +2062,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MovingBox = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2161,7 +2071,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MovingBox = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_MovingBox,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CableCar = {
@@ -2171,7 +2081,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CableCar = {
     .size = 2048,
     .width = 64,
     .height = 64,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2180,7 +2090,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CableCar = {
     .subspriteTables = sOamTables_64x64,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_CableCar,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scientist2 = {
@@ -2190,7 +2100,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scientist2 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2199,7 +2109,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scientist2 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Scientist2,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DevonEmployee = {
@@ -2209,7 +2119,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DevonEmployee = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2218,7 +2128,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DevonEmployee = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_DevonEmployee,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AquaMemberM = {
@@ -2228,7 +2138,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AquaMemberM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2237,7 +2147,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AquaMemberM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_AquaMemberM,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AquaMemberF = {
@@ -2247,7 +2157,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AquaMemberF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2256,7 +2166,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AquaMemberF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_AquaMemberF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMemberM = {
@@ -2266,7 +2176,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMemberM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2275,7 +2185,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMemberM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MagmaMemberM,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMemberF = {
@@ -2285,7 +2195,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMemberF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2294,7 +2204,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMemberF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MagmaMemberF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sidney = {
@@ -2304,7 +2214,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sidney = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2313,7 +2223,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sidney = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Sidney,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Phoebe = {
@@ -2323,7 +2233,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Phoebe = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2332,7 +2242,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Phoebe = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Phoebe,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia = {
@@ -2342,7 +2252,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2351,7 +2261,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Glacia,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Drake = {
@@ -2361,7 +2271,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Drake = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2370,7 +2280,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Drake = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Drake,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Roxanne = {
@@ -2380,7 +2290,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Roxanne = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2389,7 +2299,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Roxanne = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Roxanne,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brawly = {
@@ -2399,7 +2309,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brawly = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2408,7 +2318,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brawly = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Brawly,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wattson = {
@@ -2418,7 +2328,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wattson = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2427,7 +2337,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wattson = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Wattson,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Flannery = {
@@ -2437,7 +2347,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Flannery = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2446,7 +2356,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Flannery = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Flannery,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Norman = {
@@ -2456,7 +2366,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Norman = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2465,7 +2375,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Norman = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Norman,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Winona = {
@@ -2475,7 +2385,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Winona = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2484,7 +2394,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Winona = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Winona,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Liza = {
@@ -2494,7 +2404,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Liza = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2503,7 +2413,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Liza = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Liza,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tate = {
@@ -2513,7 +2423,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tate = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2522,7 +2432,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tate = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Tate,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wallace = {
@@ -2532,7 +2442,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wallace = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2541,7 +2451,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wallace = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Wallace,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Steven = {
@@ -2551,7 +2461,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Steven = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2560,7 +2470,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Steven = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Steven,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wally = {
@@ -2570,7 +2480,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wally = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2579,7 +2489,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wally = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Wally,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireLittleBoy = {
@@ -2589,7 +2499,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireLittle
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2598,7 +2508,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireLittle
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_RubySapphireLittleBoy,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanFishing = {
@@ -2608,7 +2518,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanFishing = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2617,7 +2527,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanFishing = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Fishing,
     .images = sPicTable_BrendanFishing,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayFishing = {
@@ -2627,7 +2537,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayFishing = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2636,7 +2546,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayFishing = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Fishing,
     .images = sPicTable_MayFishing,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HotSpringsOldWoman = {
@@ -2646,7 +2556,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HotSpringsOldWoman
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2655,7 +2565,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HotSpringsOldWoman
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_HotSpringsOldWoman,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSTidal = {
@@ -2665,7 +2575,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSTidal = {
     .size = 1920,
     .width = 96,
     .height = 40,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2674,7 +2584,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSTidal = {
     .subspriteTables = sOamTables_96x40,
     .anims = sAnimTable_Standard,
     .images = sPicTable_SSTidal,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SubmarineShadow = {
@@ -2684,7 +2594,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SubmarineShadow = 
     .size = 1408,
     .width = 88,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2693,7 +2603,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SubmarineShadow = 
     .subspriteTables = sOamTables_88x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_SubmarineShadow,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PichuDoll = {
@@ -2703,7 +2613,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PichuDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2712,7 +2622,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PichuDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_PichuDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PikachuDoll = {
@@ -2722,7 +2632,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PikachuDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2731,7 +2641,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PikachuDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_PikachuDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MarillDoll = {
@@ -2741,7 +2651,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MarillDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2750,7 +2660,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MarillDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_MarillDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TogepiDoll = {
@@ -2760,7 +2670,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TogepiDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2769,7 +2679,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TogepiDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_TogepiDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyndaquilDoll = {
@@ -2779,7 +2689,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyndaquilDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2788,7 +2698,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyndaquilDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_CyndaquilDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChikoritaDoll = {
@@ -2798,7 +2708,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChikoritaDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2807,7 +2717,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChikoritaDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_ChikoritaDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TotodileDoll = {
@@ -2817,7 +2727,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TotodileDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2826,7 +2736,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TotodileDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_TotodileDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JigglypuffDoll = {
@@ -2836,7 +2746,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JigglypuffDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2845,7 +2755,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JigglypuffDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_JigglypuffDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MeowthDoll = {
@@ -2855,7 +2765,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MeowthDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2864,7 +2774,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MeowthDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_MeowthDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ClefairyDoll = {
@@ -2874,7 +2784,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ClefairyDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2883,7 +2793,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ClefairyDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_ClefairyDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DittoDoll = {
@@ -2893,7 +2803,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DittoDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2902,7 +2812,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DittoDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_DittoDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SmoochumDoll = {
@@ -2912,7 +2822,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SmoochumDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2921,7 +2831,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SmoochumDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_SmoochumDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TreeckoDoll = {
@@ -2931,7 +2841,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TreeckoDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2940,7 +2850,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TreeckoDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_TreeckoDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TorchicDoll = {
@@ -2950,7 +2860,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TorchicDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2959,7 +2869,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TorchicDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_TorchicDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MudkipDoll = {
@@ -2969,7 +2879,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MudkipDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2978,7 +2888,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MudkipDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_MudkipDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DuskullDoll = {
@@ -2988,7 +2898,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DuskullDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -2997,7 +2907,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DuskullDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_DuskullDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WynautDoll = {
@@ -3007,7 +2917,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WynautDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3016,7 +2926,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WynautDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_WynautDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BaltoyDoll = {
@@ -3026,7 +2936,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BaltoyDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3035,7 +2945,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BaltoyDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BaltoyDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonDoll = {
@@ -3045,7 +2955,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3054,7 +2964,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_KecleonDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AzurillDoll = {
@@ -3064,7 +2974,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AzurillDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3073,7 +2983,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AzurillDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_AzurillDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SkittyDoll = {
@@ -3083,7 +2993,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SkittyDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3092,7 +3002,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SkittyDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_SkittyDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwabluDoll = {
@@ -3102,7 +3012,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwabluDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3111,7 +3021,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwabluDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_SwabluDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GulpinDoll = {
@@ -3121,7 +3031,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GulpinDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3130,7 +3040,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GulpinDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_GulpinDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LotadDoll = {
@@ -3140,7 +3050,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LotadDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3149,7 +3059,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LotadDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_LotadDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SeedotDoll = {
@@ -3159,7 +3069,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SeedotDoll = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3168,7 +3078,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SeedotDoll = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_SeedotDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PikaCushion = {
@@ -3178,7 +3088,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PikaCushion = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3187,7 +3097,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PikaCushion = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_PikaCushion,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RoundCushion = {
@@ -3197,7 +3107,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RoundCushion = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3206,7 +3116,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RoundCushion = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_RoundCushion,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KissCushion = {
@@ -3216,7 +3126,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KissCushion = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3225,7 +3135,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KissCushion = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_KissCushion,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ZigzagCushion = {
@@ -3235,7 +3145,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ZigzagCushion = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3244,7 +3154,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ZigzagCushion = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_ZigzagCushion,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SpinCushion = {
@@ -3254,7 +3164,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SpinCushion = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3263,7 +3173,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SpinCushion = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_SpinCushion,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DiamondCushion = {
@@ -3273,7 +3183,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DiamondCushion = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3282,7 +3192,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DiamondCushion = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_DiamondCushion,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BallCushion = {
@@ -3292,7 +3202,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BallCushion = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3301,7 +3211,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BallCushion = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BallCushion,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GrassCushion = {
@@ -3311,7 +3221,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GrassCushion = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3320,7 +3230,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GrassCushion = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_GrassCushion,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FireCushion = {
@@ -3330,7 +3240,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FireCushion = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3339,7 +3249,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FireCushion = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_FireCushion,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WaterCushion = {
@@ -3349,7 +3259,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WaterCushion = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3358,7 +3268,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WaterCushion = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_WaterCushion,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigSnorlaxDoll = {
@@ -3368,7 +3278,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigSnorlaxDoll = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3377,7 +3287,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigSnorlaxDoll = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BigSnorlaxDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRhydonDoll = {
@@ -3387,7 +3297,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRhydonDoll = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3396,7 +3306,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRhydonDoll = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BigRhydonDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigLaprasDoll = {
@@ -3406,7 +3316,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigLaprasDoll = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3415,7 +3325,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigLaprasDoll = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BigLaprasDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigVenusaurDoll = {
@@ -3425,7 +3335,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigVenusaurDoll = 
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3434,7 +3344,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigVenusaurDoll = 
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BigVenusaurDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigCharizardDoll = {
@@ -3444,7 +3354,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigCharizardDoll =
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3453,7 +3363,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigCharizardDoll =
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BigCharizardDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigBlastoiseDoll = {
@@ -3463,7 +3373,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigBlastoiseDoll =
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3472,7 +3382,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigBlastoiseDoll =
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BigBlastoiseDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigWailmerDoll = {
@@ -3482,7 +3392,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigWailmerDoll = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3491,7 +3401,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigWailmerDoll = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BigWailmerDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegirockDoll = {
@@ -3501,7 +3411,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegirockDoll = 
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3510,7 +3420,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegirockDoll = 
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BigRegirockDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegiceDoll = {
@@ -3520,7 +3430,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegiceDoll = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3529,7 +3439,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegiceDoll = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BigRegiceDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegisteelDoll = {
@@ -3539,7 +3449,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegisteelDoll =
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3548,7 +3458,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegisteelDoll =
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BigRegisteelDoll,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latias = {
@@ -3558,7 +3468,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latias = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3567,7 +3477,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latias = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_LatiasLatios,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latios = {
@@ -3577,7 +3487,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latios = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3586,7 +3496,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latios = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_LatiasLatios,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GameboyKid = {
@@ -3596,7 +3506,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GameboyKid = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3605,7 +3515,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GameboyKid = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_GameboyKid,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ContestJudge = {
@@ -3615,7 +3525,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ContestJudge = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3624,7 +3534,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ContestJudge = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_ContestJudge,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanWatering = {
@@ -3634,7 +3544,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanWatering = 
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3643,7 +3553,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanWatering = 
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_BrendanWatering,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayWatering = {
@@ -3653,7 +3563,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayWatering = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3662,7 +3572,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayWatering = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MayWatering,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanDecorating = {
@@ -3672,7 +3582,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanDecorating 
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3681,7 +3591,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanDecorating 
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BrendanDecorating,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayDecorating = {
@@ -3691,7 +3601,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayDecorating = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3700,7 +3610,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayDecorating = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_MayDecorating,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Archie = {
@@ -3710,7 +3620,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Archie = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3719,7 +3629,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Archie = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Archie,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maxie = {
@@ -3729,7 +3639,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maxie = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3738,7 +3648,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maxie = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Maxie,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreFront = {
@@ -3748,7 +3658,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreFront = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3767,7 +3677,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonFront = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3786,7 +3696,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreSide = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3805,7 +3715,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonSide = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3824,7 +3734,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3833,7 +3743,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_Fossil,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regirock = {
@@ -3843,7 +3753,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regirock = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3852,7 +3762,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regirock = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Regi,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regice = {
@@ -3862,7 +3772,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regice = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3871,7 +3781,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Regice = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Regi,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Registeel = {
@@ -3881,7 +3791,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Registeel = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -3890,7 +3800,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Registeel = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Regi,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Skitty = {
@@ -3900,7 +3810,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Skitty = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3909,7 +3819,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Skitty = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_SkittyOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kecleon = {
@@ -3919,7 +3829,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kecleon = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3928,7 +3838,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kecleon = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_KecleonOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreAsleep = {
@@ -3938,7 +3848,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KyogreAsleep = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3957,7 +3867,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GroudonAsleep = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3976,7 +3886,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza = {
     .size = 2048,
     .width = 64,
     .height = 64,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -3985,7 +3895,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza = {
     .subspriteTables = sOamTables_64x64,
     .anims = sAnimTable_Rayquaza,
     .images = sPicTable_RayquazaCutscene,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zigzagoon = {
@@ -3995,7 +3905,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zigzagoon = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4004,7 +3914,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zigzagoon = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_ZigzagoonOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pikachu = {
@@ -4014,7 +3924,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pikachu = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4023,7 +3933,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pikachu = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_PikachuOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azumarill = {
@@ -4033,7 +3943,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azumarill = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4042,7 +3952,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azumarill = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_AzumarillOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull = {
@@ -4052,7 +3962,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4061,7 +3971,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_WingullOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonBridgeShadow = {
@@ -4071,7 +3981,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonBridgeShado
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4080,7 +3990,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonBridgeShado
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_KecleonOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberMSwimming = {
@@ -4090,7 +4000,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberMSwimming = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4099,7 +4009,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberMSwimming = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_TuberMSwimming,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azurill = {
@@ -4109,7 +4019,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azurill = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4118,7 +4028,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azurill = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_AzurillOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mom = {
@@ -4128,7 +4038,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mom = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4137,7 +4047,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mom = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Mom,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkBrendan = {
@@ -4147,7 +4057,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkBrendan = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4156,7 +4066,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkBrendan = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_BrendanMayNormal,
     .images = sPicTable_BrendanNormal,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkMay = {
@@ -4166,7 +4076,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkMay = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4175,7 +4085,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkMay = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_BrendanMayNormal,
     .images = sPicTable_MayNormal,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Juan = {
@@ -4185,7 +4095,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Juan = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4194,7 +4104,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Juan = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Juan,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scott = {
@@ -4204,7 +4114,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scott = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4213,7 +4123,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scott = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Scott,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MysteryEventDeliveryman = {
@@ -4223,7 +4133,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MysteryEventDelive
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4232,7 +4142,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MysteryEventDelive
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MysteryEventDeliveryman,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Statue = {
@@ -4242,7 +4152,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Statue = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -4251,7 +4161,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Statue = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_Statue,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kirlia = {
@@ -4261,7 +4171,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kirlia = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4270,7 +4180,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kirlia = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_KirliaOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dusclops = {
@@ -4280,7 +4190,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dusclops = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4289,7 +4199,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dusclops = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_DusclopsOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnionRoomAttendant = {
@@ -4299,7 +4209,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnionRoomAttendant
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4308,7 +4218,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnionRoomAttendant
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_UnionRoomAttendant,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Red = {
@@ -4318,7 +4228,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Red = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4327,7 +4237,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Red = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Red,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Leaf = {
@@ -4337,7 +4247,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Leaf = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4346,7 +4256,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Leaf = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Leaf,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sudowoodo = {
@@ -4356,7 +4266,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sudowoodo = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4365,7 +4275,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sudowoodo = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_SudowoodoTree,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mew = {
@@ -4375,7 +4285,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mew = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4384,7 +4294,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mew = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_MewOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Deoxys = {
@@ -4394,7 +4304,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Deoxys = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4403,7 +4313,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Deoxys = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_DeoxysOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirthIslandStone = {
@@ -4413,7 +4323,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirthIslandStone =
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -4422,7 +4332,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirthIslandStone =
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_BirthIslandStone,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Anabel = {
@@ -4432,7 +4342,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Anabel = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4441,7 +4351,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Anabel = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Anabel,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tucker = {
@@ -4451,7 +4361,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tucker = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4460,7 +4370,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tucker = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Tucker,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Greta = {
@@ -4470,7 +4380,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Greta = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4479,7 +4389,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Greta = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Greta,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Spenser = {
@@ -4489,7 +4399,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Spenser = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4498,7 +4408,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Spenser = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Spenser,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Noland = {
@@ -4508,7 +4418,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Noland = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4517,7 +4427,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Noland = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Noland,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lucy = {
@@ -4527,7 +4437,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lucy = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4536,7 +4446,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lucy = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Lucy,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brandon = {
@@ -4546,7 +4455,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brandon = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4555,7 +4464,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brandon = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_Brandon,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireBrendan = {
@@ -4565,7 +4473,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireBrenda
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4574,7 +4482,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireBrenda
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_RubySapphireBrendan,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireMay = {
@@ -4584,7 +4491,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireMay = 
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4593,7 +4500,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireMay = 
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_RubySapphireMay,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia = {
@@ -4603,7 +4509,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4612,7 +4518,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_LugiaOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh = {
@@ -4622,7 +4527,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4631,7 +4536,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_HoOh,
     .images = sPicTable_HoOhOld,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokeBall = {
@@ -4641,7 +4545,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokeBall = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -4650,7 +4554,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokeBall = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Following,
     .images = sPicTable_PokeBall,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Follower = {
@@ -4660,7 +4563,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Follower = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4668,8 +4571,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Follower = {
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Following,
-    .images = NULL,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BallLight = {
@@ -4679,7 +4580,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BallLight = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_NONE,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -4688,7 +4589,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BallLight = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Inanimate,
     .images = gFieldEffectObjectPicTable_BallLight,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_01_Little_Boy = {
@@ -4698,7 +4598,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_01_Little_Boy = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4707,7 +4607,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_01_Little_Boy = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_01_Little_Boy,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_02_Little_Girl = {
@@ -4717,7 +4616,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_02_Little_Girl = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4726,7 +4625,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_02_Little_Girl = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_02_Little_Girl,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_03_Male_1 = {
@@ -4736,7 +4634,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_03_Male_1 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4745,7 +4643,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_03_Male_1 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_03_Male_1,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_04_Male_2 = {
@@ -4755,7 +4652,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_04_Male_2 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4764,7 +4661,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_04_Male_2 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_04_Male_2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_05_Male_3 = {
@@ -4774,7 +4670,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_05_Male_3 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4783,7 +4679,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_05_Male_3 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_05_Male_3,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_06_Male_4 = {
@@ -4793,7 +4688,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_06_Male_4 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4802,7 +4697,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_06_Male_4 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_06_Male_4,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_07_Male_5 = {
@@ -4812,7 +4706,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_07_Male_5 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4821,7 +4715,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_07_Male_5 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_07_Male_5,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_08_Male_6 = {
@@ -4831,7 +4724,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_08_Male_6 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4840,7 +4733,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_08_Male_6 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_08_Male_6,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_09_Male_7 = {
@@ -4850,7 +4742,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_09_Male_7 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4859,7 +4751,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_09_Male_7 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_09_Male_7,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_10_Male_8 = {
@@ -4869,7 +4760,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_10_Male_8 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4878,7 +4769,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_10_Male_8 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_10_Male_8,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_11_Male_9 = {
@@ -4888,7 +4778,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_11_Male_9 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4897,7 +4787,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_11_Male_9 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_11_Male_9,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_12_Male_10 = {
@@ -4907,7 +4796,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_12_Male_10 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4916,7 +4805,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_12_Male_10 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_12_Male_10,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_13_Female_1 = {
@@ -4926,7 +4814,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_13_Female_1 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4935,7 +4823,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_13_Female_1 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_13_Female_1,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_14_Female_2 = {
@@ -4945,7 +4832,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_14_Female_2 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4954,7 +4841,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_14_Female_2 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_14_Female_2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_15_Female_3 = {
@@ -4964,7 +4850,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_15_Female_3 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4973,7 +4859,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_15_Female_3 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_15_Female_3,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_16_Female_4 = {
@@ -4983,7 +4868,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_16_Female_4 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4992,7 +4877,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_16_Female_4 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_16_Female_4,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_17_Female_5 = {
@@ -5002,7 +4886,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_17_Female_5 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5011,7 +4895,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_17_Female_5 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_17_Female_5,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_18_Female_6 = {
@@ -5021,7 +4904,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_18_Female_6 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5030,7 +4913,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_18_Female_6 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_18_Female_6,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_19_Female_7 = {
@@ -5040,7 +4922,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_19_Female_7 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5049,7 +4931,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_19_Female_7 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_19_Female_7,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_20_Sitting_Boy = {
@@ -5059,7 +4940,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_20_Sitting_Boy = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5068,7 +4949,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_20_Sitting_Boy = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_20_Sitting_Boy,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_21_Gameboy_Boy = {
@@ -5078,7 +4958,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_21_Gameboy_Boy = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5087,7 +4967,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_21_Gameboy_Boy = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_21_Gameboy_Boy,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_22_Shopkeeper = {
@@ -5097,7 +4976,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_22_Shopkeeper = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5106,7 +4985,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_22_Shopkeeper = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_22_Shopkeeper,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_23_PrisonerA = {
@@ -5116,7 +4994,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_23_PrisonerA = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5125,7 +5003,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_23_PrisonerA = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_23_PrisonerA,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_24_PrisonerB = {
@@ -5135,7 +5012,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_24_PrisonerB = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5144,7 +5021,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_24_PrisonerB = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_24_PrisonerB,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_25_PrisonerC = {
@@ -5154,7 +5030,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_25_PrisonerC = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5163,7 +5039,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_25_PrisonerC = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_25_PrisonerC,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_26_Captain = {
@@ -5173,7 +5048,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_26_Captain = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5182,7 +5057,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_26_Captain = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_26_Captain,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_27_Elder = {
@@ -5192,7 +5066,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_27_Elder = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5201,7 +5075,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_27_Elder = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_27_Elder,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_28_GymGuy = {
@@ -5211,7 +5084,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_28_GymGuy = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5220,7 +5093,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_28_GymGuy = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_28_GymGuy,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_29_Aide = {
@@ -5230,7 +5102,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_29_Aide = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5239,7 +5111,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_29_Aide = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_29_Aide,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_30_Aide2 = {
@@ -5249,7 +5120,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_30_Aide2 = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5258,7 +5129,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_30_Aide2 = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_30_Aide2,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_31_WifiLady = {
@@ -5268,7 +5138,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_31_WifiLady = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5277,7 +5147,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_31_WifiLady = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_31_WifiLady,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_32_MysteryGift = {
@@ -5287,7 +5156,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_32_MysteryGift = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5296,7 +5165,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_32_MysteryGift = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_32_MysteryGift,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_33_Ace_TrainerM = {
@@ -5306,7 +5174,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_33_Ace_TrainerM = 
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5315,7 +5183,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_33_Ace_TrainerM = 
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_33_Ace_TrainerM,
-    .affineAnims = gDummySpriteAffineAnimTable,
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_34_Ace_TrainerF = {
@@ -5325,7 +5192,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_34_Ace_TrainerF = 
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5334,7 +5201,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_34_Ace_TrainerF = 
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_34_Ace_TrainerF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_35_Ace_TrainerM2 = {
@@ -5344,7 +5211,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_35_Ace_TrainerM2 =
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5353,7 +5220,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_35_Ace_TrainerM2 =
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_35_Ace_TrainerM2,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_36_Ace_TrainerF2 = {
@@ -5363,7 +5230,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_36_Ace_TrainerF2 =
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5372,7 +5239,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_36_Ace_TrainerF2 =
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_36_Ace_TrainerF2,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_37_Aroma_Lady = {
@@ -5382,7 +5249,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_37_Aroma_Lady = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5391,7 +5258,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_37_Aroma_Lady = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_37_Aroma_Lady,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_38_Battle_Girl = {
@@ -5401,7 +5268,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_38_Battle_Girl = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5410,7 +5277,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_38_Battle_Girl = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_38_Battle_Girl,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_39_Beauty = {
@@ -5420,7 +5287,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_39_Beauty = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5429,7 +5296,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_39_Beauty = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_39_Beauty,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_40_Biker = {
@@ -5439,7 +5306,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_40_Biker = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5448,7 +5315,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_40_Biker = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_40_Biker,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_41_Biker_Standing = {
@@ -5458,7 +5325,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_41_Biker_Standing 
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5467,7 +5334,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_41_Biker_Standing 
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_41_Biker_Standing,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_42_Bird_Keeper = {
@@ -5477,7 +5344,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_42_Bird_Keeper = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5486,7 +5353,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_42_Bird_Keeper = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_42_Bird_Keeper,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_43_Black_Belt = {
@@ -5496,7 +5363,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_43_Black_Belt = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5505,7 +5372,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_43_Black_Belt = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_43_Black_Belt,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_44_Bug_Catcher = {
@@ -5515,7 +5382,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_44_Bug_Catcher = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5524,7 +5391,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_44_Bug_Catcher = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_44_Bug_Catcher,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_45_Bug_Maniac = {
@@ -5534,7 +5401,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_45_Bug_Maniac = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5543,7 +5410,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_45_Bug_Maniac = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_45_Bug_Maniac,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_46_Burglar = {
@@ -5553,7 +5420,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_46_Burglar = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5562,7 +5429,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_46_Burglar = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_46_Burglar,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_47_Camper = {
@@ -5572,7 +5439,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_47_Camper = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5581,7 +5448,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_47_Camper = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_47_Camper,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_48_Picnicker = {
@@ -5591,7 +5458,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_48_Picnicker = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5600,7 +5467,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_48_Picnicker = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_48_Picnicker,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_49_Channeler = {
@@ -5610,7 +5477,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_49_Channeler = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5619,7 +5486,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_49_Channeler = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_49_Channeler,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_50_Collector = {
@@ -5629,7 +5496,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_50_Collector = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5638,7 +5505,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_50_Collector = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_50_Collector,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_51_Cue_Ball = {
@@ -5648,7 +5515,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_51_Cue_Ball = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5657,7 +5524,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_51_Cue_Ball = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_51_Cue_Ball,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_52_Cue_Ball_Standing = {
@@ -5667,7 +5534,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_52_Cue_Ball_Standi
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5676,7 +5543,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_52_Cue_Ball_Standi
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_52_Cue_Ball_Standing,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_53_Cue_Ball_Leader = {
@@ -5686,7 +5553,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_53_Cue_Ball_Leader
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5695,7 +5562,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_53_Cue_Ball_Leader
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_53_Cue_Ball_Leader,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_54_Dragon_Tamer = {
@@ -5705,7 +5572,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_54_Dragon_Tamer = 
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5714,7 +5581,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_54_Dragon_Tamer = 
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_54_Dragon_Tamer,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_55_Engineer = {
@@ -5724,7 +5591,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_55_Engineer = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5733,7 +5600,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_55_Engineer = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_55_Engineer,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_56_ExpertM = {
@@ -5743,7 +5610,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_56_ExpertM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5752,7 +5619,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_56_ExpertM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_56_ExpertM,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_57_ExpertF = {
@@ -5762,7 +5629,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_57_ExpertF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5771,7 +5638,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_57_ExpertF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_57_ExpertF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_58_Fisherman = {
@@ -5781,7 +5648,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_58_Fisherman = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5790,7 +5657,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_58_Fisherman = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_58_Fisherman,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 
@@ -5801,7 +5668,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_59_Gentleman = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5810,7 +5677,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_59_Gentleman = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_59_Gentleman,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 
@@ -5821,7 +5688,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_60_Guitarist = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5830,7 +5697,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_60_Guitarist = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_60_Guitarist,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_61_Hex_Maniac = {
@@ -5840,7 +5707,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_61_Hex_Maniac = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5849,7 +5716,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_61_Hex_Maniac = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_61_Hex_Maniac,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_62_Hiker = {
@@ -5859,7 +5726,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_62_Hiker = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5868,7 +5735,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_62_Hiker = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_62_Hiker,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_63_Juggler = {
@@ -5878,7 +5745,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_63_Juggler = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5887,7 +5754,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_63_Juggler = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_63_Juggler,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_64_Kindler = {
@@ -5897,7 +5764,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_64_Kindler = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5906,7 +5773,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_64_Kindler = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_64_Kindler,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_65_Lady = {
@@ -5916,7 +5783,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_65_Lady = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5925,7 +5792,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_65_Lady = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_65_Lady,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_66_Lass = {
@@ -5935,7 +5802,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_66_Lass = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5944,7 +5811,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_66_Lass = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_66_Lass,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_67_Painter = {
@@ -5954,7 +5821,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_67_Painter = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5963,7 +5830,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_67_Painter = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_67_Painter,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_68_Pkmn_BreederM = {
@@ -5973,7 +5840,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_68_Pkmn_BreederM =
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -5982,7 +5849,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_68_Pkmn_BreederM =
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_68_Pkmn_BreederM,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_69_Pkmn_BreederF = {
@@ -5992,7 +5859,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_69_Pkmn_BreederF =
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6001,7 +5868,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_69_Pkmn_BreederF =
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_69_Pkmn_BreederF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_70_Pkmn_RangerM = {
@@ -6011,7 +5878,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_70_Pkmn_RangerM = 
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6020,7 +5887,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_70_Pkmn_RangerM = 
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_70_Pkmn_RangerM,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_71_Pkmn_RangerF = {
@@ -6030,7 +5897,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_71_Pkmn_RangerF = 
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6039,7 +5906,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_71_Pkmn_RangerF = 
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_71_Pkmn_RangerF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_72_PokefanM = {
@@ -6049,7 +5916,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_72_PokefanM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6058,7 +5925,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_72_PokefanM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_72_PokefanM,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_73_PokefanF = {
@@ -6068,7 +5935,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_73_PokefanF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6077,7 +5944,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_73_PokefanF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_73_PokefanF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_74_Pokemaniac = {
@@ -6087,7 +5954,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_74_Pokemaniac = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6096,7 +5963,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_74_Pokemaniac = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_74_Pokemaniac,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_75_Policeman = {
@@ -6106,7 +5973,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_75_Policeman = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6115,7 +5982,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_75_Policeman = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_75_Policeman,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_76_PsychicM = {
@@ -6125,7 +5992,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_76_PsychicM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6134,7 +6001,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_76_PsychicM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_76_PsychicM,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_77_PsychicF = {
@@ -6144,7 +6011,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_77_PsychicF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6153,7 +6020,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_77_PsychicF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_77_PsychicF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_78_Rich_Boy = {
@@ -6163,7 +6030,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_78_Rich_Boy = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6172,7 +6039,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_78_Rich_Boy = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_78_Rich_Boy,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_79_Rocker = {
@@ -6182,7 +6049,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_79_Rocker = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6191,7 +6058,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_79_Rocker = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_79_Rocker,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_80_Ruin_Maniac = {
@@ -6201,7 +6068,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_80_Ruin_Maniac = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6210,7 +6077,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_80_Ruin_Maniac = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_80_Ruin_Maniac,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_81_Sailor = {
@@ -6220,7 +6087,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_81_Sailor = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6229,7 +6096,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_81_Sailor = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_81_Sailor,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_82_School_KidF = {
@@ -6239,7 +6106,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_82_School_KidF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6248,7 +6115,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_82_School_KidF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_82_School_KidF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_83_Scientist = {
@@ -6258,7 +6125,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_83_Scientist = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6267,7 +6134,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_83_Scientist = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_83_Scientist,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_84_Super_Nerd = {
@@ -6277,7 +6144,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_84_Super_Nerd = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6286,7 +6153,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_84_Super_Nerd = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_84_Super_Nerd,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_85_SwimmerM = {
@@ -6296,7 +6163,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_85_SwimmerM = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6305,7 +6172,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_85_SwimmerM = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_85_SwimmerM,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_86_SwimmerF = {
@@ -6315,7 +6182,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_86_SwimmerF = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6324,7 +6191,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_86_SwimmerF = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_86_SwimmerF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_87_SwimmerM_Land = {
@@ -6334,7 +6201,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_87_SwimmerM_Land =
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6343,7 +6210,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_87_SwimmerM_Land =
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_87_SwimmerM_Land,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_88_SwimmerF_Land = {
@@ -6353,7 +6220,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_88_SwimmerF_Land =
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6362,7 +6229,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_88_SwimmerF_Land =
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_88_SwimmerF_Land,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_89_Tamer = {
@@ -6372,7 +6239,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_89_Tamer = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6381,7 +6248,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_89_Tamer = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_89_Tamer,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_90_Triathlete_RunM = {
@@ -6391,7 +6258,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_90_Triathlete_RunM
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6400,7 +6267,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_90_Triathlete_RunM
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_90_Triathlete_RunM,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_91_Triathlete_RunF = {
@@ -6410,7 +6277,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_91_Triathlete_RunF
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6419,7 +6286,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_91_Triathlete_RunF
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_91_Triathlete_RunF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 
@@ -6430,7 +6297,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_92_Tuber_Male = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6439,7 +6306,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_92_Tuber_Male = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_92_Tuber_Male,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_93_Tuber_Female = {
@@ -6449,7 +6316,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_93_Tuber_Female = 
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6458,7 +6325,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_93_Tuber_Female = 
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_93_Tuber_Female,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_94_Tuber_Male_Swimming = {
@@ -6468,7 +6335,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_94_Tuber_Male_Swim
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6477,7 +6344,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_94_Tuber_Male_Swim
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_94_Tuber_Male_Swimming,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 
@@ -6488,7 +6355,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_95_Tuber_Female_Sw
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6497,7 +6364,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_95_Tuber_Female_Sw
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_95_Tuber_Female_Swimming,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 
@@ -6508,7 +6375,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_96_Twins = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6517,7 +6384,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_96_Twins = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Standard,
     .images = sPicTable_96_Twins,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 
@@ -6528,7 +6395,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_97_Young_CoupleM =
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6537,7 +6404,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_97_Young_CoupleM =
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_97_Young_CoupleM,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 
@@ -6548,7 +6415,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_98_Young_CoupleF =
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6557,7 +6424,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_98_Young_CoupleF =
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_98_Young_CoupleF,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 
@@ -6568,7 +6435,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_99_Youngster = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6577,7 +6444,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_99_Youngster = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_99_Youngster,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 
@@ -6588,7 +6455,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_100_Shadow = {
     .size = 512,
     .width = 32,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MON,
+    //.textcolor = NPC_TEXT_COLOR_MON,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6597,7 +6464,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_100_Shadow = {
     .subspriteTables = sOamTables_32x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_100_Shadow,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_101_Amber = {
@@ -6607,7 +6474,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_101_Amber = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6616,7 +6483,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_101_Amber = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_101_Amber,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_102_Mom = {
@@ -6626,7 +6493,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_102_Mom = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6635,7 +6502,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_102_Mom = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_102_Mom,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_103_Prof_Aspen = {
@@ -6645,7 +6512,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_103_Prof_Aspen = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6654,7 +6521,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_103_Prof_Aspen = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_103_Prof_Aspen,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_104_Alex = {
@@ -6664,7 +6531,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_104_Alex = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6673,7 +6540,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_104_Alex = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_104_Alex,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_105_Katelyn = {
@@ -6683,7 +6550,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_105_Katelyn = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6692,7 +6559,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_105_Katelyn = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_105_Katelyn,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_106_Lyon = {
@@ -6702,7 +6569,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_106_Lyon = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6711,7 +6578,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_106_Lyon = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_106_Lyon,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_107_Fiasendra = {
@@ -6721,7 +6588,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_107_Fiasendra = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6730,7 +6597,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_107_Fiasendra = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_107_Fiasendra,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_108_Finn = {
@@ -6740,7 +6607,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_108_Finn = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6749,7 +6616,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_108_Finn = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_108_Finn,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_109_Sophia = {
@@ -6759,7 +6626,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_109_Sophia = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6768,7 +6635,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_109_Sophia = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_109_Sophia,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_110_NewBall = {
@@ -6778,7 +6645,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_110_NewBall = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -6787,7 +6654,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_110_NewBall = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_110_NewBall,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_111_OldAmber = {
@@ -6797,7 +6664,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_111_OldAmber = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -6806,7 +6673,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_111_OldAmber = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_111_OldAmber,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_112_Pokedex = {
@@ -6816,7 +6683,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_112_Pokedex = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -6825,7 +6692,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_112_Pokedex = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_112_Pokedex,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_113_Document= {
@@ -6835,7 +6702,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_113_Document= {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -6844,7 +6711,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_113_Document= {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_113_Document,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_114_Red_Gem = {
@@ -6854,7 +6721,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_114_Red_Gem = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -6863,7 +6730,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_114_Red_Gem = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_114_Red_Gem,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_115_Blue_Gem = {
@@ -6873,7 +6740,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_115_Blue_Gem = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    //.textcolor = NPC_TEXT_COLOR_NEUTRAL,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -6882,7 +6749,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_115_Blue_Gem = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_115_Blue_Gem,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_116_Red = {
@@ -6892,7 +6759,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_116_Red = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6901,7 +6768,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_116_Red = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_116_Red,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_117_Blue = {
@@ -6911,7 +6778,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_117_Blue = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6920,7 +6787,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_117_Blue = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_117_Blue,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_118_Lance = {
@@ -6930,7 +6797,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_118_Lance = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6939,7 +6806,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_118_Lance = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_118_Lance,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_119_Steven = {
@@ -6949,7 +6816,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_119_Steven = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6958,7 +6825,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_119_Steven = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_119_Steven,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_120_Cynthia = {
@@ -6968,7 +6835,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_120_Cynthia = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6977,7 +6844,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_120_Cynthia = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_120_Cynthia,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_121_Colress = {
@@ -6987,7 +6854,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_121_Colress = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -6996,7 +6863,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_121_Colress = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_121_Colress,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_122_Iris = {
@@ -7006,7 +6873,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_122_Iris = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -7015,7 +6882,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_122_Iris = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_122_Iris,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_123_Diantha = {
@@ -7025,7 +6892,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_123_Diantha = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -7034,7 +6901,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_123_Diantha = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_123_Diantha,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_124_Leon = {
@@ -7044,7 +6911,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_124_Leon = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_MALE,
+    //.textcolor = NPC_TEXT_COLOR_MALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -7053,7 +6920,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_124_Leon = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_124_Leon,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_125_Nemona = {
@@ -7063,7 +6930,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_125_Nemona = {
     .size = 256,
     .width = 16,
     .height = 32,
-    .textColor = NPC_TEXT_COLOR_FEMALE,
+    //.textcolor = NPC_TEXT_COLOR_FEMALE,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -7072,7 +6939,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_125_Nemona = {
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
     .images = sPicTable_125_Nemona,
-    .affineAnims = gDummySpriteAffineAnimTable,
+
 };
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornTree = {
@@ -7082,7 +6949,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornTree = {
     .size = 128,
     .width = 16,
     .height = 16,
-    .textColor = NPC_TEXT_COLOR_NEUTRAL,
+    .paletteSlot = PALSLOT_NPC_3,
     .shadowSize = SHADOW_SIZE_S,
     .inanimate = TRUE,
     .compressed = FALSE,
@@ -7091,5 +6958,2763 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornTree = {
     .subspriteTables = sOamTables_16x16,
     .anims = sAnimTable_Inanimate,
     .images = sPicTable_ApricornTree,
+};
+
+#if IS_FRLG
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedNormal = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 512,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_BrendanMayNormal,
+    .images = sPicTable_RedNormal,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedBike = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_BIKE_TIRE,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_RedBike,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedSurf = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Surfing,
+    .images = sPicTable_RedSurf,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedFieldMove = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_FieldMove,
+    .images = sPicTable_RedItem,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedFish = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Fishing,
+    .images = sPicTable_RedFish,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedVSSeeker = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_RedGreenVSSeeker,
+    .images = sPicTable_RedItem,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RedVSSeekerBike = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_RedGreenVSSeekerBike,
+    .images = sPicTable_RedVSSeekerBike,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GreenFish = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Fishing,
+    .images = sPicTable_GreenFish,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GreenVSSeeker = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_RedGreenVSSeeker,
+    .images = sPicTable_GreenItem,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GreenVSSeekerBike = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_RED,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_RedGreenVSSeekerBike,
+    .images = sPicTable_GreenVSSeekerBike,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GreenNormal = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 512,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_BrendanMayNormal,
+    .images = sPicTable_GreenNormal,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GreenBike = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_BIKE_TIRE,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_GreenBike,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GreenSurf = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Surfing,
+    .images = sPicTable_GreenSurf,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GreenFieldMove = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_PLAYER_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_PLAYER,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_FieldMove,
+    .images = sPicTable_GreenItem,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Policeman = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Policeman,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LittleBoyFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_LittleBoyFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LittleGirlFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_LittleGirlFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SittingBoy = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_SittingBoy,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LassFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_LassFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YoungsterFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_YoungsterFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman1Frlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Woman1Frlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman3Frlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Woman3Frlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Boy = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Boy,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BattleGirl = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_BattleGirl,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BugCatcherFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_BugCatcherFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FatManFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_FatManFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BaldingMan = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_BaldingMan,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman2Frlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Woman2Frlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldMan1 = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_OldMan1,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WorkerM = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_WorkerM,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WorkerF = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_WorkerF,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BeautyFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_BeautyFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Chef = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Chef,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldMan2 = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_OldMan2,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldWomanFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_OldWomanFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CamperFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_CamperFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PicnickerFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_PicnickerFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CooltrainerM = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_CooltrainerM,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CooltrainerF = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_CooltrainerF,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SuperNerd = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_SuperNerd,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Channeler = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Channeler,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketF = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_RocketF,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerMWater = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_SwimmerMWater,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerFWater = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_SwimmerFWater,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerMLand = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_SwimmerMLand,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerFLand = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_SwimmerFLand,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Blackbelt = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Blackbelt,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scientist = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Scientist,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GentlemanFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_GentlemanFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SailorFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_SailorFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Captain = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Captain,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fisher = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Fisher,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TeachyTVHost = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_TeachyTVHost,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberFFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_TuberF,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberMWater = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_TuberMWater,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberMLand = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_TuberMLand,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HikerFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_HikerFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Biker = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_BIKE_TIRE,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Biker,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GymGuy = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_BIKE_TIRE,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_GymGuy,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NurseFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Nurse,
+    .images = sPicTable_NurseFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfOak = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_ProfOak,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Man,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocker = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Rocker,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MrFuji = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_MrFuji,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bruno = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Bruno,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldManLyingDown = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_OldManLyingDown,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTreeFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_CuttableTree,
+    .images = sPicTable_CuttableTreeFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Clerk = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Clerk,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MGDeliveryman = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_MGDeliveryman,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TrainerTowerDude = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_TrainerTowerDude,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CableClubReceptionist = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_CableClubReceptionist,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnionRoomReceptionist = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_UnionRoomReceptionist,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BreakableRockFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_BreakableRock,
+    .images = sPicTable_BreakableRockFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PushableBoulderFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_PushableBoulderFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketM = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_RocketM,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Celio = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Celio,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Agatha = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Agatha,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brock = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Brock,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Misty = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Misty,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LtSurge = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_LtSurge,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Erika = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Erika,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Koga = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Koga,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giovanni = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Giovanni,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Blaine = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Blaine,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sabrina = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Sabrina,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bill = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Bill,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Daisy = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Daisy,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lorelei = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Lorelei,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lance = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Lance,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Blue = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Blue,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TownMap = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 32,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_TownMap,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pokedex = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_Pokedex,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GBAKid = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_GBAKid,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Snorlax = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Snorlax,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FossilFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_FossilFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ruby = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_Ruby,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sapphire = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_Sapphire,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldAmber = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_OldAmber,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GymSign = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_GymSign,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sign = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_Sign,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TrainerTips = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_WoodenSign,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Clipboard = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_Clipboard,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Meteorite = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_METEORITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_SPECIAL,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_BirthIslandStoneFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LaprasDoll = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_S,
+    .inanimate = TRUE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Inanimate,
+    .images = sPicTable_LaprasDoll,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Spearow = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Spearow,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Omanyte = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Omanyte,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kangaskhan = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Kangaskhan,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Psyduck = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Psyduck,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NidoranF = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_NidoranF,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NidoranM = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_NidoranM,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nidorino = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Nidorino,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Meowth = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Meowth,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Seel = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Seel,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Voltorb = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Voltorb,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Slowpoke = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Slowpoke,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Slowbro = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Slowbro,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Machop = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Machop,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wigglytuff = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Wigglytuff,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Doduo = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Doduo,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fearow = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Fearow,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lapras = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Lapras,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zapdos = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Zapdos,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Moltres = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Moltres,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Articuno = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Articuno,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysD = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_DeoxysD,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysA = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_DeoxysA,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysN = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 512,
+    .width = 32,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_32x32,
+    .subspriteTables = sOamTables_32x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_DeoxysN,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mewtwo = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Mewtwo,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Entei = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Entei,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Raikou = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Raikou,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Suicune = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Suicune,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Celebi = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_GREEN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Celebi,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cubone = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_WHITE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_4,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Cubone,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Machoke = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Machoke,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kabuto = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Kabuto,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Poliwrath = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Poliwrath,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pidgeot = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Pidgeot,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Chansey = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Chansey,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PikachuFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_PikachuFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jigglypuff = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Jigglypuff,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pidgey = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Pidgey,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Clefairy = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_PINK,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 128,
+    .width = 16,
+    .height = 16,
+    .paletteSlot = PALSLOT_NPC_2,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x16,
+    .subspriteTables = sOamTables_16x16,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Clefairy,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MomFrlg = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_BLUE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_1,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_MomFrlg,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Seagallop = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_SEAGALLOP,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 2048,
+    .width = 64,
+    .height = 64,
+    .paletteSlot = PALSLOT_NPC_SPECIAL,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_64x64,
+    .subspriteTables = sOamTables_64x64,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_Seagallop,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSAnne = {
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_TAG_SS_ANNE,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 4096,
+    .width = 128,
+    .height = 64,
+    .paletteSlot = PALSLOT_NPC_SPECIAL,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_NONE,
+    .oam = &gObjectEventBaseOam_8x8,
+    .subspriteTables = gObjectEventSpriteOamTables_128x64,
+    .anims = sAnimTable_Standard,
+    .images = sPicTable_SSAnne,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
+
+#endif // IS_FRLG

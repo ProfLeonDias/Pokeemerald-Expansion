@@ -20,7 +20,6 @@
 #include "link_rfu.h"
 #include "load_save.h"
 #include "main.h"
-#include "map_preview.h"
 #include "menu.h"
 #include "mirage_tower.h"
 #include "metatile_behavior.h"
@@ -49,6 +48,7 @@ static void Task_ExitNonDoor(u8);
 static void Task_DoContestHallWarp(u8);
 static void FillPalBufferWhite(void);
 static void Task_ExitDoor(u8);
+static bool32 WaitForWeatherFadeIn(void);
 static void Task_SpinEnterWarp(u8 taskId);
 static void Task_EnableScriptAfterMusicFade(u8 taskId);
 
@@ -59,6 +59,11 @@ static bool8 WaitStairExitMovementFinished(s16*, s16*, s16*, s16*, s16*);
 static void UpdateStairsMovement(s16, s16, s16*, s16*, s16*);
 static void Task_StairWarp(u8);
 static void ForceStairsMovement(u32, s16*, s16*);
+
+static const u8 sText_PlayerScurriedToCenter[] = _("{PLAYER} scurried to a Pokémon Center,\nprotecting the exhausted and fainted\nPokémon from further harm…\p");
+static const u8 sText_PlayerScurriedBackHome[] = _("{PLAYER} scurried back home, protecting\nthe exhausted and fainted Pokémon from\nfurther harm…\p");
+static const u8 sText_PlayerRegroupCenter[] = _("{PLAYER} scurried to a Pokémon Center,\nto regroup and reconsider the battle\nstrategy…\p");
+static const u8 sText_PlayerRegroupHome[] = _("{PLAYER} scurried back home, to regroup\nand reconsider the battle strategy…\p");
 
 // data[0] is used universally by tasks in this file as a state for switches
 #define tState       data[0]
@@ -80,7 +85,7 @@ static void FillPalBufferWhite(void)
     CpuFastFill16(RGB_WHITE, gPlttBufferFaded, PLTT_SIZE);
 }
 
-void FillPalBufferBlack(void)
+static void FillPalBufferBlack(void)
 {
     CpuFastFill16(RGB_BLACK, gPlttBufferFaded, PLTT_SIZE);
 }
@@ -114,22 +119,14 @@ void FadeInFromBlack(void)
 
 void WarpFadeOutScreen(void)
 {
-    const struct MapHeader *header = GetDestinationWarpMapHeader();
-    
-    if (header->regionMapSectionId != gMapHeader.regionMapSectionId && MapHasPreviewScreen(header->regionMapSectionId, MPS_TYPE_CAVE))
+    enum MapType currentMapType = GetCurrentMapType();
+    switch (GetMapPairFadeToType(currentMapType, GetDestinationWarpMapHeader()->mapType))
     {
+    case 0:
         FadeScreen(FADE_TO_BLACK, 0);
-    }
-    else
-    {
-        switch (GetMapPairFadeToType(GetCurrentMapType(), header->mapType))
-        {
-        case 0:
-            FadeScreen(FADE_TO_BLACK, 0);
-            break;
-        case 1:
-            FadeScreen(FADE_TO_WHITE, 0);
-        }
+        break;
+    case 1:
+        FadeScreen(FADE_TO_WHITE, 0);
     }
 }
 
@@ -512,9 +509,9 @@ static bool32 PaletteFadeActive(void)
     return gPaletteFade.active;
 }
 
-bool32 WaitForWeatherFadeIn(void)
+static bool32 WaitForWeatherFadeIn(void)
 {
-    if (IsWeatherNotFadingIn() == TRUE && ForestMapPreviewScreenIsRunning())
+    if (IsWeatherNotFadingIn() == TRUE)
         return TRUE;
     else
         return FALSE;
@@ -1384,7 +1381,7 @@ static bool32 PrintWhiteOutRecoveryMessage(u8 taskId, const u8 *text, u32 x, u32
         break;
     case 1:
         RunTextPrinters();
-        if (!IsTextPrinterActive(windowId))
+        if (!IsTextPrinterActiveOnWindow(windowId))
         {
             gTasks[taskId].tPrintState = 0;
             return TRUE;
@@ -1407,13 +1404,13 @@ static const u8 *GenerateRecoveryMessage(u8 taskId)
     bool32 destinationIsPlayersHouse = (gTasks[taskId].tIsPlayerHouse == TRUE);
 
     if (forfeitTrainer && destinationIsPlayersHouse)
-        return gText_PlayerRegroupHome;
+        return sText_PlayerRegroupHome;
     else if (forfeitTrainer && !destinationIsPlayersHouse)
-        return gText_PlayerRegroupCenter;
+        return sText_PlayerRegroupCenter;
     else if (!forfeitTrainer && destinationIsPlayersHouse)
-        return gText_PlayerScurriedBackHome;
+        return sText_PlayerScurriedBackHome;
     else
-        return gText_PlayerScurriedToCenter;
+        return sText_PlayerScurriedToCenter;
 }
 
 static void Task_RushInjuredPokemonToCenter(u8 taskId)
@@ -1693,7 +1690,7 @@ void DoStairWarp(u16 metatileBehavior, u16 delay)
 #undef tTimer
 #undef tDelay
 
-bool32 IsDirectionalStairWarpMetatileBehavior(u16 metatileBehavior, u8 playerDirection)
+bool32 IsDirectionalStairWarpMetatileBehavior(u16 metatileBehavior, enum Direction playerDirection)
 {
     if (playerDirection == DIR_WEST)
     {
@@ -1711,4 +1708,3 @@ bool32 IsDirectionalStairWarpMetatileBehavior(u16 metatileBehavior, u8 playerDir
     }
     return FALSE;
 }
-

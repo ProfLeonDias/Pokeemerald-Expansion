@@ -1493,6 +1493,7 @@ enum HoennDexOrder
     HOENN_DEX_JIRACHI,
 };
 
+
 // Kanto Pokedex order
 enum KantoDexOrder
 {

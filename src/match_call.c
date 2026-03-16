@@ -1702,12 +1702,12 @@ static void PopulateMatchCallStringVar(int matchCallId, int funcId, u8 *destStr)
 
 static const struct MultiTrainerMatchCallText sMultiTrainerMatchCallTexts[] =
 {
-    { .trainerId = TRAINER_642, .text = gText_Kira },
-    { .trainerId = TRAINER_481,  .text = gText_Amy },
-    { .trainerId = TRAINER_681, .text = gText_John },
-    { .trainerId = TRAINER_687, .text = gText_Roy },
-    { .trainerId = TRAINER_51, .text = gText_Gabby },
-    { .trainerId = TRAINER_287, .text = gText_Anna },
+    { .trainerId = TRAINER_642, .text =  COMPOUND_STRING("Kira") },
+    { .trainerId = TRAINER_481,  .text = COMPOUND_STRING("Amy") },
+    { .trainerId = TRAINER_681, .text =  COMPOUND_STRING("John") },
+    { .trainerId = TRAINER_687, .text =  COMPOUND_STRING("Roy") },
+    { .trainerId = TRAINER_51, .text =   COMPOUND_STRING("Gabby") },
+    { .trainerId = TRAINER_287, .text =  COMPOUND_STRING("Anna") },
 };
 
 static void PopulateTrainerName(int matchCallId, u8 *destStr)

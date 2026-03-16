@@ -34,28 +34,28 @@ static void Task_DrawFieldMessage(u8 taskId)
 
     switch (task->tState)
     {
-        case 0:
-            if (gMsgIsSignPost)
-                LoadSignPostWindowFrameGfx();
-            else
-                LoadMessageBoxAndBorderGfx();
-            task->tState++;
-            break;
-        case 1:
+    case 0:
+        if (gMsgIsSignPost)
+            LoadSignPostWindowFrameGfx();
+        else
+            LoadMessageBoxAndBorderGfx();
+        task->tState++;
+        break;
+    case 1:
+    {
+        u32 nameboxWinId = GetNameboxWindowId();
+        DrawDialogueFrame(0, TRUE);
+        if (nameboxWinId != WINDOW_NONE)
+            DrawNamebox(nameboxWinId, NAME_BOX_BASE_TILE_NUM - NAME_BOX_BASE_TILES_TOTAL, TRUE);
+        task->tState++;
+        break;
+    }
+    case 2:
+        if (RunTextPrintersAndIsPrinter0Active() != TRUE)
         {
-            u32 nameboxWinId = GetNameboxWindowId();
-            DrawDialogueFrame(0, TRUE);
-            if (nameboxWinId != WINDOW_NONE)
-                DrawNamebox(nameboxWinId, NAME_BOX_BASE_TILE_NUM - NAME_BOX_BASE_TILES_TOTAL, TRUE);
-            task->tState++;
-            break;
+            sFieldMessageBoxMode = FIELD_MESSAGE_BOX_HIDDEN;
+            DestroyTask(taskId);
         }
-        case 2:
-            if (RunTextPrintersAndIsPrinter0Active() != TRUE)
-            {
-                sFieldMessageBoxMode = FIELD_MESSAGE_BOX_HIDDEN;
-                DestroyTask(taskId);
-            }
     }
 }
 
@@ -133,7 +133,7 @@ static void ExpandStringAndStartDrawFieldMessage(const u8 *str, bool32 allowSkip
 {
     TrySpawnNamebox(NAME_BOX_BASE_TILE_NUM);
     StringExpandPlaceholders(gStringVar4, str);
-    AddTextPrinterDiffStyle(allowSkippingDelayWithButtonPress);
+    AddTextPrinterForMessage(allowSkippingDelayWithButtonPress);
     CreateTask_DrawFieldMessage();
     if (IsFieldMugshotActive())
     {
@@ -143,7 +143,7 @@ static void ExpandStringAndStartDrawFieldMessage(const u8 *str, bool32 allowSkip
 
 static void StartDrawFieldMessage(void)
 {
-    AddTextPrinterDiffStyle(TRUE);
+    AddTextPrinterForMessage(TRUE);
     CreateTask_DrawFieldMessage();
 }
 
