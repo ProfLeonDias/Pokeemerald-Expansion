@@ -29751,6 +29751,144 @@
           }
         },
         {
+          "map": "MAP_ROUTE3",
+          "base_label": "gRoute3_Morning",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_YUNGOOS"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_FLETCHLING"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_RATTATA"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_ROOKIDEE"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_NIDORAN_F"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_NIDORAN_M"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_NIDORAN_F"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_NIDORAN_M"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_MANKEY"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_MANKEY"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_MANKEY"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_MANKEY"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ROUTE3",
+          "base_label": "gRoute3_Night",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_RATTATA"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_HOOTHOOT"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_FLETCHLING"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_ROOKIDEE"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_NIDORAN_F"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_NIDORAN_M"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_NIDORAN_F"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_NIDORAN_M"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_MANKEY"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_MANKEY"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_MANKEY"
+              },
+              {
+                "min_level": 4,
+                "max_level": 7,
+                "species": "SPECIES_MANKEY"
+              }
+            ]
+          }
+        },
+        {
           "map": "MAP_ROUTE4",
           "base_label": "sRoute4_FireRed",
           "land_mons": {
@@ -40072,144 +40210,6 @@
                 "min_level": 35,
                 "max_level": 35,
                 "species": "SPECIES_POLIWHIRL"
-              }
-            ]
-          }
-        },
-        {
-          "map": "MAP_ROUTE3",
-          "base_label": "gRoute3_Morning",
-          "land_mons": {
-            "encounter_rate": 10,
-            "mons": [
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_YUNGOOS"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_FLETCHLING"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_RATTATA"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_ROOKIDEE"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_NIDORAN_F"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_NIDORAN_M"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_NIDORAN_F"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_NIDORAN_M"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_MANKEY"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_MANKEY"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_MANKEY"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_MANKEY"
-              }
-            ]
-          }
-        },
-        {
-          "map": "MAP_ROUTE3",
-          "base_label": "gRoute3_Night",
-          "land_mons": {
-            "encounter_rate": 10,
-            "mons": [
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_RATTATA"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_HOOTHOOT"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_FLETCHLING"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_ROOKIDEE"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_NIDORAN_F"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_NIDORAN_M"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_NIDORAN_F"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_NIDORAN_M"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_MANKEY"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_MANKEY"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_MANKEY"
-              },
-              {
-                "min_level": 4,
-                "max_level": 7,
-                "species": "SPECIES_MANKEY"
               }
             ]
           }
