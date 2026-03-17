@@ -572,7 +572,6 @@ static const struct WindowTemplate sLevelUpStatsWindowTemplate =
 };
 
 static const struct WindowTemplate sWindowTemplate_FirstBattleOakVoiceover =
-static const struct WindowTemplate sWindowTemplate_FirstBattleOakVoiceover =
 {
     .bg = 2,
     .tilemapLeft = 2,
