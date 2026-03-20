@@ -1,9 +1,9 @@
 {
   "id": "MAP_ROUTE5",
   "name": "Route5",
-  "layout": "LAYOUT_ROUTE5",
+  "layout": "LAYOUT_ROUTE5_WISH",
   "music": "MUS_DESERT",
-  "region_map_section": "MAPSEC_ROUTE_5_WISH",
+  "region_map_section": "MAPSEC_ROUTE_105",
   "requires_flash": false,
   "weather": "WEATHER_DROUGHT",
   "map_type": "MAP_TYPE_ROUTE",

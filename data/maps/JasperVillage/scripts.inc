@@ -118,7 +118,7 @@ JasperTown_EventScript_OldManEventA::
 # 71 "data/maps/JasperVillage/scripts.pory"
 	waitmovement 0
 # 72 "data/maps/JasperVillage/scripts.pory"
-	msgbox JasperTown_EventScript_OldManEventA_Text_0
+	msgbox JasperTown_EventScript_OldMan_Text_1
 # 73 "data/maps/JasperVillage/scripts.pory"
 	closemessage
 # 74 "data/maps/JasperVillage/scripts.pory"
@@ -146,7 +146,7 @@ JasperTown_EventScript_OldManEventB::
 # 86 "data/maps/JasperVillage/scripts.pory"
 	waitmovement 0
 # 87 "data/maps/JasperVillage/scripts.pory"
-	msgbox JasperTown_EventScript_OldManEventA_Text_0
+	msgbox JasperTown_EventScript_OldMan_Text_1
 # 88 "data/maps/JasperVillage/scripts.pory"
 	closemessage
 # 89 "data/maps/JasperVillage/scripts.pory"
@@ -178,7 +178,7 @@ JasperTown_EventScript_OldManEventC::
 # 103 "data/maps/JasperVillage/scripts.pory"
 	waitmovement 0
 # 104 "data/maps/JasperVillage/scripts.pory"
-	msgbox JasperTown_EventScript_OldManEventA_Text_0
+	msgbox JasperTown_EventScript_OldMan_Text_1
 # 105 "data/maps/JasperVillage/scripts.pory"
 	closemessage
 # 106 "data/maps/JasperVillage/scripts.pory"
@@ -210,7 +210,7 @@ JasperTown_EventScript_OldManEventD::
 # 120 "data/maps/JasperVillage/scripts.pory"
 	waitmovement 0
 # 121 "data/maps/JasperVillage/scripts.pory"
-	msgbox JasperTown_EventScript_OldManEventA_Text_0
+	msgbox JasperTown_EventScript_OldMan_Text_1
 # 122 "data/maps/JasperVillage/scripts.pory"
 	closemessage
 # 123 "data/maps/JasperVillage/scripts.pory"
@@ -232,77 +232,79 @@ JasperTown_EventScript_OldManEventD::
 Jaspermov1:
 # 132 "data/maps/JasperVillage/scripts.pory"
 	emote_exclamation_mark
+# 133 "data/maps/JasperVillage/scripts.pory"
+	face_down
 	step_end
 
-# 135 "data/maps/JasperVillage/scripts.pory"
-Jaspermov1x:
 # 136 "data/maps/JasperVillage/scripts.pory"
-	emote_exclamation_mark
+Jaspermov1x:
 # 137 "data/maps/JasperVillage/scripts.pory"
+	emote_exclamation_mark
+# 138 "data/maps/JasperVillage/scripts.pory"
 	walk_down
 	step_end
 
-# 140 "data/maps/JasperVillage/scripts.pory"
-Jaspermov1xx:
 # 141 "data/maps/JasperVillage/scripts.pory"
+Jaspermov1xx:
+# 142 "data/maps/JasperVillage/scripts.pory"
 	emote_exclamation_mark
-# 142 "data/maps/JasperVillage/scripts.pory"
+# 143 "data/maps/JasperVillage/scripts.pory"
 	walk_down
-# 142 "data/maps/JasperVillage/scripts.pory"
+# 143 "data/maps/JasperVillage/scripts.pory"
 	walk_down
 	step_end
 
-# 145 "data/maps/JasperVillage/scripts.pory"
-Jaspermov1xxx:
 # 146 "data/maps/JasperVillage/scripts.pory"
+Jaspermov1xxx:
+# 147 "data/maps/JasperVillage/scripts.pory"
 	emote_exclamation_mark
-# 147 "data/maps/JasperVillage/scripts.pory"
+# 148 "data/maps/JasperVillage/scripts.pory"
 	walk_down
-# 147 "data/maps/JasperVillage/scripts.pory"
+# 148 "data/maps/JasperVillage/scripts.pory"
 	walk_down
-# 147 "data/maps/JasperVillage/scripts.pory"
+# 148 "data/maps/JasperVillage/scripts.pory"
 	walk_down
 	step_end
 
-# 150 "data/maps/JasperVillage/scripts.pory"
-Jaspermov2:
 # 151 "data/maps/JasperVillage/scripts.pory"
+Jaspermov2:
+# 152 "data/maps/JasperVillage/scripts.pory"
 	face_up
 	step_end
 
-# 154 "data/maps/JasperVillage/scripts.pory"
-Jaspermov3:
 # 155 "data/maps/JasperVillage/scripts.pory"
+Jaspermov3:
+# 156 "data/maps/JasperVillage/scripts.pory"
 	walk_right
 	step_end
 
-# 158 "data/maps/JasperVillage/scripts.pory"
-Jaspermov4:
 # 159 "data/maps/JasperVillage/scripts.pory"
-	walk_up
+Jaspermov4:
 # 160 "data/maps/JasperVillage/scripts.pory"
+	walk_up
+# 161 "data/maps/JasperVillage/scripts.pory"
 	face_down
 	step_end
 
-# 163 "data/maps/JasperVillage/scripts.pory"
+# 164 "data/maps/JasperVillage/scripts.pory"
 Jaspermov4x:
-# 164 "data/maps/JasperVillage/scripts.pory"
-	walk_up
-# 164 "data/maps/JasperVillage/scripts.pory"
+# 165 "data/maps/JasperVillage/scripts.pory"
 	walk_up
 # 165 "data/maps/JasperVillage/scripts.pory"
+	walk_up
+# 166 "data/maps/JasperVillage/scripts.pory"
 	face_down
 	step_end
 
-# 168 "data/maps/JasperVillage/scripts.pory"
+# 169 "data/maps/JasperVillage/scripts.pory"
 Jaspermov4xx:
-# 169 "data/maps/JasperVillage/scripts.pory"
-	walk_up
-# 169 "data/maps/JasperVillage/scripts.pory"
-	walk_up
-# 169 "data/maps/JasperVillage/scripts.pory"
+# 170 "data/maps/JasperVillage/scripts.pory"
 	walk_up
 # 170 "data/maps/JasperVillage/scripts.pory"
+	walk_up
+# 170 "data/maps/JasperVillage/scripts.pory"
+	walk_up
+# 171 "data/maps/JasperVillage/scripts.pory"
 	face_down
 	step_end
 
@@ -320,28 +322,24 @@ JasperTown_EventScript_Sign2_Text_0:
 
 JasperTown_EventScript_Girl_Text_0:
 # 27 "data/maps/JasperVillage/scripts.pory"
-	.string "I tan at the beach every day!\nHow do I look?$"
+	.string "{COLOR RED}I tan at the beach every day!\nHow do I look?$"
 
 JasperTown_EventScript_OldLady_Text_0:
 # 34 "data/maps/JasperVillage/scripts.pory"
-	.string "A young man lives across this pond.\pHe always seems to be searching for\nsomeone, but I don't know who or why.$"
+	.string "{COLOR RED}A young man lives across this pond.\pHe always seems to be searching for\nsomeone, but I don't know who or why.$"
 
 JasperTown_EventScript_Sailor1_Text_0:
 # 41 "data/maps/JasperVillage/scripts.pory"
-	.string "I must head out to sea again, but every\ntime I go, I miss my wife.$"
+	.string "{COLOR BLUE}I must head out to sea again, but every\ntime I go, I miss my wife.$"
 
 JasperTown_EventScript_Sailor2_Text_0:
 # 48 "data/maps/JasperVillage/scripts.pory"
-	.string "At the docks, you could buy some neat\nstuff from other regions.\pBut I heard the government will start\ncracking down imports soon.$"
+	.string "{COLOR BLUE}At the docks, you could buy some neat\nstuff from other regions.\pBut I heard the government will start\ncracking down imports soon.$"
 
 JasperTown_EventScript_OldMan_Text_0:
 # 56 "data/maps/JasperVillage/scripts.pory"
-	.string "Hello, young sprout.\nYou have a good day now, y'hear?$"
+	.string "{COLOR BLUE}Hello, young sprout.\nYou have a good day now, y'hear?$"
 
 JasperTown_EventScript_OldMan_Text_1:
 # 60 "data/maps/JasperVillage/scripts.pory"
-	.string "Hold on there, young sprout!\pYou look like you need to be somewhere\nelse. Why not take care of that first?$"
-
-JasperTown_EventScript_OldManEventA_Text_0:
-# 72 "data/maps/JasperVillage/scripts.pory"
 	.string "{COLOR BLUE}Hold on there, young sprout!\pYou look like you need to be somewhere\nelse. Why not take care of that first?$"

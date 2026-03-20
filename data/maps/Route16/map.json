@@ -1,9 +1,9 @@
 {
   "id": "MAP_ROUTE16",
   "name": "Route16",
-  "layout": "LAYOUT_ROUTE16",
+  "layout": "LAYOUT_ROUTE16_WISH",
   "music": "MUS_GSC_ROUTE38",
-  "region_map_section": "MAPSEC_ROUTE_16_WISH",
+  "region_map_section": "MAPSEC_ROUTE_116",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",

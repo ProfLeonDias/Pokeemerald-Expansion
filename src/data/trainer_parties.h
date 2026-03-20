@@ -4941,7 +4941,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Body Slam
 - Attract
 
-=== TRAINER_NORMAN_1 ===
+=== TRAINER_269 ===
 Name: NORMAN
 Class: Leader
 Pic: Leader Norman

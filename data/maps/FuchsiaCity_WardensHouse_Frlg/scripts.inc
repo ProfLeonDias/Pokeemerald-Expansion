@@ -25,7 +25,7 @@ FuchsiaCity_WardensHouse_EventScript_GiveGoldTeeth::
 	call_if_eq VAR_RESULT, FEMALE, FuchsiaCity_WardensHouse_EventScript_WardenThanksFemale
 	giveitem_msg FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden, ITEM_HM04
 	setflag FLAG_GOT_HM04
-	removeitem ITEM_GOLD_TEETH
+	removeitem ITEM_SPARE_POKEBALL
 	release
 	end
 

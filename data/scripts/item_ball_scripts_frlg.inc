@@ -211,7 +211,7 @@ SafariZone_West_EventScript_ItemTM32::
 	end
 
 SafariZone_West_EventScript_ItemGoldTeeth::
-	finditem ITEM_GOLD_TEETH
+	finditem ITEM_SPARE_POKEBALL
 	end
 
 SafariZone_West_EventScript_ItemMaxPotion::

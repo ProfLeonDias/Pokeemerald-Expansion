@@ -1,9 +1,9 @@
 {
   "id": "MAP_ROUTE30",
   "name": "Route30",
-  "layout": "LAYOUT_ROUTE30",
+  "layout": "LAYOUT_ROUTE30_WISH",
   "music": "MUS_ROUTE122",
-  "region_map_section": "MAPSEC_ROUTE_30_WISH",
+  "region_map_section": "MAPSEC_ROUTE_130",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",

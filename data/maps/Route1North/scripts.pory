@@ -2,7 +2,7 @@ mapscripts Route1North_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Route1N_MapScriptArnie
 }
 
-script Rout1N_MapScriptArnie{
+script Route1N_MapScriptArnie{
     if(flag(FLAG_BADGE01_GET) == TRUE){
         removeobject(LOCALID_ARNIE)
     }
@@ -13,11 +13,11 @@ script Route1N_EventScript_OldMan {
     lock
     faceplayer
     if(flag(FLAG_BADGE01_GET) == TRUE){
-        msgbox("Old Man Arnold: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pMy grandson was inspired by you to\ntake on the Nexar League Challenge.\p…Which leaves me with most of the\nwork around here nowadays.")
+        msgbox("{COLOR BLUE}Old Man Arnold: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pMy grandson was inspired by you to\ntake on the Nexar League Challenge.\p…Which leaves me with most of the\nwork around here nowadays.")
         release
     }
     else{
-    msgbox("Old Man Arnold: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pIf you're heading down to the woods, you\nshould be careful.\pSome hooligans are up to no good!\nDon't say I didn't warn you!")
+    msgbox("{COLOR BLUE}Old Man Arnold: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pIf you're heading down to the woods,\nyou should be careful.\pSome hooligans are up to no good!\nDon't say I didn't warn you!")
     release
     }
 }
@@ -37,11 +37,11 @@ script Route1N_EventScript_Arnie{
     faceplayer
     compare(VAR_ASPEN_LAB_EVENT, 3)
     if (var(VAR_RESULT) == TRUE){
-        msgbox("We got a lot of training to do for next\ntime. I'll make Meemaw proud!")
+        msgbox("{COLOR BLUE}We got a lot of training to do for next\ntime. I'll make Meemaw proud!")
         release
     }
     else{
-        msgbox("Arnie: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pI'm trying to catch a Pokémon so I can\nleave the farm. Wish me luck!")
+        msgbox("{COLOR BLUE}Arnie: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pI'm trying to catch a Pokémon so I can\nleave the farm. Wish me luck!")
         release
     }
 }

@@ -24,28 +24,28 @@ script JasperTown_EventScript_Sign2{
 script JasperTown_EventScript_Girl{
     lock
     faceplayer
-    msgbox("I tan at the beach every day!\nHow do I look?")
+    msgbox("{COLOR RED}I tan at the beach every day!\nHow do I look?")
     release
 }
 
 script JasperTown_EventScript_OldLady{
     lock
     faceplayer
-    msgbox("A young man lives across this pond.\pHe always seems to be searching for\nsomeone, but I don't know who or why.")
+    msgbox("{COLOR RED}A young man lives across this pond.\pHe always seems to be searching for\nsomeone, but I don't know who or why.")
     release
 }
 
 script JasperTown_EventScript_Sailor1{
     lock
     faceplayer
-    msgbox("I must head out to sea again, but every\ntime I go, I miss my wife.")
+    msgbox("{COLOR BLUE}I must head out to sea again, but every\ntime I go, I miss my wife.")
     release
 }
 
 script JasperTown_EventScript_Sailor2{
     lock
     faceplayer
-    msgbox("At the docks, you could buy some neat\nstuff from other regions.\pBut I heard the government will start\ncracking down imports soon.")
+    msgbox("{COLOR BLUE}At the docks, you could buy some neat\nstuff from other regions.\pBut I heard the government will start\ncracking down imports soon.")
     release
 }
 
@@ -53,11 +53,11 @@ script JasperTown_EventScript_OldMan{
     lock
     faceplayer
     if(var(VAR_JASPER_TOWN_STATE) == 1){
-        msgbox("Hello, young sprout.\nYou have a good day now, y'hear?")
+        msgbox("{COLOR BLUE}Hello, young sprout.\nYou have a good day now, y'hear?")
         release
     }
     else{
-        msgbox("Hold on there, young sprout!\pYou look like you need to be somewhere\nelse. Why not take care of that first?")
+        msgbox("{COLOR BLUE}Hold on there, young sprout!\pYou look like you need to be somewhere\nelse. Why not take care of that first?")
         release
     }
 }
@@ -130,6 +130,7 @@ script JasperTown_EventScript_OldManEventD{
 
 movement Jaspermov1{
     emote_exclamation_mark
+    face_down
 }
 
 movement Jaspermov1x{

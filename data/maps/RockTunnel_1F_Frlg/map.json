@@ -18,7 +18,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 26,
       "y": 28,
       "elevation": 3,
@@ -32,7 +32,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 39,
       "y": 27,
       "elevation": 3,
@@ -46,7 +46,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 45,
       "y": 24,
       "elevation": 3,
@@ -60,7 +60,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_HIKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_116_HIKER_FRLG",
       "x": 20,
       "y": 17,
       "elevation": 3,
@@ -74,7 +74,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_HIKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_116_HIKER_FRLG",
       "x": 5,
       "y": 20,
       "elevation": 3,
@@ -88,7 +88,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_HIKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_116_HIKER_FRLG",
       "x": 7,
       "y": 5,
       "elevation": 3,
@@ -116,7 +116,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 37,
       "y": 5,
       "elevation": 3,
@@ -130,7 +130,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 33,
       "y": 22,
       "elevation": 3,
@@ -144,7 +144,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 22,
       "y": 22,
       "elevation": 3,

@@ -87,7 +87,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_049_FEMALE_2_FRLG",
       "x": 18,
       "y": 22,
       "elevation": 3,
@@ -158,7 +158,7 @@
     {
       "local_id": "LOCALID_CELADON_BORDER_TREE",
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 52,
       "y": 22,
       "elevation": 3,
@@ -172,7 +172,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 40,
       "y": 35,
       "elevation": 0,
@@ -200,7 +200,7 @@
     },
     {
       "type": "clone",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": -7,
       "y": 21,
       "target_local_id": "LOCALID_ROUTE16_CUT_TREE",
@@ -208,7 +208,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 5,
       "y": 3,
       "elevation": 3,

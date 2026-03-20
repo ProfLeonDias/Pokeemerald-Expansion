@@ -48,7 +48,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 11,
       "y": 24,
       "elevation": 3,
@@ -107,7 +107,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER_FRLG",
       "x": 33,
       "y": 26,
       "elevation": 3,
@@ -136,7 +136,7 @@
     {
       "local_id": "LOCALID_VIRIDIAN_BORDER_TREE",
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 18,
       "y": 5,
       "elevation": 3,
@@ -150,7 +150,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 17,
       "y": 5,
       "elevation": 3,

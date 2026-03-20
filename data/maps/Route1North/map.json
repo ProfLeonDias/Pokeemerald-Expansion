@@ -1,9 +1,9 @@
 {
   "id": "MAP_ROUTE1NORTH",
   "name": "Route1North",
-  "layout": "LAYOUT_ROUTE1NORTH",
+  "layout": "LAYOUT_ROUTE1_NORTH",
   "music": "MUS_ROUTE101",
-  "region_map_section": "MAPSEC_ROUTE_1_WISH",
+  "region_map_section": "MAPSEC_ROUTE_101",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",
@@ -85,12 +85,25 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_1N_PECHA",
       "script": "BerryTreeScript",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_180_MEGA_ITEM_BALL",
+      "x": 6,
+      "y": 36,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_TM_GIGA_DRAIN",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_ROUTE_1N_TM_GIGA_DRAIN"
     }
   ],
   "warp_events": [
     {
       "warp_id": "WARP_ROUTE_1_PALMER_HOUSE_A",
-      "x": 7,
+      "x": 9,
       "y": 9,
       "elevation": 3,
       "dest_map": "MAP_ROUTE_1_PALMER_HOUSE",
@@ -170,7 +183,7 @@
     },
     {
       "type": "sign",
-      "x": 16,
+      "x": 17,
       "y": 31,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",

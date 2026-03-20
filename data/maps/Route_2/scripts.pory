@@ -32,7 +32,7 @@ script Route2_EventScript_Youngster {
 }
 
 text Rt2YoungsterIntro {
-    "I love shorts!\nThey're comfy and easy to wear!"
+    "{COLOR BLUE}I love shorts!\nThey're comfy and easy to wear!"
 }
 
 text Rt2YoungsterDefeated {
@@ -40,11 +40,11 @@ text Rt2YoungsterDefeated {
 }
 
 text Rt2YoungsterPostBattle {
-    "Sometimes I feel cold in these shorts…"
+    "{COLOR BLUE}Sometimes I feel cold in these shorts…"
 }
 
 text Rt2PicnickerIntro {
-    "I'm looking for some treasure!"
+    "{COLOR RED}I'm looking for some treasure!"
 }
 
 text Rt2PicnickerDefeated {
@@ -52,11 +52,11 @@ text Rt2PicnickerDefeated {
 }
 
 text Rt2PicnickerPostBattle {
-    "My Dowsing Machine helps me find all\nsorts of hidden items!"
+    "{COLOR RED}My Dowsing Machine helps me find all\nsorts of hidden items!"
 }
 
 text BugCatcherIntro {
-    "I love bugs! They are so cool!"
+    "{COLOR BLUE}I love bugs! They are so cool!"
 }
 
 text BugCatcherDefeated {
@@ -64,11 +64,11 @@ text BugCatcherDefeated {
 }
 
 text BugCatcherPostBattle {
-    "Do you like bugs too?"
+    "{COLOR BLUE}Do you like bugs too?"
 }
 
 text Rt2LassIntro {
-    "And just who are you exactly?"
+    "{COLOR RED}And just who are you exactly?"
 }
 
 text Rt2LassDefeated {
@@ -76,11 +76,11 @@ text Rt2LassDefeated {
 }
 
 text Rt2LassPostBattle {
-    "I guess you are a nice person…"
+    "{COLOR RED}I guess you are a nice person…"
 }
 
 text Rt2CamperIntro {
-    "Do you want to go camping with me?"
+    "{COLOR BLUE}Do you want to go camping with me?"
 }
 
 text Rt2CamperDefeated {
@@ -88,5 +88,5 @@ text Rt2CamperDefeated {
 }
 
 text Rt2CamperPostBattle {
-    "Do you hear that sound? That's the great\noutdoors calling out to us!"
+    "{COLOR BLUE}Do you hear that sound? That's the\ngreat outdoors calling out to us!"
 }

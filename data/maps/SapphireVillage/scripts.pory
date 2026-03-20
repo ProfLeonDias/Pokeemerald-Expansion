@@ -13,14 +13,14 @@ script OnLoadSapphireVillage {
         setmetatile(2, 17, METATILE_Wish_Grass3, FALSE)
         setmetatile(3, 17, METATILE_Wish_Grass4, FALSE)
         setmetatile(4, 17, METATILE_Wish_Grass3, FALSE)
-        setmetatile(5, 17, METATILE_Sapphire_Village_Roof1, FALSE)
-        setmetatile(6, 17, METATILE_Sapphire_Village_Roof2, FALSE)
-        setmetatile(7, 17, METATILE_Sapphire_Village_Roof3, FALSE)
-        setmetatile(8, 17, METATILE_Sapphire_Village_Roof4, FALSE)
-        setmetatile(9, 17, METATILE_Sapphire_Village_Roof5, FALSE)
+        setmetatile(5, 17, METATILE_Sapphire_Village_SV_Roof1, FALSE)
+        setmetatile(6, 17, METATILE_Sapphire_Village_SV_Roof2, FALSE)
+        setmetatile(7, 17, METATILE_Sapphire_Village_SV_Roof3, FALSE)
+        setmetatile(8, 17, METATILE_Sapphire_Village_SV_Roof4, FALSE)
+        setmetatile(9, 17, METATILE_Sapphire_Village_SV_Roof5, FALSE)
         setmetatile(10, 17, METATILE_Wish_Grass3, FALSE)
-        setmetatile(2, 18, METATILE_Sapphire_Village_GoldTreeL, FALSE)
-        setmetatile(3, 18, METATILE_Sapphire_Village_GoldTreeR, FALSE)
+        setmetatile(2, 18, METATILE_Sapphire_Village_SV_GoldTreeL, FALSE)
+        setmetatile(3, 18, METATILE_Sapphire_Village_SV_GoldTreeR, FALSE)
         setmetatile(4, 18, METATILE_Wish_Grass1, FALSE)
         setmetatile(10, 18, METATILE_Wish_Grass1, FALSE)
         setmetatile(4, 19, METATILE_Wish_Grass3, FALSE)
@@ -32,28 +32,28 @@ script OnLoadSapphireVillage {
 script SapphireVillage_EventScript_OldMan {
     lock
     faceplayer
-    msgbox("Hello, {COLOR GREEN}{PLAYER}{COLOR BLUE}. Did you enjoy the\nrecent River Festival?\pIt's still my favorite tradition, even\nback when I was your age.")
+    msgbox("{COLOR BLUE}Hello, {COLOR GREEN}{PLAYER}{COLOR BLUE}. Did you enjoy the\nrecent River Festival?\pIt's still my favorite tradition, even\nback when I was your age.")
     release
 }
 
 script SapphireVillage_EventScript_Girl {
     lock
     faceplayer
-    msgbox("Check it out!\nThe Professor gave me a Pokémon!")
+    msgbox("{COLOR RED}Check it out!\nThe Professor gave me a Pokémon!")
     release
 }
 
 script SapphireVillage_EventScript_FatMan {
     lock
     faceplayer
-    msgbox("Oh hi, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nNice weather, isn't it?")
+    msgbox("{COLOR BLUE}Oh hi, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nNice weather, isn't it?")
     release
 }
 
 script SapphireVillage_EventScript_Woman {
     lock
     faceplayer
-    msgbox("I came all the way from Nexar City to\nsee the River Festival. It's so much fun!")
+    msgbox("{COLOR RED}I came all the way from Nexar City to\nsee the River Festival.\lIt's so much fun!")
     release
 }
 
@@ -73,7 +73,7 @@ script SapphireVillage_EventScript_Mailbox1 {
 }
 
 script SapphireVillage_EventScript_Mailbox2 {
-    msgbox("{PLAYER}'s Household")
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY}'s Household")
     release
 }
 

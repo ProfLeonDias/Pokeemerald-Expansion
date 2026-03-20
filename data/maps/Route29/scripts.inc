@@ -352,43 +352,43 @@ Route29_EventScript_Sign2_Text_0:
 
 Route29_EventScript_Woman1_Text_0:
 # 15 "data/maps/Route29/scripts.pory"
-	.string "Ah, how relaxing…$"
+	.string "{COLOR RED}Ah, how relaxing…$"
 
 Route29_EventScript_OldWoman_Text_0:
 # 21 "data/maps/Route29/scripts.pory"
-	.string "Don't worry about me, dearie.\nI'm keeping these old bones warm.$"
+	.string "{COLOR RED}Don't worry about me, dearie.\nI'm keeping these old bones warm.$"
 
 Route29_EventScript_Tuber_Text_0:
 # 28 "data/maps/Route29/scripts.pory"
-	.string "I wanna go swimming!$"
+	.string "{COLOR RED}I wanna go swimming!$"
 
 Route29_EventScript_Sailor1_Text_0:
 # 35 "data/maps/Route29/scripts.pory"
-	.string "The harbor is just up ahead.$"
+	.string "{COLOR BLUE}The harbor is just up ahead.$"
 
 Route29_EventScript_DragonTamer_Text_0:
 # 41 "data/maps/Route29/scripts.pory"
-	.string "No one can ever know what I've just\ndone…$"
+	.string "{COLOR BLUE}No one can ever know what I've just\ndone…$"
 
 Route29_EventScript_Maniac_Text_0:
 # 48 "data/maps/Route29/scripts.pory"
-	.string "I dropped something in the sand.\nBut then, I found it!$"
+	.string "{COLOR BLUE}I dropped something in the sand.\nBut then, I found it!$"
 
 Route29_EventScript_Captain_Text_0:
 # 56 "data/maps/Route29/scripts.pory"
-	.string "I don't know you, kid. Beat it.$"
+	.string "{COLOR BLUE}I don't know you, kid. Beat it.$"
 
 Route29_EventScript_Captain_Text_1:
 # 60 "data/maps/Route29/scripts.pory"
-	.string "Captain: I got a message from Mack.\nYou the kid that Allen sent?\p…\nAlright, I got the goods right here.$"
+	.string "{COLOR BLUE}Captain: I got a message from Mack.\nYou the kid that Allen sent?\p…\nAlright, I got the goods right here.$"
 
 Route29_EventScript_Captain_Text_2:
 # 64 "data/maps/Route29/scripts.pory"
-	.string "If the cops ask, I don't know you.\nKeep that thing in your bag, got it?$"
+	.string "{COLOR BLUE}If the cops ask, I don't know you.\nKeep that thing in your bag, got it?$"
 
 Route29_EventScript_Captain_Text_3:
 # 70 "data/maps/Route29/scripts.pory"
-	.string "Yeah kid, I run this harbor. So what?$"
+	.string "{COLOR BLUE}Yeah kid, I run this harbor. So what?$"
 
 Route29_EventScript_ManiacBlockA_Text_0:
 # 80 "data/maps/Route29/scripts.pory"
@@ -408,7 +408,7 @@ Route29_EventScript_Shop2_Text_0:
 
 Rt29TriathleteIntro::
 # 197 "data/maps/Route29/scripts.pory"
-	.string "What do you want?\nI'm training my endurance.$"
+	.string "{COLOR BLUE}What do you want?\nI'm training my endurance.$"
 
 Rt29TriathleteDefeated::
 # 201 "data/maps/Route29/scripts.pory"
@@ -416,11 +416,11 @@ Rt29TriathleteDefeated::
 
 Rt29TriathletePostBattle::
 # 205 "data/maps/Route29/scripts.pory"
-	.string "Can you leave?\nI need to get back to my regimen.$"
+	.string "{COLOR BLUE}Can you leave?\nI need to get back to my regimen.$"
 
 Rt29SwimmerFIntro::
 # 209 "data/maps/Route29/scripts.pory"
-	.string "Isn't this just relaxing?$"
+	.string "{COLOR RED}Isn't this just relaxing?$"
 
 Rt29SwimmerFDefeated::
 # 213 "data/maps/Route29/scripts.pory"
@@ -428,11 +428,11 @@ Rt29SwimmerFDefeated::
 
 Rt29SwimmerFPostBattle::
 # 217 "data/maps/Route29/scripts.pory"
-	.string "I can just drift here forever.$"
+	.string "{COLOR RED}I can just drift here forever.$"
 
 Rt29SwimmerMIntro::
 # 221 "data/maps/Route29/scripts.pory"
-	.string "SPLASH!\nLet's get to it!$"
+	.string "{COLOR BLUE}SPLASH!\nLet's get to it!$"
 
 Rt29SwimmerMDefeated::
 # 225 "data/maps/Route29/scripts.pory"
@@ -440,11 +440,11 @@ Rt29SwimmerMDefeated::
 
 Rt29SwimmerMPostBattle::
 # 229 "data/maps/Route29/scripts.pory"
-	.string "I wake up every morning to go for a swim\neach and every day.$"
+	.string "{COLOR BLUE}I wake up every morning to go for a swim\neach and every day.$"
 
 Rt29SailorIntro::
 # 233 "data/maps/Route29/scripts.pory"
-	.string "Hic…\nWhat are you lookin' at?$"
+	.string "{COLOR BLUE}Hic…\nWhat are you lookin' at?$"
 
 Rt29SailorDefeated::
 # 237 "data/maps/Route29/scripts.pory"
@@ -452,11 +452,11 @@ Rt29SailorDefeated::
 
 Rt29SailorPostBattle::
 # 241 "data/maps/Route29/scripts.pory"
-	.string "Mind yer own business, kid!\nHic…$"
+	.string "{COLOR BLUE}Mind yer own business, kid!\nHic…$"
 
 Rt29KindlerIntro::
 # 245 "data/maps/Route29/scripts.pory"
-	.string "Do you know about fire safety?$"
+	.string "{COLOR BLUE}Do you know about fire safety?$"
 
 Rt29KindlerDefeated::
 # 249 "data/maps/Route29/scripts.pory"
@@ -464,4 +464,4 @@ Rt29KindlerDefeated::
 
 Rt29KindlerPostBattle::
 # 253 "data/maps/Route29/scripts.pory"
-	.string "This is a great spot to start a fire pit!$"
+	.string "{COLOR BLUE}This is a great spot to start a fire pit!$"

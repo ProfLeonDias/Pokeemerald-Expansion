@@ -30,33 +30,6 @@ const struct Tileset *const gTilesetPointer_SecretBaseRedCave = &gTileset_Secret
 
 #if !IS_FRLG
 
-const struct Tileset gTileset_SecretBase =
-{
-    .isCompressed = FALSE,
-    .isSecondary = FALSE,
-    .tiles = gTilesetTiles_SecretBase,
-    .palettes = gTilesetPalettes_SecretBase,
-    .metatiles = gMetatiles_SecretBasePrimary,
-    .metatileAttributes = gMetatileAttributes_SecretBasePrimary,
-    .callback = NULL,
-};
-
-const struct Tileset gTileset_SecretBaseRedCave =
-{
-    .isCompressed = FALSE,
-    .isSecondary = TRUE,
-    .tiles = gTilesetTiles_SecretBaseRedCave,
-    .palettes = gTilesetPalettes_SecretBaseRedCave,
-    .metatiles = gMetatiles_SecretBaseSecondary,
-    .metatileAttributes = gMetatileAttributes_SecretBaseSecondary,
-    .callback = NULL,
-};
-
-const struct Tileset *const gTilesetPointer_SecretBase = &gTileset_SecretBase;
-const struct Tileset *const gTilesetPointer_SecretBaseRedCave = &gTileset_SecretBaseRedCave;
-
-#if !IS_FRLG
-
 const struct Tileset gTileset_General =
 {
     .isCompressed = TRUE,

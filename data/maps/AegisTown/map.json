@@ -3,7 +3,7 @@
   "name": "AegisTown",
   "layout": "LAYOUT_AEGIS_TOWN",
   "music": "MUS_FALLARBOR",
-  "region_map_section": "MAPSEC_AEGIS_TOWN",
+  "region_map_section": "MAPSEC_DEWFORD_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_TOWN",

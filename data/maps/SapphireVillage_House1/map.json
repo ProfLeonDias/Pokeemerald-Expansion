@@ -3,7 +3,7 @@
   "name": "SapphireVillage_House1",
   "layout": "LAYOUT_SAPPHIRE_VILLAGE_HOUSE1",
   "music": "MUS_RG_PALLET",
-  "region_map_section": "MAPSEC_SAPPHIRE_VILLAGE",
+  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

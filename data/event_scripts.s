@@ -2009,3 +2009,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/Route4_House2/scripts.inc"
 
 	.include "data/maps/IoniaPowerPlant_Inside/scripts.inc"
+
+	.include "data/maps/SapphireVillage_Nightmare/scripts.inc"

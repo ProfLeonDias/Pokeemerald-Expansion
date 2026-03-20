@@ -33,7 +33,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 12,
       "y": 11,
       "elevation": 3,
@@ -47,7 +47,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 19,
       "y": 7,
       "elevation": 3,
@@ -61,7 +61,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 23,
       "y": 17,
       "elevation": 3,
@@ -75,7 +75,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 38,
       "y": 23,
       "elevation": 3,
@@ -89,7 +89,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 44,
       "y": 23,
       "elevation": 3,
@@ -103,7 +103,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 44,
       "y": 29,
       "elevation": 3,
@@ -117,7 +117,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 16,
       "y": 43,
       "elevation": 3,
@@ -131,7 +131,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 17,
       "y": 39,
       "elevation": 3,
@@ -145,7 +145,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 14,
       "y": 39,
       "elevation": 3,
@@ -159,7 +159,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 11,
       "y": 39,
       "elevation": 3,
@@ -173,7 +173,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 12,
       "y": 5,
       "elevation": 3,
@@ -187,7 +187,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 27,
       "y": 11,
       "elevation": 3,
@@ -201,7 +201,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 12,
       "y": 43,
       "elevation": 3,

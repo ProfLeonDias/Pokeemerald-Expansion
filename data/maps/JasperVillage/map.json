@@ -3,7 +3,7 @@
   "name": "JasperVillage",
   "layout": "LAYOUT_JASPER_VILLAGE",
   "music": "MUS_OLDALE",
-  "region_map_section": "MAPSEC_JASPER_TOWN",
+  "region_map_section": "MAPSEC_OLDALE_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_TOWN",

@@ -3,7 +3,7 @@
   "name": "IoniaCity_HospitalRm1",
   "layout": "LAYOUT_IONIA_CITY_HOSPITAL_RM1",
   "music": "MUS_RUSTBORO",
-  "region_map_section": "MAPSEC_IONIA_CITY",
+  "region_map_section": "MAPSEC_PETALBURG_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

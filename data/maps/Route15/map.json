@@ -1,9 +1,9 @@
 {
   "id": "MAP_ROUTE15",
   "name": "Route15",
-  "layout": "LAYOUT_ROUTE15",
+  "layout": "LAYOUT_ROUTE15_WISH",
   "music": "MUS_ROUTE110",
-  "region_map_section": "MAPSEC_ROUTE_15_WISH",
+  "region_map_section": "MAPSEC_ROUTE_115",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",

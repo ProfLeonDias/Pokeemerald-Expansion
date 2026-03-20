@@ -18,7 +18,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_049_FEMALE_2_FRLG",
       "x": 48,
       "y": 15,
       "elevation": 3,
@@ -32,7 +32,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_049_FEMALE_2_FRLG",
       "x": 10,
       "y": 5,
       "elevation": 3,
@@ -46,7 +46,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_098_BUG_CATCHER_FRLG",
       "x": 51,
       "y": 6,
       "elevation": 3,
@@ -60,7 +60,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_098_BUG_CATCHER_FRLG",
       "x": 12,
       "y": 13,
       "elevation": 3,
@@ -74,7 +74,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_098_BUG_CATCHER_FRLG",
       "x": 37,
       "y": 23,
       "elevation": 3,
@@ -88,7 +88,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER_FRLG",
       "x": 32,
       "y": 5,
       "elevation": 3,
@@ -102,7 +102,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER_FRLG",
       "x": 52,
       "y": 20,
       "elevation": 3,
@@ -116,7 +116,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_LASS_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_120_LASS_FRLG",
       "x": 8,
       "y": 21,
       "elevation": 3,
@@ -130,7 +130,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_LASS_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_120_LASS_FRLG",
       "x": 39,
       "y": 6,
       "elevation": 3,
@@ -144,7 +144,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_101_CAMPER_FRLG",
       "x": 3,
       "y": 9,
       "elevation": 3,
@@ -158,7 +158,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 19,
       "y": 24,
       "elevation": 3,
@@ -172,7 +172,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_HIKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_116_HIKER_FRLG",
       "x": 30,
       "y": 19,
       "elevation": 3,

@@ -38,11 +38,11 @@ Route1S_EventScript_Sign_Text_0:
 
 Route1S_EventScript_Fisherman_Text_0:
 # 11 "data/maps/Route1South/scripts.pory"
-	.string "Going fishing is the world's best stress\nrelief, hands down. Don't you agree?$"
+	.string "{COLOR BLUE}Going fishing is the world's best stress\nrelief, hands down. Don't you agree?$"
 
 Rt1LassIntro::
 # 23 "data/maps/Route1South/scripts.pory"
-	.string "Look at my adorable Pokémon!$"
+	.string "{COLOR RED}Look at my adorable Pokémon!$"
 
 Rt1LassDefeated::
 # 27 "data/maps/Route1South/scripts.pory"
@@ -50,4 +50,4 @@ Rt1LassDefeated::
 
 Rt1LassPostBattle::
 # 31 "data/maps/Route1South/scripts.pory"
-	.string "One day, I'll catch the cutest little\nPokémon! Just you wait!$"
+	.string "{COLOR RED}One day, I'll catch the cutest little\nPokémon! Just you wait!$"

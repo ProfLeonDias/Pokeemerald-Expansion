@@ -18,7 +18,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_LASS_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_120_LASS_FRLG",
       "x": 3,
       "y": 11,
       "elevation": 3,
@@ -32,7 +32,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_093_BEAUTY_FRLG",
       "x": 9,
       "y": 10,
       "elevation": 3,
@@ -46,7 +46,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 10,
       "y": 7,
       "elevation": 3,
@@ -60,7 +60,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_093_BEAUTY_FRLG",
       "x": 2,
       "y": 6,
       "elevation": 3,
@@ -74,7 +74,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_093_BEAUTY_FRLG",
       "x": 5,
       "y": 4,
       "elevation": 3,
@@ -88,7 +88,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_LASS_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_120_LASS_FRLG",
       "x": 7,
       "y": 4,
       "elevation": 3,
@@ -130,7 +130,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 6,
       "y": 8,
       "elevation": 3,
@@ -144,7 +144,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 3,
       "y": 5,
       "elevation": 3,
@@ -158,7 +158,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 9,
       "y": 6,
       "elevation": 3,

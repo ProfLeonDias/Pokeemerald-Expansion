@@ -43,7 +43,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_098_BUG_CATCHER_FRLG",
       "x": 16,
       "y": 10,
       "elevation": 3,
@@ -57,7 +57,7 @@
     },
     {
       "type": "clone",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 32,
       "y": 9,
       "target_local_id": "LOCALID_FIVE_ISLAND_MEADOW_BORDER_TREE",

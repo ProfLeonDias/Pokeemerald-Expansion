@@ -4,12 +4,12 @@ Route1North_MapScripts::
 	.byte 0
 
 
-Rout1N_MapScriptArnie::
+Route1N_MapScriptArnie::
 # 6 "data/maps/Route1North/scripts.pory"
-	goto_if_set FLAG_BADGE01_GET, Rout1N_MapScriptArnie_1
+	goto_if_set FLAG_BADGE01_GET, Route1N_MapScriptArnie_1
 	return
 
-Rout1N_MapScriptArnie_1:
+Route1N_MapScriptArnie_1:
 # 7 "data/maps/Route1North/scripts.pory"
 	removeobject LOCALID_ARNIE
 	return
@@ -256,11 +256,11 @@ Rt1mov5:
 
 Route1N_EventScript_OldMan_Text_0:
 # 16 "data/maps/Route1North/scripts.pory"
-	.string "Old Man Arnold: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pMy grandson was inspired by you to\ntake on the Nexar League Challenge.\p…Which leaves me with most of the\nwork around here nowadays.$"
+	.string "{COLOR BLUE}Old Man Arnold: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pMy grandson was inspired by you to\ntake on the Nexar League Challenge.\p…Which leaves me with most of the\nwork around here nowadays.$"
 
 Route1N_EventScript_OldMan_Text_1:
 # 20 "data/maps/Route1North/scripts.pory"
-	.string "Old Man Arnold: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pIf you're heading down to the woods, you\nshould be careful.\pSome hooligans are up to no good!\nDon't say I didn't warn you!$"
+	.string "{COLOR BLUE}Old Man Arnold: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pIf you're heading down to the woods,\nyou should be careful.\pSome hooligans are up to no good!\nDon't say I didn't warn you!$"
 
 Route1N_EventScript_Sign1_Text_0:
 # 26 "data/maps/Route1North/scripts.pory"
@@ -272,11 +272,11 @@ Route1N_EventScript_Sign2_Text_0:
 
 Route1N_EventScript_Arnie_Text_0:
 # 40 "data/maps/Route1North/scripts.pory"
-	.string "We got a lot of training to do for next\ntime. I'll make Meemaw proud!$"
+	.string "{COLOR BLUE}We got a lot of training to do for next\ntime. I'll make Meemaw proud!$"
 
 Route1N_EventScript_Arnie_Text_1:
 # 44 "data/maps/Route1North/scripts.pory"
-	.string "Arnie: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pI'm trying to catch a Pokémon so I can\nleave the farm. Wish me luck!$"
+	.string "{COLOR BLUE}Arnie: Howdy, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pI'm trying to catch a Pokémon so I can\nleave the farm. Wish me luck!$"
 
 Route1N_EventScript_ArnieEventA_Text_0:
 # 57 "data/maps/Route1North/scripts.pory"

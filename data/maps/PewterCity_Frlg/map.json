@@ -29,7 +29,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_LASS_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_120_LASS_FRLG",
       "x": 6,
       "y": 15,
       "elevation": 3,
@@ -72,7 +72,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_098_BUG_CATCHER_FRLG",
       "x": 33,
       "y": 27,
       "elevation": 3,
@@ -101,7 +101,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 30,
       "y": 5,
       "elevation": 3,

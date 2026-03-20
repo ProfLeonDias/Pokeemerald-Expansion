@@ -56,7 +56,7 @@ Route2_EventScript_Sign_Text_0:
 
 Rt2YoungsterIntro::
 # 34 "data/maps/Route_2/scripts.pory"
-	.string "I love shorts!\nThey're comfy and easy to wear!$"
+	.string "{COLOR BLUE}I love shorts!\nThey're comfy and easy to wear!$"
 
 Rt2YoungsterDefeated::
 # 38 "data/maps/Route_2/scripts.pory"
@@ -64,11 +64,11 @@ Rt2YoungsterDefeated::
 
 Rt2YoungsterPostBattle::
 # 42 "data/maps/Route_2/scripts.pory"
-	.string "Sometimes I feel cold in these shorts…$"
+	.string "{COLOR BLUE}Sometimes I feel cold in these shorts…$"
 
 Rt2PicnickerIntro::
 # 46 "data/maps/Route_2/scripts.pory"
-	.string "I'm looking for some treasure!$"
+	.string "{COLOR RED}I'm looking for some treasure!$"
 
 Rt2PicnickerDefeated::
 # 50 "data/maps/Route_2/scripts.pory"
@@ -76,11 +76,11 @@ Rt2PicnickerDefeated::
 
 Rt2PicnickerPostBattle::
 # 54 "data/maps/Route_2/scripts.pory"
-	.string "My Dowsing Machine helps me find all\nsorts of hidden items!$"
+	.string "{COLOR RED}My Dowsing Machine helps me find all\nsorts of hidden items!$"
 
 BugCatcherIntro::
 # 58 "data/maps/Route_2/scripts.pory"
-	.string "I love bugs! They are so cool!$"
+	.string "{COLOR BLUE}I love bugs! They are so cool!$"
 
 BugCatcherDefeated::
 # 62 "data/maps/Route_2/scripts.pory"
@@ -88,11 +88,11 @@ BugCatcherDefeated::
 
 BugCatcherPostBattle::
 # 66 "data/maps/Route_2/scripts.pory"
-	.string "Do you like bugs too?$"
+	.string "{COLOR BLUE}Do you like bugs too?$"
 
 Rt2LassIntro::
 # 70 "data/maps/Route_2/scripts.pory"
-	.string "And just who are you exactly?$"
+	.string "{COLOR RED}And just who are you exactly?$"
 
 Rt2LassDefeated::
 # 74 "data/maps/Route_2/scripts.pory"
@@ -100,11 +100,11 @@ Rt2LassDefeated::
 
 Rt2LassPostBattle::
 # 78 "data/maps/Route_2/scripts.pory"
-	.string "I guess you are a nice person…$"
+	.string "{COLOR RED}I guess you are a nice person…$"
 
 Rt2CamperIntro::
 # 82 "data/maps/Route_2/scripts.pory"
-	.string "Do you want to go camping with me?$"
+	.string "{COLOR BLUE}Do you want to go camping with me?$"
 
 Rt2CamperDefeated::
 # 86 "data/maps/Route_2/scripts.pory"
@@ -112,4 +112,4 @@ Rt2CamperDefeated::
 
 Rt2CamperPostBattle::
 # 90 "data/maps/Route_2/scripts.pory"
-	.string "Do you hear that sound? That's the great\noutdoors calling out to us!$"
+	.string "{COLOR BLUE}Do you hear that sound? That's the\ngreat outdoors calling out to us!$"

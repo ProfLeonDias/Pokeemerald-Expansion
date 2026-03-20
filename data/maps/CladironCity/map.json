@@ -3,7 +3,7 @@
   "name": "CladironCity",
   "layout": "LAYOUT_CLADIRON_CITY",
   "music": "MUS_RUSTBORO",
-  "region_map_section": "MAPSEC_CLADIRON_CITY",
+  "region_map_section": "MAPSEC_VERDANTURF_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",

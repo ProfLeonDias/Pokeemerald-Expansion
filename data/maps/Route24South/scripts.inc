@@ -154,15 +154,15 @@ Route24South_EventScript_Azurill_Text_0:
 
 Route24South_EventScript_TrainerA_Text_0:
 # 40 "data/maps/Route24South/scripts.pory"
-	.string "C'mon, Pichu! Use Thunder Shock!$"
+	.string "{COLOR BLUE}C'mon, Pichu! Use Thunder Shock!$"
 
 Route24South_EventScript_TrainerB_Text_0:
 # 46 "data/maps/Route24South/scripts.pory"
-	.string "You can do it Azurill! Use Bubble!$"
+	.string "{COLOR RED}You can do it Azurill! Use Bubble!$"
 
 Route24South_EventScript_OldMan_Text_0:
 # 53 "data/maps/Route24South/scripts.pory"
-	.string "Our village has always been guided\nby this river since its founding.\pIts water gives us life, so we must\nprotect it at all costs.$"
+	.string "{COLOR BLUE}Our village has always been guided\nby this river since its founding.\pIts water gives us life, so we must\nprotect it at all costs.$"
 
 Route24South_EventScript_Sign_Text_0:
 # 58 "data/maps/Route24South/scripts.pory"
@@ -170,23 +170,23 @@ Route24South_EventScript_Sign_Text_0:
 
 Route24South_EventScript_Fisherman_Text_0:
 # 65 "data/maps/Route24South/scripts.pory"
-	.string "Hey, how are the fish biting for you?\nMy new Good Rod is pretty great!$"
+	.string "{COLOR BLUE}Hey, how are the fish biting for you?\nMy new Good Rod is pretty great!$"
 
 Route24South_EventScript_Fisherman_Text_1:
 # 68 "data/maps/Route24South/scripts.pory"
-	.string "Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pHere's a question for you:\nDo you like fishing?\pI got myself a new Rod, so I figured\nit was time to part with my Old Rod.\pGo ahead, take it!\nI have no use for it anymore.$"
+	.string "{COLOR BLUE}Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pHere's a question for you:\nDo you like fishing?\pI got myself a new Rod, so I figured\nit was time to part with my Old Rod.\pGo ahead, take it!\nI have no use for it anymore.$"
 
 Route24South_EventScript_Fisherman_Text_2:
 # 71 "data/maps/Route24South/scripts.pory"
-	.string "If you're lucky, you might find\nsomething other than a Magikarp!$"
+	.string "{COLOR BLUE}If you're lucky, you might find\nsomething other than a Magikarp!$"
 
 Route24South_EventScript_Fisherman_Text_3:
 # 74 "data/maps/Route24South/scripts.pory"
-	.string "Tch… Another Magikarp.\nI need a better fishing Rod…$"
+	.string "{COLOR BLUE}Tch… Another Magikarp.\nI need a better fishing Rod…$"
 
 Swimmer1Intro::
 # 85 "data/maps/Route24South/scripts.pory"
-	.string "How about I take a break from swimming\nand battle you?$"
+	.string "{COLOR RED}How about I take a break from swimming\nand battle you?$"
 
 Swimmer1Defeated::
 # 89 "data/maps/Route24South/scripts.pory"
@@ -194,4 +194,4 @@ Swimmer1Defeated::
 
 Swimmer1PostBattle::
 # 93 "data/maps/Route24South/scripts.pory"
-	.string "The water is shallow around here, which\nmakes it perfect for a swim!$"
+	.string "{COLOR RED}The water is shallow around here, which\nmakes it perfect for a swim!$"

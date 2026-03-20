@@ -368,37 +368,37 @@
 // #define OBJ_EVENT_GFX_TWIN                        6         //Unused
 // #define OBJ_EVENT_GFX_LITTLE_BOY                  11        //Unused
 // #define OBJ_EVENT_GFX_LITTLE_GIRL                 12        //Unused
-// #define OBJ_EVENT_GFX_GIRL_3                      14        //Unused
-// #define OBJ_EVENT_GFX_RICH_BOY                    15        //Unused
+// #define OBJ_EVENT_GFX_050_FEMALE_3                      14        //Unused
+// #define OBJ_EVENT_GFX_133_RICH_BOY                    15        //Unused
 // #define OBJ_EVENT_GFX_WOMAN_1                     16        //Unused
 // #define OBJ_EVENT_GFX_FAT_MAN                     17        //Unused
-// #define OBJ_EVENT_GFX_POKEFAN_F                   18        //Unused
-// #define OBJ_EVENT_GFX_EXPERT_M                    21        //Unused
-// #define OBJ_EVENT_GFX_EXPERT_F                    22        //Unused
+// #define OBJ_EVENT_GFX_128_POKEFAN_F                   18        //Unused
+// #define OBJ_EVENT_GFX_110_EXPERT_M                    21        //Unused
+// #define OBJ_EVENT_GFX_111_EXPERT_F                    22        //Unused
 // #define OBJ_EVENT_GFX_MAN_2                       23        //Unused
-// #define OBJ_EVENT_GFX_POKEFAN_M                   25        //Unused
+// #define OBJ_EVENT_GFX_127_POKEFAN_M                   25        //Unused
 // #define OBJ_EVENT_GFX_COOK                        27        //Unused
 // #define OBJ_EVENT_GFX_OLD_MAN                     29        //Unused
-// #define OBJ_EVENT_GFX_CAMPER                      31        //Unused
-// #define OBJ_EVENT_GFX_PICNICKER                   32        //Unused
-// #define OBJ_EVENT_GFX_MAN_3                       33        //Unused
-// #define OBJ_EVENT_GFX_YOUNGSTER                   35        //Unused
-// #define OBJ_EVENT_GFX_BUG_CATCHER                 36        //Unused
-// #define OBJ_EVENT_GFX_PSYCHIC_M                   37        //Unused
-// #define OBJ_EVENT_GFX_MANIAC                      39        //Unused
+// #define OBJ_EVENT_GFX_101_CAMPER                      31        //Unused
+// #define OBJ_EVENT_GFX_102_PICNICKER                   32        //Unused
+// #define OBJ_EVENT_GFX_035_MALE_3                       33        //Unused
+// #define OBJ_EVENT_GFX_158_YOUNGSTER                   35        //Unused
+// #define OBJ_EVENT_GFX_098_BUG_CATCHER                 36        //Unused
+// #define OBJ_EVENT_GFX_131_PSYCHIC_M                   37        //Unused
+// #define OBJ_EVENT_GFX_099_BUG_MANIAC                      39        //Unused
 // #define OBJ_EVENT_GFX_SWIMMER_M                   42        //Unused
 // #define OBJ_EVENT_GFX_SWIMMER_F                   43        //Unused
-// #define OBJ_EVENT_GFX_BLACK_BELT                  44        //Unused
+// #define OBJ_EVENT_GFX_097_BLACK_BELT                  44        //Unused
 // #define OBJ_EVENT_GFX_SCIENTIST_1                 46        //Unused
-// #define OBJ_EVENT_GFX_GENTLEMAN                   48        //Unused
-// #define OBJ_EVENT_GFX_SAILOR                      49        //Unused
-// #define OBJ_EVENT_GFX_FISHERMAN                   50        //Unused
-// #define OBJ_EVENT_GFX_RUNNING_TRIATHLETE_M        51        //Unused
-// #define OBJ_EVENT_GFX_RUNNING_TRIATHLETE_F        52        //Unused
-// #define OBJ_EVENT_GFX_TUBER_F                     53        //Unused
-// #define OBJ_EVENT_GFX_TUBER_M                     54        //Unused
-// #define OBJ_EVENT_GFX_HIKER                       55        //Unused
-// #define OBJ_EVENT_GFX_MAN_5                       66        //Unused
+// #define OBJ_EVENT_GFX_113_GENTLEMAN                   48        //Unused
+// #define OBJ_EVENT_GFX_136_SAILOR                      49        //Unused
+// #define OBJ_EVENT_GFX_112_FISHERMAN                   50        //Unused
+// #define OBJ_EVENT_GFX_149_TRIATHLETE_RUN_M        51        //Unused
+// #define OBJ_EVENT_GFX_150_TRIATHLETE_RUN_F        52        //Unused
+// #define OBJ_EVENT_GFX_152_TUBER_F                     53        //Unused
+// #define OBJ_EVENT_GFX_151_TUBER_M                     54        //Unused
+// #define OBJ_EVENT_GFX_116_HIKER                       55        //Unused
+// #define OBJ_EVENT_GFX_037_MALE_5                       66        //Unused
 // #define OBJ_EVENT_GFX_UNUSED_NATU_DOLL            76        //Unused
 // #define OBJ_EVENT_GFX_UNUSED_MAGNEMITE_DOLL       77        //Unused
 // #define OBJ_EVENT_GFX_UNUSED_SQUIRTLE_DOLL        78        //Unused
@@ -410,7 +410,7 @@
 // #define OBJ_EVENT_GFX_DEVON_EMPLOYEE             116        //Unused
 // #define OBJ_EVENT_GFX_LITTLE_BOY_3               136        //Unused
 // #define OBJ_EVENT_GFX_GAMEBOY_KID                189        //Unused
-// #define OBJ_EVENT_GFX_TUBER_M_SWIMMING           213        //Unused
+// #define OBJ_EVENT_GFX_151_TUBER_M_SWIMMING           213        //Unused
 // #define OBJ_EVENT_GFX_MYSTERY_GIFT_MAN           223        //Unused
 // #define OBJ_EVENT_GFX_UNION_ROOM_NURSE           227        //Unused
 // FRLG objects
@@ -436,8 +436,8 @@
 #define OBJ_EVENT_GFX_OLD_MAN_1                  336
 #define OBJ_EVENT_GFX_OLD_MAN_2                  337
 #define OBJ_EVENT_GFX_OLD_MAN_LYING_DOWN         338
-#define OBJ_EVENT_GFX_TUBER_M_WATER              339
-#define OBJ_EVENT_GFX_TUBER_M_LAND               340
+#define OBJ_EVENT_GFX_151_TUBER_M_WATER              339
+#define OBJ_EVENT_GFX_151_TUBER_M_LAND               340
 #define OBJ_EVENT_GFX_COOLTRAINER_M              341
 #define OBJ_EVENT_GFX_COOLTRAINER_F              342
 #define OBJ_EVENT_GFX_SWIMMER_M_WATER            343
@@ -487,22 +487,22 @@
 #define OBJ_EVENT_GFX_POKEDEX                    387
 #define OBJ_EVENT_GFX_LITTLE_BOY_FRLG            388
 #define OBJ_EVENT_GFX_LITTLE_GIRL_FRLG           389
-#define OBJ_EVENT_GFX_YOUNGSTER_FRLG             390
-#define OBJ_EVENT_GFX_BUG_CATCHER_FRLG           391
-#define OBJ_EVENT_GFX_LASS_FRLG                  392
+#define OBJ_EVENT_GFX_158_YOUNGSTER_FRLG             390
+#define OBJ_EVENT_GFX_098_BUG_CATCHER_FRLG           391
+#define OBJ_EVENT_GFX_120_LASS_FRLG                  392
 #define OBJ_EVENT_GFX_WOMAN_1_FRLG               393
 #define OBJ_EVENT_GFX_FAT_MAN_FRLG               394
-#define OBJ_EVENT_GFX_WOMAN_2_FRLG               395
-#define OBJ_EVENT_GFX_BEAUTY_FRLG                396
+#define OBJ_EVENT_GFX_049_FEMALE_2_FRLG               395
+#define OBJ_EVENT_GFX_093_BEAUTY_FRLG                396
 #define OBJ_EVENT_GFX_WOMAN_3_FRLG               397
 #define OBJ_EVENT_GFX_OLD_WOMAN_FRLG             398
-#define OBJ_EVENT_GFX_CAMPER_FRLG                399
-#define OBJ_EVENT_GFX_PICNICKER_FRLG             400
+#define OBJ_EVENT_GFX_101_CAMPER_FRLG                399
+#define OBJ_EVENT_GFX_102_PICNICKER_FRLG             400
 #define OBJ_EVENT_GFX_MOM_FRLG                   401
-#define OBJ_EVENT_GFX_TUBER_F_FRLG               402
-#define OBJ_EVENT_GFX_HIKER_FRLG                 403
-#define OBJ_EVENT_GFX_GENTLEMAN_FRLG             404
-#define OBJ_EVENT_GFX_SAILOR_FRLG                405
+#define OBJ_EVENT_GFX_152_TUBER_F_FRLG               402
+#define OBJ_EVENT_GFX_116_HIKER_FRLG                 403
+#define OBJ_EVENT_GFX_113_GENTLEMAN_FRLG             404
+#define OBJ_EVENT_GFX_136_SAILOR_FRLG                405
 #define OBJ_EVENT_GFX_NURSE_FRLG                 406
 #define OBJ_EVENT_GFX_FOSSIL_FRLG                407
 #define OBJ_EVENT_GFX_RUBY                       408
@@ -556,13 +556,13 @@
 #define OBJ_EVENT_GFX_DEOXYS_N                   456
 #define OBJ_EVENT_GFX_SS_ANNE                    457
 #define OBJ_EVENT_GFX_PUSHABLE_BOULDER_FRLG      458
-#define OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG         459
+#define OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG         459
 #define OBJ_EVENT_GFX_BREAKABLE_ROCK_FRLG        460
 
 // FRLG equivalents
 
-// #define OBJ_EVENT_GFX_MEW OBJ_EVENT_GFX_NINJA_BOY
-// #define OBJ_EVENT_GFX_LUGIA OBJ_EVENT_GFX_NINJA_BOY
+// #define OBJ_EVENT_GFX_MEW OBJ_EVENT_GFX_121_NINJA_BOY
+// #define OBJ_EVENT_GFX_LUGIA OBJ_EVENT_GFX_121_NINJA_BOY
 
 
 

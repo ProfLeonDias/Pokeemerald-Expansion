@@ -1,9 +1,9 @@
 {
   "id": "MAP_ROUTE14",
   "name": "Route14",
-  "layout": "LAYOUT_ROUTE14",
+  "layout": "LAYOUT_ROUTE14_WISH",
   "music": "MUS_ROUTE119",
-  "region_map_section": "MAPSEC_ROUTE_14_WISH",
+  "region_map_section": "MAPSEC_ROUTE_114",
   "requires_flash": false,
   "weather": "WEATHER_RAIN",
   "map_type": "MAP_TYPE_OCEAN_ROUTE",

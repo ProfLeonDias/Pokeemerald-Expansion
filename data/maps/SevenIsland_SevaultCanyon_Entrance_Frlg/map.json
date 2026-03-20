@@ -29,7 +29,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_049_FEMALE_2_FRLG",
       "x": 12,
       "y": 6,
       "elevation": 3,
@@ -43,7 +43,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_093_BEAUTY_FRLG",
       "x": 3,
       "y": 34,
       "elevation": 3,
@@ -71,7 +71,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_101_CAMPER_FRLG",
       "x": 11,
       "y": 26,
       "elevation": 3,
@@ -85,7 +85,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 10,
       "y": 26,
       "elevation": 3,

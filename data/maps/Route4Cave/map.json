@@ -3,7 +3,7 @@
   "name": "Route4Cave",
   "layout": "LAYOUT_ROUTE4CAVE",
   "music": "MUS_RG_MT_MOON",
-  "region_map_section": "MAPSEC_ROUTE_4_WISH",
+  "region_map_section": "MAPSEC_ROUTE_104",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",

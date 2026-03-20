@@ -43,7 +43,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 16,
       "y": 14,
       "elevation": 3,
@@ -99,7 +99,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 73,
       "y": 16,
       "elevation": 3,
@@ -169,7 +169,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_101_CAMPER_FRLG",
       "x": 69,
       "y": 3,
       "elevation": 3,

@@ -3,7 +3,7 @@
   "name": "MagmoorCity",
   "layout": "LAYOUT_MAGMOOR_CITY",
   "music": "MUS_RG_CELADON",
-  "region_map_section": "MAPSEC_MAGMOOR_CITY",
+  "region_map_section": "MAPSEC_LAVARIDGE_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",

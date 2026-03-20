@@ -376,7 +376,7 @@
 #define B_NEW_ROCKS_PARTICLE            TRUE    // If set to TRUE, it updates rock particles.
 #define B_NEW_LEAF_PARTICLE             TRUE    // If set to TRUE, it updates leaf particle.
 #define B_NEW_EMBER_PARTICLES           TRUE    // If set to TRUE, it updates Ember's fire particle.
-#define B_NEW_MEAN_LOOK_PARTICLE        TURE    // If set to TRUE, it updates Mean Look's eye particle.
+#define B_NEW_MEAN_LOOK_PARTICLE        TRUE    // If set to TRUE, it updates Mean Look's eye particle.
 #define B_NEW_TEETH_PARTICLE            TRUE    // If set to TRUE, it updates Bite/Crunch teeth particle.
 #define B_NEW_HANDS_FEET_PARTICLE       TRUE    // If set to TRUE, it updates chop/kick/punch particles.
 #define B_NEW_SPIKES_PARTICLE           TRUE    // If set to TRUE, it updates Spikes particle.

@@ -399,7 +399,7 @@ SlateportCity_BattleTentLobby_EventScript_TormentGiver::
 # 200 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	faceplayer
 # 201 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	goto_if_set FLAG_RECEIVED_TM_TORMENT, SlateportCity_BattleTentLobby_EventScript_ReceivedTorment
+	goto_if_set FLAG_RECEIVED_TM_FLAME_CHARGE, SlateportCity_BattleTentLobby_EventScript_ReceivedTorment
 # 202 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	msgbox SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe, MSGBOX_DEFAULT
 # 203 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
@@ -407,7 +407,7 @@ SlateportCity_BattleTentLobby_EventScript_TormentGiver::
 # 204 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 # 205 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
-	setflag FLAG_RECEIVED_TM_TORMENT
+	setflag FLAG_RECEIVED_TM_FLAME_CHARGE
 # 206 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"
 	msgbox SlateportCity_BattleTentLobby_Text_ExplainTorment, MSGBOX_DEFAULT
 # 207 "data/maps/SlateportCity_BattleTentLobby/scripts.pory"

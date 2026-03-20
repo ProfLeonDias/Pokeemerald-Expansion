@@ -29,7 +29,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 22,
       "y": 13,
       "elevation": 3,
@@ -71,7 +71,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 44,
       "y": 13,
       "elevation": 3,
@@ -85,7 +85,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_093_BEAUTY_FRLG",
       "x": 50,
       "y": 12,
       "elevation": 3,
@@ -127,7 +127,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 52,
       "y": 8,
       "elevation": 3,
@@ -141,7 +141,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_093_BEAUTY_FRLG",
       "x": 54,
       "y": 12,
       "elevation": 3,
@@ -155,7 +155,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 28,
       "y": 6,
       "elevation": 3,
@@ -169,7 +169,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 20,
       "y": 6,
       "elevation": 3,
@@ -211,7 +211,7 @@
     },
     {
       "type": "clone",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 73,
       "y": 7,
       "target_local_id": "LOCALID_ROUTE14_BORDER_TREE",

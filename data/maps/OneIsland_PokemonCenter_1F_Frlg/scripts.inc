@@ -316,7 +316,7 @@ OneIsland_PokemonCenter_1F_EventScript_DeclineHelpCelio::
 
 OneIsland_PokemonCenter_1F_EventScript_GiveRainbowPass::
 	msgbox OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands
-	removeitem ITEM_RUBY
+	removeitem ITEM_SPARE_POKEDEX
 	removeitem ITEM_TRI_PASS
 	setvar VAR_MAP_SCENE_ONE_ISLAND_POKEMON_CENTER_1F, 5
 	additem ITEM_RAINBOW_PASS

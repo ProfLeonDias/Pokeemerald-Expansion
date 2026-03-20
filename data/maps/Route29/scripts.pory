@@ -12,40 +12,40 @@ script Route29_EventScript_Sign2 {
 
 script Route29_EventScript_Woman1 {
     lock
-    msgbox("Ah, how relaxing…")
+    msgbox("{COLOR RED}Ah, how relaxing…")
     release
 }
 
 script Route29_EventScript_OldWoman {
     lock
-    msgbox("Don't worry about me, dearie.\nI'm keeping these old bones warm.")
+    msgbox("{COLOR RED}Don't worry about me, dearie.\nI'm keeping these old bones warm.")
     release
 }
 
 script Route29_EventScript_Tuber {
     lock
     faceplayer
-    msgbox("I wanna go swimming!")
+    msgbox("{COLOR RED}I wanna go swimming!")
     release
 }
 
 script Route29_EventScript_Sailor1 {
     lock
     faceplayer
-    msgbox("The harbor is just up ahead.")
+    msgbox("{COLOR BLUE}The harbor is just up ahead.")
     release
 }
 
 script Route29_EventScript_DragonTamer{
     lock
-    msgbox("No one can ever know what I've just\ndone…")
+    msgbox("{COLOR BLUE}No one can ever know what I've just\ndone…")
     release
 }
 
 script Route29_EventScript_Maniac{
     lock
     faceplayer
-    msgbox("I dropped something in the sand.\nBut then, I found it!")
+    msgbox("{COLOR BLUE}I dropped something in the sand.\nBut then, I found it!")
     release
 }
 
@@ -53,21 +53,21 @@ script Route29_EventScript_Captain{
     lock
     faceplayer
     if(var(VAR_ASPEN_EVENTS) == 5){
-        msgbox("I don't know you, kid. Beat it.")
+        msgbox("{COLOR BLUE}I don't know you, kid. Beat it.")
         release
     }
     elif(var(VAR_POKEMART_MACK_EVENT) == 1){
-        msgbox("Captain: I got a message from Mack.\nYou the kid that Allen sent?\p…\nAlright, I got the goods right here.")
+        msgbox("{COLOR BLUE}Captain: I got a message from Mack.\nYou the kid that Allen sent?\p…\nAlright, I got the goods right here.")
         closemessage
         giveitem(ITEM_OAKS_PARCEL)
         delay(30)
-        msgbox("If the cops ask, I don't know you.\nKeep that thing in your bag, got it?")
+        msgbox("{COLOR BLUE}If the cops ask, I don't know you.\nKeep that thing in your bag, got it?")
         closemessage
         setvar(VAR_ASPEN_EVENTS, 5)
         release
     }
     else{
-        msgbox("Yeah kid, I run this harbor. So what?")
+        msgbox("{COLOR BLUE}Yeah kid, I run this harbor. So what?")
         release
     }
 }
@@ -195,7 +195,7 @@ script Route29_EventScript_Triathlete{
 }
 
 text Rt29TriathleteIntro{
-    "What do you want?\nI'm training my endurance."
+    "{COLOR BLUE}What do you want?\nI'm training my endurance."
 }
 
 text Rt29TriathleteDefeated{
@@ -203,11 +203,11 @@ text Rt29TriathleteDefeated{
 }
 
 text Rt29TriathletePostBattle{
-    "Can you leave?\nI need to get back to my regimen."
+    "{COLOR BLUE}Can you leave?\nI need to get back to my regimen."
 }
 
 text Rt29SwimmerFIntro{
-    "Isn't this just relaxing?"
+    "{COLOR RED}Isn't this just relaxing?"
 }
 
 text Rt29SwimmerFDefeated{
@@ -215,11 +215,11 @@ text Rt29SwimmerFDefeated{
 }
 
 text Rt29SwimmerFPostBattle{
-    "I can just drift here forever."
+    "{COLOR RED}I can just drift here forever."
 }
 
 text Rt29SwimmerMIntro{
-    "SPLASH!\nLet's get to it!"
+    "{COLOR BLUE}SPLASH!\nLet's get to it!"
 }
 
 text Rt29SwimmerMDefeated{
@@ -227,11 +227,11 @@ text Rt29SwimmerMDefeated{
 }
 
 text Rt29SwimmerMPostBattle{
-    "I wake up every morning to go for a swim\neach and every day."
+    "{COLOR BLUE}I wake up every morning to go for a swim\neach and every day."
 }
 
 text Rt29SailorIntro{
-    "Hic…\nWhat are you lookin' at?"
+    "{COLOR BLUE}Hic…\nWhat are you lookin' at?"
 }
 
 text Rt29SailorDefeated{
@@ -239,11 +239,11 @@ text Rt29SailorDefeated{
 }
 
 text Rt29SailorPostBattle{
-    "Mind yer own business, kid!\nHic…"
+    "{COLOR BLUE}Mind yer own business, kid!\nHic…"
 }
 
 text Rt29KindlerIntro{
-    "Do you know about fire safety?"
+    "{COLOR BLUE}Do you know about fire safety?"
 }
 
 text Rt29KindlerDefeated{
@@ -251,6 +251,6 @@ text Rt29KindlerDefeated{
 }
 
 text Rt29KindlerPostBattle{
-    "This is a great spot to start a fire pit!"
+    "{COLOR BLUE}This is a great spot to start a fire pit!"
 }
 

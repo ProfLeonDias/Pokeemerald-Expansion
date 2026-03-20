@@ -1692,7 +1692,7 @@
 #define FLAG_RECEIVED_TM_BULLET_SEED         0
 #define FLAG_ENTERED_ELITE_FOUR              0
 #define FLAG_RECEIVED_TM_HIDDEN_POWER        0
-#define FLAG_RECEIVED_TM_TORMENT             0
+#define FLAG_RECEIVED_TM_FLAME_CHARGE             0
 #define FLAG_RECEIVED_LAVARIDGE_EGG          0
 #define FLAG_RECEIVED_REVIVED_FOSSIL_MON     0
 #define FLAG_SECRET_BASE_REGISTRY_ENABLED    0
@@ -2312,7 +2312,7 @@
 #define FLAG_ITEM_ROUTE_111_STARDUST                                0
 #define FLAG_ITEM_ROUTE_111_HP_UP                                   0
 #define FLAG_ITEM_ROUTE_112_NUGGET                                  0
-#define FLAG_ITEM_ROUTE_113_MAX_ETHER                               0
+#define FLAG_ITEM_ROUTE_1N_TM_GIGA_DRAIN                               0
 #define FLAG_ITEM_ROUTE_113_SUPER_REPEL                             0
 #define FLAG_ITEM_ROUTE_114_RARE_CANDY                              0
 #define FLAG_ITEM_ROUTE_114_PROTEIN                                 0
@@ -2374,7 +2374,7 @@
 #define FLAG_ITEM_AQUA_HIDEOUT_B1F_MAX_ELIXIR                       0
 #define FLAG_ITEM_AQUA_HIDEOUT_B2F_NEST_BALL                        0
 #define FLAG_ITEM_MT_PYRE_EXTERIOR_MAX_POTION                       0
-#define FLAG_ITEM_MT_PYRE_EXTERIOR_TM_SKILL_SWAP                    0
+#define FLAG_ITEM_MT_PYRE_EXTERIOR_TM_VOLT_SWITCH                    0
 #define FLAG_ITEM_NEW_MAUVILLE_ULTRA_BALL                           0
 #define FLAG_ITEM_NEW_MAUVILLE_ESCAPE_ROPE                          0
 #define FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_6_LUXURY_BALL    0

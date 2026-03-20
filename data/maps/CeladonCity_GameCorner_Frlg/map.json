@@ -60,7 +60,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_049_FEMALE_2_FRLG",
       "x": 1,
       "y": 8,
       "elevation": 3,
@@ -144,7 +144,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_113_GENTLEMAN_FRLG",
       "x": 16,
       "y": 10,
       "elevation": 3,

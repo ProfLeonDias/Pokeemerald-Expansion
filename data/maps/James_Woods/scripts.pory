@@ -84,26 +84,27 @@ script JamesWoods_EventScript_Sign3{
 
 script JamesWoods_EventScript_Sign4{
     msgbox("James Woods\nExit south to Route 1, Jasper Town")
+    release
 }
 
 script JamesWoods_EventScript_AustinYoungster{
     lock
     faceplayer
-    msgbox("Don't you know when to quit?")
+    msgbox("{COLOR BLUE}Don't you know when to quit?")
     release
 }
 
 script JamesWoods_EventScript_AustinCatcher2{
     lock
     faceplayer
-    msgbox("Get lost already!")
+    msgbox("{COLOR BLUE}Get lost already!")
     release
 }
 
 script JamesWoods_EventScript_AustinCatcher1{
     lock
     faceplayer
-    msgbox("Don't you have anything else better\nto do?")
+    msgbox("{COLOR BLUE}Don't you have anything else better\nto do?")
     release
 }
 
@@ -913,7 +914,7 @@ script JamesWoods_EventScript_AlexBattle1{
     closemessage
     removefieldmugshot
     delay(25)
-    fadeoutbgm(MUS_PETALBURG_WOODS)
+    fadeoutbgm(0)
     playbgm(MUS_RG_TITLE, FALSE)
     applymovement(LOCALID_ALEX, JWAlexEventmov13)
     waitmovement(0)
@@ -921,12 +922,12 @@ script JamesWoods_EventScript_AlexBattle1{
     setobjectxyperm(LOCALID_ALEX, 52, 3)
     setvar(VAR_ASPEN_LAB_EVENT, 4)
     setflag(FLAG_HIDE_ALEX_AND_LYON)
-    fadeoutbgm(MUS_RG_TITLE)
+    fadeoutbgm(0)
     playbgm(MUS_PETALBURG_WOODS, FALSE)
     releaseall
 }
 
-script JamesWoods_EventScriptAlexBattle2{
+script JamesWoods_EventScript_AlexBattle2{
     lockall
     playse(21)
     applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov1)
@@ -1052,7 +1053,7 @@ script JamesWoods_EventScriptAlexBattle2{
     closemessage
     removefieldmugshot
     delay(25)
-    fadeoutbgm(MUS_PETALBURG_WOODS)
+    fadeoutbgm(0)
     playbgm(MUS_RG_TITLE, FALSE)
     applymovement(LOCALID_ALEX, JWAlexEventmov13)
     waitmovement(0)
@@ -1060,7 +1061,7 @@ script JamesWoods_EventScriptAlexBattle2{
     setobjectxyperm(LOCALID_ALEX, 52, 3)
     setvar(VAR_ASPEN_LAB_EVENT, 4)
     setflag(FLAG_HIDE_ALEX_AND_LYON)
-    fadeoutbgm(MUS_RG_TITLE)
+    fadeoutbgm(0)
     playbgm(MUS_PETALBURG_WOODS, FALSE)
     releaseall
 }
@@ -1191,7 +1192,7 @@ script JamesWoods_EventScript_AlexBattle3{
     closemessage
     removefieldmugshot
     delay(25)
-    fadeoutbgm(MUS_PETALBURG_WOODS)
+    fadeoutbgm(0)
     playbgm(MUS_RG_TITLE, FALSE)
     applymovement(LOCALID_ALEX, JWAlexEventmov13)
     waitmovement(0)
@@ -1199,13 +1200,13 @@ script JamesWoods_EventScript_AlexBattle3{
     setobjectxyperm(LOCALID_ALEX, 52, 3)
     setvar(VAR_ASPEN_LAB_EVENT, 4)
     setflag(FLAG_HIDE_ALEX_AND_LYON)
-    fadeoutbgm(MUS_RG_TITLE)
+    fadeoutbgm(0)
     playbgm(MUS_PETALBURG_WOODS, FALSE)
     releaseall
 }
 
 script JamesWoods_EventScript_AlexBattle4{
-        lockall
+    lockall
     playse(21)
     applymovement(OBJ_EVENT_ID_PLAYER, JWAlexEventmov1)
     waitmovement(0)
@@ -1330,7 +1331,7 @@ script JamesWoods_EventScript_AlexBattle4{
     closemessage
     removefieldmugshot
     delay(25)
-    fadeoutbgm(MUS_PETALBURG_WOODS)
+    fadeoutbgm(0)
     playbgm(MUS_RG_TITLE, FALSE)
     applymovement(LOCALID_ALEX, JWAlexEventmov13)
     waitmovement(0)
@@ -1338,7 +1339,7 @@ script JamesWoods_EventScript_AlexBattle4{
     setobjectxyperm(LOCALID_ALEX, 52, 3)
     setvar(VAR_ASPEN_LAB_EVENT, 4)
     setflag(FLAG_HIDE_ALEX_AND_LYON)
-    fadeoutbgm(MUS_RG_TITLE)
+    fadeoutbgm(0)
     playbgm(MUS_PETALBURG_WOODS, FALSE)
     releaseall
 }
@@ -1819,7 +1820,7 @@ script JamesWoods_EventScript_Trainer6{
 }
 
 text JWLassIntro{
-    "Hi! You look so cute!"
+    "{COLOR RED}Hi! You look so cute!"
 }
 
 text JWLassDefeated{
@@ -1827,11 +1828,11 @@ text JWLassDefeated{
 }
 
 text JWLassPostBattle{
-    "If you're free later, would you like to\ngo to the beach with me?"
+    "{COLOR RED}If you're free later, would you like to\ngo to the beach with me?"
 }
 
 text JWYoungster2Intro{
-    "Hey again. You got a minute?"
+    "{COLOR BLUE}Hey again. You got a minute?"
 }
 
 text JWYoungster2Defeated{
@@ -1839,11 +1840,11 @@ text JWYoungster2Defeated{
 }
 
 text JWYoungster2PostBattle{
-    "I used to think Austin was cool.\nWhat a jerk."
+    "{COLOR BLUE}I used to think Austin was cool.\nWhat a jerk."
 }
 
 text JWBugCatcher3Intro{
-    "I wanted to say sorry for earlier.\nCan we battle?"
+    "{COLOR BLUE}I wanted to say sorry for earlier.\nCan we battle?"
 }
 
 text JWBugCatcher3Defeated{
@@ -1851,11 +1852,11 @@ text JWBugCatcher3Defeated{
 }
 
 text JWBugCatcher3PostBattle{
-    "Austin was a real jerk. Sorry Buneary."
+    "{COLOR BLUE}Austin was a real jerk. Sorry Buneary."
 }
 
 text JWBugCatcher2Intro{
-    "Shhh. You'll scare the bugs away!"
+    "{COLOR BLUE}Shhh. You'll scare the bugs away!"
 }
 
 text JWBugCatcher2Defeated{
@@ -1863,11 +1864,11 @@ text JWBugCatcher2Defeated{
 }
 
 text JWBugCatcher2PostBattle{
-    "Maybe I should go back home."
+    "{COLOR BLUE}Maybe I should go back home."
 }
 
 text JWYoungster1Intro{
-    "Our eyes met! Time to battle!"
+    "{COLOR BLUE}Our eyes met! Time to battle!"
 }
 
 text JWYoungster1Defeated{
@@ -1875,11 +1876,11 @@ text JWYoungster1Defeated{
 }
 
 text JWYoungster1PostBattle{
-    "Don't you know that when two trainers\nmeet, they have to battle?"
+    "{COLOR BLUE}Don't you know that when two trainers\nmeet, they have to battle?"
 }
 
 text JWBugCatcher1Intro{
-    "I'm looking to catch some bugs!\nHave you found any?"
+    "{COLOR BLUE}I'm looking to catch some bugs!\nHave you found any?"
 }
 
 text JWBugCatcher1Defeated{
@@ -1887,5 +1888,5 @@ text JWBugCatcher1Defeated{
 }
 
 text JWBugCatcher1PostBattle{
-    "The James Woods is chock full of Bugs!"
+    "{COLOR BLUE}The James Woods is chock full of Bugs!"
 }

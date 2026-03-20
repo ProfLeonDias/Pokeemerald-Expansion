@@ -1,9 +1,9 @@
 {
   "id": "MAP_ROUTE18",
   "name": "Route18",
-  "layout": "LAYOUT_ROUTE18",
+  "layout": "LAYOUT_ROUTE18_WISH",
   "music": "MUS_ROUTE110",
-  "region_map_section": "MAPSEC_ROUTE_18_WISH",
+  "region_map_section": "MAPSEC_ROUTE_118",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",

@@ -1,9 +1,9 @@
 {
   "id": "MAP_ROUTE24NORTH",
   "name": "Route24North",
-  "layout": "LAYOUT_ROUTE24NORTH",
+  "layout": "LAYOUT_ROUTE24_NORTH",
   "music": "MUS_ROUTE104",
-  "region_map_section": "MAPSEC_ROUTE_24_WISH",
+  "region_map_section": "MAPSEC_ROUTE_124",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_OCEAN_ROUTE",

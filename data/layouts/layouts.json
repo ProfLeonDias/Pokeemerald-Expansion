@@ -10410,7 +10410,7 @@
       "blockdata_filepath": "data/layouts/MtNorfairMain/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE1NORTH",
+      "id": "LAYOUT_ROUTE1_NORTH",
       "name": "Route1North_Layout",
       "width": 30,
       "height": 44,
@@ -10434,7 +10434,7 @@
       "blockdata_filepath": "data/layouts/ArchaeMinesB1F/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE24SOUTH",
+      "id": "LAYOUT_ROUTE24_SOUTH",
       "name": "Route24South_Layout",
       "width": 32,
       "height": 40,
@@ -10458,7 +10458,7 @@
       "blockdata_filepath": "data/layouts/AegisRuinsMainChambers_3/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE28",
+      "id": "LAYOUT_ROUTE28_WISH",
       "name": "Route28_Layout",
       "width": 20,
       "height": 20,
@@ -10470,7 +10470,7 @@
       "blockdata_filepath": "data/layouts/Route28/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE1SOUTH",
+      "id": "LAYOUT_ROUTE1_SOUTH",
       "name": "Route1South_Layout",
       "width": 24,
       "height": 30,
@@ -10686,7 +10686,7 @@
       "blockdata_filepath": "data/layouts/UnderwaterRt28/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE21",
+      "id": "LAYOUT_ROUTE21_WISH",
       "name": "Route21_Layout",
       "width": 20,
       "height": 20,
@@ -10710,7 +10710,7 @@
       "blockdata_filepath": "data/layouts/IoniaPowerPlantCave/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE_2",
+      "id": "LAYOUT_ROUTE2_WISH",
       "name": "Route_2_Layout",
       "width": 60,
       "height": 30,
@@ -10770,7 +10770,7 @@
       "blockdata_filepath": "data/layouts/MtNorfair3F/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE27",
+      "id": "LAYOUT_ROUTE27_WISH",
       "name": "Route27_Layout",
       "width": 20,
       "height": 20,
@@ -10782,7 +10782,7 @@
       "blockdata_filepath": "data/layouts/Route27/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE29",
+      "id": "LAYOUT_ROUTE29_WISH",
       "name": "Route29_Layout",
       "width": 100,
       "height": 34,
@@ -10806,7 +10806,7 @@
       "blockdata_filepath": "data/layouts/MtNorfair2F/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE30",
+      "id": "LAYOUT_ROUTE30_WISH",
       "name": "Route30_Layout",
       "width": 20,
       "height": 20,
@@ -10818,7 +10818,7 @@
       "blockdata_filepath": "data/layouts/Route30/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE26",
+      "id": "LAYOUT_ROUTE26_WISH",
       "name": "Route26_Layout",
       "width": 20,
       "height": 20,
@@ -10830,7 +10830,7 @@
       "blockdata_filepath": "data/layouts/Route26/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE24NORTH",
+      "id": "LAYOUT_ROUTE24_NORTH",
       "name": "Route24North_Layout",
       "width": 20,
       "height": 20,
@@ -11485,7 +11485,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_BikeShop",
       "border_filepath": "data/layouts/IoniaCity_Gate1/border.bin",
       "blockdata_filepath": "data/layouts/IoniaCity_Gate1/map.bin"
     },
@@ -11562,7 +11562,7 @@
       "blockdata_filepath": "data/layouts/IoniaPowerPlant_Inside/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE3",
+      "id": "LAYOUT_ROUTE3_WISH",
       "name": "Route3_Layout",
       "width": 99,
       "height": 20,
@@ -11574,7 +11574,7 @@
       "blockdata_filepath": "data/layouts/Route3/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE6",
+      "id": "LAYOUT_ROUTE6_WISH",
       "name": "Route6_Layout",
       "width": 20,
       "height": 20,
@@ -11586,7 +11586,7 @@
       "blockdata_filepath": "data/layouts/Route6/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE18",
+      "id": "LAYOUT_ROUTE18_WISH",
       "name": "Route18_Layout",
       "width": 20,
       "height": 20,
@@ -11598,7 +11598,7 @@
       "blockdata_filepath": "data/layouts/Route18/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE20",
+      "id": "LAYOUT_ROUTE20_WISH",
       "name": "Route20_Layout",
       "width": 20,
       "height": 20,
@@ -11610,7 +11610,7 @@
       "blockdata_filepath": "data/layouts/Route20/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE10",
+      "id": "LAYOUT_ROUTE10_WISH",
       "name": "Route10_Layout",
       "width": 20,
       "height": 20,
@@ -11622,7 +11622,7 @@
       "blockdata_filepath": "data/layouts/Route10/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE11",
+      "id": "LAYOUT_ROUTE11_WISH",
       "name": "Route11_Layout",
       "width": 20,
       "height": 20,
@@ -11634,7 +11634,7 @@
       "blockdata_filepath": "data/layouts/Route11/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE9",
+      "id": "LAYOUT_ROUTE9_WISH",
       "name": "Route9_Layout",
       "width": 20,
       "height": 20,
@@ -11646,7 +11646,7 @@
       "blockdata_filepath": "data/layouts/Route9/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE14",
+      "id": "LAYOUT_ROUTE14_WISH",
       "name": "Route14_Layout",
       "width": 20,
       "height": 20,
@@ -11658,7 +11658,7 @@
       "blockdata_filepath": "data/layouts/Route14/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE15",
+      "id": "LAYOUT_ROUTE15_WISH",
       "name": "Route15_Layout",
       "width": 20,
       "height": 20,
@@ -11670,7 +11670,7 @@
       "blockdata_filepath": "data/layouts/Route15/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE13",
+      "id": "LAYOUT_ROUTE13_WISH",
       "name": "Route13_Layout",
       "width": 20,
       "height": 20,
@@ -11682,7 +11682,7 @@
       "blockdata_filepath": "data/layouts/Route13/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE23",
+      "id": "LAYOUT_ROUTE23_WISH",
       "name": "Route23_Layout",
       "width": 20,
       "height": 20,
@@ -11694,7 +11694,7 @@
       "blockdata_filepath": "data/layouts/Route23/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE25",
+      "id": "LAYOUT_ROUTE25_WISH",
       "name": "Route25_Layout",
       "width": 20,
       "height": 20,
@@ -11706,7 +11706,7 @@
       "blockdata_filepath": "data/layouts/Route25/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE17",
+      "id": "LAYOUT_ROUTE17_WISH",
       "name": "Route17_Layout",
       "width": 20,
       "height": 20,
@@ -11718,7 +11718,7 @@
       "blockdata_filepath": "data/layouts/Route17/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE19",
+      "id": "LAYOUT_ROUTE19_WISH",
       "name": "Route19_Layout",
       "width": 20,
       "height": 20,
@@ -11730,7 +11730,7 @@
       "blockdata_filepath": "data/layouts/Route19/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE7",
+      "id": "LAYOUT_ROUTE7_WISH",
       "name": "Route7_Layout",
       "width": 20,
       "height": 20,
@@ -11742,7 +11742,7 @@
       "blockdata_filepath": "data/layouts/Route7/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE16",
+      "id": "LAYOUT_ROUTE16_WISH",
       "name": "Route16_Layout",
       "width": 20,
       "height": 20,
@@ -11754,7 +11754,7 @@
       "blockdata_filepath": "data/layouts/Route16/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE8",
+      "id": "LAYOUT_ROUTE8_WISH",
       "name": "Route8_Layout",
       "width": 20,
       "height": 20,
@@ -11766,7 +11766,7 @@
       "blockdata_filepath": "data/layouts/Route8/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE22",
+      "id": "LAYOUT_ROUTE22_WISH",
       "name": "Route22_Layout",
       "width": 20,
       "height": 20,
@@ -11778,7 +11778,7 @@
       "blockdata_filepath": "data/layouts/Route22/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE5",
+      "id": "LAYOUT_ROUTE5_WISH",
       "name": "Route5_Layout",
       "width": 20,
       "height": 20,
@@ -11790,7 +11790,7 @@
       "blockdata_filepath": "data/layouts/Route5/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE4",
+      "id": "LAYOUT_ROUTE4_WISH",
       "name": "Route4_Layout",
       "width": 20,
       "height": 20,
@@ -11802,7 +11802,7 @@
       "blockdata_filepath": "data/layouts/Route4/map.bin"
     },
     {
-      "id": "LAYOUT_ROUTE12",
+      "id": "LAYOUT_ROUTE12_WISH",
       "name": "Route12_Layout",
       "width": 20,
       "height": 20,
@@ -11812,6 +11812,18 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/Route12/border.bin",
       "blockdata_filepath": "data/layouts/Route12/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAPPHIRE_VILLAGE_NIGHTMARE",
+      "name": "SapphireVillage_Nightmare_Layout",
+      "width": 30,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Wish",
+      "secondary_tileset": "gTileset_Sapphire_Village",
+      "border_filepath": "data/layouts/SapphireVillage_Nightmare/border.bin",
+      "blockdata_filepath": "data/layouts/SapphireVillage_Nightmare/map.bin"
     }
   ]
 }

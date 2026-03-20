@@ -25,21 +25,21 @@ OnLoadSapphireVillage_1:
 # 15 "data/maps/SapphireVillage/scripts.pory"
 	setmetatile 4, 17, METATILE_Wish_Grass3, FALSE
 # 16 "data/maps/SapphireVillage/scripts.pory"
-	setmetatile 5, 17, METATILE_Sapphire_Village_Roof1, FALSE
+	setmetatile 5, 17, METATILE_Sapphire_Village_SV_Roof1, FALSE
 # 17 "data/maps/SapphireVillage/scripts.pory"
-	setmetatile 6, 17, METATILE_Sapphire_Village_Roof2, FALSE
+	setmetatile 6, 17, METATILE_Sapphire_Village_SV_Roof2, FALSE
 # 18 "data/maps/SapphireVillage/scripts.pory"
-	setmetatile 7, 17, METATILE_Sapphire_Village_Roof3, FALSE
+	setmetatile 7, 17, METATILE_Sapphire_Village_SV_Roof3, FALSE
 # 19 "data/maps/SapphireVillage/scripts.pory"
-	setmetatile 8, 17, METATILE_Sapphire_Village_Roof4, FALSE
+	setmetatile 8, 17, METATILE_Sapphire_Village_SV_Roof4, FALSE
 # 20 "data/maps/SapphireVillage/scripts.pory"
-	setmetatile 9, 17, METATILE_Sapphire_Village_Roof5, FALSE
+	setmetatile 9, 17, METATILE_Sapphire_Village_SV_Roof5, FALSE
 # 21 "data/maps/SapphireVillage/scripts.pory"
 	setmetatile 10, 17, METATILE_Wish_Grass3, FALSE
 # 22 "data/maps/SapphireVillage/scripts.pory"
-	setmetatile 2, 18, METATILE_Sapphire_Village_GoldTreeL, FALSE
+	setmetatile 2, 18, METATILE_Sapphire_Village_SV_GoldTreeL, FALSE
 # 23 "data/maps/SapphireVillage/scripts.pory"
-	setmetatile 3, 18, METATILE_Sapphire_Village_GoldTreeR, FALSE
+	setmetatile 3, 18, METATILE_Sapphire_Village_SV_GoldTreeR, FALSE
 # 24 "data/maps/SapphireVillage/scripts.pory"
 	setmetatile 4, 18, METATILE_Wish_Grass1, FALSE
 # 25 "data/maps/SapphireVillage/scripts.pory"
@@ -1296,19 +1296,19 @@ mov10:
 
 SapphireVillage_EventScript_OldMan_Text_0:
 # 35 "data/maps/SapphireVillage/scripts.pory"
-	.string "Hello, {COLOR GREEN}{PLAYER}{COLOR BLUE}. Did you enjoy the\nrecent River Festival?\pIt's still my favorite tradition, even\nback when I was your age.$"
+	.string "{COLOR BLUE}Hello, {COLOR GREEN}{PLAYER}{COLOR BLUE}. Did you enjoy the\nrecent River Festival?\pIt's still my favorite tradition, even\nback when I was your age.$"
 
 SapphireVillage_EventScript_Girl_Text_0:
 # 42 "data/maps/SapphireVillage/scripts.pory"
-	.string "Check it out!\nThe Professor gave me a Pokémon!$"
+	.string "{COLOR RED}Check it out!\nThe Professor gave me a Pokémon!$"
 
 SapphireVillage_EventScript_FatMan_Text_0:
 # 49 "data/maps/SapphireVillage/scripts.pory"
-	.string "Oh hi, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nNice weather, isn't it?$"
+	.string "{COLOR BLUE}Oh hi, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nNice weather, isn't it?$"
 
 SapphireVillage_EventScript_Woman_Text_0:
 # 56 "data/maps/SapphireVillage/scripts.pory"
-	.string "I came all the way from Nexar City to\nsee the River Festival. It's so much fun!$"
+	.string "{COLOR RED}I came all the way from Nexar City to\nsee the River Festival.\lIt's so much fun!$"
 
 SapphireVillage_EventScript_LabSign_Text_0:
 # 61 "data/maps/SapphireVillage/scripts.pory"
@@ -1324,7 +1324,7 @@ SapphireVillage_EventScript_Mailbox1_Text_0:
 
 SapphireVillage_EventScript_Mailbox2_Text_0:
 # 76 "data/maps/SapphireVillage/scripts.pory"
-	.string "{PLAYER}'s Household$"
+	.string "{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY}'s Household$"
 
 SapphireVillage_EventScript_Mailbox3_Text_0:
 # 81 "data/maps/SapphireVillage/scripts.pory"

@@ -76,7 +76,7 @@
     {
       "local_id": "LOCALID_BULBASAUR_BALL",
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 8,
       "y": 4,
       "elevation": 0,
@@ -91,7 +91,7 @@
     {
       "local_id": "LOCALID_SQUIRTLE_BALL",
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 9,
       "y": 4,
       "elevation": 0,
@@ -106,7 +106,7 @@
     {
       "local_id": "LOCALID_CHARMANDER_BALL",
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 10,
       "y": 4,
       "elevation": 0,

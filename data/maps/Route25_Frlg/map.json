@@ -24,7 +24,7 @@
   "object_events": [
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_HIKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_116_HIKER_FRLG",
       "x": 11,
       "y": 4,
       "elevation": 3,
@@ -38,7 +38,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER_FRLG",
       "x": 18,
       "y": 2,
       "elevation": 3,
@@ -52,7 +52,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_HIKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_116_HIKER_FRLG",
       "x": 17,
       "y": 7,
       "elevation": 3,
@@ -66,7 +66,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER_FRLG",
       "x": 22,
       "y": 4,
       "elevation": 3,
@@ -80,7 +80,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_PICNICKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_102_PICNICKER_FRLG",
       "x": 22,
       "y": 8,
       "elevation": 3,
@@ -94,7 +94,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_HIKER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_116_HIKER_FRLG",
       "x": 27,
       "y": 9,
       "elevation": 3,
@@ -108,7 +108,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_101_CAMPER_FRLG",
       "x": 28,
       "y": 4,
       "elevation": 3,
@@ -122,7 +122,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_158_YOUNGSTER_FRLG",
       "x": 36,
       "y": 4,
       "elevation": 3,
@@ -136,7 +136,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_LASS_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_120_LASS_FRLG",
       "x": 42,
       "y": 5,
       "elevation": 3,
@@ -150,7 +150,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 26,
       "y": 2,
       "elevation": 3,
@@ -164,7 +164,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 30,
       "y": 3,
       "elevation": 3,
@@ -178,7 +178,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_093_BEAUTY_FRLG",
       "x": 49,
       "y": 10,
       "elevation": 3,

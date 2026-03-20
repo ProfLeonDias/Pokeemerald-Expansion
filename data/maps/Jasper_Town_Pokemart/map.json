@@ -3,7 +3,7 @@
   "name": "Jasper_Town_Pokemart",
   "layout": "LAYOUT_JASPER_TOWN_POKEMART",
   "music": "MUS_POKE_MART",
-  "region_map_section": "MAPSEC_JASPER_TOWN",
+  "region_map_section": "MAPSEC_OLDALE_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

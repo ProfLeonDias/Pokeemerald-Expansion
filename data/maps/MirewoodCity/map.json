@@ -3,7 +3,7 @@
   "name": "MirewoodCity",
   "layout": "LAYOUT_MIREWOOD_CITY",
   "music": "MUS_RG_FUCHSIA",
-  "region_map_section": "MAPSEC_MIREWOOD_CITY",
+  "region_map_section": "MAPSEC_FORTREE_CITY",
   "requires_flash": false,
   "weather": "WEATHER_RAIN",
   "map_type": "MAP_TYPE_CITY",

@@ -8,7 +8,7 @@ script Route1S_EventScript_Sign {
 script Route1S_EventScript_Fisherman {
     lock
     faceplayer
-    msgbox("Going fishing is the world's best stress\nrelief, hands down. Don't you agree?")
+    msgbox("{COLOR BLUE}Going fishing is the world's best stress\nrelief, hands down. Don't you agree?")
     release
 
 
@@ -21,7 +21,7 @@ script Route1S_EventScript_Lass {
 }
 
 text Rt1LassIntro {
-    "Look at my adorable Pokémon!"
+    "{COLOR RED}Look at my adorable Pokémon!"
 }
 
 text Rt1LassDefeated {
@@ -29,5 +29,5 @@ text Rt1LassDefeated {
 }
 
 text Rt1LassPostBattle {
-    "One day, I'll catch the cutest little\nPokémon! Just you wait!"
+    "{COLOR RED}One day, I'll catch the cutest little\nPokémon! Just you wait!"
 }

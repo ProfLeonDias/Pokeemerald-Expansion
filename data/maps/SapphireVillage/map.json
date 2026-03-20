@@ -3,7 +3,7 @@
   "name": "SapphireVillage",
   "layout": "LAYOUT_SAPPHIRE_VILLAGE",
   "music": "MUS_RG_PALLET",
-  "region_map_section": "MAPSEC_SAPPHIRE_VILLAGE",
+  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_TOWN",
@@ -167,7 +167,7 @@
       "type": "trigger",
       "x": 13,
       "y": 26,
-      "elevation": 3,
+      "elevation": 0,
       "var": "VAR_SAPPHIRE_VILLAGE_STATE",
       "var_value": "0",
       "script": "SapphireVillage_EventScript_EventScriptA"
@@ -176,7 +176,7 @@
       "type": "trigger",
       "x": 14,
       "y": 26,
-      "elevation": 3,
+      "elevation": 0,
       "var": "VAR_SAPPHIRE_VILLAGE_STATE",
       "var_value": "0",
       "script": "SapphireVillage_EventScript_EventScriptB"
@@ -187,7 +187,7 @@
       "type": "sign",
       "x": 22,
       "y": 19,
-      "elevation": 3,
+      "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SapphireVillage_EventScript_Mailbox2"
     },
@@ -195,7 +195,7 @@
       "type": "sign",
       "x": 16,
       "y": 19,
-      "elevation": 3,
+      "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SapphireVillage_EventScript_TownSign"
     },
@@ -203,7 +203,7 @@
       "type": "sign",
       "x": 10,
       "y": 21,
-      "elevation": 3,
+      "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SapphireVillage_EventScript_Mailbox3"
     },
@@ -211,7 +211,7 @@
       "type": "sign",
       "x": 23,
       "y": 11,
-      "elevation": 3,
+      "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SapphireVillage_EventScript_Mailbox1"
     },
@@ -219,7 +219,7 @@
       "type": "sign",
       "x": 11,
       "y": 11,
-      "elevation": 3,
+      "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SapphireVillage_EventScript_LabSign"
     },
@@ -227,7 +227,7 @@
       "type": "sign",
       "x": 2,
       "y": 20,
-      "elevation": 3,
+      "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SapphireVillage_EventScript_HoneyTree"
     },
@@ -235,7 +235,7 @@
       "type": "sign",
       "x": 3,
       "y": 20,
-      "elevation": 3,
+      "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "SapphireVillage_EventScript_HoneyTree"
     }

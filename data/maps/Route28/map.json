@@ -1,9 +1,9 @@
 {
   "id": "MAP_ROUTE28",
   "name": "Route28",
-  "layout": "LAYOUT_ROUTE28",
+  "layout": "LAYOUT_ROUTE28_WISH",
   "music": "MUS_ROUTE104",
-  "region_map_section": "MAPSEC_ROUTE_28_WISH",
+  "region_map_section": "MAPSEC_ROUTE_128",
   "requires_flash": false,
   "weather": "WEATHER_FOG",
   "map_type": "MAP_TYPE_OCEAN_ROUTE",

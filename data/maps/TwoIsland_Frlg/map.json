@@ -52,7 +52,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_BEAUTY_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_093_BEAUTY_FRLG",
       "x": 30,
       "y": 11,
       "elevation": 3,
@@ -66,7 +66,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_SAILOR_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_136_SAILOR_FRLG",
       "x": 26,
       "y": 5,
       "elevation": 3,
@@ -94,7 +94,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE_FRLG",
+      "graphics_id": "OBJ_EVENT_GFX_176_CUTTABLE_TREE_FRLG",
       "x": 30,
       "y": 16,
       "elevation": 3,
@@ -108,7 +108,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
       "x": 39,
       "y": 16,
       "elevation": 3,

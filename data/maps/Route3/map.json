@@ -1,9 +1,9 @@
 {
   "id": "MAP_ROUTE3",
   "name": "Route3",
-  "layout": "LAYOUT_ROUTE3",
+  "layout": "LAYOUT_ROUTE3_WISH",
   "music": "MUS_RG_ROUTE3",
-  "region_map_section": "MAPSEC_ROUTE_3_WISH",
+  "region_map_section": "MAPSEC_ROUTE_103",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_ROUTE",

@@ -37,20 +37,20 @@ script Route24South_EventScript_Azurill {
 
 script Route24South_EventScript_TrainerA {
     lock
-    msgbox("C'mon, Pichu! Use Thunder Shock!")
+    msgbox("{COLOR BLUE}C'mon, Pichu! Use Thunder Shock!")
     release
 }
 
 script Route24South_EventScript_TrainerB {
     lock
-    msgbox("You can do it Azurill! Use Bubble!")
+    msgbox("{COLOR RED}You can do it Azurill! Use Bubble!")
     release
 }
 
 script Route24South_EventScript_OldMan {
     lock
     faceplayer
-    msgbox("Our village has always been guided\nby this river since its founding.\pIts water gives us life, so we must\nprotect it at all costs.")
+    msgbox("{COLOR BLUE}Our village has always been guided\nby this river since its founding.\pIts water gives us life, so we must\nprotect it at all costs.")
     release
 }
 
@@ -62,16 +62,16 @@ script Route24South_EventScript_Sign {
 script Route24South_EventScript_Fisherman {
     lock
     if (flag(FLAG_RECEIVED_OLD_ROD)) {
-        msgbox("Hey, how are the fish biting for you?\nMy new Good Rod is pretty great!")
+        msgbox("{COLOR BLUE}Hey, how are the fish biting for you?\nMy new Good Rod is pretty great!")
     }
     elif (flag(FLAG_SYS_POKEDEX_GET)) {
-        msgbox("Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pHere's a question for you:\nDo you like fishing?\pI got myself a new Rod, so I figured\nit was time to part with my Old Rod.\pGo ahead, take it!\nI have no use for it anymore.")
+        msgbox("{COLOR BLUE}Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pHere's a question for you:\nDo you like fishing?\pI got myself a new Rod, so I figured\nit was time to part with my Old Rod.\pGo ahead, take it!\nI have no use for it anymore.")
         giveitem(ITEM_OLD_ROD)
         setflag(FLAG_RECEIVED_OLD_ROD)
-        msgbox("If you're lucky, you might find\nsomething other than a Magikarp!")
+        msgbox("{COLOR BLUE}If you're lucky, you might find\nsomething other than a Magikarp!")
     }
     else {
-        msgbox("Tch… Another Magikarp.\nI need a better fishing Rod…")
+        msgbox("{COLOR BLUE}Tch… Another Magikarp.\nI need a better fishing Rod…")
     }
     release
 }
@@ -83,7 +83,7 @@ script Route24South_EventScript_TrainerSwimmer {
 }
 
 text Swimmer1Intro{
-    "How about I take a break from swimming\nand battle you?"
+    "{COLOR RED}How about I take a break from swimming\nand battle you?"
 }
 
 text Swimmer1Defeated{
@@ -91,5 +91,5 @@ text Swimmer1Defeated{
 }
 
 text Swimmer1PostBattle{
-    "The water is shallow around here, which\nmakes it perfect for a swim!"
+    "{COLOR RED}The water is shallow around here, which\nmakes it perfect for a swim!"
 }
