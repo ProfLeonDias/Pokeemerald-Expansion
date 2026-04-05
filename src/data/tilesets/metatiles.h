@@ -428,3 +428,12 @@ const u16 gMetatileAttributes_Power_Plant[] = INCBIN_U16("data/tilesets/secondar
 
 const u16 gMetatiles_WishIndoors[] = INCBIN_U16("data/tilesets/primary/wish_indoors/metatiles.bin");
 const u16 gMetatileAttributes_WishIndoors[] = INCBIN_U16("data/tilesets/primary/wish_indoors/metatile_attributes.bin");
+
+const u16 gMetatiles_WishGenericBuilding1[] = INCBIN_U16("data/tilesets/secondary/wish_generic_building_1/metatiles.bin");
+const u16 gMetatileAttributes_WishGenericBuilding1[] = INCBIN_U16("data/tilesets/secondary/wish_generic_building_1/metatile_attributes.bin");
+
+const u16 gMetatiles_WishLab[] = INCBIN_U16("data/tilesets/secondary/wish_lab/metatiles.bin");
+const u16 gMetatileAttributes_WishLab[] = INCBIN_U16("data/tilesets/secondary/wish_lab/metatile_attributes.bin");
+
+const u16 gMetatiles_WishCaveIce[] = INCBIN_U16("data/tilesets/secondary/wish_cave_ice/metatiles.bin");
+const u16 gMetatileAttributes_WishCaveIce[] = INCBIN_U16("data/tilesets/secondary/wish_cave_ice/metatile_attributes.bin");

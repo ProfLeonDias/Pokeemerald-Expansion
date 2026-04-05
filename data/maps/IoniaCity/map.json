@@ -26,123 +26,126 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "local_id": "Rt4Blocker",
+      "graphics_id": "OBJ_EVENT_GFX_068_SHOPKEEPER",
       "x": 26,
       "y": 35,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "IoniaCity_EventScript_Man5",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "graphics_id": "OBJ_EVENT_GFX_038_MALE_6",
       "x": 14,
       "y": 31,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "IoniaCity_EventScript_Man4",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "graphics_id": "OBJ_EVENT_GFX_041_MALE_9",
       "x": 33,
       "y": 31,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "IoniaCity_EventScript_Man3",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "graphics_id": "OBJ_EVENT_GFX_093_BEAUTY",
       "x": 34,
       "y": 31,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "IoniaCity_EventScript_Girl3",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "graphics_id": "OBJ_EVENT_GFX_052_FEMALE_5",
       "x": 41,
       "y": 33,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 2,
+      "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "IoniaCity_EventScript_Girl2",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "graphics_id": "OBJ_EVENT_GFX_052_FEMALE_5",
       "x": 27,
       "y": 19,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_DOWN_AND_UP",
+      "movement_range_x": 2,
+      "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "IoniaCity_EventScript_Girl1",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "local_id": "IoniaKatelyn",
+      "graphics_id": "OBJ_EVENT_GFX_005_KATELYN",
       "x": 33,
       "y": 12,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "IoniaCity_EventScript_Katelyn1",
+      "flag": "FLAG_HIDE_KATELYN_IONIA_CITY"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "graphics_id": "OBJ_EVENT_GFX_139_SCIENTIST",
       "x": 15,
       "y": 14,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_DOWN_AND_UP",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "IoniaCity_EventScript_Man1",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
-      "x": 19,
+      "graphics_id": "OBJ_EVENT_GFX_033_MALE_1",
+      "x": 18,
       "y": 24,
-      "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_NONE",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "IoniaCity_EventScript_Man2",
       "flag": "0"
     },
     {
+      "local_id": "AnthonyIonia",
       "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
       "x": 0,
       "y": 1,
@@ -153,33 +156,63 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_IONIA_TWINS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "local_id": "EgyptIonia",
+      "graphics_id": "OBJ_EVENT_GFX_MAY_NORMAL",
       "x": 1,
       "y": 1,
-      "elevation": 0,
+      "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_IONIA_TWINS"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "local_id": "MissosIonia",
+      "graphics_id": "OBJ_EVENT_GFX_011_BLACK_STAR_MISSOS",
       "x": 2,
       "y": 1,
-      "elevation": 0,
+      "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_IONIA_MISSOS"
+    },
+    {
+      "local_id": "IoniaDusknoir",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(DUSKNOIR)",
+      "x": 0,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_IONIA_MISSOS"
+    },
+    {
+      "local_id": "IoniaKatelyn2",
+      "graphics_id": "OBJ_EVENT_GFX_005_KATELYN",
+      "x": 1,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_IONIA_MISSOS"
     }
   ],
   "warp_events": [
@@ -288,55 +321,119 @@
       "dest_warp_id": "WARP_IONIA_CITY_GATE2B"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 35,
+      "elevation": 3,
+      "var": "VAR_IONIA_CITY_STATE",
+      "var_value": "0",
+      "script": "IoniaCity_EventScript_BlockedPassageA"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 35,
+      "elevation": 3,
+      "var": "VAR_IONIA_CITY_STATE",
+      "var_value": "0",
+      "script": "IoniaCity_EventScript_BlockedPassageB"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 35,
+      "elevation": 3,
+      "var": "VAR_IONIA_CITY_STATE",
+      "var_value": "0",
+      "script": "IoniaCity_EventScript_BlockedPassageC"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 36,
+      "elevation": 3,
+      "var": "VAR_IONIA_CITY_STATE",
+      "var_value": "2",
+      "script": "IoniaCity_EventScript_TwinSceneA"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 36,
+      "elevation": 3,
+      "var": "VAR_IONIA_CITY_STATE",
+      "var_value": "2",
+      "script": "IoniaCity_EventScript_TwinSceneB"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 36,
+      "elevation": 3,
+      "var": "VAR_IONIA_CITY_STATE",
+      "var_value": "2",
+      "script": "IoniaCity_EventScript_TwinSceneC"
+    },
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 36,
+      "elevation": 3,
+      "var": "VAR_IONIA_CITY_STATE",
+      "var_value": "2",
+      "script": "IoniaCity_EventScript_TwinSceneD"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",
       "x": 20,
       "y": 12,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "IoniaCity_EventScript_Sign3"
     },
     {
       "type": "sign",
       "x": 29,
       "y": 12,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "IoniaCity_EventScript_Sign1"
     },
     {
       "type": "sign",
       "x": 27,
       "y": 8,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "IoniaCity_EventScript_Sign2"
     },
     {
       "type": "sign",
       "x": 9,
       "y": 22,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "IoniaCity_EventScript_Sign6"
     },
     {
       "type": "sign",
       "x": 28,
       "y": 31,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "IoniaCity_EventScript_Sign5"
     },
     {
       "type": "sign",
       "x": 17,
       "y": 31,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "IoniaCity_EventScript_Sign7"
     },
     {
       "type": "sign",
@@ -358,17 +455,17 @@
       "type": "hidden_item",
       "x": 29,
       "y": 27,
-      "elevation": 0,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_HIDDEN_ITEMS_START"
+      "elevation": 3,
+      "item": "ITEM_POKE_BALL",
+      "flag": "FLAG_HIDDEN_ITEM_IONIA_CITY_POKE_BALL"
     },
     {
       "type": "sign",
       "x": 35,
       "y": 22,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "IoniaCity_EventScript_Sign4"
     }
   ]
 }

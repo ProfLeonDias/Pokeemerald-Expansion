@@ -1,1 +1,176 @@
 mapscripts SapphireVillage_House2_MapScripts {}
+
+script SapphireVillage_House2_EventScript_Nina{
+    lock
+    faceplayer
+    if(flag(FLAG_IS_CHAMPION)){
+        msgbox("{COLOR RED}Nina: I can't believe Jade was alive this\nwhole time!\pOur family is reunited again, and we owe\nit all to you and Lyon!")
+        release
+    }
+    else{
+        msgbox("{COLOR RED}Nina: Hey, {COLOR GREEN}{PLAYER}{COLOR RED}!\nYou're looking great!\pCould you get Alex to come by more?\nAmber never shuts up about him.")
+        release
+    }
+}
+
+script SapphireVillage_House2_EventScript_Amber{
+    lock
+    faceplayer
+    if(flag(FLAG_IS_CHAMPION)){
+        msgbox("{COLOR RED}Amber: Hi, {COLOR GREEN}{PLAYER}{COLOR RED}!\nGood timing.\pI was just about to sit down and watch\nanime. Wanna join me?\pWait. Hold on…\pYour Pokémon smells kinda weird.\nWant me to groom it?", MSGBOX_YESNO)
+        if (var(VAR_RESULT) == NO){
+            msgbox("{COLOR RED}Your Pokémon don't need any grooming?\pDid you at least want me to see how\nwell-bonded your Pokémon is with you?", MSGBOX_YESNO)
+            if(var(VAR_RESULT) == NO){
+                msgbox("{COLOR RED}That's cool.\nWe can just hang out instead!")
+                release
+                end
+                }
+                special(DaisyMassageServices)
+                goto_if_eq(VAR_RESULT, 2, Amber1)
+                msgbox("{COLOR RED}Amber: Your Pokémon bond with you the\nmore you give them love.\pCan I see your first Pokémon?")
+                specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+                goto_if_ge(VAR_RESULT, FRIENDSHIP_NONE, Amber2)
+                specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+                goto_if_ge(VAR_RESULT, FRIENDSHIP_1_TO_49, Amber3)
+                specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+                goto_if_ge(VAR_RESULT, FRIENDSHIP_50_TO_99, Amber4)
+                specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+                goto_if_ge(VAR_RESULT, FRIENDSHIP_100_TO_149, Amber5)
+                specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+                goto_if_ge(VAR_RESULT, FRIENDSHIP_150_TO_199, Amber6)
+                specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+                goto_if_ge(VAR_RESULT, FRIENDSHIP_200_TO_254, Amber7)
+                specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+                goto_if_ge(VAR_RESULT, FRIENDSHIP_MAX, Amber8)
+                end
+        }
+        msgbox("{COLOR RED}Which one should I groom?")
+        special(ChoosePartyMon)
+        waitstate
+        lock
+        faceplayer
+        goto_if_ge(VAR_0x8004, PARTY_SIZE, Amber9)
+        specialvar(VAR_RESULT, ScriptGetPartyMonSpecies)
+        goto_if_eq(VAR_RESULT, SPECIES_EGG, Amber10)
+        msgbox("{COLOR RED}Leave it to the master!")
+        closemessage
+        fadescreen(FADE_TO_BLACK)
+        playse(MUS_RG_HEAL)
+        waitse
+        special(DaisyMassageServices)
+        fadescreen(FADE_FROM_BLACK)
+        special(BufferMonNickname)
+        msgbox("{COLOR DARK_GRAY}{STR_VAR_1} looks dreamily content…\p{COLOR RED}Amber: There you go! All done.\nSee, doesn't it look nice?\pTeehee…\nNow it looks and smells better!")
+        setvar(VAR_TEMP_1, 1)
+        release
+        end
+    }
+    elif(var(VAR_TEMP_1) == 1){
+        msgbox("{COLOR RED}Amber: Pokémon have feelings too!\nGive them the love they deserve!")
+        release
+        end
+    }
+    elif(flag(FLAG_SYS_POKEMON_GET)){
+        special(DaisyMassageServices)
+        goto_if_eq(VAR_RESULT, 2, Amber1)
+        msgbox("{COLOR RED}Amber: Your Pokémon bond with you the\nmore you give them love.\pCan I see your first Pokémon?")
+        specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+        goto_if_ge(VAR_RESULT, FRIENDSHIP_NONE, Amber2)
+        specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+        goto_if_ge(VAR_RESULT, FRIENDSHIP_1_TO_49, Amber3)
+        specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+        goto_if_ge(VAR_RESULT, FRIENDSHIP_50_TO_99, Amber4)
+        specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+        goto_if_ge(VAR_RESULT, FRIENDSHIP_100_TO_149, Amber5)
+        specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+        goto_if_ge(VAR_RESULT, FRIENDSHIP_150_TO_199, Amber6)
+        specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+        goto_if_ge(VAR_RESULT, FRIENDSHIP_200_TO_254, Amber7)
+        specialvar(VAR_RESULT, GetLeadMonFriendshipScore)
+        goto_if_ge(VAR_RESULT, FRIENDSHIP_MAX, Amber8)
+        end
+    }
+    else{
+        msgbox("{COLOR RED}Amber: Hi, {COLOR GREEN}{PLAYER}{COLOR RED}!\nHave you seen Alex anywhere?\pWe were supposed to hang out before\nhe left…")
+        closemessage
+        applymovement(SapphAmber, Ambermov1)
+        waitmovement(0)
+        release
+    }
+}
+
+script Amber9{
+    msgbox("{COLOR RED}Your Pokémon don't need any grooming?")
+    release 
+}
+
+script Amber10{
+    msgbox("{COLOR RED}Uh…\nThat's an Egg.")
+}
+
+script Amber1{
+    release
+}
+
+script Amber2{
+    msgbox("{COLOR RED}…Um, this is awkward.\nYour Pokémon doesn't really trust you.")
+    release
+}
+
+script Amber3{
+    msgbox("{COLOR RED}I can tell your Pokémon isn't used to\npeople just yet.")
+    release
+}
+
+script Amber4{
+    msgbox("{COLOR RED}Give it some time.\nYour Pokémon is just getting used to\lyou is all.")
+    release
+}
+
+script Amber5{
+    msgbox("{COLOR RED}Its getting used to you.\nYou two must be hanging out more often.")
+    release
+}
+
+script Amber6{
+    msgbox("{COLOR RED}Aw, it's pretty friendly.\nKeep it up!")
+    release
+}
+
+script Amber7{
+    msgbox("{COLOR RED}It looks very happy!\nI'm kind of jealous!")
+    release
+}
+
+script Amber8{
+    msgbox("{COLOR RED}You two have an unbreakable bond!\nIt loves you!")
+    release
+}
+
+movement Ambermov1{
+    face_original_direction
+}
+
+script SapphireVillage_House2_EventScript_Tile{
+    lock
+    applymovement(SVNina, SVHouse2Ninamov1)
+    msgbox("{COLOR RED}Nina: HEY!\nIt's rude to sneak into a girl's room!")
+    closemessage
+    applymovement(OBJ_EVENT_ID_PLAYER, SVHouse2Playermov1)
+    waitmovement(0)
+    applymovement(SVNina, SVHouseNinamov2)
+    waitmovement(0)
+    release
+}
+
+movement SVHouse2Playermov1{
+    walk_down
+}
+
+movement SVHouse2Ninamov1{
+    face_up
+}
+
+movement SVHouseNinamov2{
+    face_original_direction
+}

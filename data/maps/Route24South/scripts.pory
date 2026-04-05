@@ -3,20 +3,25 @@ mapscripts Route24South_MapScripts {
 }
 
 script OnTransition {
-    if(flag(FLAG_HIDE_ROUTE_24_TRAINERS) == TRUE) {
+    if(flag(FLAG_HIDE_ROUTE_24_TRAINERS)){
         removeobject(LOCALID_HIDE_1)
         removeobject(LOCALID_HIDE_2)
         removeobject(LOCALID_HIDE_3)
         removeobject(LOCALID_HIDE_4)
     }
-    if(flag(FLAG_SYS_B_DASH) == TRUE) {
+    elif(flag(FLAG_SYS_B_DASH)){
         removeobject(LOCALID_HIDE_1)
         removeobject(LOCALID_HIDE_2)
         removeobject(LOCALID_HIDE_3)
         removeobject(LOCALID_HIDE_4)
         setflag(FLAG_HIDE_ROUTE_24_TRAINERS)
     }
-    else {}
+    else{
+        addobject(LOCALID_HIDE_1)
+        addobject(LOCALID_HIDE_2)
+        addobject(LOCALID_HIDE_3)
+        addobject(LOCALID_HIDE_4)
+    }
 }
 
 script Route24South_EventScript_Pichu {

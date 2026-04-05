@@ -1,1 +1,14 @@
 mapscripts SapphireVillage_House1_MapScripts {}
+
+script SapphireVillage_House1_EventScript_Woman{
+    lock
+    msgbox("{COLOR RED}I wonder what I should cook today…")
+    release
+}
+
+script SapphireVillage_House1_EventScript_Man{
+    lock
+    faceplayer
+    msgbox("{COLOR BLUE}Hello {COLOR GREEN}{PLAYER}{COLOR BLUE}.\nHow are you doing today?")
+    release
+}

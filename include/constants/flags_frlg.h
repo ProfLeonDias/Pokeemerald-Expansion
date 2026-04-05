@@ -1895,15 +1895,15 @@
 #define FLAG_DEFEATED_LUGIA                  0
 
 // Hidden Items
-#define FLAG_HIDDEN_ITEM_LAVARIDGE_TOWN_ICE_HEAL             0
-#define FLAG_HIDDEN_ITEM_TRICK_HOUSE_NUGGET                  0
-#define FLAG_HIDDEN_ITEM_ROUTE_111_STARDUST                  0
-#define FLAG_HIDDEN_ITEM_ROUTE_113_ETHER                     0
-#define FLAG_HIDDEN_ITEM_ROUTE_114_CARBOS                    0
-#define FLAG_HIDDEN_ITEM_ROUTE_119_CALCIUM                   0
-#define FLAG_HIDDEN_ITEM_ROUTE_119_ULTRA_BALL                0
-#define FLAG_HIDDEN_ITEM_ROUTE_123_SUPER_REPEL               0
-#define FLAG_HIDDEN_ITEM_UNDERWATER_124_CARBOS               0
+#define FLAG_HIDDEN_ITEM_RT1S_POTION             0
+#define FLAG_HIDDEN_ITEM_RT29_SUPER_POTION                  0
+#define FLAG_HIDDEN_ITEM_RT29_BIG_PEARL                  0
+#define FLAG_HIDDEN_ITEM_JW_ANTIDOTE                     0
+#define FLAG_HIDDEN_ITEM_JW_POTION                    0
+#define FLAG_HIDDEN_ITEM_JW_REPEL                   0
+#define FLAG_HIDDEN_ITEM_JW_PARALYZE_HEAL                0
+#define FLAG_HIDDEN_ITEM_IONIA_CITY_POKE_BALL               0
+#define FLAG_HIDDEN_ITEM_RT3_ETHER               0
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_GREEN_SHARD          0
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_PEARL                0
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_BIG_PEARL            0
@@ -2036,7 +2036,7 @@
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0
 #define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0
+#define FLAG_HIDE_KATELYN_IONIA_CITY      0
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0

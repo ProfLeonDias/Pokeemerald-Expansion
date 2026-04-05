@@ -17,13 +17,38 @@
   "warp_events": [
     {
       "warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_MY_ROOM_B",
-      "x": 10,
-      "y": 10,
+      "x": 6,
+      "y": 8,
       "elevation": 0,
       "dest_map": "MAP_SAPPHIRE_VILLAGE_PLAYER_HOUSE2F",
       "dest_warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_MY_ROOM_A"
+    },
+    {
+      "warp_id": "BEDWARP",
+      "x": 1,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_SAPPHIRE_VILLAGE_NIGHTMARE",
+      "dest_warp_id": "DREAMWARP"
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 0,
+      "y": 1,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_PlaherHouse_PlayerRoom_PC"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 2,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_PlayerHouse_PlayerRoom_Game"
+    }
+  ]
 }

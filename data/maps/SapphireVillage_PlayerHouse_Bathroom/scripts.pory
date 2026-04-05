@@ -1,1 +1,16 @@
 mapscripts SapphireVillage_PlayerHouse_Bathroom_MapScripts {}
+
+script SapphireVillage_PlayerHouse_Bathroom_Toilet{
+    msgbox("Remember the time I found a Rage\nCandy Bar in the toilet?")
+    release
+}
+
+script SapphireVillage_PlayerHouse_Bathroom_Sink{
+    msgbox("Can't forget to wash my hands!")
+    release
+}
+
+script SapphireVillage_PlayerHouse_Bathtub{
+    msgbox("Would it kill these people to install\na shower curtain?")
+    release
+}

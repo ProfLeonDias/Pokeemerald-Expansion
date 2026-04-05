@@ -1,1 +1,16 @@
 mapscripts SapphireVillage_PlayerHouse_AlexRoom_MapScripts {}
+
+script SapphireVillage_PlayerHouse_AlexRoom_PC{
+    msgbox("Huh? What's e62-\nOh, it's that site Alex keeps visiting…")
+    release
+}
+
+script SapphireVillage_PlayerHouse_AlexRoom_Bookshelf{
+    msgbox("A collection of manga lines the shelves.\nMonster Musume? Peak fiction.")
+    release
+}
+
+script SapphireVillage_PlayerHouse_AlexRoom_Game{
+    msgbox("An NES Classic Mini.\nLots of good games on here.")
+    release
+}

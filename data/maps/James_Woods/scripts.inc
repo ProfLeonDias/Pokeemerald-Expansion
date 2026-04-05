@@ -1164,7 +1164,7 @@ JamesWoods_EventScript_Buneary4A::
 # 604 "data/maps/James_Woods/scripts.pory"
 	closemessage
 # 605 "data/maps/James_Woods/scripts.pory"
-	createmon 0, 0, SPECIES_BUNEARY_STARTER, 5, ITEM_NONE, ITEM_POKE_BALL, NATURE_JOLLY, 0, 0, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_POUND, 0, 0, 0, 1, 0, 0, 0
+	givemon SPECIES_BUNEARY_STARTER, 5, ITEM_NONE, ITEM_POKE_BALL, NATURE_JOLLY, 0, 0, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_POUND, 0, 0, 0, 1, 0, 0, 0
 # 606 "data/maps/James_Woods/scripts.pory"
 	delay 15
 # 607 "data/maps/James_Woods/scripts.pory"

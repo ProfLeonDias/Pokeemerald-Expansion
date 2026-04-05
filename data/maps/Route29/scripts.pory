@@ -59,7 +59,7 @@ script Route29_EventScript_Captain{
     elif(var(VAR_POKEMART_MACK_EVENT) == 1){
         msgbox("{COLOR BLUE}Captain: I got a message from Mack.\nYou the kid that Allen sent?\p…\nAlright, I got the goods right here.")
         closemessage
-        giveitem(ITEM_OAKS_PARCEL)
+        giveitem(ITEM_PARCEL)
         delay(30)
         msgbox("{COLOR BLUE}If the cops ask, I don't know you.\nKeep that thing in your bag, got it?")
         closemessage

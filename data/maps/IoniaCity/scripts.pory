@@ -1,1 +1,1046 @@
-mapscripts IoniaCity_MapScripts {}
+mapscripts IoniaCity_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION : OnTransitionIoniaCity
+}
+
+script OnTransitionIoniaCity{
+    setflag(FLAG_VISITED_PETALBURG_CITY)
+    if(var(VAR_IONIA_GYM) == 3){
+        lockall
+        addobject(MissosIonia)
+        addobject(IoniaKatelyn2)
+        setobjectxy(MissosIonia, 25, 13)
+        setobjectxy(IoniaKatelyn2, 25, 13)
+        playbgm(MUS_ENCOUNTER_MAY, FALSE)
+        applymovement(IoniaKatelyn2, ICKatemov2)
+        waitmovement(0)
+        delay(30)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Katelyn: Hello again!\nDid you manage to defeat Zaph?\pOh, that is quite the lustrous Gym\nBadge, is it not? Beautiful!\pDoes this imply that Zaph is in a mood\nto talk with me? I've traveled so far-")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        msgbox("{COLOR BLUE}???: And what do we have here?")
+        closemessage
+        delay(30)
+        playse(21)
+        applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov2)
+        applymovement(IoniaKatelyn2, ICPlayermov2)
+        waitmovement(0)
+        fadeoutbgm(0)
+        delay(30)
+        playbgm(MUS_RG_ROCKET_HIDEOUT, FALSE)
+        applymovement(MissosIonia, ICMissosmov1)
+        waitmovement(0)
+        delay(30)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}I spy the Trainer who jeopardized our\noperation at the Power Plant.\pAnd just my luck, I also found the heir\nto the Cullinan Fortune!")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Katelyn: Y-You know who I am?")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}???: But of course!\nIt IS my mission to dispose of you.\pWe can't allow someone as important\nas you to keep running around like this.")
+        closemessage
+        removefieldmugshot
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Katelyn: Let's get out of here\n{COLOR GREEN}{PLAYER}{COLOR RED}!")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        playse(15)
+        addobject(IoniaDusknoir)
+        setobjectxy(IoniaDusknoir, 31, 14)
+        playmoncry(SPECIES_DUSKNOIR, CRY_MODE_ENCOUNTER)
+        waitmoncry
+        delay(30)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}???: Shall we make this quick?\nDuskno-")
+        closemessage
+        removefieldmugshot
+        playse(263)
+        delay(45)
+        applymovement(MissosIonia, ICMissosmov2)
+        waitmovement(0)
+        playse(110)
+        delay(30)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}???: Yes, what is it now Fia?")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        msgbox("{COLOR RED}Fia: Missos, are you done with your\nmission just yet?\pHer Grace is requesting your presence\nback at the home base.")
+        closemessage
+        delay(30)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}Missos: In a bit, I have a few loose\nends to tie up.\pI will dispose of the heir to the\nCullinan Estate and the Trainer\lwho humiliated you.")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        msgbox("{COLOR RED}Fia: Missos, let them be!\nThat is not in your orders!\pMiss Katelyn likely knows nothing, and\n{COLOR GREEN}{PLAYER}{COLOR RED} won fair and square.\pThe mission was still successful\nregardless of their intrusion.\pWhat would Her Grace say if she found\nout you acted out of line!")
+        closemessage
+        delay(30)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}Missos: Sigh... Very well.\nI'm heading back to base.")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        playse(111)
+        applymovement(MissosIonia, ICMissosmov3)
+        waitmovement(0)
+        delay(30)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}As if I care what that woman had to say.\nNow, where were we?")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Katelyn: Missos…\nWhere have I heard that name before?\p...\nWait a minute, you're the-")
+        closemessage
+        removefieldmugshot
+        delay(15)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}Missos: The reason for your\ndisappearance, yes.\pNow, no more bloody interruptions!\nDusknoir, your know what to do.")
+        closemessage
+        removefieldmugshot
+        playmoncry(SPECIES_DUSKNOIR, CRY_MODE_ENCOUNTER)
+        waitmoncry
+        delay(30)
+        applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov3)
+        waitmovement(0)
+        delay(30)
+        playbgm(0, FALSE)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Katelyn: {COLOR GREEN}{PLAYER}{COLOR RED}!\nWhat are you doing?\pWe must escape!")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}Missos: Oh? You're approaching me?\pInstead of running away, you're coming\nright to me?\pI see, you wish to do battle.\nHehehe… Very well…\pYou do not understand what you have\njust gotten yourself into.\pI am nothing like the pathetic woman\nthat you and Sparky faced.")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        setflag(FLAG_DISABLE_RUNNING)
+        setflag(FLAG_NO_WHITEOUT)
+        setflag(FLAG_FOLLOW_PKMN_DISABLE)
+        trainerbattle_no_intro(TRAINER_200, ICMissoslose)
+        playbgm(0, FALSE)
+        special(HealPlayerParty)
+        delay(30)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Katelyn: Run, {COLOR GREEN}{PLAYER}{COLOR RED}!")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}Missos: Dusknoir! End them!")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        playmoncry(SPECIES_DUSKNOIR, CRY_MODE_ENCOUNTER)
+        waitmoncry
+        applymovement(IoniaDusknoir, ICDusknoirmov1)    
+        waitmovement(0)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Katelyn: EEEK!")
+        closemessage
+        removefieldmugshot
+        delay(15)
+        fadescreen(FADE_TO_BLACK)
+        removeobject(IoniaKatelyn2)
+        setobjectxyperm(IoniaKatelyn2, 0, 0)
+        setobjectxy(OBJ_EVENT_ID_PLAYER, 35, 13)
+        fadescreen(FADE_FROM_BLACK)
+        delay(15)
+        playse(21)
+        applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov4)
+        waitmovement(0)
+        delay(30)
+        createfieldmugshot(MUGSHOT_MISSOS_ROBED, 0)
+        msgbox("{COLOR BLUE}Missos: Enjoy your eternal rest.\pThe nightmares will strip away any of\nyour willpower that remains.")
+        closemessage
+        removefieldmugshot
+        playmoncry(SPECIES_DUSKNOIR, CRY_MODE_ENCOUNTER)
+        waitmoncry
+        applymovement(IoniaDusknoir, ICDusknoirmov2)
+        waitmovement(0)
+        setvar(VAR_IONIA_GYM, 4)
+        setflag(FLAG_HIDE_IONIA_MISSOS)
+        clearflag(FLAG_SYS_POKEMON_GET)
+        clearflag(FLAG_SYS_POKEDEX_GET)
+        clearflag(FLAG_NO_WHITEOUT)
+        warp(MAP_IONIA_CITY_NIGHTMARE1, 6, 12)
+        releaseall
+    }
+}
+
+text ICMissoslose{
+    "Truly pathetic…"
+}
+
+movement ICDusknoirmov1{
+    walk_fast_right
+}
+
+movement ICDusknoirmov2{
+    walk_fast_right *3
+    face_up
+}
+
+movement ICMissosmov1{
+    walk_right *6
+}
+
+movement ICMissosmov2{
+    emote_question_mark
+    face_left
+}
+
+movement ICMissosmov3{
+    face_right
+}
+
+movement ICKatemov2{
+    walk_right *8
+    face_up
+}
+
+movement ICPlayermov2{
+    emote_question_mark
+    walk_down
+    face_left
+}
+
+movement ICPlayermov3{
+    walk_left
+}
+
+movement ICPlayermov4{
+    emote_exclamation_mark
+    face_left
+}
+
+script IoniaCity_EventScript_Sign1{
+    msgbox("Ionia City Pokémon Gym\pLeader: Zaph\nThe Lightning Warrior")
+    release
+}
+
+script IoniaCity_EventScript_Sign2{
+    msgbox("Power Plant Ahead")
+    release
+}
+
+script IoniaCity_EventScript_Sign3{
+    msgbox("Ionia General Hospital\nActually for humans!")
+    release
+}
+
+script IoniaCity_EventScript_Sign4{
+    msgbox("Ionia City\nThe Shining Light of Nexar")
+    release
+}
+
+script IoniaCity_EventScript_Sign5{
+    msgbox("Ionia Park\nNo littering!")
+    release
+}
+
+script IoniaCity_EventScript_Sign6{
+    msgbox("Ionia City Trainer's School")
+    release
+}
+
+script IoniaCity_EventScript_Sign7{
+    msgbox("Zaph and Maggie's Household")
+    release
+}
+
+script IoniaCity_EventScript_Man1{
+    lock
+    faceplayer
+    msgbox("{COLOR BLUE}A lot of Trainers gather around the\nPower Plant to train.")
+    release
+}
+
+script IoniaCity_EventScript_Girl1{
+    lock
+    faceplayer
+    msgbox("{COLOR RED}This city is famous for two things:\nThe Power Plant and Zaph.")
+    release
+}
+
+script IoniaCity_EventScript_Man2{
+    lock
+    faceplayer
+    msgbox("{COLOR BLUE}I saw some weirdos hanging out around\nthe Power Plant.\pI hope they don't come anywhere near\nmy house…")
+    release
+}
+
+script IoniaCity_EventScript_Girl2{
+    lock
+    faceplayer
+    msgbox("{COLOR RED}I love flowers!")
+    release
+}
+
+script IoniaCity_EventScript_Man3{
+    lock
+    faceplayer
+    msgbox("{COLOR BLUE}I finally have a girlfriend!\nAren't I cool?")
+    release
+}
+
+script IoniaCity_EventScript_Girl3{
+    lock
+    faceplayer
+    msgbox("{COLOR RED}We have one hour left.\nAnd touching me will cost extra!")
+    release
+}
+
+script IoniaCity_EventScript_Man4{
+    lock
+    faceplayer
+    msgbox("{COLOR BLUE}Our Gym Leader Zaph and his older sis,\nMaggie, live here at this house.\pI'm guarding his home while he's away\ndoing super-cool Zaph stuff!\pWell no, he doesn't pay me…\nOr even knows I'm here, but still!\pGet out of here!")
+    release
+}
+
+script IoniaCity_EventScript_Man5{
+    lock
+    faceplayer
+    msgbox("{COLOR BLUE}I'm sorry, our Aegis Ruins tours are\ncancelled until further notice.\pPlease come again at a later time.")
+    release
+}
+
+script IoniaCity_EventScript_Katelyn1{
+    lockall
+    if(var(VAR_POWER_PLANT_STATE) == 5){
+        faceplayer
+        playbgm(MUS_ENCOUNTER_MAY, FALSE)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Katelyn: Oh, hello again!\nI'm so glad that you are safe!\pWhat you and Zaph did at the Power\nPlant is all over the news!\pYou must be quite skilled as a Trainer\nto pull that off!\pAs for Zaph, I actually wanted to\nspeak with him, but he ignored me…\pI take it that you would like to face\nhim in a battle, then?\pPerhaps if you battle him, it would\nput him in a better mood…\pBefore anything else, would it be\nalright if we had a quick battle?\pI would like to see how well I can\nmeasure up to someone like you!")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        trainerbattle_no_intro(TRAINER_200, IoniaKateDefeated)
+        delay(45)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Oh dear, you are really powerful!\pIt seems that the distance I have\ntraveled was not quite enough…\pNever mind that, you are more than\nready to face Zaph!\pEven then, you may need some extra\nassistance, so please take these!")
+        closemessage
+        removefieldmugshot
+        giveitem(ITEM_CHERI_BERRY, 3)
+        delay(30)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}I hope that all goes well!\nI will be taking my leave now. Ta-ta!")
+        closemessage
+        removefieldmugshot
+        delay(30)
+        fadescreen(FADE_TO_BLACK)
+        setflag(FLAG_HIDE_KATELYN_IONIA_CITY)
+        removeobject(IoniaKatelyn)
+        setobjectxy(IoniaKatelyn, 0, 0)
+        fadescreen(FADE_FROM_BLACK)
+        setvar(VAR_POWER_PLANT_STATE, 6)
+        releaseall
+    }
+    if(var(VAR_POWER_PLANT_STATE) == 1){
+        faceplayer
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Katelyn: It seems that Zaph has yet\nto return.\pHe must still be occupied by the\nincident at the Power Plant.")
+        closemessage
+        removefieldmugshot
+        releaseall
+    }
+    if(var(VAR_POWER_PLANT_STATE) == 0){
+        playbgm(MUS_ENCOUNTER_MAY, FALSE)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}???: I hope he returns quickly…\nOh, get a grip, Katelyn!\pYou didn't journey across half of the\nRegion to just give up now…")
+        closemessage
+        delay(30)
+        removefieldmugshot
+        playse(21)
+        applymovement(IoniaKatelyn, ICKatemov1)
+        waitmovement(0)
+        faceplayer
+        delay(30)
+        createfieldmugshot(MUGSHOT_KATELYN, 0)
+        msgbox("{COLOR RED}Oh! My apologies!\nI did not hear you approach.\pI assume you would like to challenge\nthe Gym, correct?\pUnfortunately, the Gym Leader was\ncalled up to the Power Plant.\pIt appears to be some kind of\nemergency call.\pHe has been gone for a while, and I am\nnot sure when he will return.\pThat being said, Zaph is a very brave\nand skilled trainer.\pI have faith he will return soon!")
+        closemessage
+        removefieldmugshot
+        playbgm(MUS_RUSTBORO, FALSE)
+        setvar(VAR_POWER_PLANT_STATE, 1)
+        releaseall
+    }
+}
+
+text IoniaKateDefeated{
+    "My goodness!"
+}
+
+movement ICKatemov1{
+    emote_exclamation_mark
+}
+
+script IoniaCity_EventScript_BlockedPassageA{
+    lockall
+    playse(21)
+    applymovement(Rt4Blocker, Ioniamov1xx)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Ioniamov2)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}I'm sorry, our Aegis Ruins tours are\ncancelled until further notice.\pPlease come again at a later time.")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, Ioniamov3)
+    waitmovement(0)
+    applymovement(Rt4Blocker, Ioniamov4xx)
+    waitmovement(0)
+    releaseall
+}
+
+script IoniaCity_EventScript_BlockedPassageB{
+    lockall
+    playse(21)
+    applymovement(Rt4Blocker, Ioniamov1x)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Ioniamov2)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}I'm sorry, our Aegis Ruins tours are\ncancelled until further notice.\pPlease come again at a later time.")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, Ioniamov3)
+    waitmovement(0)
+    applymovement(Rt4Blocker, Ioniamov4x)
+    waitmovement(0)
+    releaseall
+}
+
+script IoniaCity_EventScript_BlockedPassageC{
+    lockall
+    playse(21)
+    applymovement(Rt4Blocker, Ioniamov1)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, Ioniamov2)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}I'm sorry, our Aegis Ruins tours are\ncancelled until further notice.\pPlease come again at a later time.")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, Ioniamov3)
+    waitmovement(0)
+    applymovement(Rt4Blocker, Ioniamov4)
+    waitmovement(0)
+    releaseall
+}
+
+script IoniaCity_EventScript_TwinSceneA{
+    lockall
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, TwinEgyptA)
+    goto_if_eq(VAR_RESULT, FEMALE, TwinAnthonyA)
+}
+
+script IoniaCity_EventScript_TwinSceneB{
+    lockall
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, TwinEgyptB)
+    goto_if_eq(VAR_RESULT, FEMALE, TwinAnthonyB)
+}
+
+script IoniaCity_EventScript_TwinSceneC{
+    lockall
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, TwinEgyptC)
+    goto_if_eq(VAR_RESULT, FEMALE, TwinAnthonyC)
+}
+
+script IoniaCity_EventScript_TwinSceneD{
+    lockall
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, TwinEgyptD)
+    goto_if_eq(VAR_RESULT, FEMALE, TwinAnthonyD)
+}
+
+script NicknamePartyMon{
+    msgbox("Do you want to give a nickname\nto this Totodile?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        call(Common_EventScript_GetGiftMonPartySlot)
+        call(Common_EventScript_NameReceivedPartyMon)
+    }
+    return
+}
+
+script NicknameBoxMon{
+    msgbox("Do you want to give a nickname\nto this Totodile?", MSGBOX_YESNO)
+        if(var(VAR_RESULT) == YES){
+            call(Common_EventScript_NameReceivedBoxMon)
+        }
+    call(Common_EventScript_TransferredToPC)
+    return
+}
+
+script TwinEgyptA{
+    msgbox("{COLOR RED}???: Hey Bro! Wait up!")
+    closemessage
+    delay(30)
+    playbgm(MUS_ENCOUNTER_MAY, FALSE)
+    addobject(EgyptIonia)
+    setobjectxy(EgyptIonia, 23, 26)
+    applymovement(EgyptIonia, ICEgyptmov1)
+    applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov1)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Egypt: Finally, I've been looking all\nover for you!\pI finally managed to get Professor\nAspen's PC to work!\pIt wasn't easy, and I'm scarred for life\nby some of the stuff I saw…\pBut hey! We finally got your starter\nPokémon here for you!\pTotodile! Meet {COLOR GREEN}{PLAYER}{COLOR RED}!")
+    closemessage
+    removefieldmugshot
+    delay(50)
+    givemon(SPECIES_TOTODILE, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_NAUGHTY, 0, 0, 0, 0, 0, 0, 0, 0, 21, 21, 21, 21, 21, 21, MOVE_SCRATCH, MOVE_LEER, MOVE_WATER_GUN, MOVE_RAGE, 0, 0, 0, 0)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknamePartyMon)
+        goto(TwinEgyptA2)
+    }
+    elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknameBoxMon)
+        goto(TwinEgyptA2)
+    }
+    else{
+        msgbox("There's no more room for Pokémon!\pThe Pokémon Boxes are full and can't\naccept any more!")
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        delay(45)
+        createfieldmugshot(MUGSHOT_EGYPT, 0)
+        msgbox("{COLOR RED}Huh? You don't have any room for it?\nLiterally how though?\pWell, it was the last one after the\nProfessor let me take my pick.\pI picked Treecko, ehehehe…\pSo, what's your next move?\nI can see that shiny new Gym Badge!\pYou're taking on the Nexar League\nwith Alex, aren't you?\pI saw him earlier!\nHe was heading toward the Aegis Ruins.\p
+You might be able to catch up with\nhim if you hurry up!\pAs for me, I'm going to stay behind and\nhelp Professor Aspen.\pHe has a lot of issues to work out, so\nI'm gonna help him get better.\pI'll be the first person in his life to\nnever give up on him!\pPlus, with Jonathan's help, I'll get\nfirsthand experience in a lab.\p
+My dream of becoming a Pokémon\nProfessor will start to come true!\pWell, I'll see you around, bro!\nGood luck with everything!\pAnd say hi to lil' Bunbun for me!\pOh yeah, come by the Lab later to pick\nup your Totodile!")
+        closemessage
+        removefieldmugshot
+        delay(45)
+        playbgm(MUS_ENCOUNTER_MAY, FALSE)
+        applymovement(EgyptIonia, ICEgyptmov2)
+        waitmovement(0)
+        removeobject(EgyptIonia)
+        setobjectxyperm(EgyptIonia, 0, 0)
+        playbgm(MUS_RUSTBORO, FALSE)
+        setflag(FLAG_HIDE_IONIA_TWINS)
+        setvar(VAR_IONIA_CITY_STATE, 3)
+        releaseall
+    }
+}
+
+script TwinEgyptA2{
+    delay(45)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Doesn't it look happy to meet you?\nI'm sure you two will get along.\pSadly, it was the last one after the\nProfessor let me take my pick.\pI picked Treecko, ehehehe…\pSo, what's your next move?\nI can see that shiny new Gym Badge!\pYou're taking on the Nexar League\nwith Alex, aren't you?\pI saw him earlier!\nHe was heading toward the Aegis Ruins.\pYou might be able to catch up with him\nif you hurry up!\pAs for me, I'm going to stay behind and\nhelp Professor Aspen.\pHe has a lot of issues to work out, so\nI'm gonna help him get better.\pI'll be the first person in his life to\nnever give up on him!\pPlus, with Jonathan's help, I'll get\nfirsthand experience in a lab.\pMy dream of becoming a Pokémon\nProfessor will start to come true!\pWell, I'll see you around, bro!\nGood luck with everything!\pOh, and say hi to lil' Bunbun for me!")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    playbgm(MUS_ENCOUNTER_MAY, FALSE)
+    applymovement(EgyptIonia, ICEgyptmov2)
+    waitmovement(0)
+    removeobject(EgyptIonia)
+    setobjectxyperm(EgyptIonia, 0, 0)
+    playbgm(MUS_RUSTBORO, FALSE)
+    setflag(FLAG_HIDE_IONIA_TWINS)
+    setflag(FLAG_OBTAINED_TOTODILE)
+    setvar(VAR_IONIA_CITY_STATE, 3)
+    releaseall
+}
+
+script TwinAnthonyA{
+    msgbox("{COLOR BLUE}???: Yo Sis! Wait up!")
+    closemessage
+    delay(30)
+    playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+    addobject(AnthonyIonia)
+    setobjectxy(AnthonyIonia, 23, 26)
+    applymovement(AnthonyIonia, ICAnthonymov1)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov1)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Anthony: Finally, I've been looking all\nover for ya, sis!\pI finally got Professor Aspen's PC to\nwork, and it wasn't easy!\pHe had way too much weird stuff on\nthere, just like Alex…\pBut hey, we finally got your Starter\nPokémon here for you!\pC'mon Totodile, meet {COLOR GREEN}{PLAYER}{COLOR BLUE}!")
+    closemessage
+    removefieldmugshot
+    delay(50)
+    givemon(SPECIES_TOTODILE, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_NAUGHTY, 0, 0, 0, 0, 0, 0, 0, 0, 21, 21, 21, 21, 21, 21, MOVE_SCRATCH, MOVE_LEER, MOVE_WATER_GUN, MOVE_RAGE, 0, 0, 0, 0)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknamePartyMon)
+        goto(TwinAnthonyA2)
+    }
+    elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknameBoxMon)
+        goto(TwinAnthonyA2)
+    }
+    else{
+        msgbox("There's no more room for Pokémon!\pThe Pokémon Boxes are full and can't\naccept any more!")
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        delay(45)
+        createfieldmugshot(MUGSHOT_ANTHONY, 0)
+        msgbox("{COLOR BLUE}Huh? You don't have any room for it?\nLiterally how though?\pWell, it was actually the last one after\nthe Professor let me pick.\pI picked Treecko, sorry if ya wanted\nthat one, haha!\pSo what's your next move?\nI see you got a shiny new Gym Badge!\pYou're going to take on the Nexar\nLeague with Alex, huh?\pI saw him earlier, he was going to check\nout the Aegis Ruins.\pIf you go now, you should be able to\ncatch up with him.\pAs for me, I'm going to stay behind and\nhelp the Professor.\pDude has too many issues, so I'm going\nto help him get it together.\pDon't worry, Jonathan will help.\nPlus, I get to work in a lab!\pI've always wanted to be a Pokémon\nProfessor, so this'll help a lot!\pWell, I'll see ya around, sis.\nGood luck with everything!\pOh yeah, swing by the Lab later to pick\nup your Totodile.")
+        closemessage
+        removefieldmugshot
+        delay(45)
+        playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+        applymovement(AnthonyIonia, ICAnthonymov2)
+        waitmovement(0)
+        removeobject(AnthonyIonia)
+        setobjectxyperm(AnthonyIonia, 0, 0)
+        playbgm(MUS_RUSTBORO, FALSE)
+        setflag(FLAG_HIDE_IONIA_TWINS)
+        setvar(VAR_IONIA_CITY_STATE, 3)
+        releaseall
+    }
+}
+
+script TwinAnthonyA2{
+    delay(45)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}It looks pretty happy to meet ya!\nI'm sure you two will get along.\pIt was actually the last one after the\nProfessor let me pick one.\pI picked Treecko, sorry if ya wanted\nthat one, haha!\pSo what's your next move?\nI see you got a shiny new Gym Badge!\pYou're going to take on the Nexar\nLeague with Alex, huh?\pI saw him earlier, he was going to check\nout the Aegis Ruins.\pIf you go now, you should be able to\ncatch up with him.\pAs for me, I'm going to stay behind and\nhelp the Professor.\pDude has too many issues, so I'm going\nto help him get it together.\pDon't worry, Jonathan will help.\nPlus, I get to work in a lab!\pI've always wanted to be a Pokémon\nProfessor, so this'll help a lot!\pWell, I'll see ya around, sis.\nGood luck with everything!")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+    applymovement(AnthonyIonia, ICAnthonymov2)
+    waitmovement(0)
+    removeobject(AnthonyIonia)
+    setobjectxyperm(AnthonyIonia, 0, 0)
+    playbgm(MUS_RUSTBORO, FALSE)
+    setflag(FLAG_HIDE_IONIA_TWINS)
+    setflag(FLAG_OBTAINED_TOTODILE)
+    setvar(VAR_IONIA_CITY_STATE, 3)
+    releaseall
+}
+
+script TwinEgyptB{
+    msgbox("{COLOR RED}???: Hey Bro! Wait up!")
+    closemessage
+    delay(30)
+    playbgm(MUS_ENCOUNTER_MAY, FALSE)
+    addobject(EgyptIonia)
+    setobjectxy(EgyptIonia, 24, 26)
+    applymovement(EgyptIonia, ICEgyptmov1)
+    applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov1)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Egypt: Finally, I've been looking all\nover for you!\pI finally managed to get Professor\nAspen's PC to work!\pIt wasn't easy, and I'm scarred for life\nby some of the stuff I saw…\pBut hey! We finally got your starter\nPokémon here for you!\pTotodile! Meet {COLOR GREEN}{PLAYER}{COLOR RED}!")
+    closemessage
+    removefieldmugshot
+    delay(50)
+    givemon(SPECIES_TOTODILE, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_NAUGHTY, 0, 0, 0, 0, 0, 0, 0, 0, 21, 21, 21, 21, 21, 21, MOVE_SCRATCH, MOVE_LEER, MOVE_WATER_GUN, MOVE_RAGE, 0, 0, 0, 0)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknamePartyMon)
+        goto(TwinEgyptA2)
+    }
+    elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknameBoxMon)
+        goto(TwinEgyptA2)
+    }
+    else{
+        msgbox("There's no more room for Pokémon!\pThe Pokémon Boxes are full and can't\naccept any more!")
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        delay(45)
+        createfieldmugshot(MUGSHOT_EGYPT, 0)
+        msgbox("{COLOR RED}Huh? You don't have any room for it?\nLiterally how though?\pWell, it was the last one after the\nProfessor let me take my pick.\pI picked Treecko, ehehehe…\pSo, what's your next move?\nI can see that shiny new Gym Badge!\pYou're taking on the Nexar League\nwith Alex, aren't you?\pI saw him earlier!\nHe was heading toward the Aegis Ruins.\p
+You might be able to catch up with\nhim if you hurry up!\pAs for me, I'm going to stay behind and\nhelp Professor Aspen.\pHe has a lot of issues to work out, so\nI'm gonna help him get better.\pI'll be the first person in his life to\nnever give up on him!\pPlus, with Jonathan's help, I'll get\nfirsthand experience in a lab.\p
+My dream of becoming a Pokémon\nProfessor will start to come true!\pWell, I'll see you around, bro!\nGood luck with everything!\pAnd say hi to lil' Bunbun for me!\pOh yeah, come by the Lab later to pick\nup your Totodile!")
+        closemessage
+        removefieldmugshot
+        delay(45)
+        playbgm(MUS_ENCOUNTER_MAY, FALSE)
+        applymovement(EgyptIonia, ICEgyptmov2)
+        waitmovement(0)
+        removeobject(EgyptIonia)
+        setobjectxyperm(EgyptIonia, 0, 0)
+        playbgm(MUS_RUSTBORO, FALSE)
+        setflag(FLAG_HIDE_IONIA_TWINS)
+        setvar(VAR_IONIA_CITY_STATE, 3)
+        releaseall
+    }
+}
+
+script TwinAnthonyB{
+    msgbox("{COLOR BLUE}???: Yo Sis! Wait up!")
+    closemessage
+    delay(30)
+    playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+    addobject(AnthonyIonia)
+    setobjectxy(AnthonyIonia, 24, 26)
+    applymovement(AnthonyIonia, ICAnthonymov1)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov1)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Anthony: Finally, I've been looking all\nover for ya, sis!\pI finally got Professor Aspen's PC to\nwork, and it wasn't easy!\pHe had way too much weird stuff on\nthere, just like Alex…\pBut hey, we finally got your Starter\nPokémon here for you!\pC'mon Totodile, meet {COLOR GREEN}{PLAYER}{COLOR BLUE}!")
+    closemessage
+    removefieldmugshot
+    delay(50)
+    givemon(SPECIES_TOTODILE, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_NAUGHTY, 0, 0, 0, 0, 0, 0, 0, 0, 21, 21, 21, 21, 21, 21, MOVE_SCRATCH, MOVE_LEER, MOVE_WATER_GUN, MOVE_RAGE, 0, 0, 0, 0)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknamePartyMon)
+        goto(TwinAnthonyA2)
+    }
+    elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknameBoxMon)
+        goto(TwinAnthonyA2)
+    }
+    else{
+        msgbox("There's no more room for Pokémon!\pThe Pokémon Boxes are full and can't\naccept any more!")
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        delay(45)
+        createfieldmugshot(MUGSHOT_ANTHONY, 0)
+        msgbox("{COLOR BLUE}Huh? You don't have any room for it?\nLiterally how though?\pWell, it was actually the last one after\nthe Professor let me pick.\pI picked Treecko, sorry if ya wanted\nthat one, haha!\pSo what's your next move?\nI see you got a shiny new Gym Badge!\pYou're going to take on the Nexar\nLeague with Alex, huh?\pI saw him earlier, he was going to check\nout the Aegis Ruins.\pIf you go now, you should be able to\ncatch up with him.\pAs for me, I'm going to stay behind and\nhelp the Professor.\pDude has too many issues, so I'm going\nto help him get it together.\pDon't worry, Jonathan will help.\nPlus, I get to work in a lab!\pI've always wanted to be a Pokémon\nProfessor, so this'll help a lot!\pWell, I'll see ya around, sis.\nGood luck with everything!\pOh yeah, swing by the Lab later to pick\nup your Totodile.")
+        closemessage
+        removefieldmugshot
+        delay(45)
+        playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+        applymovement(AnthonyIonia, ICAnthonymov2)
+        waitmovement(0)
+        removeobject(AnthonyIonia)
+        setobjectxyperm(AnthonyIonia, 0, 0)
+        playbgm(MUS_RUSTBORO, FALSE)
+        setflag(FLAG_HIDE_IONIA_TWINS)
+        setvar(VAR_IONIA_CITY_STATE, 3)
+        releaseall
+    }
+}
+
+script TwinEgyptC{
+    msgbox("{COLOR RED}???: Hey Bro! Wait up!")
+    closemessage
+    delay(30)
+    playbgm(MUS_ENCOUNTER_MAY, FALSE)
+    addobject(EgyptIonia)
+    setobjectxy(EgyptIonia, 25, 26)
+    applymovement(EgyptIonia, ICEgyptmov1)
+    applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov1)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Egypt: Finally, I've been looking all\nover for you!\pI finally managed to get Professor\nAspen's PC to work!\pIt wasn't easy, and I'm scarred for life\nby some of the stuff I saw…\pBut hey! We finally got your starter\nPokémon here for you!\pTotodile! Meet {COLOR GREEN}{PLAYER}{COLOR RED}!")
+    closemessage
+    removefieldmugshot
+    delay(50)
+    givemon(SPECIES_TOTODILE, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_NAUGHTY, 0, 0, 0, 0, 0, 0, 0, 0, 21, 21, 21, 21, 21, 21, MOVE_SCRATCH, MOVE_LEER, MOVE_WATER_GUN, MOVE_RAGE, 0, 0, 0, 0)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknamePartyMon)
+        goto(TwinEgyptA2)
+    }
+    elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknameBoxMon)
+        goto(TwinEgyptA2)
+    }
+    else{
+        msgbox("There's no more room for Pokémon!\pThe Pokémon Boxes are full and can't\naccept any more!")
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        delay(45)
+        createfieldmugshot(MUGSHOT_EGYPT, 0)
+        msgbox("{COLOR RED}Huh? You don't have any room for it?\nLiterally how though?\pWell, it was the last one after the\nProfessor let me take my pick.\pI picked Treecko, ehehehe…\pSo, what's your next move?\nI can see that shiny new Gym Badge!\pYou're taking on the Nexar League\nwith Alex, aren't you?\pI saw him earlier!\nHe was heading toward the Aegis Ruins.\p
+You might be able to catch up with\nhim if you hurry up!\pAs for me, I'm going to stay behind and\nhelp Professor Aspen.\pHe has a lot of issues to work out, so\nI'm gonna help him get better.\pI'll be the first person in his life to\nnever give up on him!\pPlus, with Jonathan's help, I'll get\nfirsthand experience in a lab.\p
+My dream of becoming a Pokémon\nProfessor will start to come true!\pWell, I'll see you around, bro!\nGood luck with everything!\pAnd say hi to lil' Bunbun for me!\pOh yeah, come by the Lab later to pick\nup your Totodile!")
+        closemessage
+        removefieldmugshot
+        delay(45)
+        playbgm(MUS_ENCOUNTER_MAY, FALSE)
+        applymovement(EgyptIonia, ICEgyptmov2)
+        waitmovement(0)
+        removeobject(EgyptIonia)
+        setobjectxyperm(EgyptIonia, 0, 0)
+        playbgm(MUS_RUSTBORO, FALSE)
+        setflag(FLAG_HIDE_IONIA_TWINS)
+        setvar(VAR_IONIA_CITY_STATE, 3)
+        releaseall
+    }
+}
+
+script TwinAnthonyC{
+    msgbox("{COLOR BLUE}???: Yo Sis! Wait up!")
+    closemessage
+    delay(30)
+    playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+    addobject(AnthonyIonia)
+    setobjectxy(AnthonyIonia, 25, 26)
+    applymovement(AnthonyIonia, ICAnthonymov1)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov1)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Anthony: Finally, I've been looking all\nover for ya, sis!\pI finally got Professor Aspen's PC to\nwork, and it wasn't easy!\pHe had way too much weird stuff on\nthere, just like Alex…\pBut hey, we finally got your Starter\nPokémon here for you!\pC'mon Totodile, meet {COLOR GREEN}{PLAYER}{COLOR BLUE}!")
+    closemessage
+    removefieldmugshot
+    delay(50)
+    givemon(SPECIES_TOTODILE, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_NAUGHTY, 0, 0, 0, 0, 0, 0, 0, 0, 21, 21, 21, 21, 21, 21, MOVE_SCRATCH, MOVE_LEER, MOVE_WATER_GUN, MOVE_RAGE, 0, 0, 0, 0)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknamePartyMon)
+        goto(TwinAnthonyA2)
+    }
+    elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknameBoxMon)
+        goto(TwinAnthonyA2)
+    }
+    else{
+        msgbox("There's no more room for Pokémon!\pThe Pokémon Boxes are full and can't\naccept any more!")
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        delay(45)
+        createfieldmugshot(MUGSHOT_ANTHONY, 0)
+        msgbox("{COLOR BLUE}Huh? You don't have any room for it?\nLiterally how though?\pWell, it was actually the last one after\nthe Professor let me pick.\pI picked Treecko, sorry if ya wanted\nthat one, haha!\pSo what's your next move?\nI see you got a shiny new Gym Badge!\pYou're going to take on the Nexar\nLeague with Alex, huh?\pI saw him earlier, he was going to check\nout the Aegis Ruins.\pIf you go now, you should be able to\ncatch up with him.\pAs for me, I'm going to stay behind and\nhelp the Professor.\pDude has too many issues, so I'm going\nto help him get it together.\pDon't worry, Jonathan will help.\nPlus, I get to work in a lab!\pI've always wanted to be a Pokémon\nProfessor, so this'll help a lot!\pWell, I'll see ya around, sis.\nGood luck with everything!\pOh yeah, swing by the Lab later to pick\nup your Totodile.")
+        closemessage
+        removefieldmugshot
+        delay(45)
+        playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+        applymovement(AnthonyIonia, ICAnthonymov2)
+        waitmovement(0)
+        removeobject(AnthonyIonia)
+        setobjectxyperm(AnthonyIonia, 0, 0)
+        playbgm(MUS_RUSTBORO, FALSE)
+        setflag(FLAG_HIDE_IONIA_TWINS)
+        setvar(VAR_IONIA_CITY_STATE, 3)
+        releaseall
+    }
+}
+
+script TwinEgyptD{
+    msgbox("{COLOR RED}???: Hey Bro! Wait up!")
+    closemessage
+    delay(30)
+    playbgm(MUS_ENCOUNTER_MAY, FALSE)
+    addobject(EgyptIonia)
+    setobjectxy(EgyptIonia, 26, 26)
+    applymovement(EgyptIonia, ICEgyptmov1)
+    applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov1)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Egypt: Finally, I've been looking all\nover for you!\pI finally managed to get Professor\nAspen's PC to work!\pIt wasn't easy, and I'm scarred for life\nby some of the stuff I saw…\pBut hey! We finally got your starter\nPokémon here for you!\pTotodile! Meet {COLOR GREEN}{PLAYER}{COLOR RED}!")
+    closemessage
+    removefieldmugshot
+    delay(50)
+    givemon(SPECIES_TOTODILE, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_NAUGHTY, 0, 0, 0, 0, 0, 0, 0, 0, 21, 21, 21, 21, 21, 21, MOVE_SCRATCH, MOVE_LEER, MOVE_WATER_GUN, MOVE_RAGE, 0, 0, 0, 0)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknamePartyMon)
+        goto(TwinEgyptA2)
+    }
+    elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknameBoxMon)
+        goto(TwinEgyptA2)
+    }
+    else{
+        msgbox("There's no more room for Pokémon!\pThe Pokémon Boxes are full and can't\naccept any more!")
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        delay(45)
+        createfieldmugshot(MUGSHOT_EGYPT, 0)
+        msgbox("{COLOR RED}Huh? You don't have any room for it?\nLiterally how though?\pWell, it was the last one after the\nProfessor let me take my pick.\pI picked Treecko, ehehehe…\pSo, what's your next move?\nI can see that shiny new Gym Badge!\pYou're taking on the Nexar League\nwith Alex, aren't you?\pI saw him earlier!\nHe was heading toward the Aegis Ruins.\p
+You might be able to catch up with\nhim if you hurry up!\pAs for me, I'm going to stay behind and\nhelp Professor Aspen.\pHe has a lot of issues to work out, so\nI'm gonna help him get better.\pI'll be the first person in his life to\nnever give up on him!\pPlus, with Jonathan's help, I'll get\nfirsthand experience in a lab.\p
+My dream of becoming a Pokémon\nProfessor will start to come true!\pWell, I'll see you around, bro!\nGood luck with everything!\pAnd say hi to lil' Bunbun for me!\pOh yeah, come by the Lab later to pick\nup your Totodile!")
+        closemessage
+        removefieldmugshot
+        delay(45)
+        playbgm(MUS_ENCOUNTER_MAY, FALSE)
+        applymovement(EgyptIonia, ICEgyptmov2)
+        waitmovement(0)
+        removeobject(EgyptIonia)
+        setobjectxyperm(EgyptIonia, 0, 0)
+        playbgm(MUS_RUSTBORO, FALSE)
+        setflag(FLAG_HIDE_IONIA_TWINS)
+        setvar(VAR_IONIA_CITY_STATE, 3)
+        releaseall
+    }
+}
+
+script TwinAnthonyD{
+    msgbox("{COLOR BLUE}???: Yo Sis! Wait up!")
+    closemessage
+    delay(30)
+    playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+    addobject(AnthonyIonia)
+    setobjectxy(AnthonyIonia, 26, 26)
+    applymovement(AnthonyIonia, ICAnthonymov1)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, ICPlayermov1)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Anthony: Finally, I've been looking all\nover for ya, sis!\pI finally got Professor Aspen's PC to\nwork, and it wasn't easy!\pHe had way too much weird stuff on\nthere, just like Alex…\pBut hey, we finally got your Starter\nPokémon here for you!\pC'mon Totodile, meet {COLOR GREEN}{PLAYER}{COLOR BLUE}!")
+    closemessage
+    removefieldmugshot
+    delay(50)
+    givemon(SPECIES_TOTODILE, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_NAUGHTY, 0, 0, 0, 0, 0, 0, 0, 0, 21, 21, 21, 21, 21, 21, MOVE_SCRATCH, MOVE_LEER, MOVE_WATER_GUN, MOVE_RAGE, 0, 0, 0, 0)
+    if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknamePartyMon)
+        goto(TwinAnthonyA2)
+    }
+    elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+        waitfanfare
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        call(NicknameBoxMon)
+        goto(TwinAnthonyA2)
+    }
+    else{
+        msgbox("There's no more room for Pokémon!\pThe Pokémon Boxes are full and can't\naccept any more!")
+        waitmessage
+        playbgm(MUS_RUSTBORO, FALSE)
+        delay(45)
+        createfieldmugshot(MUGSHOT_ANTHONY, 0)
+        msgbox("{COLOR BLUE}Huh? You don't have any room for it?\nLiterally how though?\pWell, it was actually the last one after\nthe Professor let me pick.\pI picked Treecko, sorry if ya wanted\nthat one, haha!\pSo what's your next move?\nI see you got a shiny new Gym Badge!\pYou're going to take on the Nexar\nLeague with Alex, huh?\pI saw him earlier, he was going to check\nout the Aegis Ruins.\pIf you go now, you should be able to\ncatch up with him.\pAs for me, I'm going to stay behind and\nhelp the Professor.\pDude has too many issues, so I'm going\nto help him get it together.\pDon't worry, Jonathan will help.\nPlus, I get to work in a lab!\pI've always wanted to be a Pokémon\nProfessor, so this'll help a lot!\pWell, I'll see ya around, sis.\nGood luck with everything!\pOh yeah, swing by the Lab later to pick\nup your Totodile.")
+        closemessage
+        removefieldmugshot
+        delay(45)
+        playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+        applymovement(AnthonyIonia, ICAnthonymov2)
+        waitmovement(0)
+        removeobject(AnthonyIonia)
+        setobjectxyperm(AnthonyIonia, 0, 0)
+        playbgm(MUS_RUSTBORO, FALSE)
+        setflag(FLAG_HIDE_IONIA_TWINS)
+        setvar(VAR_IONIA_CITY_STATE, 3)
+        releaseall
+    }
+}
+
+movement ICEgyptmov1{
+    walk_down *9
+}
+
+movement ICEgyptmov2{
+    walk_up *9
+}
+
+movement ICAnthonymov1{
+    walk_down *9
+}
+
+movement ICAnthonymov2{
+    walk_up *9
+}
+
+movement ICPlayermov1{
+    face_up
+}
+
+movement Ioniamov1{
+    emote_exclamation_mark
+    face_left
+}
+
+movement Ioniamov1x{
+    emote_exclamation_mark
+    face_left
+    walk_left
+}
+
+movement Ioniamov1xx{
+    emote_exclamation_mark
+    face_left
+    walk_left *2
+}
+
+movement Ioniamov2{
+    face_right
+}
+
+movement Ioniamov3{
+    walk_up
+}
+
+movement Ioniamov4{
+    face_left
+}
+
+movement Ioniamov4x{
+    walk_right
+    face_left
+}
+
+movement Ioniamov4xx{
+    walk_right *2
+    face_left 
+}

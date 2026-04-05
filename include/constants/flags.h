@@ -106,7 +106,7 @@
 #define FLAG_RESCUED_BIRCH                       0x52
 #define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53
 
-#define FLAG_UNUSED_0x054                    0x54  // Unused Flag
+#define FLAG_ALEX_CONVO                      0x54  // Unused Flag
 #define FLAG_UNUSED_0x055                    0x55  // Unused Flag
 
 #define FLAG_HIDE_CONTEST_POKE_BALL          0x56  // Always set after new game, object it hides is added directly
@@ -128,7 +128,7 @@
 #define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_4           0x67 //
 
-#define FLAG_UNUSED_0x068                    0x68  // Unused Flag
+#define FLAG_VISITED_LAB                     0x68  // Unused Flag
 
 #define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69
 #define FLAG_RECEIVED_HM_STRENGTH            0x6A
@@ -551,15 +551,15 @@
 
 // Hidden Items
 #define FLAG_HIDDEN_ITEMS_START                                                         0x1F4
-#define FLAG_HIDDEN_ITEM_LAVARIDGE_TOWN_ICE_HEAL             (FLAG_HIDDEN_ITEMS_START + 0x00)
-#define FLAG_HIDDEN_ITEM_TRICK_HOUSE_NUGGET                  (FLAG_HIDDEN_ITEMS_START + 0x01)
-#define FLAG_HIDDEN_ITEM_ROUTE_111_STARDUST                  (FLAG_HIDDEN_ITEMS_START + 0x02)
-#define FLAG_HIDDEN_ITEM_ROUTE_113_ETHER                     (FLAG_HIDDEN_ITEMS_START + 0x03)
-#define FLAG_HIDDEN_ITEM_ROUTE_114_CARBOS                    (FLAG_HIDDEN_ITEMS_START + 0x04)
-#define FLAG_HIDDEN_ITEM_ROUTE_119_CALCIUM                   (FLAG_HIDDEN_ITEMS_START + 0x05)
-#define FLAG_HIDDEN_ITEM_ROUTE_119_ULTRA_BALL                (FLAG_HIDDEN_ITEMS_START + 0x06)
-#define FLAG_HIDDEN_ITEM_ROUTE_123_SUPER_REPEL               (FLAG_HIDDEN_ITEMS_START + 0x07)
-#define FLAG_HIDDEN_ITEM_UNDERWATER_124_CARBOS               (FLAG_HIDDEN_ITEMS_START + 0x08)
+#define FLAG_HIDDEN_ITEM_RT1S_POTION                         (FLAG_HIDDEN_ITEMS_START + 0x00)
+#define FLAG_HIDDEN_ITEM_RT29_SUPER_POTION                   (FLAG_HIDDEN_ITEMS_START + 0x01)
+#define FLAG_HIDDEN_ITEM_RT29_BIG_PEARL                      (FLAG_HIDDEN_ITEMS_START + 0x02)
+#define FLAG_HIDDEN_ITEM_JW_ANTIDOTE                         (FLAG_HIDDEN_ITEMS_START + 0x03)
+#define FLAG_HIDDEN_ITEM_JW_POTION                           (FLAG_HIDDEN_ITEMS_START + 0x04)
+#define FLAG_HIDDEN_ITEM_JW_REPEL                            (FLAG_HIDDEN_ITEMS_START + 0x05)
+#define FLAG_HIDDEN_ITEM_JW_PARALYZE_HEAL                    (FLAG_HIDDEN_ITEMS_START + 0x06)
+#define FLAG_HIDDEN_ITEM_IONIA_CITY_POKE_BALL                (FLAG_HIDDEN_ITEMS_START + 0x07)
+#define FLAG_HIDDEN_ITEM_RT3_ETHER                           (FLAG_HIDDEN_ITEMS_START + 0x08)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_GREEN_SHARD          (FLAG_HIDDEN_ITEMS_START + 0x09)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_PEARL                (FLAG_HIDDEN_ITEMS_START + 0x0A)
 #define FLAG_HIDDEN_ITEM_UNDERWATER_124_BIG_PEARL            (FLAG_HIDDEN_ITEMS_START + 0x0B)
@@ -664,18 +664,18 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x6E)
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F)
 
-#define FLAG_UNUSED_0x264  0x264 // Unused Flag
-#define FLAG_UNUSED_0x265  0x265 // Unused Flag
-#define FLAG_UNUSED_0x266  0x266 // Unused Flag
-#define FLAG_UNUSED_0x267  0x267 // Unused Flag
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
-#define FLAG_UNUSED_0x26A  0x26A // Unused Flag
-#define FLAG_UNUSED_0x26B  0x26B // Unused Flag
-#define FLAG_UNUSED_0x26C  0x26C // Unused Flag
-#define FLAG_UNUSED_0x26D  0x26D // Unused Flag
-#define FLAG_UNUSED_0x26E  0x26E // Unused Flag
-#define FLAG_UNUSED_0x26F  0x26F // Unused Flag
+#define FLAG_HIDE_IONIA_TWINS   0x264 // Unused Flag
+#define FLAG_HIDE_IONIA_MISSOS  0x265 // Unused Flag
+#define FLAG_OBTAINED_TOTODILE  0x266 // Unused Flag
+#define FLAG_HIDE_ASPEN_HOUSE   0x267 // Unused Flag
+#define FLAG_HIDE_LAB_BALL      0x268 // Unused Flag
+#define FLAG_HIDE_LAB_ASPEN     0x269 // Unused Flag
+#define FLAG_HIDE_LAB_ALEX      0x26A // Unused Flag
+#define FLAG_HIDE_LAB_TWIN      0x26B // Unused Flag
+#define FLAG_HIDE_LAB_DEX       0x26C // Unused Flag
+#define FLAG_HIDE_LAB_BALL2     0x26D // Unused Flag
+#define FLAG_HIDE_LAB_BALL3     0x26E // Unused Flag
+#define FLAG_HIDE_DREAM_JIRACHI 0x26F // Unused Flag
 #define FLAG_UNUSED_0x270  0x270 // Unused Flag
 #define FLAG_UNUSED_0x271  0x271 // Unused Flag
 #define FLAG_UNUSED_0x272  0x272 // Unused Flag
@@ -775,15 +775,13 @@
 #define FLAG_HIDE_JAMES_WOODS_PEOPLE4                               0x2D6
 #define FLAG_HIDE_AUSTIN_FINAL                                      0x2D7
 #define FLAG_HIDE_ALEX_AND_LYON                                     0x2D8
-
 #define FLAG_BUNEARY_OBTAINED                                       0x2D9
-
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD
 #define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF
+#define FLAG_HIDE_KATELYN_IONIA_CITY                                0x2DF
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0x2E2

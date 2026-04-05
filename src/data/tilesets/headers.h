@@ -1620,3 +1620,36 @@ const struct Tileset gTileset_WishIndoors =
     .metatileAttributes = gMetatileAttributes_WishIndoors,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_WishGenericBuilding1 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_WishGenericBuilding1,
+    .palettes = gTilesetPalettes_WishGenericBuilding1,
+    .metatiles = gMetatiles_WishGenericBuilding1,
+    .metatileAttributes = gMetatileAttributes_WishGenericBuilding1,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_WishLab =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_WishLab,
+    .palettes = gTilesetPalettes_WishLab,
+    .metatiles = gMetatiles_WishLab,
+    .metatileAttributes = gMetatileAttributes_WishLab,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_WishCaveIce =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_WishCaveIce,
+    .palettes = gTilesetPalettes_WishCaveIce,
+    .metatiles = gMetatiles_WishCaveIce,
+    .metatileAttributes = gMetatileAttributes_WishCaveIce,
+    .callback = NULL,
+};

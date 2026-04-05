@@ -23,9 +23,9 @@ LavaridgeTown_OnTransition:
 # 12 "data/maps/LavaridgeTown/scripts.pory"
 	call Common_EventScript_SetupRivalOnBikeGfxId
 # 13 "data/maps/LavaridgeTown/scripts.pory"
-	call_if_eq VAR_LAVARIDGE_TOWN_STATE, 1, LavaridgeTown_EventScript_CheckSetRivalPos
+	call_if_eq VAR_POWER_PLANT_STATE, 1, LavaridgeTown_EventScript_CheckSetRivalPos
 # 14 "data/maps/LavaridgeTown/scripts.pory"
-	call_if_eq VAR_LAVARIDGE_TOWN_STATE, 1, LavaridgeTown_EventScript_HideMapNamePopup
+	call_if_eq VAR_POWER_PLANT_STATE, 1, LavaridgeTown_EventScript_HideMapNamePopup
 # 15 "data/maps/LavaridgeTown/scripts.pory"
 	end
 # 16 "data/maps/LavaridgeTown/scripts.pory"
@@ -81,7 +81,7 @@ LavaridgeTown_EventScript_HideMapNamePopup::
 # 41 "data/maps/LavaridgeTown/scripts.pory"
 LavaridgeTown_OnFrame:
 # 42 "data/maps/LavaridgeTown/scripts.pory"
-	map_script_2 VAR_LAVARIDGE_TOWN_STATE, 1, LavaridgeTown_EventScript_RivalGiveGoGoggles
+	map_script_2 VAR_POWER_PLANT_STATE, 1, LavaridgeTown_EventScript_RivalGiveGoGoggles
 # 43 "data/maps/LavaridgeTown/scripts.pory"
 	.2byte 0
 # 44 "data/maps/LavaridgeTown/scripts.pory"
@@ -167,7 +167,7 @@ LavaridgeTown_EventScript_RivalExit::
 # 84 "data/maps/LavaridgeTown/scripts.pory"
 	removeobject LOCALID_LAVARIDGE_RIVAL_ON_BIKE
 # 85 "data/maps/LavaridgeTown/scripts.pory"
-	setvar VAR_LAVARIDGE_TOWN_STATE, 2
+	setvar VAR_POWER_PLANT_STATE, 2
 # 86 "data/maps/LavaridgeTown/scripts.pory"
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 # 87 "data/maps/LavaridgeTown/scripts.pory"

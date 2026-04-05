@@ -1279,7 +1279,7 @@ void EndLotteryCornerComputerEffect(void)
 void SetTrickHouseNuggetFlag(void)
 {
     u16 *specVar = &gSpecialVar_0x8004;
-    u16 flag = FLAG_HIDDEN_ITEM_TRICK_HOUSE_NUGGET;
+    u16 flag = FLAG_HIDDEN_ITEM_RT29_SUPER_POTION;
     *specVar = flag;
     FlagSet(flag);
 }
@@ -1287,7 +1287,7 @@ void SetTrickHouseNuggetFlag(void)
 void ResetTrickHouseNuggetFlag(void)
 {
     u16 *specVar = &gSpecialVar_0x8004;
-    u16 flag = FLAG_HIDDEN_ITEM_TRICK_HOUSE_NUGGET;
+    u16 flag = FLAG_HIDDEN_ITEM_RT29_SUPER_POTION;
     *specVar = flag;
     FlagClear(flag);
 }
@@ -5399,8 +5399,8 @@ void ForcePlayerOntoBike(void)
 {
     if (gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_ON_FOOT)
         SetPlayerAvatarTransitionFlags(PLAYER_AVATAR_FLAG_ACRO_BIKE);
-    Overworld_SetSavedMusic(MUS_CYCLING);
-    Overworld_ChangeMusicTo(MUS_CYCLING);
+    Overworld_SetSavedMusic(IS_FRLG ? MUS_RG_CYCLING : MUS_CYCLING);
+    Overworld_ChangeMusicTo(IS_FRLG ? MUS_RG_CYCLING : MUS_CYCLING);
 }
 
 bool8 IsPlayerNotInTrainerTowerLobby(void)

@@ -13,17 +13,246 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [],
+  "object_events": [
+    {
+      "local_id": "SVLabAspen",
+      "graphics_id": "OBJ_EVENT_GFX_002_PROF_ASPEN",
+      "x": 6,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_Lab_EventScript_Aspen",
+      "flag": "FLAG_HIDE_LAB_ASPEN"
+    },
+    {
+      "local_id": "Ball1",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
+      "x": 9,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_Lab_EventScript_Balls",
+      "flag": "FLAG_HIDE_LAB_BALL"
+    },
+    {
+      "local_id": "Ball2",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
+      "x": 10,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_Lab_EventScript_Balls",
+      "flag": "FLAG_HIDE_LAB_BALL2"
+    },
+    {
+      "local_id": "Ball3",
+      "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
+      "x": 11,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_Lab_EventScript_Balls",
+      "flag": "FLAG_HIDE_LAB_BALL3"
+    },
+    {
+      "local_id": "SVLabJonathan",
+      "graphics_id": "OBJ_EVENT_GFX_139_SCIENTIST",
+      "x": 2,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_Lab_EventScript_Jonathan",
+      "flag": "0"
+    },
+    {
+      "local_id": "SVLabAnthony",
+      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "x": 23,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_Lab_EventScript_Anthony",
+      "flag": "FLAG_HIDE_LAB_TWIN"
+    },
+    {
+      "local_id": "SVLabEgypt",
+      "graphics_id": "OBJ_EVENT_GFX_MAY_NORMAL",
+      "x": 23,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_Lab_EventScript_Egypt",
+      "flag": "FLAG_HIDE_LAB_TWIN"
+    },
+    {
+      "local_id": "SVLabAlex",
+      "graphics_id": "OBJ_EVENT_GFX_004_ALEX",
+      "x": 23,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_LAB_ALEX"
+    },
+    {
+      "local_id": "Dex1",
+      "graphics_id": "OBJ_EVENT_GFX_182_POKEDEX",
+      "x": 4,
+      "y": 1,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_Lab_EventScript_Dexes",
+      "flag": "FLAG_HIDE_LAB_DEX"
+    },
+    {
+      "local_id": "Dex2",
+      "graphics_id": "OBJ_EVENT_GFX_182_POKEDEX",
+      "x": 5,
+      "y": 1,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_Lab_EventScript_Dexes",
+      "flag": "FLAG_HIDE_LAB_DEX"
+    }
+  ],
   "warp_events": [
     {
       "warp_id": "WARP_SAPPHIRE_ASPEN_LAB_B",
-      "x": 10,
-      "y": 10,
+      "x": 6,
+      "y": 12,
       "elevation": 0,
       "dest_map": "MAP_SAPPHIRE_VILLAGE",
       "dest_warp_id": "WARP_SAPPHIRE_ASPEN_LAB_A"
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_DELIVERY_EVENTS",
+      "var_value": "2",
+      "script": "SapphireVillage_Lab_EventScript_LabEventAA"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_DELIVERY_EVENTS",
+      "var_value": "2",
+      "script": "SapphireVillage_Lab_EventScript_LabEventAB"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_DELIVERY_EVENTS",
+      "var_value": "2",
+      "script": "SapphireVillage_Lab_EventScript_LabEventAC"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_ASPEN_EVENTS",
+      "var_value": "5",
+      "script": "SapphireVillage_Lab_EventScript_LabEventBA"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_ASPEN_EVENTS",
+      "var_value": "5",
+      "script": "SapphireVillage_Lab_EventScript_LabEventBB"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 8,
+      "elevation": 3,
+      "var": "VAR_ASPEN_EVENTS",
+      "var_value": "5",
+      "script": "SapphireVillage_Lab_EventScript_LabEventBC"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 1,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "SapphireVillage_Lab_EventScript_PC"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 2,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SapphireVillage_Lab_EventScript_Boxes"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 2,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SapphireVillage_Lab_EventScript_Boxes"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 2,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SapphireVillage_Lab_EventScript_Boxes"
+    }
+  ]
 }

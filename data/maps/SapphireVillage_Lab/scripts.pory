@@ -1,1 +1,1348 @@
-mapscripts SapphireVillage_Lab_MapScripts {}
+mapscripts SapphireVillage_Lab_MapScripts {
+    MAP_SCRIPT_ON_LOAD: OnLoadSVLab
+    MAP_SCRIPT_ON_FRAME_TABLE: OnFrameSVLab
+    MAP_SCRIPT_ON_TRANSITION: OnTransitionSVLab
+    MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE: OnWarpTableSVLab
+}
+
+script OnFrameSVLab{
+    lockall
+    applymovement(SVLabAspen, movAspenlab5)
+    waitmovement(0)
+    removeobject(SVLabAspen)
+    setobjectxyperm(SVLabAspen, 6, 3)
+    setobjectmovementtype(SVLabAspen, MOVEMENT_TYPE_FACE_DOWN)
+    clearflag(FLAG_HIDE_LAB_ASPEN)
+    applymovement(OBJ_EVENT_ID_PLAYER, movlabmoveup)
+    waitmovement(0)
+    clearflag(FLAG_DONT_TRANSITION_MUSIC)
+	savebgm (MUS_DUMMY)
+	fadedefaultbgm
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, SVLMapScriptX)
+    goto_if_eq(VAR_RESULT, FEMALE, SVLMapScriptY)
+    return
+}
+
+script SVLMapScriptX{
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Alright, here we go.\pTry not to break anything like your\nbrother did, alright?\pAnyway, your Mom made me have some\nPokémon bred for you guys.\pThere's three Poké Balls on the table,\nso go ahead and take your pick.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: …")
+    closemessage
+    removefieldmugshot
+    delay(60)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: What are ya waiting for?\nJust pick one already…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab7)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: That one should contain\nthe Grass-Type Treecko.\pThing's got an attitude…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(22)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab8)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Eh? It's empty?\nSorry kid, check the others.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab9)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: That one should contain\nthe Fire-Type Scorbunny.\pToo much energy for my liking.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(22)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab8)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: You're kidding me.\nI gave that one away too?\pTry the last one.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab9)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: That one should have the\nWater-Type Totodile.\pThe bugger nearly bit my hand off…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(22)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab8)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab10)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Sorry kid, I guess I\nalready gave all of 'em away.\pBut tell ya what, how about we make a\ndeal instead?\pDown south in Jasper Town I'm\nexpecting a shipment I ordered.\pIf ya go pick it up for me, and I'll have\nnew Pokémon for ya when you get back.\pWhat do ya say? We have a deal?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVLabJonathan, movlabjonathan3)
+    waitmovement(0)
+    delay(20)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab11)
+    waitmovement(0)
+    delay(20)
+    msgbox("{COLOR BLUE}Jonathan: Pardon my interruption.\pLeaving the village without a single\nPokémon would be dangerous.\pSince our hands are tied, I'll spray you\nwith this long-lasting Repel.")
+    closemessage
+    playse(1)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} was sprayed with Repel!")
+    closemessage
+    delay(30)
+    msgbox("{COLOR BLUE}Jonathan: While we are at it, you might\nfind these to be useful.")
+    closemessage
+    delay(30)
+    playfanfare(MUS_RG_OBTAIN_KEY_ITEM)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} obtained the Running Shoes!")
+    waitmessage
+    waitfanfare
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} switched shoes with the\nRunning Shoes.")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab12)
+    waitmovement(0)
+    delay(20)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Once you get to Jasper\nTown, head towards the Pokémart.\pOnce you're there, ask for a guy named\nMack and tell 'em I sent ya.\pAnd don't let the cops catch ya.\nIf they do, then I don't know ya.")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab11)
+    waitmovement(0)
+    delay(20)
+    msgbox("{COLOR BLUE}Jonathan: What he meant to say was\ngood luck, {COLOR GREEN}{PLAYER}{COLOR BLUE}.\pShow the shopkeeper this Order Form as\nproof that we sent you.")
+    closemessage
+    delay(20)
+    giveitem(ITEM_LETTER, 1)
+    delay(30)
+    applymovement(SVLabJonathan, movlabjonathan4)
+    waitmovement(0)
+    delay(30)
+    setflag(FLAG_RECEIVED_RUNNING_SHOES)
+    setflag(FLAG_SYS_B_DASH)
+    setvar(VAR_ASPEN_LAB_EVENT, 1)
+    setvar(VAR_ASPEN_EVENTS, 4)
+    setvar(VAR_CABLE_CLUB_TUTORIAL_STATE, 1)
+    releaseall
+}
+
+script SVLMapScriptY{
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Alright, here we go.\pTry not to break anything like your\nbrother did, alright?\pAnyway, your Mom made me have some\nPokémon bred for you guys.\pThere's three Poké Balls on the table,\nso go ahead and take your pick.")
+    closemessage
+    removefieldmugshot
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: …")
+    closemessage
+    removefieldmugshot 
+    delay(60)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: What are ya waiting for?\nJust pick one already…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab7)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: That one should contain\nthe Grass-Type Treecko.\pThing's got an attitude…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(22)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab8)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Eh? It's empty?\nSorry kid, check the others.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab9)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: That one should contain\nthe Fire-Type Scorbunny.\pToo much energy for my liking.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(22)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab8)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: You're kidding me.\nI gave that one away too?\pTry the last one.")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab9)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: That one should have the\nWater-Type Totodile.\pThe bugger nearly bit my hand off…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(22)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab8)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab10)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Sorry kid, I guess I\nalready gave all of 'em away.\pBut tell ya what, how about we make a\ndeal instead?\pDown south in Jasper Town I'm\nexpecting a shipment I ordered.\pIf ya go pick it up for me, and I'll have\nnew Pokémon for ya when you get back.\pWhat do ya say? We have a deal?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVLabJonathan, movlabjonathan3)
+    waitmovement(0)
+    delay(20)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab11)
+    waitmovement(0)
+    delay(20)
+    msgbox("{COLOR BLUE}Jonathan: Pardon my interruption.\pLeaving the village without a single\nPokémon would be dangerous.\pSince our hands are tied, I'll spray you\nwith this long-lasting Repel.")
+    closemessage
+    playse(1)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} was sprayed with Repel!")
+    closemessage
+    delay(30)
+    msgbox("{COLOR BLUE}Jonathan: While we are at it, you might\nfind these to be useful.")
+    closemessage
+    delay(30)
+    playfanfare(MUS_RG_OBTAIN_KEY_ITEM)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} obtained the Running Shoes!")
+    waitmessage
+    waitfanfare
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} switched shoes with the\nRunning Shoes.")
+    closemessage
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab12)
+    waitmovement(0)
+    delay(20)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Once you get to Jasper\nTown, head towards the Pokémart.\pOnce you're there, ask for a guy named\nMack and tell 'em I sent ya.\pAnd don't let the cops catch ya.\nIf they do, then I don't know ya.")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab11)
+    waitmovement(0)
+    delay(20)
+    msgbox("{COLOR BLUE}Jonathan: What he meant to say was\ngood luck, {COLOR GREEN}{PLAYER}{COLOR BLUE}.\pShow the shopkeeper this Order Form as\nproof that we sent you.")
+    closemessage
+    delay(20)
+    giveitem(ITEM_LETTER, 1)
+    delay(30)
+    applymovement(SVLabJonathan, movlabjonathan4)
+    waitmovement(0)
+    delay(30)
+    setflag(FLAG_RECEIVED_RUNNING_SHOES)
+    setflag(FLAG_SYS_B_DASH)
+    setvar(VAR_ASPEN_LAB_EVENT, 1)
+    setvar(VAR_ASPEN_EVENTS, 4)
+    setvar(VAR_CABLE_CLUB_TUTORIAL_STATE, 1)
+    releaseall
+}
+
+movement movlabjonathan3{
+    face_down
+    walk_down
+    face_right
+    walk_right *4
+    walk_up *5
+}
+
+movement movlabjonathan4{
+    face_down
+    walk_down *5
+    face_left
+    walk_left *4
+    face_up
+    walk_up
+}
+
+movement movAspenlab5{
+    walk_up *8
+}
+
+movement movlabmoveup{
+    walk_up *8
+}
+
+movement movPlayerlab7{
+    face_down
+    walk_down
+    face_right
+    walk_right *3
+    face_up
+}
+
+movement movPlayerlab8{
+    emote_x
+}
+
+movement movPlayerlab9{
+    face_right
+    walk_right
+    face_up
+}
+
+movement movPlayerlab10{
+    face_left
+    walk_left *5
+    face_up
+    walk_up
+}
+
+movement movPlayerlab11{
+    face_down
+}
+
+movement movPlayerlab12{
+    face_up
+}
+
+script OnWarpTableSVLab{
+    if(var(VAR_ASPEN_EVENTS) == 1){
+        turnobject(OBJ_EVENT_ID_PLAYER, MOVEMENT_TYPE_FACE_UP)
+    }
+}
+
+script OnTransitionSVLab{
+    setflag(FLAG_VISITED_LAB)
+    if(flag(FLAG_PROF_ASPEN_IMPROVEMENT)){
+        call(SVLMapScriptP1)
+    }
+    elif(var(VAR_ASPEN_LAB_EVENT) >= 3){
+        call(SVLMapScriptP2)
+    }
+    elif(var(VAR_JASPER_TOWN_STATE) == 1){
+        call(SVLMapScriptP2)
+    }
+    elif(var(VAR_IONIA_CITY_STATE) >= 3){
+        call(SVLMapScriptP3)
+    }
+    elif(var(VAR_ASPEN_EVENTS) == 1){
+        call(SVLMapScriptP4)
+    }
+    elif(var(VAR_ASPEN_EVENTS) == 7){
+        call(SVLMapScriptP5)
+    }
+    elif(var(VAR_ASPEN_EVENTS) == 8){
+        call(SVLMapScriptP6)
+    }
+    else{
+        return
+    }
+}
+
+script SVLMapScriptP1{
+    setflag(FLAG_HIDE_LAB_BALL)
+    setflag(FLAG_HIDE_LAB_BALL2)
+    setflag(FLAG_HIDE_LAB_BALL3)
+    removeobject(Ball1)
+    removeobject(Ball2)
+    removeobject(Ball3)
+    return
+}
+
+script SVLMapScriptP2{
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, SVLMapScriptA)
+    goto_if_eq(VAR_RESULT, FEMALE, SVLMapScriptB)
+    return
+}
+
+script SVLMapScriptP3{
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, SVLMapScriptC)
+    goto_if_eq(VAR_RESULT, FEMALE, SVLMapScriptD)
+    return
+}
+
+script SVLMapScriptP4{
+    setobjectxyperm(SVLabAspen, 6, 11)
+    setobjectmovementtype(SVLabAspen, MOVEMENT_TYPE_FACE_UP)
+    playbgm(MUS_RG_OAK_LAB, FALSE)
+    return
+}
+
+script SVLMapScriptP5{
+    setobjectxyperm(SVLabAspen, 6, 11)
+    setobjectmovementtype(SVLabAspen, MOVEMENT_TYPE_FACE_UP)
+    return
+}
+
+script SVLMapScriptP6{
+    setvar(VAR_ASPEN_LAB_EVENT, 9)
+    return
+}
+
+script SVLMapScriptA{
+    addobject(SVLabEgypt)
+    clearflag(FLAG_HIDE_LAB_TWIN)
+    setobjectxyperm(SVLabEgypt, 2, 2)
+    setobjectmovementtype(SVLabEgypt, MOVEMENT_TYPE_FACE_UP)
+    return
+}
+
+script SVLMapScriptB{
+    addobject(SVLabAnthony)
+    clearflag(FLAG_HIDE_LAB_TWIN)
+    setobjectxyperm(SVLabAnthony, 2, 2)
+    setobjectmovementtype(SVLabAnthony, MOVEMENT_TYPE_FACE_UP)
+    return
+}
+
+script SVLMapScriptC{
+    addobject(SVLabEgypt)
+    clearflag(FLAG_HIDE_LAB_TWIN)
+    setobjectxyperm(SVLabEgypt, 2, 6)
+    setobjectmovementtype(SVLabEgypt, MOVEMENT_TYPE_FACE_UP)
+    return
+}
+
+script SVLMapScriptD{
+    addobject(SVLabAnthony)
+    clearflag(FLAG_HIDE_LAB_TWIN)
+    setobjectxyperm(SVLabAnthony, 2, 6)
+    setobjectmovementtype(SVLabAnthony, MOVEMENT_TYPE_FACE_UP)
+    return
+}
+
+script OnLoadSVLab{
+    if(flag(FLAG_PROF_ASPEN_IMPROVEMENT)){
+        setmetatile(0, 10, METATILE_WishLab_LabTile1, FALSE)
+        setmetatile(3, 12, METATILE_WishLab_LabTile2, FALSE)
+        setmetatile(8, 12, METATILE_WishLab_LabTile2, FALSE)
+        setmetatile(9, 12, METATILE_WishLab_LabTile2, FALSE)
+        setmetatile(10, 11, METATILE_WishLab_LabTile2, FALSE)
+        setmetatile(11, 10, METATILE_WishLab_LabTile2, FALSE)
+        setmetatile(4, 5, METATILE_WishLab_LabTile2, FALSE)
+        setmetatile(11, 3, METATILE_WishLab_LabTile2, FALSE)
+        setmetatile(12, 3, METATILE_WishLab_LabTile2, FALSE)
+    }
+}
+
+script SapphireVillage_Lab_EventScript_PC{
+    if(flag(FLAG_PROF_ASPEN_IMPROVEMENT)){
+        msgbox("It's Professor Aspen's PC…\pThere are many files containing\nPokémon research data!")
+        release
+    }
+    else{
+        msgbox("It's Professor Aspen's PC…\nYuck! Shouldn't have looked!")
+        release
+    }
+}
+
+script SapphireVillage_Lab_EventScript_Boxes{
+    if(flag(FLAG_PROF_ASPEN_IMPROVEMENT)){
+        msgbox("The box is filled with what looks like\nPokémon Research textbooks.")
+        release
+    }
+    else{
+        msgbox("The box is filled with what looks like\nempty bottles and paraphernalia.")
+        release
+    } 
+}
+
+script SapphireVillage_Lab_EventScript_Balls{
+    lock
+    if(var(VAR_ASPEN_LAB_EVENT) >= 3){
+        msgbox("It's an empty Poké Ball…")
+        release
+    }
+    else{
+        msgbox("It's a Poké Ball!\nBetter leave it alone for now.")
+        release
+    }
+}
+
+script SapphireVillage_Lab_EventScript_Dexes{
+    msgbox("It's a Pokédex!\nBetter not touch it.")
+    release
+}
+
+script SapphireVillage_Lab_EventScript_Jonathan{
+    lock
+    faceplayer
+    if(flag(FLAG_PROF_ASPEN_IMPROVEMENT)){
+        msgbox("{COLOR BLUE}Jonathan: Oh, hello {COLOR GREEN}{PLAYER}{COLOR BLUE}.\pProfessor Aspen has been much more\nproductive lately.\pThank you for all your help!")
+        release
+    }
+    elif(var(VAR_JONATHAN_STATE) >= 1){
+        msgbox("{COLOR BLUE}Jonathan: Good luck out there!\nPlease do your best to stay safe.")
+        release
+    }
+    elif(flag(FLAG_BADGE01_GET)){
+        msgbox("{COLOR BLUE}Jonathan: Good luck out there!\nPlease do your best to stay safe.")
+        release
+    }
+    else{
+        msgbox("{COLOR BLUE}Jonathan: Hello, {COLOR GREEN}{PLAYER}{COLOR BLUE}.\pProf. Aspen went out to look for you.\nHe should be back soon.\pPlease don't break anything like your\nbrother Alex did…")
+        release
+    }
+}
+
+script SapphireVillage_Lab_EventScript_Anthony{
+    lock
+    faceplayer
+    if(flag(FLAG_IS_CHAMPION)){
+        createfieldmugshot(MUGSHOT_ANTHONY, 0)
+        msgbox("{COLOR BLUE}Anthony: Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pHow's Kate's new villa?\nThink I should pay it a visit?")
+        closemessage
+        removefieldmugshot
+        release
+        end
+    }
+    elif(var(VAR_IONIA_CITY_STATE) >= 2){
+        if(flag(FLAG_OBTAINED_TOTODILE)){
+            createfieldmugshot(MUGSHOT_ANTHONY, 0)
+            msgbox("{COLOR BLUE}Anthony: Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pI heard that Amber will groom your\nPokémon for you.\pYou should check it out for yourself\nsometime!")
+            closemessage
+            removefieldmugshot
+            release
+            end
+        }
+        else{
+            createfieldmugshot(MUGSHOT_ANTHONY, 0)
+            msgbox("{COLOR BLUE}Anthony: Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pAre you here for your Totodile?\nHere you go!")
+            closemessage
+            removefieldmugshot
+            delay(50)
+            givemon(SPECIES_TOTODILE, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_NAUGHTY, 0, 0, 0, 0, 0, 0, 0, 0, 21, 21, 21, 21, 21, 21, MOVE_SCRATCH, MOVE_LEER, MOVE_WATER_GUN, MOVE_RAGE, 0, 0, 0, 0)
+            if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+                waitfanfare
+                waitmessage
+                playbgm(MUS_RG_OAK_LAB, FALSE)
+                call(NicknamePartyMon)
+                goto(TwinLabA2)
+                }
+            elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+                waitfanfare
+                waitmessage
+                playbgm(MUS_RG_OAK_LAB, FALSE)
+                call(NicknameBoxMon)
+                goto(TwinLabA2)
+                }
+            else{
+                msgbox("There's no more room for Pokémon!\pThe Pokémon Boxes are full and can't\naccept any more!")
+                waitmessage
+                playbgm(MUS_RG_OAK_LAB, FALSE)
+                delay(45)
+                createfieldmugshot(MUGSHOT_ANTHONY, 0)
+                msgbox("{COLOR BLUE}Really sis?\nClean out your PC Boxes.")
+                closemessage
+                removefieldmugshot
+                release
+                end
+                }
+            }
+        }
+    else{
+        createfieldmugshot(MUGSHOT_ANTHONY, 0)
+        msgbox("{COLOR BLUE}Anthony: Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\nI have my work cut out for me here…")
+        closemessage
+        removefieldmugshot
+        release
+        end
+    }
+}
+
+script TwinLabA2{
+    delay(45)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}It looks pretty happy to meet ya!\nI'm sure you two will get along.")
+    closemessage
+    removefieldmugshot
+    setflag(FLAG_OBTAINED_TOTODILE)
+    setvar(VAR_IONIA_CITY_STATE, 3)
+    release
+    end
+}
+
+script TwinLabAA{
+    delay(45)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Doesn't it look happy to meet you?\nI'm sure you two will get along.")
+    closemessage
+    removefieldmugshot
+    setflag(FLAG_OBTAINED_TOTODILE)
+    setvar(VAR_IONIA_CITY_STATE, 3)
+    release
+    end
+}
+
+script SapphireVillage_Lab_EventScript_Egypt{
+    lock
+    faceplayer
+    if(flag(FLAG_IS_CHAMPION)){
+        createfieldmugshot(MUGSHOT_EGYPT, 0)
+        msgbox("{COLOR RED}Egypt: Hey, {COLOR GREEN}{PLAYER}{COLOR RED}!\pHow's Katelyn's new villa?\nI should totally visit sometime!")
+        closemessage
+        removefieldmugshot
+        release
+        end
+    }
+    elif(var(VAR_IONIA_CITY_STATE) >= 2){
+        if(flag(FLAG_OBTAINED_TOTODILE)){
+            createfieldmugshot(MUGSHOT_EGYPT, 0)
+            msgbox("{COLOR RED}Egypt: Hey, {COLOR GREEN}{PLAYER}{COLOR RED}!\pI heard that Amber will groom your\nPokémon for you.\pYou should pay her a visit!")
+            closemessage
+            removefieldmugshot
+            release
+            end
+        }
+        else{
+            createfieldmugshot(MUGSHOT_EGYPT, 0)
+            msgbox("{COLOR RED}Egypt: Hey, {COLOR GREEN}{PLAYER}{COLOR RED}!\pAre you here for Totodile?\nHere you go!")
+            closemessage
+            removefieldmugshot
+            delay(50)
+            givemon(SPECIES_TOTODILE, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_NAUGHTY, 0, 0, 0, 0, 0, 0, 0, 0, 21, 21, 21, 21, 21, 21, MOVE_SCRATCH, MOVE_LEER, MOVE_WATER_GUN, MOVE_RAGE, 0, 0, 0, 0)
+            if(var(VAR_RESULT) == MON_GIVEN_TO_PARTY){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+                waitfanfare
+                waitmessage
+                playbgm(MUS_RG_OAK_LAB, FALSE)
+                call(NicknamePartyMon)
+                goto(TwinLabAA)
+                }
+            elif(var(VAR_RESULT) == MON_GIVEN_TO_PC){
+                playfanfare(MUS_OBTAIN_ITEM)
+                msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} received the Totodile!")
+                waitfanfare
+                waitmessage
+                playbgm(MUS_RG_OAK_LAB, FALSE)
+                call(NicknameBoxMon)
+                goto(TwinLabAA)
+                }
+            else{
+                msgbox("There's no more room for Pokémon!\pThe Pokémon Boxes are full and can't\naccept any more!")
+                waitmessage
+                playbgm(MUS_RG_OAK_LAB, FALSE)
+                delay(45)
+                createfieldmugshot(MUGSHOT_EGYPT, 0)
+                msgbox("{COLOR RED}Really bro?\nClean out your PC Boxes.")
+                closemessage
+                removefieldmugshot
+                release
+                end
+                }
+            }
+        }
+    else{
+        createfieldmugshot(MUGSHOT_EGYPT, 0)
+        msgbox("{COLOR RED}Egypt: Hey, {COLOR GREEN}{PLAYER}{COLOR RED}!\nI have my work cut out for me here…")
+        closemessage
+        removefieldmugshot
+        release
+        end
+    }
+}
+
+script SapphireVillage_Lab_EventScript_Aspen{
+    lock
+    faceplayer
+    if(flag(FLAG_TEMP_2)){
+        createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+        msgbox("{COLOR BLUE}Prof. Aspen: Don't let me keep you.\nI'm sure you have some place to be.")
+        removefieldmugshot
+        release
+    }
+    elif(flag(FLAG_PROF_ASPEN_IMPROVEMENT)){
+        createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+        msgbox("{COLOR BLUE}Prof. Aspen: Hey, {COLOR GREEN}{PLAYER}{COLOR BLUE}.\pI wanted to thank you and your family\nfor everything.\pNow that I'm on the straight and narrow,\nI can focus on my Pokémon research.\pThe Professors are even starting to\ninvite me to meetings again!\pI even cleaned up my house and the lab.\nHope ya like the new look!\pOh yeah, and keep at it with the\nPokédex. It's really helping out.")
+        removefieldmugshot
+        setflag(FLAG_TEMP_2)
+        release
+    }
+    elif(flag(FLAG_SYS_POKEDEX_GET)){
+        createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+        msgbox("{COLOR BLUE}Prof. Aspen: I'm counting on ya.\nPlease help me out here.\pYou can get your Pokédex rated at any\nPC inside a Pokémon Center.")
+        removefieldmugshot
+        release
+    }
+    elif(flag(FLAG_BUNEARY_OBTAINED)){
+        createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+        msgbox("{COLOR BLUE}Prof. Aspen: You got the package yet?\nC'mon, kid. Not asking for much.")
+        removefieldmugshot
+        release
+    }
+    else{
+        createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+        msgbox("{COLOR BLUE}Prof. Aspen: Once you get to Jasper\nTown, head towards the Pokémart.\pOnce you're there, ask for a guy named\nMack and tell 'em I sent ya.\pDon't let the feds catch ya either.\nIf they do, then I don't know ya.")
+        removefieldmugshot
+        release
+    }
+}
+
+script SapphireVillage_Lab_EventScript_LabEventBA{
+    lockall
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab3)
+    waitmovement(0)
+    delay(30)
+    playse(21)
+    applymovement(SVLabAspen, movAspenlab1)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Oh hey, you're back!\nSo you got the goods, right?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playfanfare(MUS_RG_OBTAIN_KEY_ITEM)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} delivered the Odd Package!")
+    closemessage
+    waitfanfare
+    removeitem(ITEM_PARCEL, 1)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Finally, I've gone way too long without\na drink.\p…\pRight, our little deal we made.\nWe have a bit of a problem.\pI managed to get ahold of more Pokémon,\nbut I can't access 'em.")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, LabEventBAM)
+    goto_if_eq(VAR_RESULT, FEMALE, LabEventBAF)
+}
+
+script SapphireVillage_Lab_EventScript_LabEventBB{
+    lockall
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab3x)
+    waitmovement(0)
+    delay(30)
+    playse(21)
+    applymovement(SVLabAspen, movAspenlab1)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Oh hey, you're back!\nSo you got the goods, right?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playfanfare(MUS_RG_OBTAIN_KEY_ITEM)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} delivered the Odd Package!")
+    closemessage
+    waitfanfare
+    removeitem(ITEM_PARCEL, 1)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Finally, I've gone way too long without\na drink.\p…\pRight, our little deal we made.\nWe have a bit of a problem.\pI managed to get ahold of more Pokémon,\nbut I can't access 'em.")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, LabEventBAM)
+    goto_if_eq(VAR_RESULT, FEMALE, LabEventBAF)
+}
+
+script SapphireVillage_Lab_EventScript_LabEventBC{
+    lockall
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab3xx)
+    waitmovement(0)
+    delay(30)
+    playse(21)
+    applymovement(SVLabAspen, movAspenlab1)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Oh hey, you're back!\nSo you got the goods, right?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playfanfare(MUS_RG_OBTAIN_KEY_ITEM)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} delivered the Odd Package!")
+    closemessage
+    waitfanfare
+    removeitem(ITEM_PARCEL, 1)
+    delay(30)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Finally, I've gone way too long without\na drink.\p…\pRight, our little deal we made.\nWe have a bit of a problem.\pI managed to get ahold of more Pokémon,\nbut I can't access 'em.")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, LabEventBAM)
+    goto_if_eq(VAR_RESULT, FEMALE, LabEventBAF)
+}
+
+script LabEventBAM{
+    msgbox("{COLOR RED}Egypt: Knock-knock!")
+    closemessage
+    playbgm(MUS_ENCOUNTER_MAY, FALSE)
+    addobject(SVLabEgypt)
+    setobjectxy(SVLabEgypt, 5, 12)
+    applymovement(SVLabEgypt, movEgyptlab3)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}I'm just popping in!\nMy brother's been taking awhile and-\pOH MY GOSH THAT BUNEARY IS SO FRIGGIN\nCUTE!!!!\pOooh, and it's a Shiny, too!\nThat's the Pokémon you chose?")
+    closemessage
+    removefieldmugshot
+    applymovement(SVLabEgypt, movlabfaceup)
+    applymovement(OBJ_EVENT_ID_PLAYER, movlabfaceup)
+    waitmovement(0)
+    fadeoutbgm(0)
+    delay(30)
+    playbgm(MUS_RG_OAK_LAB, FALSE)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: I haven't given away any\nPokémon just yet.\pMy PC is not letting me withdraw them\nbecause of some viruses.\pDon't ask how they got there!\nThat's none of your business.")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Egypt: Oh? I can help with that!\nAlex had the same problem before.")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    applymovement(SVLabEgypt, movEgyptlab4)
+    waitmovement(0)
+    delay(20)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Wait a minute… Professor?\nAre these Pokédexes?")
+    closemessage
+    removefieldmugshot
+    applymovement(SVLabEgypt, movEgyptlab5)
+    waitmovement(0)
+    delay(20)
+    applymovement(SVLabAspen, movAspenlab2)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: You'd be right.\pI actually wanted to ask ya for another\nfavor…\pLong story short, the Professor's\nCouncil wants to remove my tenure.\pSomething about me not contributing\nenough research or something.\pSince I was gonna give you all a\nPokémon, I figured you'd do it.\pIf ya document the Pokémon that live in\nNexar, that'd be helpful.\pTo tell ya the truth, I ain't good for\nmuch else… Gulp…\pThe pay sucks, but this science lab\nthing is all I got.\pI'll owe ya big time and pay ya back if\nyou help me out!")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Egypt: Ooo, this is so exciting!\nJourneying across Nexar? So jealous!\p{COLOR GREEN}{PLAYER}{COLOR RED}, you and Buneary should\ntotally go for it!\pAlex too, I saw him leaving the Village\nnot too long ago!\pIf you go now, you can probably catch\nup with him!\pDon't worry about us, I'll catch up with\nyou later.")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Glug… Glug…\nThat settles it then!\pHere, take these Pokédexes and give\none of 'em to your brother.\pI'll have your Pokémon delivered to ya\nwhen we're done here.")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    applymovement(SVLabEgypt, movEgyptlab6)
+    waitmovement(0)
+    delay(50)
+    applymovement(SVLabAspen, movAspenlab3)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab4)
+    waitmovement(0)
+    delay(50)
+    removeobject(Dex1)
+    delay(40)
+    removeobject(Dex2)
+    delay(40)
+    applymovement(SVLabAspen, movAspenlab4)
+    waitmovement(0)
+    playfanfare(MUS_RG_OBTAIN_KEY_ITEM)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} obtained two Pokédexes!")
+    closemessage
+    waitfanfare
+    additem(ITEM_SPARE_POKEDEX, 1)
+    delay(80)
+    applymovement(SVLabJonathan, movlabjonathan1)
+    waitmovement(0)
+    delay(20)
+    setobjectmovementtype(SVLabJonathan, MOVEMENT_TYPE_LOOK_AROUND)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab5)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Jonathan: Oh! Before you go, take\nPoké Balls to start you off.")
+    closemessage
+    delay(20)
+    giveitem(ITEM_POKE_BALL, 10)
+    delay(20)
+    msgbox("{COLOR BLUE}Good luck out there, and sorry for all\nof the trouble we caused.")
+    closemessage
+    applymovement(SVLabJonathan, movlabjonathan2)
+    waitmovement(0)
+    delay(15)
+    applymovement(SVLabEgypt, movEgyptlab7)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab6)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Egypt: See you later {COLOR GREEN}{PLAYER}{COLOR RED}!")
+    closemessage
+    removefieldmugshot
+    applymovement(SVLabEgypt, movlabfaceup)
+    waitmovement(0)
+    special(HealPlayerParty)
+    setflag(FLAG_SYS_POKEDEX_GET)
+    setflag(FLAG_RECEIVED_POKEDEX_FROM_BIRCH)
+    setflag(FLAG_HIDE_LAB_DEX)
+    setvar(VAR_CABLE_CLUB_TUTORIAL_STATE, 1)
+    setvar(VAR_ASPEN_EVENTS, 6)
+    setvar(VAR_DELIVERY_EVENTS, 2)
+    setvar(VAR_JASPER_TOWN_STATE, 1)
+    setvar(VAR_ASPEN_LAB_EVENT, 2)
+    releaseall
+}
+
+script LabEventBAF{
+    msgbox("{COLOR BLUE}Anthony: Coming through!")
+    closemessage
+    playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+    addobject(SVLabAnthony)
+    setobjectxy(SVLabAnthony, 5, 12)
+    applymovement(SVLabAnthony, movEgyptlab3)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Hey sis, you've been out here for a long\ntime and I got worried.\pHuh, that's a weird Pokémon.\nOh, it's a Shiny too, neat!\pI didn't think the Professor gave away\nrare Buneary, though.")
+    closemessage
+    removefieldmugshot
+    applymovement(SVLabAnthony, movlabfaceup)
+    applymovement(OBJ_EVENT_ID_PLAYER, movlabfaceup)
+    waitmovement(0)
+    fadeoutbgm(0)
+    delay(30)
+    playbgm(MUS_RG_OAK_LAB, FALSE)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: I haven't given away any\nPokémon just yet.\pMy PC is not letting me withdraw them\nbecause of some viruses.\pDon't ask how they got there!\nThat's none of your business.")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Anthony: Don't worry, I've got this!\nAlex had the same problem before.")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    applymovement(SVLabAnthony, movEgyptlab4)
+    waitmovement(0)
+    delay(20)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Wait a minute… Professor?\nAre these Pokédexes?")
+    closemessage
+    removefieldmugshot
+    applymovement(SVLabAnthony, movEgyptlab5)
+    waitmovement(0)
+    delay(20)
+    applymovement(SVLabAspen, movAspenlab2)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: You'd be right.\pI actually wanted to ask ya for another\nfavor…\pLong story short, the Professor's\nCouncil wants to remove my tenure.\pSomething about me not contributing\nenough research or something.\pSince I was gonna give you all a\nPokémon, I figured you'd do it.\pIf ya document the Pokémon that live in\nNexar, that'd be helpful.\pTo tell ya the truth, I ain't good for\nmuch else… Gulp…\pThe pay sucks, but this science lab\nthing is all I got.\pI'll owe ya big time and pay ya back if\nyou help me out!")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Anthony: Sorry to hear that, Professor.\pIt would be pretty neat to go on a\njourney through Acromia, though.\pI think you and Buneary should go for\nit, {COLOR GREEN}{PLAYER}{COLOR BLUE}!\pAlex too, I saw him leaving the Village\nnot too long ago.\pI'll catch up to you guys when I finish\nhelping the Professor.")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    createfieldmugshot(MUGSHOT_PROF_ASPEN, 0)
+    msgbox("{COLOR BLUE}Prof. Aspen: Glug… Glug…\nThat settles it then!\pHere, take these Pokédexes and give\none of 'em to your brother.\pI'll have your Pokémon delivered to ya\nwhen we're done here.")
+    closemessage
+    removefieldmugshot
+    delay(20)
+    applymovement(SVLabAnthony, movEgyptlab6)
+    waitmovement(0)
+    delay(50)
+    applymovement(SVLabAspen, movAspenlab3)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab4)
+    waitmovement(0)
+    delay(50)
+    removeobject(Dex1)
+    delay(40)
+    removeobject(Dex2)
+    delay(40)
+    applymovement(SVLabAspen, movAspenlab4)
+    waitmovement(0)
+    playfanfare(MUS_RG_OBTAIN_KEY_ITEM)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} obtained two Pokédexes!")
+    closemessage
+    waitfanfare
+    additem(ITEM_SPARE_POKEDEX, 1)
+    delay(80)
+    applymovement(SVLabJonathan, movlabjonathan1)
+    waitmovement(0)
+    delay(20)
+    setobjectmovementtype(SVLabJonathan, MOVEMENT_TYPE_LOOK_AROUND)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab5)
+    waitmovement(0)
+    msgbox("{COLOR BLUE}Jonathan: Oh! Before you go, take\nPoké Balls to start you off.")
+    closemessage
+    delay(20)
+    giveitem(ITEM_POKE_BALL, 10)
+    delay(20)
+    msgbox("{COLOR BLUE}Good luck out there, and sorry for all\nof the trouble we caused.")
+    closemessage
+    applymovement(SVLabJonathan, movlabjonathan2)
+    waitmovement(0)
+    delay(15)
+    applymovement(SVLabAnthony, movEgyptlab7)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab6)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Anthony: See you later {COLOR GREEN}{PLAYER}{COLOR BLUE}!")
+    closemessage
+    removefieldmugshot
+    applymovement(SVLabAnthony, movlabfaceup)
+    waitmovement(0)
+    special(HealPlayerParty)
+    setflag(FLAG_SYS_POKEDEX_GET)
+    setflag(FLAG_RECEIVED_POKEDEX_FROM_BIRCH)
+    setflag(FLAG_HIDE_LAB_DEX)
+    setvar(VAR_CABLE_CLUB_TUTORIAL_STATE, 1)
+    setvar(VAR_ASPEN_EVENTS, 6)
+    setvar(VAR_DELIVERY_EVENTS, 2)
+    setvar(VAR_JASPER_TOWN_STATE, 1)
+    setvar(VAR_ASPEN_LAB_EVENT, 2)
+    releaseall
+}
+
+movement movlabfaceup{
+    face_up
+}
+
+movement movlabjonathan1{
+    walk_down
+    walk_right *4
+    walk_up *5
+}
+
+movement movlabjonathan2{
+    walk_down *5
+    walk_left *4
+    face_up
+}
+
+movement movPlayerlab3{
+    face_right
+    walk_right
+    walk_up *4
+}
+
+movement movPlayerlab3x{
+    walk_up *4
+}
+
+movement movPlayerlab3xx{
+    face_left
+    walk_left
+    walk_up *4
+}
+
+movement movPlayerlab4{
+    face_up
+}
+
+movement movPlayerlab5{
+    face_down
+}
+
+movement movPlayerlab6{
+    face_left
+}
+
+movement movAspenlab1{
+    emote_exclamation_mark
+    face_down
+}
+
+movement movAspenlab2{
+    face_left
+}
+
+movement movAspenlab3{
+    walk_left
+    walk_up
+}
+
+movement movAspenlab4{
+    walk_right
+    walk_down
+}
+
+movement movEgyptlab3{
+    walk_up *8
+    face_right
+}
+
+movement movEgyptlab4{
+    walk_up *2
+    walk_left
+    emote_question_mark
+    face_up
+}
+
+movement movEgyptlab5{
+    face_right
+}
+
+movement movEgyptlab6{
+    walk_left *2
+    face_up
+}
+
+movement movEgyptlab7{
+    face_right
+}
+
+script SapphireVillage_Lab_EventScript_LabEventAA{
+    lockall
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, LabEventAAM)
+    goto_if_eq(VAR_RESULT, FEMALE, LabEventAAF)
+}
+
+script SapphireVillage_Lab_EventScript_LabEventAB{
+    lockall
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, LabEventABM)
+    goto_if_eq(VAR_RESULT, FEMALE, LabEventABF)
+}
+
+script SapphireVillage_Lab_EventScript_LabEventAC{
+    lockall
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, LabEventACM)
+    goto_if_eq(VAR_RESULT, FEMALE, LabEventACF)
+}
+
+script LabEventAAM{
+    applymovement(SVLabEgypt, movEgyptlab1)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab1)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Egypt: Coming through!\pI have to go get the anti-virus\nsoftware we use on Alex's PC!\pYes, it really is THAT bad…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVLabEgypt, movEgyptlab2)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab2)
+    waitmovement(0)
+    playse(9)
+    removeobject(SVLabEgypt)
+    setobjectxy(SVLabEgypt, 23, 7)
+    setvar(VAR_DELIVERY_EVENTS, 3)
+    setvar(VAR_JASPER_TOWN_STATE, 2)
+    setflag(FLAG_HIDE_LAB_TWIN)
+    releaseall
+}
+
+script LabEventABM{
+    applymovement(SVLabEgypt, movEgyptlab1x)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab1x)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Egypt: Coming through!\pI have to go get the anti-virus\nsoftware we use on Alex's PC!\pYes, it really is THAT bad…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVLabEgypt, movEgyptlab2x)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab2)
+    waitmovement(0)
+    playse(9)
+    removeobject(SVLabEgypt)
+    setobjectxy(SVLabEgypt, 23, 7)
+    setvar(VAR_DELIVERY_EVENTS, 3)
+    setvar(VAR_JASPER_TOWN_STATE, 2)
+    setflag(FLAG_HIDE_LAB_TWIN)
+    releaseall
+}
+
+script LabEventACM{
+    applymovement(SVLabEgypt, movEgyptlab1xx)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab1x)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Egypt: Coming through!\pI have to go get the anti-virus\nsoftware we use on Alex's PC!\pYes, it really is THAT bad…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVLabEgypt, movEgyptlab2xx)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab2)
+    waitmovement(0)
+    playse(9)
+    removeobject(SVLabEgypt)
+    setobjectxy(SVLabEgypt, 23, 7)
+    setvar(VAR_DELIVERY_EVENTS, 3)
+    setvar(VAR_JASPER_TOWN_STATE, 2)
+    setflag(FLAG_HIDE_LAB_TWIN)
+    releaseall
+}
+
+script LabEventAAF{
+    applymovement(SVLabAnthony, movEgyptlab1)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab1)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Anthony: I'll be right back!\pI have to go get the anti-virus\nsoftware we use on Alex's PC.\pYes, it really is THAT bad…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVLabAnthony, movEgyptlab2)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab2)
+    waitmovement(0)
+    playse(9)
+    removeobject(SVLabAnthony)
+    setobjectxy(SVLabAnthony, 23, 7)
+    setvar(VAR_DELIVERY_EVENTS, 3)
+    setvar(VAR_JASPER_TOWN_STATE, 2)
+    setflag(FLAG_HIDE_LAB_TWIN)
+    releaseall
+}
+
+script LabEventABF{
+    applymovement(SVLabAnthony, movEgyptlab1x)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab1x)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Anthony: I'll be right back!\pI have to go get the anti-virus\nsoftware we use on Alex's PC.\pYes, it really is THAT bad…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVLabAnthony, movEgyptlab2x)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab2)
+    waitmovement(0)
+    playse(9)
+    removeobject(SVLabAnthony)
+    setobjectxy(SVLabAnthony, 23, 7)
+    setvar(VAR_DELIVERY_EVENTS, 3)
+    setvar(VAR_JASPER_TOWN_STATE, 2)
+    setflag(FLAG_HIDE_LAB_TWIN)
+    releaseall
+}
+
+script LabEventACF{
+    applymovement(SVLabAnthony, movEgyptlab1xx)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab1x)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Anthony: I'll be right back!\pI have to go get the anti-virus\nsoftware we use on Alex's PC.\pYes, it really is THAT bad…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVLabAnthony, movEgyptlab2xx)
+    waitmovement(0)
+    applymovement(OBJ_EVENT_ID_PLAYER, movPlayerlab2)
+    waitmovement(0)
+    playse(9)
+    removeobject(SVLabAnthony)
+    setobjectxy(SVLabAnthony, 23, 7)
+    setvar(VAR_DELIVERY_EVENTS, 3)
+    setvar(VAR_JASPER_TOWN_STATE, 2)
+    setflag(FLAG_HIDE_LAB_TWIN)
+    releaseall
+}
+
+movement movEgyptlab1{
+    walk_right *3
+    walk_down *5
+}
+
+movement movEgyptlab1x{
+    walk_right *3
+    walk_down *6
+    face_right
+}
+
+movement movEgyptlab1xx{
+    walk_right *3
+    walk_down *3
+    walk_right
+    walk_down *3
+    face_right
+}
+
+movement movEgyptlab2{
+    walk_right
+    walk_down *5
+}
+
+movement movEgyptlab2x{
+    walk_down *2
+    walk_right
+    walk_down *2
+}
+
+movement movEgyptlab2xx{
+    walk_down *4
+}
+
+movement movPlayerlab1{
+    face_up
+}
+
+movement movPlayerlab1x{
+    face_left
+}
+
+movement movPlayerlab2{
+    face_down
+}

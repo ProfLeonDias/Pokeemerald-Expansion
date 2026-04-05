@@ -106,7 +106,7 @@
 
 // Overworld flags
 // To use the following features in scripting, replace the 0s with the flag ID you're assigning it to.
-// Eg: Replace with FLAG_UNUSED_0x264 so you can use that flag to toggle the feature.
+// Eg: Replace with FLAG_HIDE_IONIA_TWINS so you can use that flag to toggle the feature.
 #define OW_FLAG_PAUSE_TIME          0  // If this flag is set and OW_USE_FAKE_RTC is enabled, seconds on the in-game clock will not advance.
 #define OW_FLAG_NO_ENCOUNTER        0x35  // If this flag is set, wild encounters will be disabled.
 #define OW_FLAG_NO_TRAINER_SEE      0x36  // If this flag is set, trainers will not battle the player unless they're talked to.

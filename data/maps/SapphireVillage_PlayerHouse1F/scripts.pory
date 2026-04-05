@@ -1,1 +1,42 @@
 mapscripts SapphireVillage_PlayerHouse1F_MapScripts {}
+
+script SapphireVillage_PlayerHouse1F_EventScript_Mom{
+    lock
+    faceplayer
+    if(flag(FLAG_SYS_POKEMON_GET)){
+        createfieldmugshot(MUGSHOT_MOM, 0)
+        msgbox("{COLOR RED}Mom: {COLOR GREEN}{PLAYER}{COLOR RED}!\nYou should eat and go to bed!")
+        closemessage
+        removefieldmugshot
+        call(MomScriptP2)
+        createfieldmugshot(MUGSHOT_MOM, 0)
+        msgbox("{COLOR RED}Mom: Oh, good!\nYou and your Pokémon are looking good!\pDon't forget to come home more often!")
+        closemessage
+        removefieldmugshot
+        release
+        end
+    }
+    else{
+        createfieldmugshot(MUGSHOT_MOM, 0)
+        msgbox("{COLOR RED}Mom: {COLOR GREEN}{PLAYER}{COLOR RED}!\pDid Alex talk to you already?\nHe's always getting into trouble…\pAnyway, I had to go through a lot for\nAllen to give you a Pokémon.\pYou're running late, so get going!\nDon't you want your gift?")
+        closemessage
+        removefieldmugshot
+        applymovement(SVMom, movSVmom1)
+        waitmovement(0)
+        release
+        end
+    }
+}
+
+script MomScriptP2{
+    fadescreen(FADE_TO_BLACK)
+    playfanfare(MUS_RG_HEAL)
+    waitfanfare
+    special(HealPlayerParty)
+    fadescreen(FADE_FROM_BLACK)
+    return
+}
+
+movement movSVmom1{
+    face_original_direction
+}

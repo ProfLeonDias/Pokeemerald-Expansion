@@ -1,1 +1,58 @@
-mapscripts SapphireVillage_AspenHouse_MapScripts {}
+mapscripts SapphireVillage_AspenHouse_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: SapphireVillageAspenHouseMapScript
+}
+
+script SapphireVillageAspenHouseMapScript{
+    if(flag(FLAG_PROF_ASPEN_IMPROVEMENT)){
+        removeobject(AspenHouseBall)
+        removeobject(AspenHouseGirl)
+        setflag(FLAG_HIDE_ASPEN_HOUSE)
+    }
+    else{}
+}
+
+script SapphireVillage_AspenHouse_EventScript_PC{
+    if(flag(FLAG_PROF_ASPEN_IMPROVEMENT)){
+        msgbox("There's an open e-mail here…\pI'm impressed with your latest research\non Pokémon evolution!\pWe are looking forward to having you at\nour next conference.\pRegards, Professor Rowan")
+        release
+    }
+    else{
+        msgbox("Yuck!\nShouldn't have looked!")
+        release
+    }
+}
+
+script SapphireVillage_AspenHouse_EventScript_Shelves{
+    if(flag(FLAG_PROF_ASPEN_IMPROVEMENT)){
+        msgbox("There is an assortment of books on\nPokémon evolution.")
+        release
+    }
+    else{
+        msgbox("There is an assortment of lewd magazines\nthat have been… Used…")
+        release
+    }
+}
+
+script SapphireVillage_AspenHouse_EventScript_Fridge{
+    if(flag(FLAG_PROF_ASPEN_IMPROVEMENT)){
+        msgbox("Bottles of booze line the fridge.")
+        release
+    }
+    else{
+        msgbox("Fresh produce and healthy snacks line\nthe fridge.")
+    }
+}
+
+script SapphireVillage_AspenHouse_EventScript_Woman{
+    lock
+    faceplayer
+    msgbox("{COLOR RED}I'll spit on you for ¥10.")
+    release
+}
+
+script SapphireVillage_AspenHouse_EventScript_Ball{
+    lock
+    msgbox("This food seems to have grown a culture\nof small Foongus…")
+    release
+}
+

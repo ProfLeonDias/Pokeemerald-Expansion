@@ -13,20 +13,35 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [],
+  "object_events": [
+    {
+      "local_id": "SVMom",
+      "graphics_id": "OBJ_EVENT_GFX_001_MOM",
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_PlayerHouse1F_EventScript_Mom",
+      "flag": "0"
+    }
+  ],
   "warp_events": [
     {
       "warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_B",
-      "x": 10,
-      "y": 10,
+      "x": 3,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_SAPPHIRE_VILLAGE",
       "dest_warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_A"
     },
     {
       "warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_STAIRS_A",
-      "x": 12,
-      "y": 8,
+      "x": 8,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_SAPPHIRE_VILLAGE_PLAYER_HOUSE2F",
       "dest_warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_STAIRS_B"

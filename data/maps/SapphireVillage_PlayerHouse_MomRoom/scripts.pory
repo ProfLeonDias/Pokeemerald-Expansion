@@ -1,1 +1,12 @@
 mapscripts SapphireVillage_PlayerHouse_MomRoom_MapScripts {}
+
+script SapphireVillage_PlayerHouse_MomRoom_Mudkip{
+    msgbox("So I herd Mom lieks Mudkipz.")
+    release
+}
+
+script SapphireVillage_PlayerHouse_MomRoom_PC{
+    msgbox("Mom should really learn to lock her\ncomputer when she isn't using it…")
+    release
+}
+

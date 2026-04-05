@@ -602,7 +602,7 @@ script JamesWoods_EventScript_Buneary4A{
     waitmovement(0)
     msgbox("{COLOR BLUE}Austin: No. Freaking. Way.\pIt let itself be caught by you?\nHand over the Ball, now!\p...\pFine, I'll take it by force!")
     closemessage
-    createmon(0, 0, SPECIES_BUNEARY_STARTER, 5, ITEM_NONE, ITEM_POKE_BALL, NATURE_JOLLY, 0, 0, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_POUND, 0, 0, 0, 1, 0, 0, 0)
+    givemon(SPECIES_BUNEARY_STARTER, 5, ITEM_NONE, ITEM_POKE_BALL, NATURE_JOLLY, 0, 0, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_POUND, 0, 0, 0, 1, 0, 0, 0)
     delay(15)
     trainerbattle_no_intro(TRAINER_200, AustinDefeated)
     delay(30)

@@ -59,7 +59,7 @@ InsideOfTruck_EventScript_SetIntroFlagsMale::
 # 30 "data/maps/InsideOfTruck/scripts.pory"
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
 # 31 "data/maps/InsideOfTruck/scripts.pory"
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING
+	setflag FLAG_HIDE_KATELYN_IONIA_CITY
 # 32 "data/maps/InsideOfTruck/scripts.pory"
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
 # 33 "data/maps/InsideOfTruck/scripts.pory"

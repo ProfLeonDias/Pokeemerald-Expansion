@@ -1,1 +1,262 @@
 mapscripts SapphireVillage_Nightmare_MapScripts {}
+
+script SapphireVillage_Nightmare_Event1{
+    lock
+    delay(30)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream1)
+    waitmovement(0)
+    delay(50)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream2)
+    waitmovement(0)
+    delay(50)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream3)
+    waitmovement(0)
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, Event1ContM)
+    goto_if_eq(VAR_RESULT, FEMALE, Event1ContF)
+}
+
+script Event1ContM{
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: Woah…\nWhere am I…?")
+    closemessage
+    removefieldmugshot
+    setvar(VAR_GAME_INTRO, 1)
+    release
+}
+
+script Event1ContF{
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: Woah…\nWhere am I…?")
+    closemessage
+    removefieldmugshot
+    setvar(VAR_GAME_INTRO, 1)
+    release
+}
+
+script SapphireVillage_Nightmare_Event2{
+    lock
+    delay(30)
+    msgbox("???: {COLOR GREEN}{PLAYER}{COLOR DARK_GRAY}…")
+    closemessage
+    delay(30)
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, Event2ContM)
+    goto_if_eq(VAR_RESULT, FEMALE, Event2ContF)
+}
+
+script Event2ContM{
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: Hello?\nIs someone there?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    setvar(VAR_GAME_INTRO, 2)
+    release
+}
+
+script Event2ContF{
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: I-Is someone there?\nHello?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    setvar(VAR_GAME_INTRO, 2)
+    release
+}
+
+script SapphireVillage_Nightmare_Event3{
+    lock
+    delay(30)
+    special(SpawnCameraObject)
+    applymovement(LOCALID_CAMERA, DreamCam1)
+    waitmovement(0)
+    delay(75)
+    createfieldmugshot(MUGSHOT_JIRACHI_SHADOW, 0)
+    msgbox("???: {COLOR GREEN}{PLAYER}{COLOR DARK_GRAY}, I need your…\nH…e…l…p…")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    playmoncry(SPECIES_JIRACHI, CRY_MODE_ENCOUNTER)
+    waitmoncry
+    fadescreen(FADE_TO_BLACK)
+    removeobject(DreamJirachi)
+    fadescreen(FADE_FROM_BLACK)
+    delay(30)
+    applymovement(LOCALID_CAMERA, DreamCam2)
+    waitmovement(0)
+    special(RemoveCameraObject)
+    delay(75)
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, Event3ContM)
+    goto_if_eq(VAR_RESULT, FEMALE, Event3ContF)
+}
+
+script Event3ContM{
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: What the heck?\nWhat was that?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream4)
+    waitmovement(0)
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream5)
+    waitmovement(0)
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream6)
+    waitmovement(0)
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream7)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: This is just a weird dream…\nYeah! That's it!\nJust a dumb dream!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream8)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: I almost forgot!\pProfessor Aspen wanted me to come over\nto his Lab tomorrow!\pI need to wake up, but how…?")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream9)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}YEOWCH!\pOkay, pinching myself didn't work…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    special(SpawnCameraObject)
+    applymovement(LOCALID_CAMERA, DreamCam3)
+    waitmovement(0)
+    delay(45)
+    applymovement(LOCALID_CAMERA, DreamCam4)
+    waitmovement(0)
+    special(RemoveCameraObject)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR BLUE}Maybe if I go through there, I can get\nout of this crazy dream…")
+    closemessage
+    delay(30)
+    setvar(VAR_GAME_INTRO, 3)
+    releaseall
+}
+
+script Event3ContF{
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: W-What was that?\nThis is too weird!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream4)
+    waitmovement(0)
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream5)
+    waitmovement(0)
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream6)
+    waitmovement(0)
+    delay(30)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream7)
+    waitmovement(0)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: This is just a weird dream…\nYeah! That's it!\nJust a dumb dream!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream8)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: I almost forgot!\pProfessor Aspen wanted me to come over\nto his Lab tomorrow!\pI need to wake up, but how…?")
+    closemessage
+    removefieldmugshot
+    delay(45)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, movdream9)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}YEOWCH!\pOkay, pinching myself didn't work…")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    special(SpawnCameraObject)
+    applymovement(LOCALID_CAMERA, DreamCam3)
+    waitmovement(0)
+    delay(45)
+    applymovement(LOCALID_CAMERA, DreamCam4)
+    waitmovement(0)
+    special(RemoveCameraObject)
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR RED}Maybe if I go through there, I can get\nout of this crazy dream…")
+    closemessage
+    delay(30)
+    setvar(VAR_GAME_INTRO, 3)
+    releaseall
+}
+
+movement DreamCam1{
+    walk_up *3
+}
+
+movement DreamCam2{
+    walk_down *3
+}
+
+movement DreamCam3{
+    walk_up *3
+}
+
+movement DreamCam4{
+    walk_down *3
+}
+
+movement movdream1{
+    emote_question_mark
+    face_right
+}
+
+movement movdream2{
+    face_left
+}
+
+movement movdream3{
+    face_up
+}
+
+movement movdream4{
+    face_left
+}
+
+movement movdream5{
+    face_right
+}
+
+movement movdream6{
+    face_down
+}
+
+movement movdream7{
+    face_up
+}
+
+movement movdream8{
+    emote_exclamation_mark
+}
+
+movement movdream9{
+    emote_x
+    jump_in_place_down
+    face_up
+}

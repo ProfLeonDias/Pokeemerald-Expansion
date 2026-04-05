@@ -1,1 +1,211 @@
 mapscripts SapphireVillage_PlayerHouse2F_MapScripts {}
+
+script SapphireVillage_PlayerHouse2F_Alex1{
+    lock
+    msgbox("{COLOR BLUE}Alex: I'M COMING UP!")
+    closemessage
+    delay(30)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, Housemov1)
+    waitmovement(0)
+    playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+    playse(9)
+    addobject(SVAlexHouse)
+    setobjectxy(SVAlexHouse, 18, 2)
+    applymovement(SVAlexHouse, Housemov2)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Hey, we were supposed to be at\nProfessor Aspen's Lab today.\pDon't tell me you forgot!\nWait... Hold up.\pYou're looking pretty rough, bruh.\nHaving weird dreams again?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, SVLHouseScript1)
+    goto_if_eq(VAR_RESULT, FEMALE, SVLHouseScript2)
+}
+
+script SapphireVillage_PlayerHouse2F_Alex2{
+    lock
+    msgbox("{COLOR BLUE}Alex: I'M COMING UP!")
+    closemessage
+    delay(30)
+    playse(21)
+    applymovement(OBJ_EVENT_ID_PLAYER, Housemov1)
+    waitmovement(0)
+    playbgm(MUS_ENCOUNTER_BRENDAN, FALSE)
+    playse(9)
+    addobject(SVAlexHouse)
+    setobjectxy(SVAlexHouse, 18, 2)
+    applymovement(SVAlexHouse, Housemov2x)
+    waitmovement(0)
+    delay(30)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Hey, we were supposed to be at\nProfessor Aspen's Lab today.\pDon't tell me you forgot!\nWait... Hold up.\pYou're looking pretty rough, bruh.\nHaving weird dreams again?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, SVLHouseScript3)
+    goto_if_eq(VAR_RESULT, FEMALE, SVLHouseScript4)
+}
+
+script SVLHouseScript1{
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Well, wake up sleepy-head!\pWe're supposed to get our starter\nPokémon today!\pEr… Well…\nI actually went a little earlier.\pI got so excited that I knocked over a\nmachine and broke it.\pThe Professor was so mad that he\nkicked me out.\pSo, could you do me a favor and pick out\nan extra Pokémon for me?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Pretty please?\pAlright, fine.\nI'll get a Pokémon somehow.\pYou should hurry though, the Professor\nis already pissed!\pI'll catch up with ya later,{COLOR GREEN}{PLAYER}{COLOR BLUE}!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVAlexHouse, Housemov3)
+    waitmovement(0)
+    playse(9)
+    removeobject(SVAlexHouse)
+    setobjectxyperm(SVAlexHouse, 24, 13)
+    playbgm(MUS_RG_PALLET, FALSE)
+    delay(90)
+    setvar(VAR_GAME_INTRO, 4)
+    setflag(FLAG_ALEX_CONVO)
+    release
+}
+
+script SVLHouseScript2{
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Well, wake up sleepy-head!\pWe're supposed to get our starter\nPokémon today!\pEr… Well…\nI actually went a little earlier.\pI got so excited that I knocked over a\nmachine and broke it.\pThe Professor was so mad that he\nkicked me out.\pSo, could you do me a favor and pick out\nan extra Pokémon for me?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Pretty please?\pAlright, fine.\nI'll get a Pokémon somehow.\pYou should hurry though, the Professor\nis already pissed!\pI'll catch up with ya later,{COLOR GREEN}{PLAYER}{COLOR BLUE}!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVAlexHouse, Housemov3)
+    waitmovement(0)
+    playse(9)
+    removeobject(SVAlexHouse)
+    setobjectxyperm(SVAlexHouse, 24, 13)
+    playbgm(MUS_RG_PALLET, FALSE)
+    delay(90)
+    setvar(VAR_GAME_INTRO, 4)
+    setflag(FLAG_ALEX_CONVO)
+    release
+}
+
+script SVLHouseScript3{
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Well, wake up sleepy-head!\pWe're supposed to get our starter\nPokémon today!\pEr… Well…\nI actually went a little earlier.\pI got so excited that I knocked over a\nmachine and broke it.\pThe Professor was so mad that he\nkicked me out.\pSo, could you do me a favor and pick out\nan extra Pokémon for me?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ANTHONY, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR BLUE}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Pretty please?\pAlright, fine.\nI'll get a Pokémon somehow.\pYou should hurry though, the Professor\nis already pissed!\pI'll catch up with ya later,{COLOR GREEN}{PLAYER}{COLOR BLUE}!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVAlexHouse, Housemov3x)
+    waitmovement(0)
+    playse(9)
+    removeobject(SVAlexHouse)
+    setobjectxyperm(SVAlexHouse, 24, 13)
+    playbgm(MUS_RG_PALLET, FALSE)
+    delay(90)
+    setvar(VAR_GAME_INTRO, 4)
+    setflag(FLAG_ALEX_CONVO)
+    release
+}
+
+script SVLHouseScript4{
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Well, wake up sleepy-head!\pWe're supposed to get our starter\nPokémon today!\pEr… Well…\nI actually went a little earlier.\pI got so excited that I knocked over a\nmachine and broke it.\pThe Professor was so mad that he\nkicked me out.\pSo, could you do me a favor and pick out\nan extra Pokémon for me?")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_EGYPT, 0)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR RED}: …")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    createfieldmugshot(MUGSHOT_ALEX, 0)
+    msgbox("{COLOR BLUE}Alex: Pretty please?\pAlright, fine.\nI'll get a Pokémon somehow.\pYou should hurry though, the Professor\nis already pissed!\pI'll catch up with ya later, {COLOR GREEN}{PLAYER}{COLOR BLUE}!")
+    closemessage
+    removefieldmugshot
+    delay(30)
+    applymovement(SVAlexHouse, Housemov3x)
+    waitmovement(0)
+    playse(9)
+    removeobject(SVAlexHouse)
+    setobjectxyperm(SVAlexHouse, 24, 13)
+    playbgm(MUS_RG_PALLET, FALSE)
+    delay(90)
+    setvar(VAR_GAME_INTRO, 4)
+    setflag(FLAG_ALEX_CONVO)
+    release
+}
+
+movement Housemov1{
+    emote_exclamation_mark
+    face_up
+}
+
+movement Housemov2{
+    face_right
+    delay_4
+    face_down
+}
+
+movement Housemov2x{
+    face_right
+    walk_right
+    delay_4
+    face_down
+}
+
+movement Housemov3{
+    face_left
+    walk_left
+}
+
+movement Housemov3x{
+    face_left
+    walk_left *2
+}

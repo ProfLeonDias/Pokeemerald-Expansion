@@ -101,8 +101,8 @@
 #define VAR_LOTAD_SIZE_RECORD                            0x404F
 #define VAR_SAPPHIRE_VILLAGE_STATE                       0x4050
 #define VAR_JASPER_TOWN_STATE                            0x4051
-#define VAR_DEWFORD_TOWN_STATE                           0x4052 // Unused Var
-#define VAR_LAVARIDGE_TOWN_STATE                         0x4053
+#define VAR_IONIA_CITY_STATE                             0x4052 // Unused Var
+#define VAR_POWER_PLANT_STATE                            0x4053
 #define VAR_CURRENT_SECRET_BASE                          0x4054 // was probably allocated for VAR_FALLARBOR_TOWN_STATE at one point
 #define VAR_VERDANTURF_TOWN_STATE                        0x4055 // Unused Var
 #define VAR_PACIFIDLOG_TOWN_STATE                        0x4056 // Unused Var
@@ -148,7 +148,7 @@
 #define VAR_ROUTE131_STATE                               0x407E // Unused Var
 #define VAR_ROUTE132_STATE                               0x407F // Unused Var
 #define VAR_ROUTE133_STATE                               0x4080 // Unused Var
-#define VAR_ROUTE134_STATE                               0x4081 // Unused Var
+#define VAR_DELIVERY_EVENTS                              0x4081 // Unused Var
 #define VAR_ASPEN_EVENTS                                 0x4082
 #define VAR_TERRAIN_START                                0x4083 // Unused Var
 #define VAR_ASPEN_LAB_EVENT                              0x4084
@@ -176,7 +176,7 @@
 #define VAR_RUSTURF_TUNNEL_STATE                         0x409A
 #define VAR_REPEL_INFO                                   0x409B // Unused Var
 #define VAR_ELITE_4_STATE                                0x409C
-#define VAR_UNUSED_0x409D                                0x409D // Unused Var
+#define VAR_IONIA_GYM                                    0x409D // Unused Var
 #define VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE      0x409E
 #define VAR_MOSSDEEP_SPACE_CENTER_STATE                  0x409F
 #define VAR_SLATEPORT_HARBOR_STATE                       0x40A0
@@ -187,7 +187,7 @@
 #define VAR_TRICK_HOUSE_BEING_WATCHED_STATE              0x40A5
 #define VAR_TRICK_HOUSE_FOUND_TRICK_MASTER               0x40A6
 #define VAR_TRICK_HOUSE_ENTRANCE_STATE                   0x40A7
-#define VAR_UNUSED_0x40A8                                0x40A8 // Unused Var
+#define VAR_JONATHAN_STATE                               0x40A8 // Unused Var
 #define VAR_CYCLING_CHALLENGE_STATE                      0x40A9
 #define VAR_SLATEPORT_MUSEUM_1F_STATE                    0x40AA
 #define VAR_TRICK_HOUSE_PUZZLE_1_STATE                   0x40AB
@@ -266,8 +266,8 @@
 #define VAR_ROXANNE_CALL_STEP_COUNTER                    0x40F4
 #define VAR_SCOTT_BF_CALL_STEP_COUNTER                   0x40F5
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER             0x40F6
-#define VAR_UNUSED_0x40F7                                0x40F7 // Unused Var
-#define VAR_UNUSED_0x40F8                                0x40F8 // Unused Var
+#define VAR_AMBER_HOUSE                                  0x40F7 // Unused Var
+#define VAR_GAME_INTRO                                   0x40F8 // Unused Var
 #define VAR_UNUSED_0x40F9                                0x40F9 // Unused Var
 #define VAR_UNUSED_0x40FA                                0x40FA // Unused Var
 #define VAR_UNUSED_0x40FB                                0x40FB // Unused Var

@@ -1,1 +1,139 @@
 mapscripts Route3_MapScripts {}
+
+script Route3_EventScript_Sign1{
+    msgbox("Route 3- Canyon Entrance\nIonia City to the east.\pMagmoor City to the west.\nIonia Canyon to the north.")
+    release
+}
+
+script Route3_EventScript_HoneyGuy{
+    lock
+    faceplayer
+    msgbox("{COLOR BLUE}Have you ever noticed these sweet\nsmelling trees?\pI heard something might happen if you\nslather Honey on them.\pBut I don't want to cross the desert to\nget some more…")
+    release
+}
+
+script Route3_EventScript_Twins1{
+    trainerbattle_double(TRAINER_20, Rt3TwinIntroA, Rt3TwinDefeated, Rt3TwinNoPokemon)
+    msgbox(Rt3TwinPostBattleA, MSGBOX_AUTOCLOSE)
+    end
+}
+
+script Route3_EventScript_Twins2{
+    trainerbattle_double(TRAINER_20, Rt3TwinIntroB, Rt3TwinDefeated, Rt3TwinNoPokemon)
+    msgbox(Rt3TwinPostBattleB, MSGBOX_AUTOCLOSE)
+    end
+}
+
+script Route3_EventScript_Youngster{
+    trainerbattle_single(TRAINER_15, Rt3YoungsterIntro, Rt3YoungsterDefeated)
+    msgbox(Rt3YoungsterPostBattle)
+    end
+}
+
+script Route3_EventScript_Lass{
+    trainerbattle_single(TRAINER_16, Rt3LassIntro, Rt3LassDefeated)
+    msgbox(Rt3LassPostBattle)
+    end
+}
+
+script Route3_EventScript_BugCatcher{
+    trainerbattle_single(TRAINER_19, Rt3BugCatcherIntro, Rt3BugCatcherDefeated)
+    msgbox(Rt3BugCatcherPostBattle)
+    end
+}
+
+script Route3_EventScript_BreederM{
+    trainerbattle_single(TRAINER_17, Rt3BreederMIntro, Rt3BreederMDefeated)
+    msgbox(Rt3BreederMPostBattle)
+    end
+}
+
+script Route3_EventScript_BreederF{
+    trainerbattle_single(TRAINER_18, Rt3BreederFIntro, Rt3BreederFDefeated)
+    msgbox(Rt3BreederFPostBattle)
+    end
+}
+
+text Rt3BreederFIntro{
+    "{COLOR RED}Check out my babies!"
+}
+
+text Rt3BreederFDefeated{
+    "Oh no!"
+}
+
+text Rt3BreederFPostBattle{
+    "{COLOR RED}I hatched them all myself!"
+}
+
+text Rt3BreederMIntro{
+    "{COLOR BLUE}Huff…Huff…\nI'm trying to hatch some eggs!"
+}
+
+text Rt3BreederMDefeated{
+    "Cracked!"
+}
+
+text Rt3BreederMPostBattle{
+    "{COLOR BLUE}Being a breeder is hard work!"
+}
+
+text Rt3BugCatcherIntro{
+    "{COLOR BLUE}There's not a lot of bugs here…"
+}
+
+text Rt3BugCatcherDefeated{
+    "Squished!"
+}
+
+text Rt3BugCatcherPostBattle{
+    "{COLOR BLUE}I should check the James Woods for\nmore bugs…"
+}
+
+text Rt3LassIntro{
+    "{COLOR RED}It's time to take out the trash!"
+}
+
+text Rt3LassDefeated{
+    "Hmph…"
+}
+
+text Rt3LassPostBattle{
+    "{COLOR RED}I don't let just anyone pass.\nYou're good though!"
+}
+
+text Rt3YoungsterIntro{
+    "{COLOR BLUE}I love jeans!\nThey're comfy and easy to wear!"
+}
+
+text Rt3YoungsterDefeated{
+    "Oh!"
+}
+
+text Rt3YoungsterPostBattle{
+    "{COLOR BLUE}What's the big deal is with shorts?\nJeans are way better!"
+}
+
+text Rt3TwinIntroA{
+    "{COLOR RED}Me and my sister can't be beat!"
+}
+
+text Rt3TwinIntroB{
+    "{COLOR RED}Sis and I are unstoppable!"
+}
+
+text Rt3TwinDefeated{
+    "Mooom!"
+}
+
+text Rt3TwinNoPokemon{
+    "{COLOR RED}Come back when you have some more\nfriends like us!"
+}
+
+text Rt3TwinPostBattleA{
+    "{COLOR RED}Hmph…\nMeanie head!"
+}
+
+text Rt3TwinPostBattleB{
+    "{COLOR RED}Leave us alone!"
+}

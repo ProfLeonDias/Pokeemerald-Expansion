@@ -231,14 +231,14 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_179_ITEM_BALL",
-      "x": 1,
-      "y": 22,
+      "x": 29,
+      "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "ITEM_SUPER_POTION",
+      "trainer_sight_or_berry_tree_id": "ITEM_PEARL",
       "script": "Common_EventScript_FindItem",
       "flag": "FLAG_ITEM_ROUTE_29_SUPER_POTION"
     },
@@ -326,15 +326,15 @@
       "y": 23,
       "elevation": 3,
       "item": "ITEM_BIG_PEARL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_111_STARDUST"
+      "flag": "FLAG_HIDDEN_ITEM_RT29_BIG_PEARL"
     },
     {
       "type": "hidden_item",
-      "x": 28,
-      "y": 19,
+      "x": 1,
+      "y": 22,
       "elevation": 3,
-      "item": "ITEM_PEARL",
-      "flag": "FLAG_HIDDEN_ITEM_TRICK_HOUSE_NUGGET"
+      "item": "ITEM_SUPER_POTION",
+      "flag": "FLAG_HIDDEN_ITEM_RT29_SUPER_POTION"
     }
   ]
 }

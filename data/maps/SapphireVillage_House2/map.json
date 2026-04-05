@@ -13,17 +13,63 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [],
+  "object_events": [
+    {
+      "local_id": "SVNina",
+      "graphics_id": "OBJ_EVENT_GFX_062_FEMALE_15",
+      "x": 3,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_House2_EventScript_Nina",
+      "flag": "0"
+    },
+    {
+      "local_id": "SapphAmber",
+      "graphics_id": "OBJ_EVENT_GFX_003_AMBER",
+      "x": 11,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SapphireVillage_House2_EventScript_Amber",
+      "flag": "0"
+    }
+  ],
   "warp_events": [
     {
       "warp_id": "WARP_SAPPHIRE_HOUSE_2B",
-      "x": 10,
-      "y": 10,
+      "x": 4,
+      "y": 8,
       "elevation": 0,
       "dest_map": "MAP_SAPPHIRE_VILLAGE",
       "dest_warp_id": "WARP_SAPPHIRE_HOUSE_2A"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_SAPPHIRE_VILLAGE_HOUSE2",
+      "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 2,
+      "elevation": 3,
+      "var": "VAR_AMBER_HOUSE",
+      "var_value": "0",
+      "script": "SapphireVillage_House2_EventScript_Tile"
+    }
+  ],
   "bg_events": []
 }

@@ -93,7 +93,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RivalsHouse_1F_EventScript_RivalSibling",
-      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING"
+      "flag": "FLAG_HIDE_KATELYN_IONIA_CITY"
     },
     {
       "local_id": "LOCALID_RIVALS_HOUSE_1F_RIVAL",

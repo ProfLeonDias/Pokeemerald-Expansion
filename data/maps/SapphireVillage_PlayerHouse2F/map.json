@@ -13,57 +13,91 @@
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [],
+  "object_events": [
+    {
+      "local_id": "SVAlexHouse",
+      "graphics_id": "OBJ_EVENT_GFX_004_ALEX",
+      "x": 17,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    }
+  ],
   "warp_events": [
     {
       "warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_STAIRS_B",
-      "x": 10,
-      "y": 14,
+      "x": 18,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_SAPPHIRE_VILLAGE_PLAYER_HOUSE1F",
       "dest_warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_STAIRS_A"
     },
     {
       "warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_MOM_A",
-      "x": 14,
-      "y": 10,
-      "elevation": 0,
+      "x": 11,
+      "y": 5,
+      "elevation": 3,
       "dest_map": "MAP_SAPPHIRE_VILLAGE_PLAYER_HOUSE_MOM_ROOM",
       "dest_warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_MOM_B"
     },
     {
       "warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_MY_ROOM_A",
-      "x": 10,
-      "y": 10,
+      "x": 3,
+      "y": 1,
       "elevation": 0,
       "dest_map": "MAP_SAPPHIRE_VILLAGE_PLAYER_HOUSE_PLAYER_ROOM",
       "dest_warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_MY_ROOM_B"
     },
     {
       "warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_TWIN_A",
-      "x": 8,
-      "y": 10,
+      "x": 13,
+      "y": 1,
       "elevation": 0,
       "dest_map": "MAP_SAPPHIRE_VILLAGE_PLAYER_HOUSE_TWIN_ROOM",
       "dest_warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_TWIN_B"
     },
     {
       "warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_ALEX_A",
-      "x": 12,
-      "y": 10,
-      "elevation": 0,
+      "x": 5,
+      "y": 5,
+      "elevation": 3,
       "dest_map": "MAP_SAPPHIRE_VILLAGE_PLAYER_HOUSE_ALEX_ROOM",
       "dest_warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_ALEX_B"
     },
     {
       "warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_BATHROOM_A",
-      "x": 6,
-      "y": 10,
+      "x": 8,
+      "y": 1,
       "elevation": 0,
       "dest_map": "MAP_SAPPHIRE_VILLAGE_PLAYER_HOUSE_BATHROOM",
       "dest_warp_id": "WARP_SAPPHIRE_PLAYER_HOUSE_BATHROOM_B"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 3,
+      "elevation": 3,
+      "var": "VAR_GAME_INTRO",
+      "var_value": "3",
+      "script": "SapphireVillage_PlayerHouse2F_Alex1"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 3,
+      "elevation": 3,
+      "var": "VAR_GAME_INTRO",
+      "var_value": "3",
+      "script": "SapphireVillage_PlayerHouse2F_Alex2"
+    }
+  ],
   "bg_events": []
 }

@@ -801,7 +801,7 @@
       "y": 16,
       "elevation": 3,
       "item": "ITEM_POTION",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_114_CARBOS"
+      "flag": "FLAG_HIDDEN_ITEM_JW_POTION"
     },
     {
       "type": "hidden_item",
@@ -809,7 +809,7 @@
       "y": 19,
       "elevation": 3,
       "item": "ITEM_ANTIDOTE",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_113_ETHER"
+      "flag": "FLAG_HIDDEN_ITEM_JW_ANTIDOTE"
     },
     {
       "type": "hidden_item",
@@ -817,7 +817,7 @@
       "y": 52,
       "elevation": 3,
       "item": "ITEM_REPEL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_CALCIUM"
+      "flag": "FLAG_HIDDEN_ITEM_JW_REPEL"
     },
     {
       "type": "secret_base",
@@ -839,7 +839,7 @@
       "y": 57,
       "elevation": 3,
       "item": "ITEM_PARALYZE_HEAL",
-      "flag": "FLAG_HIDDEN_ITEM_ROUTE_119_ULTRA_BALL"
+      "flag": "FLAG_HIDDEN_ITEM_JW_PARALYZE_HEAL"
     }
   ]
 }

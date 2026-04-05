@@ -1,1 +1,22 @@
 mapscripts SapphireVillage_PlayerHouse_TwinRoom_MapScripts {}
+
+script SapphireVillage_PlayerHouse_TwinRoom_Game{
+    checkplayergender
+    goto_if_eq(VAR_RESULT, MALE, SVGame1)
+    goto_if_eq(VAR_RESULT, FEMALE, SVGame2)
+}
+
+script SVGame1{
+    msgbox("You know Egypt hates it if you touch\nher save files.")
+    release
+}
+
+script SVGame2{
+    msgbox("You know Anthony hates it if you touch\nhis save files.")
+    release
+}
+
+script SapphireVillage_PlayerHouse_TwinRoom_PC{
+    msgbox("Yu-Gi-Oh Master Duel is currently open.\nThey should ban Maxx 'C'!")
+    release
+}

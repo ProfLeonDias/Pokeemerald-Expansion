@@ -1104,6 +1104,10 @@
 #define METATILE_Wish_WarpDown             0x00D
 #define METATILE_Wish_WarpUp               0x005
 
+// gTileset_WishLab
+#define METATILE_WishLab_LabTile1  0x808
+#define METATILE_WishLab_LabTile2  0x809
+
 // Other
 #define METATILE_GeneralFrlg_CalmWater               0x12B
 #define METATILE_GeneralFrlg_Door                    0x03D

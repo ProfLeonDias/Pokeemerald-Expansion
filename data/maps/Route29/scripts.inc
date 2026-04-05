@@ -114,7 +114,7 @@ Route29_EventScript_Captain_2:
 # 61 "data/maps/Route29/scripts.pory"
 	closemessage
 # 62 "data/maps/Route29/scripts.pory"
-	giveitem ITEM_OAKS_PARCEL
+	giveitem ITEM_PARCEL
 # 63 "data/maps/Route29/scripts.pory"
 	delay 30
 # 64 "data/maps/Route29/scripts.pory"

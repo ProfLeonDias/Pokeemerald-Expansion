@@ -1,1 +1,16 @@
-mapscripts SapphireVillage_PlayerHouse_PlayerRoom_MapScripts {}
+mapscripts SapphireVillage_PlayerHouse_PlayerRoom_MapScripts {
+}
+
+script SapphireVillage_PlayerHouse_PlayerRoom_Game{
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} played Mega Man 4.\nWhoops, lost track of time!")
+    release
+}
+
+script SapphireVillage_PlaherHouse_PlayerRoom_PC{
+    special(DoPCTurnOnEffect)
+    playse(SE_PC_ON)
+    msgbox("{COLOR GREEN}{PLAYER}{COLOR DARK_GRAY} booted up the PC.")
+    special(BedroomPC)
+    waitstate
+    releaseall
+}

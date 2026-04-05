@@ -14504,12 +14504,12 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_LETTER] =
     {
-        .name = ITEM_NAME("Letter"),
+        .name = ITEM_NAME("Order Form"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "A letter to Steven\n"
-            "from the President\n"
-            "of the Devon Corp."),
+            "A document for Prof.\n"
+            "Aspen's order in\n"
+            "Jasper Town's PokéMart."),
         .importance = 2,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -14722,12 +14722,12 @@ const struct ItemInfo gItemsInfo[] =
 
     [ITEM_PARCEL] =
     {
-        .name = ITEM_NAME("Parcel"),
+        .name = ITEM_NAME("Odd Package"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "A parcel for Prof.\n"
-            "Oak from a Pokémon\n"
-            "Mart's clerk."),
+            "A package for Prof.\n"
+            "Aspen that smells\n"
+            "strongly of alcohol."),
         .importance = 2,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
